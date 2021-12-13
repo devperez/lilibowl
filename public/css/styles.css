@@ -30,11 +30,14 @@ ul {
     display: flex;
     position: absolute;
     right: 32px;
+    top: 61px;
+
 }
 
 .logo {
     position: absolute;
     left: 32px;
+    top: 24px;
 }
 
 li,a {
