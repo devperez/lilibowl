@@ -17,17 +17,30 @@
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
     <body>
-        <nav>
-            <img class="logo" src="/images/logo.png" alt="logo du restaurant" />
-            <ul>
-                <li><a href="#">Notre concept</a></li>
-                <li><a href="#">Le restaurant</a></li>
-                <li><a href="#">Le menu</a></li>
-                <li><a href="#">Sensibilisation</a></li>
-                <li><a href="#">Formations</a></li>
-                <li><a href="#">Contact</a></li>
-                <a href="#"><img class="instaicon" src="/images/Instagram.png" alt="icones du réseau social Instagram" /></a>
-                <a href="#"><img class="fbicon" src="/images/Facebook.png" alt="icones du réseau social Facebook" /></a>
-            </ul>
-        </nav>
+        <section class="background">
+            <nav>
+                <div class="logo" >
+                    <img src="/images/logo.png" alt="logo du restaurant" />
+                </div>
+                <div class="navbar">
+                    <div>
+                        <a class="links" href="#">Notre concept</a>
+                        <a class="links" href="#">Le restaurant</a>
+                        <a class="links" href="#">Le menu</a>
+                        <a class="links" href="#">Sensibilisation</a>
+                        <a class="links" href="#">Formations</a>
+                        <a class="links" href="#">Contact</a>
+                    </div>
+                    <div class="icones">
+                        <a href="#"><img class="instaicon" src="/images/Instagram.png" alt="icones du réseau social Instagram" /></a>
+                        <a href="#"><img class="fbicon" src="/images/Facebook.png" alt="icones du réseau social Facebook" /></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero">
+                <div class="hero-inner">
+                    <h1>Cuisine végétale<br />et éco-responsable</h1>
+                </div>
+            </div>
+        </section>
 @yield('content')
