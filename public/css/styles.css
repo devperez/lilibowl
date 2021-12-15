@@ -149,6 +149,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .innerwrapper {
@@ -159,8 +160,8 @@ h4 {
 
 .bowlpic {
     margin-right: 92px;
-    width: 294px;
-    height: 294px;
+    width: 288px;
+    height: 288px;
 }
 
 .quotationmarksandtext {
@@ -186,6 +187,7 @@ h4 {
     font-style: italic;
     font-size: 20px;
     line-height: 140%;
+    color: #2e2e29;
 }
 
 .quotemark2 {
@@ -201,4 +203,59 @@ h4 {
 
 .quoteauthor {
     text-align: end;
+}
+
+/*section engagements*/
+
+.engagement {
+    background-color: #ebf3e7;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.engagementtitre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 56px;
+}
+
+li {
+    width: 650px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li:before {
+    content:"\2022";
+    margin-right: 16px;
+    color: #5f9249;
+    height: 12px;
+    width: 12px;
+    font-size: 40px;
+    margin-top: -12px;
+}
+
+.texteli {
+    color: #131311;
+    font-family: 'Karla',sans-serif;
+    font-size: 24px;
+    line-height: 140%;
 }

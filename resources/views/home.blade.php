@@ -66,9 +66,7 @@
                 <img class="bowlpic" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
             </div>
             <div class="innerwrapper">
-
                 <h4>Pourquoi le nom Lili BOwL ?</h4>
-
                 <div class="quoteandtext">
                     <div class="quotationmarkleft">
                         <img class="quotemark1" src="/images/homepage_quotationmark1.png" alt="guillemets stylisés" />
@@ -82,19 +80,27 @@
                         nos chouettes clients !
                         </p>
                         <p class="quoteauthor">Julie</p>
-
                     </div>
                     <div class="quotationmarkright">
                         <img class="quotemark2" src="/images/homepage_quotationmark2.png" alt="guillemets stylisés" />
                     </div>
                 </div>
-
-                <!-- <div class="quoteauthor">
-                    <p>Julie</p>
-                </div> -->
             </div>
         </section>
-
+        <section class="engagement">
+            <div class="engagementtitre">
+                <h2>Nos engagements</h2>
+            </div>
+            <ul>
+                <li><p class="texteli">Proposer une cuisine sans gluten et végétale variée aux influences du monde.</p></li>
+                <li><p class="texteli">Utiliser des produits majoritairement issus de l’agriculture biologique, sans pesticides et de saison.</p></li>
+                <li><p class="texteli">Connaître les producteurs et privilégier les circuits courts pour éviter le gaspillage alimentaire et favoriser l’économie locale.</p></li>
+                <li><p class="texteli">Respecter l’environnement dans une démarche éco-responsable (lunch boxes consignées en verre, tri sélectif, compost,
+                    revalorisation des déchets…).</p></li>
+                <li><p class="texteli">Éduquer le plus grand nombre à l’alimentation santé et au goût.</p></li>
+                <li><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
+            </ul>
+        </section>
     </main>
     </body>
 </html>
