@@ -101,6 +101,33 @@
                 <li><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
             </ul>
         </section>
+        <section class="frise">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1" data-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="d-block w-100 mots-clés">&#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="d-block w-100 mots-clés">&#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN</p>
+                    </div>
+                    <!--<div class="carousel-item">
+                        <p class="d-block w-100">ÉCO-RESPONSABLE</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="d-block w-100">SANS PLASTIQUE</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="d-block w-100">ÉTIQUE</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="d-block w-100">SAIN</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="d-block w-100">VÉGAN</p>
+                    </div>-->
+                </div>
+            </div>
+        </section>
     </main>
     </body>
 </html>
