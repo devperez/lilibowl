@@ -61,6 +61,39 @@
                 <img src="/images/homepage_fleur.png" alt="illustration botanique" />
             </div>
         </section>
+        <section class="quotationwrapper">
+            <div class="bowlpicwrapper">
+                <img class="bowlpic" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
+            </div>
+            <div class="innerwrapper">
+
+                <h4>Pourquoi le nom Lili BOwL ?</h4>
+
+                <div class="quoteandtext">
+                    <div class="quotationmarkleft">
+                        <img class="quotemark1" src="/images/homepage_quotationmark1.png" alt="guillemets stylisés" />
+                    </div>
+                    <div>
+                        <p class="quotetext">
+                        Parce que ma cuisine, (la cuisine de Julie ou de Lili) s’inspire des Bouddha bowls, assiettes composées principalement de légumes,
+                        de céréales et de légumineuses qui composent un repas complet, sain et équilibré. Par ailleurs, j’ai voulu un animal de la vie sauvage
+                        pour illustrer le logo parce que j’adore cuisiner le fruit de mes cueillettes lors de mes balades en forêt.<br />
+                        « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Et ne soyez pas étonnés si nous prenons plaisir à vous appeler
+                        nos chouettes clients !
+                        </p>
+                        <p class="quoteauthor">Julie</p>
+
+                    </div>
+                    <div class="quotationmarkright">
+                        <img class="quotemark2" src="/images/homepage_quotationmark2.png" alt="guillemets stylisés" />
+                    </div>
+                </div>
+
+                <!-- <div class="quoteauthor">
+                    <p>Julie</p>
+                </div> -->
+            </div>
+        </section>
 
     </main>
     </body>
