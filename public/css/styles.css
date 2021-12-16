@@ -263,8 +263,30 @@ ul li:before {
 
 /*section frise*/
 
-.frise {
-    width: 103%;
+.marque [data-text] {
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 100%;
+}
+
+.marque [data-text]:before,
+.marque [data-text]:after {
+    content: attr(data-text) "\00A0";
+    display: inline-block;
+    min-width: 50%;
+}
+
+.marque [data-text]:before {
+    animation: marque-defil 25s infinite linear;
+}
+
+@keyframes marque-defil {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -25%;
+    }
 }
 
 .mots-clés {
@@ -275,10 +297,4 @@ ul li:before {
     line-height: 110%;
     letter-spacing:1px;
     height: 103px;
-    white-space:nowrap;
-    overflow-x:auto;
-}
-
-.carousel-item {
-    transition-duration: 14000ms;
 }
