@@ -1,10 +1,11 @@
 /*règles générales*/
-body, html {
+body, html, main {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     scroll-behavior:smooth;
 }
+
 
 /*header*/
 
@@ -62,6 +63,8 @@ nav {
 .logo {
     position: relative;
     left: 32px;
+    width: 100px;
+    height: 100px;
 }
 
 a {
@@ -322,12 +325,15 @@ ul li:before {
 .profile-text-title-pic {
     display: flex;
     flex-direction: row;
-    padding: 0;
-    margin: 0;
+    /* justify-content: space-around; */
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
 }
 
 .profile-pic {
-    margin-right: 68px;
+    /* margin-right: 68px; */
+    height: 600px;
 }
 
 .profile-title {
@@ -340,9 +346,13 @@ ul li:before {
 }
 
 .text-title {
-    margin-right: 120px;
-}
+    margin-right: 136px;
+    margin-left: 68px;
+    /* min-width: 680px; */
+    width: auto;
+} 
 
-.profile-text {
-    width: 680px;
-}
+/* .profile-text {
+    margin-right: 120px;
+    max-width: 100%;
+} */
