@@ -101,45 +101,70 @@
                 <li><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
             </ul>
         </section>
-        <div class="marque">
-            <div class="mots-clés" data-text="SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183"></div>
-        </div>
-        <!--<div class="defileParent">
-            <span class="defile mots-clés" 
-            data-text=" &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN"> 
-            &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN            </span>
-        </div>-->
-        <!-- <div class="marquee-rtl">
-            <div class="mots-clés">&#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN</div>
-        </div> -->
-        <!--
-        <section class="frise">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1" data-pause="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p class="d-block w-100 mots-clés">&#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100 mots-clés">&#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 VÉGAN</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100">ÉCO-RESPONSABLE</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100">SANS PLASTIQUE</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100">ÉTIQUE</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100">SAIN</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="d-block w-100">VÉGAN</p>
-                    </div>-->
-                </div>
+        <section class="container-frise">
+            <div class="marque">
+                <div class="mots-clés" data-text="SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183"></div>
             </div>
         </section>
+        <section class="carrousel">
+            <div class="section-title">
+                <h2 class="equipe">L'équipe Lili BOwL</h2>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="profile-text-title-pic">
+                            <div class="profile-pic">
+                                <img src="/images/homepage_photoJulie.png" class="d-block w-100" alt="photo de Julie Giverne">
+                            </div>
+                            <div class="text-title">
+                                <h5 class="profile-title">Julie Giverne, à l'origine de ce beau projet</h5>
+                                <p class="profile-text">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
+                                    ma mémoire, les saveurs de la cuisine maternelle, une cuisine à base de céréales et de végétaux, qui soigne et
+                                    qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires
+                                    ont été inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />
+                                    J’ai toujours été convaincue d’une relation étroite entre l’alimentation, la santé et le bien-être, mais jamais
+                                    je n’aurais pensé ouvrir un jour mon restaurant. Jusqu’à cette nuit où, cherchant à créer une activité de sens,
+                                    en lien avec le respect de soi, de l’environnement, de la santé, j’ai eu envie de partager ma cuisine aux autres.
+                                    Commençant dans la cuisine de ma maison, j’ai débuté par livrer des repas à vélo, et c’est en été 2020 que j’ouvre
+                                    la porte de mon propre restaurant au profit d’une cuisine végétale et gourmande !<br /><br />
+                                    Dans mon rôle de cheffe d’entreprise, je partage avec conviction une attitude sincèrement positive à l’égard de mes
+                                    collaborateurs en basant la relation de travail sur la confiance, la motivation, le respect et l’écoute. 
+                                </p>
+                            </div>
+                        </div>
+                    <div class="carousel-item">
+                    <div class="profile-text-title-pic">
+                            <div class="profile-pic">
+                                <img src="/images/homepage_photoEmilie.png" class="d-block w-100" alt="photo d'Émilie">
+                            </div>
+                            <div class="text-title">
+                                <h5 class="profile-title">Émilie</h5>
+                                <p class="profile-text">Depuis l’enfance, j’ai été sensibilisée à l’impact de mon alimentation sur ma santé.
+                                    Puis par goût, mais également par convictions liées au bien-être animal et à l’écologie, j’ai pris la décision
+                                    de ne plus manger de viande. Est alors née une prise de conscience : la nourriture que nous consommons est trop
+                                    grasse, trop transformée et trop carnée.<br /><br />
+                                    Globetrotteuse super active nouvellement installée dans le Lot, je mets un point d’honneur à ce que mes habitudes
+                                    de vie et mes voyages soient les plus respectueux possible pour la planète. Depuis plusieurs années maintenant,
+                                    je suis un régime entièrement végétal. J’accompagne aujourd’hui le restaurant Lili BOwL avec engagement, joie et
+                                    bonne humeur en cuisine, au service et sur l’ensemble des projets de sensibilisation naissants ! Je suis fière de
+                                    mettre au service de cette entreprise mes compétences en marketing et communication.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span aria-hidden="true"></span>
+                    <span>Previous</span>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span aria-hidden="true"></span>
+                    <span>Next</span>
+                </button>
+            </div>
+        </section>
+
     </main>
     </body>
 </html>
