@@ -307,6 +307,7 @@ ul li:before {
 
 .carrousel {
     margin-bottom: 120px;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -325,15 +326,17 @@ ul li:before {
 .profile-text-title-pic {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     padding-right: 0;
     margin-right: 0;
     width: 100%;
 }
 
 .profile-pic {
-    /* margin-right: 68px; */
+    margin-right: 60px;
+    margin-left: 60px;
     height: 600px;
+    width: 600px;
 }
 
 .profile-title {
@@ -348,11 +351,130 @@ ul li:before {
 .text-title {
     margin-right: 136px;
     margin-left: 68px;
-    /* min-width: 680px; */
     width: auto;
 } 
 
-/* .profile-text {
-    margin-right: 120px;
-    max-width: 100%;
-} */
+.button {
+    margin-bottom: 120px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.previous {
+    margin-right: 36px;
+}
+
+/*Section FOOTER */
+
+.footer {
+    width: 100%;
+    height: 304px;
+    background-color: #fefbe1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.newsletter {
+    width: 710px;
+    margin-right: 104px;
+}
+
+.titre {
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+    margin-top: 68px;
+    margin-bottom: 16px;
+    text-align:center;
+}
+
+.texte {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+label {
+    font-family: 'karla', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    width: 378px;
+    height: 60px;
+    border-radius: 10px;
+    border: gray solid 4px;
+}
+
+button {
+    width: 378px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #c8c8c1;
+    color: #131311;
+    font-family: 'karla',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 32px;
+}
+
+hr {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fefbe1;
+    width: 100%;
+}
+
+.logo-contact-photo {
+    margin-top: 120px;
+    display: flex;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.contact {
+    font-family: 'karla',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+}
+
+.insta {
+    margin-right: 32px;
+}
+
+.wrapper-horaires {
+    width: 365px;
+    height: 56px;
+    margin-top: 48px;
+}
+
+.horaires {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color:#131311;
+}
