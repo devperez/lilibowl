@@ -15,6 +15,9 @@
         <!-- CSS -->
         <link rel="stylesheet" href="/css/styles.css" />
 
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
     <body>
@@ -222,7 +225,9 @@
         <footer id="contact">
             <div class="logo-contact-photo">
                 <div class="logo-contact-icones">
-                    <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
+                    <div class="logolili">
+                        <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
+                    </div>
                     <p class="contact">Contactez-nous</p>
                     <address>12, rue Daurade, 46000 Cahors<br />
                             06.30.03.73.89<br />
@@ -238,6 +243,33 @@
                     <img src="/images/footer_photo.png" alt="photo de la terrasse du restaurant" />
                 </div>
             </div>
+            <div class="partagez-wrapper">
+                <span class="partagez">Partagez votre expérience :</span>
+                <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" />
+                <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
+            </div>
+            <div class="mentions">
+                <span>Lili BOwL &copy; Mentions légales - créé avec <span class="heart">&hearts;</span> par David PEREZ</span>
+            </div>
         </footer>
+
+        <div class="modal" tabindex="-1" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/js/newsletter.js"></script>
     </body>
 </html>
