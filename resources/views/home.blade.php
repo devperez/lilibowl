@@ -253,19 +253,28 @@
             </div>
         </footer>
 
+        <!-- POP UP -->
+
         <div class="modal" tabindex="-1" id="myModal">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                    <div class="cross">
+                        <!-- <img src="/images/cross-popup.png" alt="icône pour fermer la pop-up" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" /> -->
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="img-wrapper">
+                            <img src="images/image_popup.png" alt="Photo illustrant un bol" />
+                        </div>
+                        <div class="popup-wrapper">
+                            <div class="inscrivez-vous">INSCRIVEZ-VOUS À NOTRE NEWSLETTER !</div>
+                            <div class="recevez">Recevez le nouveau menu de saison au début de chaque mois,
+                                ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
+                            </div>
+                            <label>Email</label>
+                            <input type="email" placeholder="lili@mail.com">
+                            <button type="button">Je m'inscris !</button>
+                        </div>
                     </div>
                 </div>
             </div>
