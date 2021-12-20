@@ -71,13 +71,54 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:#A89505;
+}
+
 .links {
     padding-left: 32px;
+    padding-bottom: 5px;
     color: white;
     font-family: 'Karla', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    line-height: 100%
+    line-height: 100%;
+    transition-duration: 0.3s;
+}
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 32px;
+    right: 100%;
+    bottom: 0;
+    background: #A89505;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+.link:active {
+    color: #A89505;
 }
 
 .instaicon {

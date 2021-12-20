@@ -28,12 +28,12 @@
                 </div>
                 <div class="navbar">
                     <div>
-                        <a class="links" href="#concept">Notre concept</a>
-                        <a class="links" href="#">Le restaurant</a>
-                        <a class="links" href="#">Le menu</a>
-                        <a class="links" href="#">Sensibilisation</a>
-                        <a class="links" href="#">Formations</a>
-                        <a class="links" href="#contact">Contact</a>
+                        <a class="links hvr-underline-from-left" href="#concept">Notre concept</a>
+                        <a class="links hvr-underline-from-left" href="#">Le restaurant</a>
+                        <a class="links hvr-underline-from-left" href="#">Le menu</a>
+                        <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
+                        <a class="links hvr-underline-from-left" href="#">Formations</a>
+                        <a class="links hvr-underline-from-left" href="#contact">Contact</a>
                     </div>
                     <div class="icones">
                         <a href="#"><img class="instaicon" src="/images/Instagram.png" alt="icones du réseau social Instagram" /></a>
@@ -255,8 +255,8 @@
 
         <!-- POP UP -->
 
-        <div class="modal" tabindex="-1" id="myModal">
-            <div class="modal-dialog modal-xl">
+        <div class="modal fade" tabindex="-1" id="myModal" data-backdrop="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="img-wrapper">
