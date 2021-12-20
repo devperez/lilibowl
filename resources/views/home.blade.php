@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/css/styles.css" />
 
         <!-- JQuery -->
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="button">
+                <div class="buttons">
                     <img class="previous" src="/images/previous.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
                     <img src="/images/next.png" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
                 </div>
@@ -217,7 +217,7 @@
                 <div class="inscription">
                     <label>Email</label>
                     <input type="email" placeholder="lili@mail.com">
-                    <button> Je m'inscris !</button>
+                    <button class="button"> Je m'inscris !</button>
                 </div>
             </section>
         </main>
@@ -258,22 +258,23 @@
         <div class="modal" tabindex="-1" id="myModal">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="cross">
-                        <!-- <img src="/images/cross-popup.png" alt="icône pour fermer la pop-up" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" /> -->
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
                     <div class="modal-body">
                         <div class="img-wrapper">
                             <img src="images/image_popup.png" alt="Photo illustrant un bol" />
                         </div>
                         <div class="popup-wrapper">
-                            <div class="inscrivez-vous">INSCRIVEZ-VOUS À NOTRE NEWSLETTER !</div>
+                            <div class="cross">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>    
+                            </div>
+                            <div class="inscrivez-vous">
+                                INSCRIVEZ-VOUS À NOTRE NEWSLETTER !
+                            </div>
                             <div class="recevez">Recevez le nouveau menu de saison au début de chaque mois,
                                 ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
                             </div>
                             <label>Email</label>
                             <input type="email" placeholder="lili@mail.com">
-                            <button type="button">Je m'inscris !</button>
+                            <button class="button" type="button">Je m'inscris !</button>
                         </div>
                     </div>
                 </div>

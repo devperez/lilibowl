@@ -354,7 +354,7 @@ ul li:before {
     width: auto;
 } 
 
-.button {
+.buttons {
     margin-bottom: 120px;
     margin-top: 27px;
     display: flex;
@@ -412,10 +412,15 @@ input {
     width: 378px;
     height: 60px;
     border-radius: 10px;
-    border: gray solid 4px;
+    border: gray solid 1px;
 }
 
-button {
+input::placeholder {
+    color: #97978b;
+    padding-left: 16px;
+}
+
+.button {
     width: 378px;
     height: 60px;
     border-radius: 10px;
@@ -426,6 +431,8 @@ button {
     font-size: 20px;
     line-height: 140%;
     margin-top: 32px;
+    border: none;
+    align-items: center;
 }
 
 hr {
@@ -524,20 +531,26 @@ address {
     padding: 0;
 }
 
-.modal-dialog {
+/* .modal-dialog {
     height: 672px;
-}
+} */
 
 .cross {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 35px;
 }
 
 .popup-wrapper {
     display: flex;
     flex-direction: column;
     margin-left: 48px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: -100px;
 }
 
 .inscrivez-vous {
