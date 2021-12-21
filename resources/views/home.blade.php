@@ -62,7 +62,7 @@
                     sensibilisation à l’alimentation durable, et ce en commençant par la découverte de produits frais de saisons et de recettes ultra
                     gourmandes 100% végétales.
                     </p>
-                    <img src="/images/homepage_fleur.png" alt="illustration botanique" />
+                    <img src="/images/homepage_fleur.svg" alt="illustration botanique" />
                 </div>
             </section>
             <section class="quotationwrapper">
@@ -108,7 +108,7 @@
                         </ul>
                     </div>
                     <div class="fleur_engagement">
-                        <img src="/images/fleur_homepage.png" alt="illustration florale" />
+                        <img src="/images/homepage_fleur2.svg" alt="illustration florale" />
                     </div>
                 </div>
                     
@@ -119,7 +119,7 @@
                     <div class="mots-clés" data-text="SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183"></div>
                 </div>
             </section>
-            <section class="carrousel">
+            <section class="carrousel container">
                 <div class="section-title">
                     <h2 class="equipe">L'équipe Lili BOwL</h2>
                 </div>
@@ -127,12 +127,12 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="profile-text-title-pic">
-                                <div class="profile-pic">
-                                    <img src="/images/photo_Julie.png" class="d-block w-100" alt="photo de Julie Giverne">
+                                <div class="profile-pic1">
+                                    <img src="/images/homepage_photoJulie.png" class="d-block w-100" alt="photo de Julie Giverne">
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Julie Giverne, à l'origine de ce beau projet</h5>
-                                    <p class="profile-text">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
+                                    <p class="profile-text1">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
                                         ma mémoire, les saveurs de la cuisine maternelle, une cuisine à base de céréales et de végétaux, qui soigne et
                                         qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires
                                         ont été inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />
@@ -151,7 +151,7 @@
                             <div class="profile-text-title-pic">
                                 <div class="text-title">
                                     <h5 class="profile-title">Émilie</h5>
-                                    <p class="profile-text">Depuis l’enfance, j’ai été sensibilisée à l’impact de mon alimentation sur ma santé.
+                                    <p class="profile-text2">Depuis l’enfance, j’ai été sensibilisée à l’impact de mon alimentation sur ma santé.
                                         Puis par goût, mais également par convictions liées au bien-être animal et à l’écologie, j’ai pris la décision
                                         de ne plus manger de viande. Est alors née une prise de conscience : la nourriture que nous consommons est trop
                                         grasse, trop transformée et trop carnée.<br /><br />
@@ -162,19 +162,19 @@
                                         mettre au service de cette entreprise mes compétences en marketing et communication.
                                     </p>
                                 </div>
-                                <div class="profile-pic">
+                                <div class="profile-pic2">
                                     <img src="/images/homepage_photoEmilie.png" class="d-block w-100" alt="photo d'Émilie">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="profile-text-title-pic">
-                                <div class="profile-pic">
+                                <div class="profile-pic1">
                                     <img src="/images/homepage_photoThomas.png" class="d-block w-100" alt="photo de Thomas">
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Thomas</h5>
-                                    <p class="profile-text">Pur produit lotois, j’ai fait avec fierté mes classes dans dans les restaurants
+                                    <p class="profile-text1">Pur produit lotois, j’ai fait avec fierté mes classes dans dans les restaurants
                                         Le Melchior et Au Fil des Douceurs de Cahors. Après plusieurs années, notamment sur Toulouse et en Espagne,
                                         j'ai souhaité travailler dans un restaurant italien où j’ai pu élaborer avec amour et précision l’une de mes
                                         recettes végétaliennes préférées de lasagnes au pesto ! Aujourd’hui je partage fièrement les valeurs de Lili
@@ -191,7 +191,7 @@
                             <div class="profile-text-title-pic">
                                 <div class="text-title">
                                     <h5 class="profile-title">Anaëlle</h5>
-                                    <p class="profile-text">Lorsque j'ai franchi pour la première fois la porte du restaurant Lili BOwL, j’étais une
+                                    <p class="profile-text2">Lorsque j'ai franchi pour la première fois la porte du restaurant Lili BOwL, j’étais une
                                         lycéenne de 18 ans, sans expérience technique en cuisine. Mais une véritable soif d’apprendre en cuisine
                                         professionnelle m’animait. Julie avait alors pris le risque de me faire confiance en me transmettant son
                                         savoir-faire, mais aussi son amour pour les bons produits et pour le travail bien fait.<br /><br />
@@ -204,7 +204,7 @@
                                         chez Lili BOwL qui m’a permis de mettre le pied à l’étrier, ce qui est souvent le plus difficile !
                                     </p>
                                 </div>
-                                <div class="profile-pic">
+                                <div class="profile-pic2">
                                     <img src="/images/homepage_photoAnaelle.png" class="d-block w-100" alt="photo d'Anaëlle">
                                 </div>
                             </div>
@@ -258,7 +258,7 @@
                         <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
                     </div>
                     <div class="mentions">
-                        <span>Lili BOwL &copy; Mentions légales - créé avec <span class="heart">&hearts;</span> par David PEREZ</span>
+                        <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" /> par David PEREZ</span>
                     </div>
                 </footer>
             </div>
