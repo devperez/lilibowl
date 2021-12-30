@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class NavController extends Controller
 {
-    public function home()
+    public function homepage()
     {
-        return view('home');
+        return view('homepage');
     }
+    
 }

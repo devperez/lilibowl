@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,10 @@ use App\Http\Controllers\NavController;
 |
 */
 
-Route::get('/', [NavController::class, 'home']);
+Route::get('/', [NavController::class, 'homepage'])->name('homepage');
+
+
+Auth::routes();
+
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
