@@ -53,7 +53,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <a href="#" class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
-              <p>
+              <p title="Accéder à les mails enregistrés en base de données">
                 Voir la liste de mails
               </p>
             </a>
@@ -69,20 +69,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <a href="#" class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
-              <p>
+              <p title="Ouvrir un nouvel onglet pour voir le site">
                 Voir le site
                 <!--<span class="right badge badge-danger">New</span>-->
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">
-              <i class="far fa-circle nav-icon"></i>
-              <p>
+            <form method="POST" action="{{ route('logout') }}">
+              @csrf
+              <button type="submit" class="nav-link active">
+                <i class="far fa-circle nav-icon" style="margin-left:-120px"></i>
+                <p title="Déconnexion et retour sur le site">
                 Quitter
                 <!--<span class="right badge badge-danger">New</span>-->
-              </p>
-            </a>
+                </p>
+              </button>
+            </form>
           </li>
           <!--<li class="nav-item">
             <a href="#" class="nav-link active">

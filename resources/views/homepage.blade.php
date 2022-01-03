@@ -284,14 +284,50 @@
                             <div class="recevez">Recevez le nouveau menu de saison au début de chaque mois,
                                 ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
                             </div>
-                            <label>Email</label>
-                            <input type="email" placeholder="lili@mail.com">
-                            <button class="button" type="button">Je m'inscris !</button>
+                            <div class="confirm" style="display:none">
+                                Merci et à bientôt !
+                            </div>
+                            <form id="form" action="{{ route('register') }}" method="GET">
+                                @csrf
+                                <label>Email</label>
+                                <input id="email" type="email" placeholder="lili@mail.com">
+                                <button id="register" class="button" type="submit">Je m'inscris !</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="/js/newsletter.js"></script>
+        <script src="/js/newsletter.js">
+            //script pour récupérer l'adresse mail
+            $('#register').on('click', function(e) {  
+        e.preventDefault();
+
+        var formData = {
+            mail: $("#email").val(),
+            _token: $('input[name="_token"]').val(),
+        };
+
+        $.ajax({
+            type:"POST",
+            url: "{{ route('getMail') }}",
+            data: formData,
+            dataType: "json"
+        })
+        .done(function(data) {
+            // $('.alert-success').removeClass('hidden');
+            // $('#myModal').modal('hide');
+            $('.recevez').hide();
+            $('.confirm').show();
+        })
+        .fail(function(data) {
+            $.each(data.responseJSON, function (key, value) {
+                var input = '#formRegister input[name=' + key + ']';
+                $(input + '+small').text(value);
+                $(input).parent().addClass('has-error');
+            });
+        });
+    });
+        </script>
     </body>
 </html>
