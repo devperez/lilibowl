@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Mails extends Model
 {
     use HasFactory;
+    protected $fillable=['email'];
 }

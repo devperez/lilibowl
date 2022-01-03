@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +18,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [NavController::class, 'homepage'])->name('homepage');
-
+Route::post('/', [MailController::class, 'getMail'])->name('getMail');
 
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/mails', [MailController::class, 'index'])->name('index');
