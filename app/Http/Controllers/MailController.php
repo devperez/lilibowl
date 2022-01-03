@@ -10,8 +10,11 @@ class MailController extends Controller
 {
     public function getMail(Request $request)
     {
-        // $this->validator($request->all())->validate();
-        dd($request);
+        $validated = $request->validate([
+            'email' => 'required|email',
+        ]);
+        
+        dd($validated);
     }
 
     public function index()

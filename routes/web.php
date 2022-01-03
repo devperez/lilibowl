@@ -18,7 +18,7 @@ use App\Http\Controllers\MailController;
 */
 
 Route::get('/', [NavController::class, 'homepage'])->name('homepage');
-Route::post('/getMail', [MailController::class, 'getMail'])->name('getMail');
+Route::post('/', [MailController::class, 'getMail'])->name('getMail');
 
 Auth::routes();
 

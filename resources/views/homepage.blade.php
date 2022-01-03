@@ -287,10 +287,10 @@
                             <div class="confirm" style="display:none">
                                 Merci et à bientôt !
                             </div>
-                            <form id="form" action="{{ route('register') }}" method="GET">
+                            <form id="form" action="{{ route('getMail') }}" method="POST">
                                 @csrf
                                 <label>Email</label>
-                                <input id="email" type="email" placeholder="lili@mail.com">
+                                <input id="email" name="email" type="email" placeholder="lili@mail.com">
                                 <button id="register" class="button" type="submit">Je m'inscris !</button>
                             </form>
                         </div>
@@ -307,16 +307,18 @@
             mail: $("#email").val(),
             _token: $('input[name="_token"]').val(),
         };
-
+        console.log(formData);
         $.ajax({
             type:"POST",
             url: "{{ route('getMail') }}",
             data: formData,
-            dataType: "json"
+            dataType: "json",
+            encode:true
         })
         .done(function(data) {
             // $('.alert-success').removeClass('hidden');
             // $('#myModal').modal('hide');
+            console.log('ok');
             $('.recevez').hide();
             $('.confirm').show();
         })
