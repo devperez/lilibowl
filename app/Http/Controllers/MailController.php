@@ -14,7 +14,14 @@ class MailController extends Controller
             'email' => 'required|email',
         ]);
         
-        dd($validated);
+        //dd($validated);
+        $email = $validated['email'];
+        // dd($email);
+        //on stocke l'adresse mail en base
+        Mails::create([
+            'email'=>$email,
+        ]);
+        return view('homepage');
     }
 
     public function index()
