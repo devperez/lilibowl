@@ -289,6 +289,7 @@
                             </div>
                             <form id="form" action="{{ route('getmail') }}" method="POST">
                                 @csrf
+                                <p style="display:none; color:red;" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                 <label>Email</label>
                                 <input id="email" name="email" type="email" placeholder="lili@mail.com">
                                 <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
@@ -311,8 +312,10 @@
                 $("form").submit(function(event) {  
                     event.preventDefault();
 
+                $('#error').addClass().css('display','none');
+
                 var formData = {
-                    mail: $("#email").val(),
+                    email: $("#email").val(),
                     _token: $('input[name="_token"]').val(),
                 };
         
@@ -321,19 +324,22 @@
                 type:"POST",
                 url: '{{ route('getmail') }}',
                 data: formData,
-                // dataType: "json",
-                // encode:true,
+                dataType: "json",
+                encode:true,
             })
             .done(function() {
                 // $('#register').on('click', function(e) {  
                 // e.preventDefault();
                 // $('.alert-success').removeClass('hidden');
-                // $('#myModal').modal('hide');
                 console.log('ok');
                 $('.recevez').addClass().css('display','none');
                 $('.confirm').addClass().css('display','block');
+                setTimeout(function(){
+                    $('#myModal').modal('hide');
+                },4000);
             })
             .fail(function() {
+                $('#error').addClass().css('display','block');
                 // console.log(formData);
                 // $('#register').on('click', function(e) {  
                 // e.preventDefault();

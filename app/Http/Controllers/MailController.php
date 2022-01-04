@@ -10,14 +10,15 @@ class MailController extends Controller
 {
     public function getmail(Request $request)
     {
-        dd($request);
-        $validated = $request->validate([
+        // dd($request->email);
+        $this -> validate($request,[
             'email' => 'required|email|unique:mails',
         ]);
         
         //dd($validated);
-        $email = $validated['email'];
+        $email = $request->email;
         // dd($email);
+        
         //on stocke l'adresse mail en base
         Mails::create([
             'email'=>$email,
