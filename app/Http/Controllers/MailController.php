@@ -8,20 +8,22 @@ use App\Models\Mails;
 
 class MailController extends Controller
 {
-    public function getMail(Request $request)
+    public function getmail(Request $request)
     {
-        $validated = $request->validate([
-            'email' => 'required|email',
+        // dd($request->email);
+        $this -> validate($request,[
+            'email' => 'required|email|unique:mails',
         ]);
         
         //dd($validated);
-        $email = $validated['email'];
+        $email = $request->email;
         // dd($email);
+        
         //on stocke l'adresse mail en base
         Mails::create([
             'email'=>$email,
         ]);
-        return view('homepage');
+        return true;
     }
 
     public function index()
