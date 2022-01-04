@@ -8,10 +8,11 @@ use App\Models\Mails;
 
 class MailController extends Controller
 {
-    public function getMail(Request $request)
+    public function getmail(Request $request)
     {
+        dd($request);
         $validated = $request->validate([
-            'email' => 'required|email',
+            'email' => 'required|email|unique:mails',
         ]);
         
         //dd($validated);
@@ -21,7 +22,7 @@ class MailController extends Controller
         Mails::create([
             'email'=>$email,
         ]);
-        return view('homepage');
+        return true;
     }
 
     public function index()

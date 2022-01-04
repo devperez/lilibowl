@@ -287,49 +287,64 @@
                             <div class="confirm" style="display:none">
                                 Merci et à bientôt !
                             </div>
-                            <form id="form" action="{{ route('getMail') }}" method="POST">
+                            <form id="form" action="{{ route('getmail') }}" method="POST">
                                 @csrf
                                 <label>Email</label>
                                 <input id="email" name="email" type="email" placeholder="lili@mail.com">
-                                <button id="register" class="button" type="submit">Je m'inscris !</button>
+                                <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="/js/newsletter.js">
-            //script pour récupérer l'adresse mail
-            $('#register').on('click', function(e) {  
-        e.preventDefault();
+        <script>
+            $(document).ready(function(){
+                setTimeout(function(){
+                $('#myModal').modal('show');
+                },5000);
+            })
 
-        var formData = {
-            mail: $("#email").val(),
-            _token: $('input[name="_token"]').val(),
-        };
-        console.log(formData);
-        $.ajax({
-            type:"POST",
-            url: "{{ route('getMail') }}",
-            data: formData,
-            dataType: "json",
-            encode:true
-        })
-        .done(function(data) {
-            // $('.alert-success').removeClass('hidden');
-            // $('#myModal').modal('hide');
-            console.log('ok');
-            $('.recevez').hide();
-            $('.confirm').show();
-        })
-        .fail(function(data) {
-            $.each(data.responseJSON, function (key, value) {
-                var input = '#formRegister input[name=' + key + ']';
-                $(input + '+small').text(value);
-                $(input).parent().addClass('has-error');
+        //script pour récupérer l'adresse mail
+
+            $(document).ready(function () {
+                $("form").submit(function(event) {  
+                    event.preventDefault();
+
+                var formData = {
+                    mail: $("#email").val(),
+                    _token: $('input[name="_token"]').val(),
+                };
+        
+            console.log(formData);
+            $.ajax({
+                type:"POST",
+                url: '{{ route('getmail') }}',
+                data: formData,
+                // dataType: "json",
+                // encode:true,
+            })
+            .done(function() {
+                // $('#register').on('click', function(e) {  
+                // e.preventDefault();
+                // $('.alert-success').removeClass('hidden');
+                // $('#myModal').modal('hide');
+                console.log('ok');
+                $('.recevez').addClass().css('display','none');
+                $('.confirm').addClass().css('display','block');
+            })
+            .fail(function() {
+                // console.log(formData);
+                // $('#register').on('click', function(e) {  
+                // e.preventDefault();
+                console.log('fail');
+                // $.each(data.responseJSON, function (key, value) {
+                // var input = '#formRegister input[name=' + key + ']';
+                // $(input + '+small').text(value);
+                // $(input).parent().addClass('has-error');
+                });
             });
         });
-    });
-        </script>
-    </body>
+    </script>
+</body>
 </html>
