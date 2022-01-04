@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
@@ -278,16 +278,20 @@
                             <div class="cross">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>    
                             </div>
-                            <div class="inscrivez-vous">
+                            <div class="inscrivez-vous" id="inscription">
                                 INSCRIVEZ-VOUS À NOTRE NEWSLETTER !
                             </div>
-                            <div class="recevez">Recevez le nouveau menu de saison au début de chaque mois,
+                            <div id="merci" class="inscrivez-vous">
+                                MERCI POUR VOTRE INSCRIPTION !
+                            </div>
+                            <div class="recevez" id="recevez">Recevez le nouveau menu de saison au début de chaque mois,
                                 ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
                             </div>
-                            <div class="confirm" style="display:none">
-                                Merci et à bientôt !
+                            <div id="confirm" style="display:none" class="recevez">
+                                BRAVO ! Vous faites maintenant partie de la Lili team engagée ! À très bientôt dans notre restaurant <i class="material-icons">
+                                sentiment_satisfied</i>
                             </div>
-                            <form id="form" action="{{ route('getmail') }}" method="POST">
+                            <form id="form" action="{{ route('getmail') }}" method="POST" class="form">
                                 @csrf
                                 <p style="display:none; color:red;" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                 <label>Email</label>
@@ -332,8 +336,10 @@
                 // e.preventDefault();
                 // $('.alert-success').removeClass('hidden');
                 console.log('ok');
-                $('.recevez').addClass().css('display','none');
-                $('.confirm').addClass().css('display','block');
+                $('#recevez').addClass().css('display','none');
+                $('#merci').addClass().css('display','block');
+                $('#inscription').addClass().css('display','none');
+                $('#confirm').addClass().css('display','block');
                 setTimeout(function(){
                     $('#myModal').modal('hide');
                 },4000);

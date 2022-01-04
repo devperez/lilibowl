@@ -504,7 +504,7 @@ input::placeholder {
     width: 378px;
     height: 60px;
     border-radius: 10px;
-    background-color: #c8c8c1;
+    background-color: #f8e21c;
     color: #131311;
     font-family: 'karla',sans-serif;
     font-weight: bold;
@@ -667,5 +667,10 @@ address {
     line-height: 140%;
     margin-bottom: 32px;
     width: 384px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
 }
 
