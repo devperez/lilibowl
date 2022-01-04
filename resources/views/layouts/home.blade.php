@@ -51,7 +51,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="{{ route('displaymails') }}" class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
               <p title="Accéder à les mails enregistrés en base de données">
                 Voir la liste de mails
@@ -110,7 +110,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Administration</h1>
+            <h1 class="m-0">Administration du site Lili BOwL</h1>
           </div><!-- /.col -->
         <!-- <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
