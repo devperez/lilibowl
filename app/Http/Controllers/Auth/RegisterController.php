@@ -69,11 +69,8 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
-        return view('auth.register')->with('message', 'Le nouvel administrateur a bien été créé !');
+        return view('auth.newadmin')->with('message', 'Le nouvel administrateur a bien été créé !');
     }
 
-    public function newadmin()
-    {
-        return view('auth.register');
-    }
+    
 }

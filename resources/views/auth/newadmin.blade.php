@@ -1,6 +1,8 @@
 @extends('layouts.home')
 
 @section('content')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -8,7 +10,7 @@
                 <div class="card-header">{{ __('Créer un nouvel administrateur') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form>
                         @csrf
 
                         <div class="row mb-3">
@@ -53,17 +55,10 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirmez le mot de passe') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-                        </div>
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button id="create" type="submit" class="btn btn-primary">
                                     {{ __('Créer') }}
                                 </button>
                             </div>
@@ -72,11 +67,40 @@
                 </div>
             </div>
         </div>
-        @if(session()->has('message'))
-        <div class="alert alert-success">
-            {{ session()->get('message') }}
-        </div>
-        @endif
     </div>
+    <div id="success" class="alert alert-success" style="display:block">
+            <p>Le nouvel administrateur a été créé avec succès !</p>
+        </div>
 </div>
+
+<script>
+    
+    $(document).ready(function(){
+        $("form").submit(function(event) {  
+            event.preventDefault();
+
+            var formData = {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                password: $("#password").val(),
+                _token: $('input[name="_token"]').val(),
+                };
+            
+            $.ajax({
+                type:"POST",
+                url: '{{ route('createnewadmin') }}',
+                data: formData,
+                dataType:"json",
+                encode: true,
+            })
+            .done(function() {
+                $('#success').addClass().css('display','block');
+            })
+            .fail(function() {
+                console.log('fail');
+            });
+        });
+    });
+
+</script>
 @endsection

@@ -28,4 +28,5 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/mails', [MailController::class, 'displaymails'])->name('displaymails');
 Route::delete('/mails/{id}', [MailController::class,'destroymail'])->name('destroymail');
 Route::get('/mail', [MailController::class, 'searchmail'])->name('searchmail');
-Route::get('/create', [HomeController::class, 'newadmin'])->name('newadmin');
+Route::get('/newadmin', [HomeController::class, 'newadmin'])->name('newadmin');
+Route::post('/newadmin', [HomeController::class, 'create'])->name('createnewadmin');
