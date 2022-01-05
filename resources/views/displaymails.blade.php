@@ -8,7 +8,7 @@
             <h2>Liste des mails enregistrés</h2>
             <div>
                 <form action="{{ route('searchmail') }}" method="GET">
-                    <input placeholder="Rechercher un mail" />
+                    <input name="email" placeholder="Rechercher un mail" />
                     <button>Chercher</button>
                 </form>
             </div>

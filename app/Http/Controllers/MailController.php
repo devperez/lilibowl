@@ -45,6 +45,7 @@ class MailController extends Controller
     public function searchmail(Request $request)
     {
         $email = $request->email;
+        // dd($email);
         $search = Mails::where('email', 'like', "%{$email}%")->limit(10)->get();
         return view('mailsearch', compact('search'));
     }
