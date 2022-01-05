@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Mails;
-use Carbon\Carbon;
 
 class MailController extends Controller
 {
@@ -28,12 +27,11 @@ class MailController extends Controller
 
     public function displaymails()
     {
-        $mails = Mails::latest('id')->first()->paginate(10);
-        $date = Mails::latest('created_at')->first();
-        $createdAt = Carbon::parse($date->created_at);
-        $maildate = $createdAt->format('d M Y');
-        // dd($maildate);
-        return view('displaymails', compact('mails', 'maildate'))->with(request()->input('page'));
+        $mails = Mails::latest()->paginate(10);
+        // dd($mails);
+
+        return view('displaymails', compact('mails'))->with(request()->input('page'));
+        
     }
 
     public function destroymail($id)
@@ -42,6 +40,13 @@ class MailController extends Controller
         $mail -> delete();
 
         return redirect()->back()->with('success', 'Le mail a été supprimé avec succès.');
+    }
+
+    public function searchmail(Request $request)
+    {
+        $email = $request->email;
+        $search = Mails::where('email', 'like', "%{$email}%")->limit(10)->get();
+        return view('mailsearch', compact('search'));
     }
 
 }
