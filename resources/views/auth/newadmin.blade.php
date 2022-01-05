@@ -10,7 +10,7 @@
                 <div class="card-header">{{ __('Créer un nouvel administrateur') }}</div>
 
                 <div class="card-body">
-                    <form>
+                    <form id="#form">
                         @csrf
 
                         <div class="row mb-3">
@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div id="success" class="alert alert-success" style="display:block">
+    <div id="success" class="alert alert-success" style="display:none">
             <p>Le nouvel administrateur a été créé avec succès !</p>
         </div>
 </div>
@@ -76,7 +76,7 @@
 <script>
     
     $(document).ready(function(){
-        $("form").submit(function(event) {  
+        $("#form").submit(function(event) {  
             event.preventDefault();
 
             var formData = {
