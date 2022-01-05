@@ -6,6 +6,12 @@
     <div class="col-lg-12">
         <div class="pull-left">
             <h2>Liste des mails enregistrés</h2>
+            <div>
+                <form action="{{ route('searchmail') }}" method="GET">
+                    <input name="email" placeholder="Rechercher un mail" />
+                    <button>Chercher</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -25,7 +31,7 @@
     @foreach ($mails as $mail)
     <tr>
         <td>{{ $mail->email }}</td>
-        <td>{{ $maildate }}</td>
+        <td>{{ \Carbon\Carbon::parse($mail->created_at)->format('d-m-Y à H:i:s') }}</td>
         <td>
             <form action="{{ route('destroymail', $mail->id) }}" method="POST">
                 @csrf

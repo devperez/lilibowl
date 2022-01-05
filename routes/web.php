@@ -25,3 +25,4 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/mails', [MailController::class, 'displaymails'])->name('displaymails');
 Route::delete('/mails/{id}', [MailController::class,'destroymail'])->name('destroymail');
+Route::get('/mail', [MailController::class, 'searchmail'])->name('searchmail');
