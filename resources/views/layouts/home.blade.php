@@ -62,7 +62,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#"  class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
               <p>
-                Voir les menus
+                Gérer les menus
               </p>
             </a>
           </li>
@@ -70,15 +70,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#"  class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
               <p>
+                Gérer les administrateurs
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('newadmin') }}"  class="nav-link active">
+              <i class="far fa-circle nav-icon"></i>
+              <p title="Créer un nouveau compte administrateur">
                 Créer un nouvel admin
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="{{ route('homepage') }}" target="_blank" class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
               <p title="Ouvrir un nouvel onglet pour voir le site">
-                Voir le site
+                Ouvrir le site
                 <!--<span class="right badge badge-danger">New</span>-->
               </p>
             </a>

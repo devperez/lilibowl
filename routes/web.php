@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailController;
-
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +20,13 @@ use App\Http\Controllers\MailController;
 Route::get('/', [NavController::class, 'homepage'])->name('homepage');
 Route::post('/getmail', [MailController::class, 'getmail'])->name('getmail');
 
+
+//Routes du back office
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/mails', [MailController::class, 'displaymails'])->name('displaymails');
 Route::delete('/mails/{id}', [MailController::class,'destroymail'])->name('destroymail');
 Route::get('/mail', [MailController::class, 'searchmail'])->name('searchmail');
+Route::get('/newadmin', [HomeController::class, 'newadmin'])->name('newadmin');
+Route::post('/newadmin', [HomeController::class, 'create'])->name('createnewadmin');
