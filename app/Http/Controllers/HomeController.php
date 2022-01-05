@@ -25,5 +25,23 @@ class HomeController extends Controller
     {
         return view('layouts.home');
     }
+    public function newadmin()
+    {
+        return view('auth.register');
+    }
+    public function create(Request $request)
+    {
+        $this->validate($request, [
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
 
+        User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+        ]);
+        return view('auth.register')->with('message', 'Le nouvel administrateur a bien été créé !');
+    }
 }
