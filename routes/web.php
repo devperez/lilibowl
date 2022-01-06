@@ -34,3 +34,4 @@ Route::post('/newadmin', [HomeController::class, 'create'])->name('createnewadmi
 Route::get('/adminindex', [HomeController::class, 'adminindex'])->name('adminindex');
 Route::delete('/adminindex/{id}', [HomeController::class, 'admindestroy'])->name('admindestroy');
 Route::get('/menu', [MenuController::class, 'index'])->name('menuindex');
+Route::post('/menu', [MenuController::class, 'maj'])->name('maj');
