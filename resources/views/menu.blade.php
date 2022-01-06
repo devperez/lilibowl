@@ -11,20 +11,24 @@
     </div>
 </div>
 
-<div>
-    <form id="form1" action="" style="display:flex; flex-direction:column">
-        <label>Mise à jour du menu principal</label>
-        <input type="file" id="fileInput"/>
-        <iframe id="prev" style="width:50%; height:400px"></iframe>
-        <button style="width:180px">Mettre à jour</button>
-    </form>
-</div>
-<div>
-    <p>Menu actuellemenent en ligne :</p>
+<div class="container-fluid" style="display:flex; justify-content:center;">
+    <div>
+        <form id="form1" action="" style="display:flex; flex-direction:column">
+            <label>Mise à jour du menu principal</label>
+            <input type="file" id="fileInput"/>
+            <iframe id="prev" style="width:200%; height:400px"></iframe>
+            <button style="width:180px">Mettre à jour</button>
+        </form>
+    </div>
 </div>
 <hr>
-
-
+<div style="display:flex; flex-direction:column; text-align:center;">
+    <div>    
+        <p>Souhaitez-vous mettre à jour :</p>
+        <button style="width:180px">Le menu des desserts</button>
+        <button style="width:180px">Le menu des boissons</button>
+    </div>
+</div>
 
 <script>
     function readURL(input) {
@@ -42,5 +46,7 @@
     $("#fileInput").change(function(){
         readURL(this);
     });
+
+    
 </script>
 @endsection
