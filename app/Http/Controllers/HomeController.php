@@ -47,4 +47,19 @@ class HomeController extends Controller
         ]);
         return true;
     }
+
+    public function adminindex()
+    {
+        $admins = User::latest()->get();
+        // dd($admins);
+        return view('adminindex', compact('admins'));
+    }
+
+    public function admindestroy($id)
+    {
+        $admin = User::findOrFail($id);
+        $admin -> delete();
+
+        return redirect()->back()->with('success', 'L\'administrateur a été supprimé avec succès.');
+    }
 }
