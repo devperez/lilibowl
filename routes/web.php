@@ -30,3 +30,5 @@ Route::delete('/mails/{id}', [MailController::class,'destroymail'])->name('destr
 Route::get('/mail', [MailController::class, 'searchmail'])->name('searchmail');
 Route::get('/newadmin', [HomeController::class, 'newadmin'])->name('newadmin');
 Route::post('/newadmin', [HomeController::class, 'create'])->name('createnewadmin');
+Route::get('/adminindex', [HomeController::class, 'adminindex'])->name('adminindex');
+Route::delete('/adminindex/{id}', [HomeController::class, 'admindestroy'])->name('admindestroy');
