@@ -12,7 +12,7 @@
 </div>
 
 <div style="display:block" id="menu1">
-    <div class="container-fluid" style="display:flex; justify-content:center;">
+    <div class="container-fluid" style="display:flex; justify-content:space-around;">
         <div>
             <form id="form1" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
             @csrf
@@ -22,10 +22,10 @@
                 <button style="width:180px">Mettre à jour</button>
             </form>
         </div>
-        <p><strong>Menu affiché actuellement :</strong></p>
-        @foreach ($menus as $menu)
-            <iframe src="{{ $menu->file }}"><iframe>
-        @endforeach
+        <div>
+            <p><strong>Menu affiché actuellement :</strong></p>
+            <iframe src=" {{ asset('storage/menus/'.$filenametostore) }} "></iframe>
+        </div>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
@@ -122,6 +122,6 @@ $(document).ready(function(){
         readURL(this);
     });
 
-    
+
 </script>
 @endsection

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Menu;
+use Illuminate\Support\Facades\Storage;
 
 class MenuController extends Controller
 {
@@ -27,14 +28,18 @@ class MenuController extends Controller
             $filenametostore = $filename.'_'.time().'.'.$extension;
             // dd($filenametostore);
             $request->file('menu1')->storeAs('public/menus', $filenametostore); //upload du fichier
-            $path = storage_path('public/menus/'.$filenametostore);
-            // dd($path);
-            Menu::create([
+            $path = storage_path('app/public/menus/'.$filenametostore);
+            //dd($path);
+            $menu = Menu::select('file');
+            $menu->update([
                 'file'=>$path,
             ]);
+            $menu = Menu::latest('file')->get();
+            // dd($menu[0]['file']);
+            $menu = $menu[0]['file'];
+            // dd($menu);
+            //$menu = $menu[0]['file'];
+            return view('menu', compact('filenametostore'))->with(['success'=>'Le menu a bien été mis à jour.']);
         }
-        $menus = Menu::latest()->get();
-        // dd($menu);
-        return view('menu', compact('menus'))->with(['success'=>'Le menu a bien été mis à jour.']);
     }
 }
