@@ -5,6 +5,7 @@ use App\Http\Controllers\NavController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,5 @@ Route::get('/newadmin', [HomeController::class, 'newadmin'])->name('newadmin');
 Route::post('/newadmin', [HomeController::class, 'create'])->name('createnewadmin');
 Route::get('/adminindex', [HomeController::class, 'adminindex'])->name('adminindex');
 Route::delete('/adminindex/{id}', [HomeController::class, 'admindestroy'])->name('admindestroy');
+Route::get('/menu', [MenuController::class, 'index'])->name('menuindex');
+Route::post('/menu', [MenuController::class, 'maj'])->name('maj');

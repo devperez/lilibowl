@@ -281,7 +281,7 @@
                             <div class="inscrivez-vous" id="inscription">
                                 INSCRIVEZ-VOUS À NOTRE NEWSLETTER !
                             </div>
-                            <div id="merci" class="inscrivez-vous">
+                            <div id="merci" class="inscrivez-vous" style="display:none">
                                 MERCI POUR VOTRE INSCRIPTION !
                             </div>
                             <div class="recevez" id="recevez">Recevez le nouveau menu de saison au début de chaque mois,
