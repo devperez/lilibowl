@@ -4,13 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Menu;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
+
 
 class MenuController extends Controller
 {
     public function index()
     {
-        return view('menu');
+        $menu = DB::table('menus')->pluck('file');
+        $menu = $menu[0];
+        return view('menu', compact('menu'));
     }
 
     public function maj(Request $request)
@@ -32,14 +35,11 @@ class MenuController extends Controller
             //dd($path);
             $menu = Menu::select('file');
             $menu->update([
-                'file'=>$path,
+                'file'=>$filenametostore,
             ]);
-            $menu = Menu::latest('file')->get();
-            // dd($menu[0]['file']);
-            $menu = $menu[0]['file'];
-            // dd($menu);
-            //$menu = $menu[0]['file'];
-            return view('menu', compact('filenametostore'))->with(['success'=>'Le menu a bien été mis à jour.']);
         }
+        $menu = DB::table('menus')->pluck('file');
+        $menu = $menu[0];
+        return view('menu', compact('menu'));
     }
 }

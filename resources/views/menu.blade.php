@@ -24,7 +24,7 @@
         </div>
         <div>
             <p><strong>Menu affiché actuellement :</strong></p>
-            <iframe src=" {{ asset('storage/menus/'.$filenametostore) }} "></iframe>
+                <iframe src=" {{ asset('storage/menus/'.$menu) }} "></iframe>
         </div>
     </div>
     <hr>
