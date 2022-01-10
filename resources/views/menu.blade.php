@@ -40,7 +40,7 @@
 <div style="display:none" id="menu2">
     <div class="container-fluid" style="display:flex; justify-content:center;">
         <div>
-            <form id="form2" action="{{ route('maj2') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
+            <form id="form2" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
             @csrf
                 <label>Mise à jour du menu des desserts</label>
                 <input type="file" class="fileInput" name="menu2"/>
@@ -65,7 +65,7 @@
 <div style="display:none" id="menu3">
     <div class="container-fluid" style="display:flex; justify-content:center;">
         <div>
-            <form id="form3" action="{{ route('maj3') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
+            <form id="form3" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
             @csrf
                 <label>Mise à jour du menu des boissons</label>
                 <input type="file" class="fileInput" name="menu3"/>
@@ -163,7 +163,7 @@ $(document).ready(function(){
 
     $.ajax({
         type:"POST",
-        url: '{{ route('maj2') }}',
+        url: '{{ route('maj') }}',
         data: new FormData(this),
         processData: false,
         contentType: false,
@@ -188,7 +188,7 @@ $(document).ready(function(){
 
     $.ajax({
         type:"POST",
-        url: '{{ route('maj3') }}',
+        url: '{{ route('maj') }}',
         data: new FormData(this),
         processData: false,
         contentType: false,

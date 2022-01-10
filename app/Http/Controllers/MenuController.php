@@ -33,6 +33,7 @@ class MenuController extends Controller
 
     public function maj(Request $request)
     {
+        //pour le menu principal
         //dd($request->menu1);
         if ($request->hasFile('menu1'))
         {
@@ -52,15 +53,13 @@ class MenuController extends Controller
             $menu->update([
                 'file'=>$filenametostore,
             ]);
-        }
+        
         $menu = DB::table('menus')->pluck('file');
         $menu = $menu[0];
+        
         return true;
-    }
-
-    public function maj2(Request $request)
-    {
-        //dd($request->menu2);
+        }
+        //pour les desserts
         if ($request->hasFile('menu2'))
         {
         $filenamewithextension = $request->file('menu2')->getClientOriginalName();
@@ -78,17 +77,13 @@ class MenuController extends Controller
         $dessert->update([//upload du nom du fichier en base
             'file'=>$filenametostore,
         ]);
-    }
-    
-    $dessert = DB::table('desserts')->pluck('file');
-    //dd($dessert);
-    $dessert = $dessert[0];
-    return true;
-    }
 
-    public function maj3(Request $request)
-    {
-        //dd($request->menu3);
+        $dessert = DB::table('desserts')->pluck('file');
+        //dd($dessert);
+        $dessert = $dessert[0];
+        return true;
+        }
+        //pour les boissons
         if ($request->hasFile('menu3'))
         {
         $filenamewithextension = $request->file('menu3')->getClientOriginalName();
@@ -106,11 +101,11 @@ class MenuController extends Controller
         $boisson->create([//upload du nom du fichier en base
             'file'=>$filenametostore,
         ]);
-    }
     
-    $boisson = DB::table('boissons')->pluck('file');
-    //dd($dessert);
-    $boisson = $boisson[0];
-    return true;
-    }
+        $boisson = DB::table('boissons')->pluck('file');
+        //dd($boisson);
+        $boisson = $boisson[0];
+        return true;
+        }
+    }    
 }
