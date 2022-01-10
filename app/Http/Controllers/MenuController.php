@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Menu;
 use App\Models\Dessert;
+use App\Models\Boisson;
 use Illuminate\Support\Facades\DB;
 
 
@@ -59,6 +60,7 @@ class MenuController extends Controller
 
     public function maj2(Request $request)
     {
+        //dd($request->menu2);
         if ($request->hasFile('menu2'))
         {
         $filenamewithextension = $request->file('menu2')->getClientOriginalName();
@@ -77,11 +79,38 @@ class MenuController extends Controller
             'file'=>$filenametostore,
         ]);
     }
-    $menu = DB::table('menus')->pluck('file');
-    $menu = $menu[0];
+    
     $dessert = DB::table('desserts')->pluck('file');
     //dd($dessert);
     $dessert = $dessert[0];
-    return redirect()->action("MenuController@index");
+    return true;
+    }
+
+    public function maj3(Request $request)
+    {
+        //dd($request->menu3);
+        if ($request->hasFile('menu3'))
+        {
+        $filenamewithextension = $request->file('menu3')->getClientOriginalName();
+        //dd($filenamewithextension);
+        $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
+        //dd($filename);
+        $extension = $request->file('menu3')->getClientOriginalExtension();
+        // dd($extension);
+        $filenametostore = $filename.'_'.time().'.'.$extension;
+        //dd($filenametostore);
+        $request->file('menu3')->storeAs('public/boissons', $filenametostore); //upload du fichier dans son dossier
+        $path = storage_path('app/public/boissons/'.$filenametostore);
+        //dd($path);
+        $boisson = Boisson::select('file');
+        $boisson->create([//upload du nom du fichier en base
+            'file'=>$filenametostore,
+        ]);
+    }
+    
+    $boisson = DB::table('boissons')->pluck('file');
+    //dd($dessert);
+    $boisson = $boisson[0];
+    return true;
     }
 }
