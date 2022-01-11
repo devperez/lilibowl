@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+
 
 class HomeController extends Controller
 {
@@ -25,7 +28,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        $today = Carbon::now();
+        dd($today);
+        $emails = DB::table('mails')->where('created_at')->diffInDays(Carbon::now(), 30);
+        // $emails = json_encode(json_decode($emails));
+        // $emails = (object) $emails;
+        dd($emails);
+        return view('dashboard', compact('emails'));
     }
     public function newadmin()
     {
