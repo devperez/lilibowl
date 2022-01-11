@@ -28,13 +28,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $today = Carbon::now();
-        dd($today);
-        $emails = DB::table('mails')->where('created_at')->diffInDays(Carbon::now(), 30);
-        // $emails = json_encode(json_decode($emails));
-        // $emails = (object) $emails;
-        dd($emails);
-        return view('dashboard', compact('emails'));
+        //récupération des mails dont la date de création remonte au maximum à 31 jours
+        $data = DB::table('mails')->where('created_at','>=', Carbon::now()->subDays(31))->get();
+        
+        // dd($data);
+        return view('dashboard', compact('data'));
     }
     public function newadmin()
     {
