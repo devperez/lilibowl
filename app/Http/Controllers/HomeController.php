@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+
 
 class HomeController extends Controller
 {
@@ -25,7 +28,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        //récupération des mails dont la date de création remonte au maximum à 31 jours
+        $data = DB::table('mails')->where('created_at','>=', Carbon::now()->subDays(31))->get();
+        
+        // dd($data);
+        return view('dashboard', compact('data'));
     }
     public function newadmin()
     {
