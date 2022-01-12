@@ -36,4 +36,5 @@ Route::get('/adminindex', [HomeController::class, 'adminindex'])->name('adminind
 Route::delete('/adminindex/{id}', [HomeController::class, 'admindestroy'])->name('admindestroy');
 Route::get('/menu', [MenuController::class, 'index'])->name('menuindex');
 Route::post('/menu', [MenuController::class, 'maj'])->name('maj');
-Route::post('/export',[CsvController::class, 'export'])->name('export');
+Route::post('/mails/export',[CsvController::class, 'export'])->name('export');
+Route::post('/home/export',[CsvController::class, 'partial'])->name('export');

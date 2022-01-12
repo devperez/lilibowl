@@ -24,7 +24,7 @@
       </div>
       <div class="col-lg-6">
         <h3>Exporter</h3>
-        <p>Exporter la liste des mails en fichier .csv</p>
+        <p>Créer un fichier .csv avec cette liste de mails</p>
         <form method="POST" action="{{ route('export') }}" >
         @csrf
           <input type="text" name="name" placeholder="Nom de fichier" >
