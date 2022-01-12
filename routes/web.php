@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\CsvController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,4 +36,4 @@ Route::get('/adminindex', [HomeController::class, 'adminindex'])->name('adminind
 Route::delete('/adminindex/{id}', [HomeController::class, 'admindestroy'])->name('admindestroy');
 Route::get('/menu', [MenuController::class, 'index'])->name('menuindex');
 Route::post('/menu', [MenuController::class, 'maj'])->name('maj');
-
+Route::post('/export',[CsvController::class, 'export'])->name('export');
