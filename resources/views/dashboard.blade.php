@@ -25,9 +25,9 @@
       <div class="col-lg-6">
         <h3>Exporter</h3>
         <p>Créer un fichier .csv avec cette liste de mails</p>
-        <form method="POST" action="{{ route('export') }}" >
+        <form method="POST" action="{{ route('partial') }}" >
         @csrf
-          <input type="text" name="name" placeholder="Nom de fichier" >
+          <input type="text" name="name" placeholder="Donner un nom au fichier" >
           <button type="submit" >Exporter</button>
         </form>
       </div>

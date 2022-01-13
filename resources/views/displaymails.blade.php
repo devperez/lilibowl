@@ -43,7 +43,14 @@
     @endforeach
 
 </table>
+
 {{ $mails->links() }}
+
+@if ($message = Session::get('success'))
+<div class="alert alert-danger" id="msg2">
+    <p>{{ $message }}</p>
+</div>
+@endif
 
 <div class="col">
         <div class="col-lg-6">
@@ -54,8 +61,11 @@
                 <input type="text" name="name" placeholder="Donner un nom au fichier" >
                 <button type="submit" >Exporter</button>
             </form>
+            
         </div>
     </div>
+
+    
 
 <script>
 $(document).ready(function (){
