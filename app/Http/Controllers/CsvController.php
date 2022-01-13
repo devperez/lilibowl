@@ -6,16 +6,18 @@ use Illuminate\Http\Request;
 use Spatie\SimpleExcel\SimpleExcelWriter;
 use App\Models\Mails;
 use Carbon\Carbon;
+use Session;
 
 class CsvController extends Controller
 {
     public function export(Request $request)
     {
-        //dd($request);
+        // dd($request->name);
         //Validation du nom du fichier
         $this->validate($request, [
             'name' => 'bail|required|string',
         ]);
+        
         $extension = ".csv";
 
         //création du nom de fichier avec son extension .csv
@@ -33,7 +35,6 @@ class CsvController extends Controller
         //on lance le téléchargement
         $writer->toBrowser();
 
-        return view('mails');
     }
 
     public function partial(Request $request)
@@ -56,8 +57,5 @@ class CsvController extends Controller
         //dd($writer);
 
         $writer->toBrowser();
-
-        return view('dashboard');
-
     }
 }
