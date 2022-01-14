@@ -11,80 +11,72 @@
     </div>
 </div>
 
+<div id="success" class="alert alert-success msg">
+    <p>La mise à jour a bien été effectuée.</p>
+</div>
+<div id="fail" class="alert alert-danger msg">
+    <p>Merci de bien vouloir choisir un fichier pdf compatible.</p>
+</div>
+
 <div style="display:block" id="menu1">
-    <div class="container-fluid" style="display:flex; justify-content:center;">
-        <div>
-            <form id="form1" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
+    <div class="container">
+        <form class="menuform" id="form1" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
             @csrf
-                <label>Mise à jour du menu principal</label>
-                <input type="file" class="fileInput" name="menu1"/>
-                <iframe class="prev" id="menu" style="width:200%; height:400px"></iframe>
-                <input type="submit" style="width:180px" value="Mettre à jour"/>
-            </form>
-        </div>
+                <label class="formlabel">Mise à jour du menu principal</label>
+                <input type="file" class="fileInput btn-secondary" name="menu1"/>
+                <iframe class="prev" id="menu"></iframe>
+                <input class="btn btn-warning submit" type="submit" value="Mettre à jour"/>
+        </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
         <div>    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn2" style="width:180px">Le menu des desserts</button>
-            <button class="btn3" style="width:180px">Le menu des boissons</button>
+            <button class="btn2 btn btn-primary">Le menu des desserts</button>
+            <button class="btn3 btn btn-primary">Le menu des boissons</button>
         </div>
     </div>
 </div>
-<div style='display:none' id="success1" class="alert alert-success">
-        <p>La mise à jour a bien été exécutée</p>
-    </div>
 
 
 <div style="display:none" id="menu2">
-    <div class="container-fluid" style="display:flex; justify-content:center;">
-        <div>
-            <form id="form2" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
+    <div class="container">
+        <form class="menuform" id="form2" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
             @csrf
-                <label>Mise à jour du menu des desserts</label>
-                <input type="file" class="fileInput" name="menu2"/>
-                <iframe class="prev" style="width:200%; height:400px"></iframe>
-                <input type="submit" id="btn2" style="width:180px" value="Mettre à jour"/>
-            </form>
-        </div>
+                <label class="formlabel">Mise à jour du menu des desserts</label>
+                <input type="file" class="fileInput btn-secondary" name="menu2"/>
+                <iframe class="prev"></iframe>
+                <input class="btn btn-warning submit" type="submit" id="btn2" value="Mettre à jour"/>
+        </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
         <div>    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1" style="width:180px">Le menu principal</button>
-            <button class="btn3"style="width:180px">Le menu des boissons</button>
+            <button class="btn1 btn btn-primary">Le menu principal</button>
+            <button class="btn3 btn btn-primary">Le menu des boissons</button>
         </div>
     </div>
 </div>
-<div style='display:none' id="success2" class="alert alert-success">
-        <p>La mise à jour a bien été exécutée</p>
-    </div>
 
 <div style="display:none" id="menu3">
-    <div class="container-fluid" style="display:flex; justify-content:center;">
-        <div>
-            <form id="form3" action="{{ route('maj') }}" method="POST" style="display:flex; flex-direction:column" enctype="multipart/form-data">
+    <div class="container">
+        <form class="menuform" id="form3" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
             @csrf
-                <label>Mise à jour du menu des boissons</label>
-                <input type="file" class="fileInput" name="menu3"/>
-                <iframe class="prev" style="width:200%; height:400px"></iframe>
-                <input type="submit" style="width:180px" value="Mettre à jour"/>
-            </form>
-        </div>
+                <label class="formlabel">Mise à jour du menu des boissons</label>
+                <input type="file" class="fileInput btn-secondary" name="menu3"/>
+                <iframe class="prev"></iframe>
+                <input class="btn btn-warning submit" type="submit" value="Mettre à jour"/>
+        </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
         <div>    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1" style="width:180px">Le menu principal</button>
-            <button class="btn2" style="width:180px">Le menu des desserts</button>
+            <button class="btn1 btn btn-primary">Le menu principal</button>
+            <button class="btn2 btn btn-primary">Le menu des desserts</button>
         </div>
-    </div>
-    <div style='display:none' id="success3" class="alert alert-success">
-        <p>La mise à jour a bien été exécutée</p>
-    </div>
+    </div>  
 </div>
 
 <script>
@@ -146,11 +138,14 @@ $(document).ready(function(){
     .done(function(){
         console.log('ok');
         $('.prev').attr('src','');
-        $('#success1').addClass().css('display', 'block');
-        $('#success1').fadeOut(4000);
+        $('.fileInput').val('');
+        $('#success').addClass().css('display', 'block');
+        $('#success').fadeOut(4000);
     })
     .fail(function(){
         console.log('fail');
+        $('#fail').addClass().css('display', 'block');
+        $('#fail').fadeOut(5000);
     });
 });
 });
@@ -171,11 +166,14 @@ $(document).ready(function(){
     .done(function(){
         console.log('ok');
         $('.prev').attr('src','');
-        $('#success2').addClass().css('display', 'block');
-        $('#success2').fadeOut(4000);
+        $('.fileInput').val('');
+        $('#success').addClass().css('display', 'block');
+        $('#success').fadeOut(4000);
     })
     .fail(function(){
         console.log('fail');
+        $('#fail').addClass().css('display', 'block');
+        $('#fail').fadeOut(5000);
     });
 });
 });
@@ -196,11 +194,14 @@ $(document).ready(function(){
     .done(function(){
         console.log('ok');
         $('.prev').attr('src','');
-        $('#success3').addClass().css('display', 'block');
-        $('#success3').fadeOut(4000);
+        $('.fileInput').val('');
+        $('#success').addClass().css('display', 'block');
+        $('#success').fadeOut(4000);
     })
     .fail(function(){
         console.log('fail');
+        $('#fail').addClass().css('display', 'block');
+        $('#fail').fadeOut(5000);
     });
 });
 });

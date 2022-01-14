@@ -6,10 +6,10 @@
     <div class="col-lg-12">
         <div class="pull-left">
             <h2>Liste des mails enregistrés</h2>
-            <div>
+            <div class="searchform">
                 <form action="{{ route('searchmail') }}" method="GET">
-                    <input name="email" placeholder="Rechercher un mail" />
-                    <button>Chercher</button>
+                    <input class="searchbar" name="email" placeholder="Rechercher un mail" />
+                    <button class="btn-primary">Chercher</button>
                 </form>
             </div>
         </div>
@@ -22,49 +22,45 @@
 </div>
 @endif
 
-<table class="table table-bordered">
-    <tr>
-        <th>Email</th>
-        <th width="200px">Date d'ajout</th>
-        <th>Action</th>
-    </tr>
-    @foreach ($mails as $mail)
-    <tr>
-        <td>{{ $mail->email }}</td>
-        <td>{{ \Carbon\Carbon::parse($mail->created_at)->format('d-m-Y à H:i:s') }}</td>
-        <td>
-            <form action="{{ route('destroymail', $mail->id) }}" method="POST">
-                @csrf
-                @method('DELETE')
-                <button type="submit">Supprimer</button>
-            </form>
-        </td>
-    </tr>
-    @endforeach
-
-</table>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Email</th>
+                        <th width="200px">Date d'ajout</th>
+                        <th>Action</th>
+                    </tr>
+                    @foreach ($mails as $mail)
+                    <tr>
+                        <td>{{ $mail->email }}</td>
+                        <td>{{ \Carbon\Carbon::parse($mail->created_at)->format('d-m-Y à H:i:s') }}</td>
+                        <td>
+                            <form action="{{ route('destroymail', $mail->id) }}" method="POST">
+                            @csrf
+                            @method('DELETE')
+                            <button class="btn btn-danger" type="submit">Supprimer</button>
+                            </form>
+                        </td>
+                    </tr>
+                    @endforeach
+                </table>
 
 {{ $mails->links() }}
-
-@if ($message = Session::get('success'))
-<div class="alert alert-danger" id="msg2">
-    <p>{{ $message }}</p>
-</div>
-@endif
-
-<div class="col">
-        <div class="col-lg-6">
-            <h3>Exporter</h3>
-            <p>Créer un fichier .csv avec tous les mails</p>
-            <form method="POST" action="{{ route('export') }}" >
-            @csrf
-                <input type="text" name="name" placeholder="Donner un nom au fichier" >
-                <button type="submit" >Exporter</button>
-            </form>
-            
+            </div>
+            <div class="col-lg-6">
+                <h3>Exporter</h3>
+                <p>Créer un fichier .csv avec tous les mails</p>
+                <form method="POST" action="{{ route('export') }}" >
+                    @csrf
+                    <input type="text" name="name" placeholder="Donner un nom au fichier" >
+                    <button class="btn-primary" type="submit" >Exporter</button>
+                </form>
+            </div>
         </div>
     </div>
-
+</div>
     
 
 <script>
