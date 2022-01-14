@@ -15,7 +15,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="/adminLTE/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="/adminLTE/css/adminlte.min.css">
+  <link rel="stylesheet" href="/css/bostyles.css">
 </head>
+
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
   <!-- Main Sidebar Container -->
@@ -54,7 +56,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{ route('displaymails') }}" class="nav-link active">
               <i class="far fa-circle nav-icon"></i>
               <p title="Accéder à les mails enregistrés en base de données">
-                Voir la liste de mails
+                Voir tous les mails
               </p>
             </a>
           </li>
@@ -94,7 +96,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <form method="POST" action="{{ route('logout') }}">
               @csrf
-              <button type="submit" class="nav-link active">
+              <button type="submit" class="nav-link active btn-danger">
                 <i class="far fa-circle nav-icon" style="margin-left:-120px"></i>
                 <p title="Déconnexion et retour sur le site">
                 Quitter
@@ -126,7 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Administration du site Lili BOwL</h1>
+            <h1>Administration du site Lili BOwL</h1>
           </div><!-- /.col -->
         <!-- <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -139,9 +141,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div>
     <!-- /.content-header -->
 
-    <!-- <div class="container"> -->
+    <div class="container">
       @yield("content")
-    <!-- </div> -->
+    </div>
 </div>
 <!-- ./wrapper -->
 

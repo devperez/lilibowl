@@ -20,7 +20,7 @@
     <tr>
         <th>Nom</th>
         <th>Email</th>
-        <th width="200px">Date d'ajout</th>
+        <th>Date d'ajout</th>
         <th>Action</th>
     </tr>
     @foreach ($admins as $admin)
@@ -32,7 +32,7 @@
             <form action="{{ route('admindestroy', $admin->id) }}" method="POST">
                 @csrf
                 @method('DELETE')
-                <button type="submit">Supprimer</button>
+                <button class="btn btn-danger" type="submit">Supprimer</button>
             </form>
         </td>
     </tr>

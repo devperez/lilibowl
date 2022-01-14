@@ -1,0 +1,42 @@
+/*dashboard*/
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/*page des mails */
+.searchform {
+    margin-bottom: 15px;
+}
+
+/*page des menus*/
+.menuform {
+    display:flex;
+    flex-direction:column;
+}
+
+.formlabel {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fileInput {
+    margin-bottom: 15px;
+}
+
+.prev {
+    height: 550px;
+}
+
+.submit {
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.msg {
+    display: none;
+}
