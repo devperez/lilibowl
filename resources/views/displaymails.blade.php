@@ -46,12 +46,6 @@
 
 {{ $mails->links() }}
 
-@if ($message = Session::get('success'))
-<div class="alert alert-danger" id="msg2">
-    <p>{{ $message }}</p>
-</div>
-@endif
-
 <div class="col">
         <div class="col-lg-6">
             <h3>Exporter</h3>

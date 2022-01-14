@@ -33,8 +33,11 @@
     </div>
 </div>
 <div style='display:none' id="success1" class="alert alert-success">
-        <p>La mise à jour a bien été exécutée</p>
-    </div>
+    <p>La mise à jour a bien été exécutée</p>
+</div>
+<div style='display:none' id="fail1" class="alert alert-danger">
+    <p>Merci de bien vouloir choisir un fichier pdf compatible.</p>
+</div>
 
 
 <div style="display:none" id="menu2">
@@ -61,6 +64,9 @@
 <div style='display:none' id="success2" class="alert alert-success">
         <p>La mise à jour a bien été exécutée</p>
     </div>
+    <div style='display:none' id="fail2" class="alert alert-danger">
+    <p>Merci de bien vouloir choisir un fichier pdf compatible.</p>
+</div>
 
 <div style="display:none" id="menu3">
     <div class="container-fluid" style="display:flex; justify-content:center;">
@@ -85,6 +91,9 @@
     <div style='display:none' id="success3" class="alert alert-success">
         <p>La mise à jour a bien été exécutée</p>
     </div>
+    <div style='display:none' id="fail3" class="alert alert-danger">
+    <p>Merci de bien vouloir choisir un fichier pdf compatible.</p>
+</div>
 </div>
 
 <script>
@@ -151,6 +160,8 @@ $(document).ready(function(){
     })
     .fail(function(){
         console.log('fail');
+        $('#fail1').addClass().css('display', 'block');
+        $('#fail1').fadeOut(5000);
     });
 });
 });
@@ -176,6 +187,8 @@ $(document).ready(function(){
     })
     .fail(function(){
         console.log('fail');
+        $('#fail2').addClass().css('display', 'block');
+        $('#fail2').fadeOut(5000);
     });
 });
 });
@@ -201,6 +214,8 @@ $(document).ready(function(){
     })
     .fail(function(){
         console.log('fail');
+        $('#fail3').addClass().css('display', 'block');
+        $('#fail3').fadeOut(5000);
     });
 });
 });
