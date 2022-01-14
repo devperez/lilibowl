@@ -53,7 +53,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="{{ route('displaymails') }}" class="nav-link active">
+            <a href=" {{ route('home') }}"  class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>
+                Voir les derniers mails
+              </p>
+            </a>
+          </li>
+        <li class="nav-item">
+            <a href="{{ route('displaymails') }}" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
               <p title="Accéder à les mails enregistrés en base de données">
                 Voir tous les mails
@@ -61,7 +69,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href=" {{ route('menuindex') }}"  class="nav-link active">
+            <a href=" {{ route('menuindex') }}"  class="nav-link">
               <i class="far fa-circle nav-icon"></i>
               <p>
                 Gérer les menus
@@ -69,7 +77,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href=" {{ route('adminindex') }}"  class="nav-link active">
+            <a href=" {{ route('adminindex') }}"  class="nav-link">
               <i class="far fa-circle nav-icon"></i>
               <p>
                 Gérer les administrateurs
@@ -77,7 +85,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('newadmin') }}"  class="nav-link active">
+            <a href="{{ route('newadmin') }}"  class="nav-link">
               <i class="far fa-circle nav-icon"></i>
               <p title="Créer un nouveau compte administrateur">
                 Créer un nouvel admin
@@ -85,7 +93,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('homepage') }}" target="_blank" class="nav-link active">
+            <a href="{{ route('homepage') }}" target="_blank" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
               <p title="Ouvrir un nouvel onglet pour voir le site">
                 Ouvrir le site
@@ -96,7 +104,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <form method="POST" action="{{ route('logout') }}">
               @csrf
-              <button type="submit" class="nav-link active btn-danger">
+              <button type="submit" class="nav-link btn-danger active">
                 <i class="far fa-circle nav-icon" style="margin-left:-120px"></i>
                 <p title="Déconnexion et retour sur le site">
                 Quitter
@@ -155,5 +163,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/adminLTE/js/adminlte.min.js"></script>
+<script>
+/** add active class and stay opened when selected */
+var url = window.location;
+
+// for sidebar menu entirely but not cover treeview
+$('ul.nav-sidebar a').filter(function() {
+    return this.href == url;
+}).addClass('active');
+
+</script>
+
 </body>
 </html>
