@@ -3,7 +3,7 @@
 <table class="table table-bordered">
     <tr>
         <th>Email</th>
-        <th width="200px">Date d'ajout</th>
+        <th>Date d'ajout</th>
         <th>Action</th>
     </tr>
     @foreach ($search as $item)
@@ -14,7 +14,7 @@
             <form action="{{ route('destroymail', $item->id) }}" method="POST">
                 @csrf
                 @method('DELETE')
-                <button type="submit">Supprimer</button>
+                <button class="btn btn-danger" type="submit">Supprimer</button>
             </form>
         </td>
     </tr>

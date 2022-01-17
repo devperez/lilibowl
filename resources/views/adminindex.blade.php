@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="pull-left">
-            <h2>Liste des administarteurs enregistrés</h2>
+            <h2>Liste des administrateurs enregistrés</h2>
         </div>
     </div>
 </div>
