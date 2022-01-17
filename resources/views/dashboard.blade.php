@@ -5,8 +5,8 @@
 <div class="content">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <h4>Mails enregistrés au cours des 31 derniers jours</h4>
+      <div class="col-lg-8">
+        <h2>Mails enregistrés au cours des 31 derniers jours</h2>
         <table class="table table-bordered">
           <tr>
             <th>#</th>
@@ -22,8 +22,8 @@
           @endforeach
         </table>
       </div>
-      <div class="col-lg-6">
-        <h4>Exporter</h4>
+      <div class="col-lg-4">
+        <h2>Exporter</h2>
         <p>Créer un fichier .csv avec cette liste de mails</p>
         <form method="POST" action="{{ route('partial') }}" >
         @csrf

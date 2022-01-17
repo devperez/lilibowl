@@ -13,12 +13,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="/adminLTE/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
   <!-- Theme style -->
   <link rel="stylesheet" href="/adminLTE/css/adminlte.min.css">
   <link rel="stylesheet" href="/css/bostyles.css">
 </head>
 
-<body class="hold-transition sidebar-mini">
+<body class="sidebar-mini sidebar-collapse">
 <div class="wrapper">
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -54,23 +56,32 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
             <a href=" {{ route('home') }}"  class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
-              <p>
+            <span class="material-icons">
+              mail
+            </span>
+              <!-- <i class="far fa-circle nav-icon"></i> -->
+              <p title="Voir les mails enregistrés ces derniers jours">
                 Voir les derniers mails
               </p>
             </a>
           </li>
         <li class="nav-item">
             <a href="{{ route('displaymails') }}" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
-              <p title="Accéder à les mails enregistrés en base de données">
+            <span class="material-icons">
+              mark_as_unread
+            </span>
+              <!-- <i class="far fa-circle nav-icon"></i> -->
+              <p title="Voir tous les mails enregistrés en base de données">
                 Voir tous les mails
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href=" {{ route('menuindex') }}"  class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+            <span class="material-icons">
+              restaurant_menu
+            </span>
+              <!-- <i class="far fa-circle nav-icon"></i> -->
               <p>
                 Gérer les menus
               </p>
@@ -78,7 +89,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <a href=" {{ route('adminindex') }}"  class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+            <span class="material-icons">
+              admin_panel_settings
+            </span>  
+            <!-- <i class="far fa-circle nav-icon"></i> -->
               <p>
                 Gérer les administrateurs
               </p>
@@ -86,7 +100,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <a href="{{ route('newadmin') }}"  class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+            <i class="material-icons">
+              person_add
+            </i>
+              <!-- <i class="far fa-circle nav-icon"></i> -->
               <p title="Créer un nouveau compte administrateur">
                 Créer un nouvel admin
               </p>
@@ -94,7 +111,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <a href="{{ route('homepage') }}" target="_blank" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+            <span class="material-icons">
+              open_in_new
+            </span>
+              <!-- <i class="far fa-circle nav-icon"></i> -->
               <p title="Ouvrir un nouvel onglet pour voir le site">
                 Ouvrir le site
                 <!--<span class="right badge badge-danger">New</span>-->
@@ -102,15 +122,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <form method="POST" action="{{ route('logout') }}">
+            <form method="POST" id="form_id" action="{{ route('logout') }}">
               @csrf
-              <button type="submit" class="nav-link btn-danger active">
-                <i class="far fa-circle nav-icon" style="margin-left:-120px"></i>
+              <a href="javascript:$('#form_id').submit();" type="button" class="nav-link btn-danger active">
+              <span class="material-icons">
+                logout
+              </span>  
+              <!-- <i class="far fa-circle nav-icon" style="margin-left:-120px"></i> -->
                 <p title="Déconnexion et retour sur le site">
                 Quitter
                 <!--<span class="right badge badge-danger">New</span>-->
                 </p>
-              </button>
+              </a>
             </form>
           </li>
           <!--<li class="nav-item">
@@ -119,10 +142,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <p>
                 Voir toutes les images postées
                 <!--<span class="right badge badge-danger">New</span>-->
-             <!-- </p>
-            </a>
-          </li>
-        </ul>-->
+             <!-- </p> -->
+            <!-- </a> -->
+          <!-- </li> -->
+        </ul>
       </nav>
       <!-- /.sidebar-menu -->
     </div>
@@ -134,9 +157,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Administration du site Lili BOwL</h1>
+        <div class="row mb-4">
+          <div class="col">
+            <h1 style="text-align:center">Administration du site Lili BOwL</h1>
           </div><!-- /.col -->
         <!-- <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -163,6 +186,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/adminLTE/js/adminlte.min.js"></script>
+
 <script>
 /** add active class and stay opened when selected */
 var url = window.location;
@@ -170,7 +194,7 @@ var url = window.location;
 // for sidebar menu entirely but not cover treeview
 $('ul.nav-sidebar a').filter(function() {
     return this.href == url;
-}).addClass('active');
+}).addClass('bg-lime');
 
 </script>
 

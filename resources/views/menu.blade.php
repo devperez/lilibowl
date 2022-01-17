@@ -25,15 +25,15 @@
                 <label class="formlabel">Mise à jour du menu principal</label>
                 <input type="file" class="fileInput btn-secondary" name="menu1"/>
                 <iframe class="prev" id="menu"></iframe>
-                <input class="btn btn-warning submit" type="submit" value="Mettre à jour"/>
+                <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
         </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
-        <div>    
+        <div style="padding-bottom:10px">    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn2 btn btn-primary">Le menu des desserts</button>
-            <button class="btn3 btn btn-primary">Le menu des boissons</button>
+            <button class="btn2 btn bg-yellow">Le menu des desserts</button>
+            <button class="btn3 btn bg-yellow">Le menu des boissons</button>
         </div>
     </div>
 </div>
@@ -46,15 +46,15 @@
                 <label class="formlabel">Mise à jour du menu des desserts</label>
                 <input type="file" class="fileInput btn-secondary" name="menu2"/>
                 <iframe class="prev"></iframe>
-                <input class="btn btn-warning submit" type="submit" id="btn2" value="Mettre à jour"/>
+                <input class="btn bg-lime submit" type="submit" id="btn2" value="Mettre à jour"/>
         </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
         <div>    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1 btn btn-primary">Le menu principal</button>
-            <button class="btn3 btn btn-primary">Le menu des boissons</button>
+            <button class="btn1 btn btn bg-yellow">Le menu principal</button>
+            <button class="btn3 btn btn bg-yellow">Le menu des boissons</button>
         </div>
     </div>
 </div>
@@ -66,15 +66,15 @@
                 <label class="formlabel">Mise à jour du menu des boissons</label>
                 <input type="file" class="fileInput btn-secondary" name="menu3"/>
                 <iframe class="prev"></iframe>
-                <input class="btn btn-warning submit" type="submit" value="Mettre à jour"/>
+                <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
         </form>
     </div>
     <hr>
     <div style="display:flex; flex-direction:column; text-align:center;">
         <div>    
             <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1 btn btn-primary">Le menu principal</button>
-            <button class="btn2 btn btn-primary">Le menu des desserts</button>
+            <button class="btn1 btn btn bg-yellow">Le menu principal</button>
+            <button class="btn2 btn btn bg-yellow">Le menu des desserts</button>
         </div>
     </div>  
 </div>
