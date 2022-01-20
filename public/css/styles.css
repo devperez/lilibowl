@@ -628,12 +628,16 @@ address {
 
 /*modal*/
 
-.modal-body {
+.modal {
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0;
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.86);
+}
+
+.modal-body {
+    padding: 0;
 }
 
 .cross {
@@ -645,13 +649,18 @@ address {
     margin-bottom: 35px;
 }
 
-.popup-wrapper {
+/* .popup-wrapper {
     display: flex;
     flex-direction: column;
     margin-left: 48px;
     justify-content: center;
     vertical-align: middle;
     margin-top: -100px;
+} */
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .inscrivez-vous {
@@ -674,3 +683,10 @@ address {
     flex-direction: column;
 }
 
+/* .img-wrapper {
+    width: 50%;
+} */
+
+/* .img {
+    width:120%;
+} */
