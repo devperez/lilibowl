@@ -216,52 +216,11 @@
                     <img src="/images/next.png" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
                 </div>
             </section>
-            <div class="last_section container-fluid">
-                <section class="footer">
-                    <div class="newsletter">
-                        <p class="titre">RECEVOIR LA NEWSLETTER</p>
-                        <p class="texte">Recevez le nouveau menu de saison au début de chaque mois, ainsi que des informations
-                            sur nos ateliers et événements dans votre boîte mail :)
-                        </p>
-                    </div>
-                    <div class="inscription">
-                        <label>Email</label>
-                        <input type="email" placeholder="lili@mail.com">
-                        <button class="button"> Je m'inscris !</button>
-                    </div>
-                </section>
-                <hr>
-                <footer id="contact">
-                    <div class="logo-contact-photo">
-                        <div class="logo-contact-icones">
-                            <div class="logolili">
-                                <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
-                            </div>
-                            <p class="contact">Contactez-nous</p>
-                            <address>12, rue Daurade, 46000 Cahors<br />
-                                    06.30.03.73.89<br />
-                                    lilibowl.cahors@gmail.com
-                            </address>
-                            <img class="insta" src="/images/Insta.png" alt="icône instagram" />
-                            <img src="/images/Fb.png" alt="icône facebook" />
-                            <div class="wrapper-horaires">
-                                <p class="horaires">Ouvert du lundi au samedi, de 11h à 15h, sur place ou à emporter.</p>
-                            </div>
-                        </div>
-                        <div class="photo-texte">
-                            <img src="/images/footer_photo.png" alt="photo de la terrasse du restaurant" />
-                        </div>
-                    </div>
-                    <div class="partagez-wrapper">
-                        <span class="partagez">Partagez votre expérience :</span>
-                        <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" />
-                        <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
-                    </div>
-                    <div class="mentions">
-                        <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" /> par David PEREZ</span>
-                    </div>
-                </footer>
-            </div>
+            <!-- FOOTER -->
+            @extends('components.footer')
+            @section('footer')
+            @endsection
+            <!-- END FOOTER -->
         </main>
         </div>
 
@@ -271,18 +230,14 @@
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <img src="images/image_popup.png" alt="Photo illustrant un bol" class="img" />
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="cross">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>    
+                                <img src="images/image_popup.png" alt="Photo illustrant un bol" class="col-md-6 img" />
+                                <div class="col-md-6 inscrivez-vous" id="inscription">
+                                    <div class="cross">    
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
                                     </div>
-                                    <div class="inscrivez-vous" id="inscription">
-                                        INSCRIVEZ-VOUS À NOTRE NEWSLETTER !
-                                    </div>
+                                        INSCRIVEZ-VOUS À <br/>NOTRE NEWSLETTER !
                                     <div id="merci" class="inscrivez-vous" style="display:none">
                                         MERCI POUR VOTRE INSCRIPTION !
                                     </div>
