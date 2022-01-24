@@ -632,6 +632,10 @@ address {
     padding: 0;
 }
 
+.modal {
+    filter:drop-shadow(10px 5px 5px black);
+}
+
 .cross {
     display: flex;
     flex-direction: row;
@@ -673,6 +677,27 @@ address {
 .form {
     display: flex;
     flex-direction: column;
+}
+
+.input {
+    width: 378px;
+    height: 60px;
+}
+
+.input[name="email"] {
+    font-family: 'Karla',sans-serif;
+    line-height: 140%;
+    font-size: 20px;
+    color: #131311;
+    text-indent: 16px;
+}
+
+input::placeholder {
+    font-family: 'Karla',sans-serif;
+    line-height: 140%;
+    font-size: 20px;
+    color: #97978b;
+    text-indent: 0;
 }
 
 .label {
