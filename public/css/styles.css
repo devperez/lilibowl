@@ -635,7 +635,11 @@ address {
 .cross {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: right;
+    width: 100%;
+}
+
+.btn-close {
     margin-right: 16px;
     margin-top: 16px;
     margin-bottom: 35px;
@@ -653,18 +657,24 @@ address {
     line-height: 140%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 .recevez {
     font-family: 'Karla', sans-serif;
     font-size: 24px;
+    font-weight:normal;
     line-height: 140%;
     margin-bottom: 32px;
+    margin-top: 16px;
     width: 384px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
+}
+
+.label {
+    font-weight: normal;
 }

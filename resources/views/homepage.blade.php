@@ -251,7 +251,7 @@
                                     <form id="form" action="{{ route('getmail') }}" method="POST" class="form">
                                         @csrf
                                         <p style="display:none; color:red;" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
-                                        <label>Email</label>
+                                        <label class="label">Email</label>
                                         <input id="email" name="email" type="email" placeholder="lili@mail.com">
                                         <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
                                     </form>
