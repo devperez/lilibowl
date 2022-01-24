@@ -11,7 +11,7 @@ class MailController extends Controller
     {
         // dd($request->email);
         $this -> validate($request,[
-            'email' => 'required|email|unique:mails',
+            'email' => 'required|email|unique:mails|email:rfc,dns',
         ]);
         
         //dd($validated);

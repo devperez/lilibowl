@@ -233,13 +233,13 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <img src="images/image_popup.png" alt="Photo illustrant un bol" class="col-md-6 img" />
-                                <div class="col-md-6 inscrivez-vous" id="inscription">
+                                <div class="col-md-6 inscrivez-vous">
                                     <div class="cross">    
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
                                     </div>
-                                        INSCRIVEZ-VOUS À <br/>NOTRE NEWSLETTER !
+                                        <p id="inscription" class="inscription">INSCRIVEZ-VOUS À <br/>NOTRE NEWSLETTER !</p>
                                     <div id="merci" class="inscrivez-vous" style="display:none">
-                                        MERCI POUR VOTRE INSCRIPTION !
+                                        MERCI POUR VOTRE <br /> INSCRIPTION !
                                     </div>
                                     <div class="recevez" id="recevez">Recevez le nouveau menu de saison au début de chaque mois,
                                         ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
@@ -250,9 +250,9 @@
                                     </div>
                                     <form id="form" action="{{ route('getmail') }}" method="POST" class="form">
                                         @csrf
-                                        <p style="display:none; color:red;" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                         <label class="label">Email</label>
                                         <input id="email" name="email" type="email" placeholder="lili@mail.com">
+                                        <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                         <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
                                     </form>
                                 </div>
@@ -298,14 +298,18 @@
                 console.log('ok');
                 $('#recevez').addClass().css('display','none');
                 $('#merci').addClass().css('display','block');
-                $('#inscription').addClass().css('display','none');
                 $('#confirm').addClass().css('display','block');
-                setTimeout(function(){
-                    $('#myModal').modal('hide');
-                },4000);
+                $('#inscription').addClass().css('display', 'none');
+                $('#form').addClass().css('display', 'none');
+
+                // setTimeout(function(){
+                //     $('#myModal').modal('hide');
+                // },4000);
             })
             .fail(function() {
-                $('#error').addClass().css('display','block');
+                $('#error').addClass().css('display','flex');
+                $('.label').addClass().css('width', '50%');
+                $('.form').addClass().css('align-items', 'center');
                 // console.log(formData);
                 // $('#register').on('click', function(e) {  
                 // e.preventDefault();

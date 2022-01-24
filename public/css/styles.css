@@ -650,7 +650,7 @@ address {
     padding-right: 0;
 }
 
-.inscrivez-vous {
+.inscrivez-vous, .inscription {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 36px;
@@ -677,4 +677,20 @@ address {
 
 .label {
     font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    font-family: 'Karla',sans-serif;
 }
+
+.error {
+    display:none;
+    flex-direction: row;
+    color:red;
+    margin-left: 60px;
+    font-family: 'Karla', sans-serif;
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: normal;
+    justify-content: space-around;
+}
+
