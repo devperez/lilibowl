@@ -268,6 +268,7 @@
                 $('#confirm').addClass().css('display','block');
                 $('#inscription').addClass().css('display', 'none');
                 $('#form').addClass().css('display', 'none');
+                $('.text2-wrapper').addClass().css('margin-top', '35%');
 
                 // setTimeout(function(){
                 //     $('#myModal').modal('hide');
