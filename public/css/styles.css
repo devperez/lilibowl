@@ -636,17 +636,43 @@ address {
     filter:drop-shadow(10px 5px 5px black);
 }
 
+.modal-xl {
+    max-width: 960px !important;
+}
+
 .cross {
-    display: flex;
+    position:absolute;
+    top:16px;
+    right:16px;
+    /* display: flex;
     flex-direction: row;
     justify-content: right;
-    width: 100%;
+    width: 100%; */
+}
+
+.ellipse1 {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.ellipse2 {
+    position: absolute;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.inscrivez-vous {
+    display: flex;
+}
+
+.inner-wrapper {
+    margin: auto;
 }
 
 .btn-close {
     margin-right: 16px;
     margin-top: 16px;
-    margin-bottom: 35px;
 }
 
 .row>* {
@@ -659,18 +685,21 @@ address {
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
-    margin-left: 48px;
+    width: 384px;
+    /* margin-left: 48px; */
 }
 
 .text1-wrapper, .text2-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
-    margin-left: 48px;
+    width: 384px;
+
+    /* margin-left: 48px; */
 }
 
 .recevez {
@@ -681,7 +710,7 @@ address {
     margin-bottom: 32px;
     margin-top: 16px;
     width: 384px;
-    margin-left: 48px;
+    /* margin-left: 48px; */
 }
 
 .smiley {
@@ -689,7 +718,9 @@ address {
 }
 
 .form {
-    margin-left: 90px;
+    width: 384px;
+
+    /* margin-left: 90px; */
 }
 
 .input {
