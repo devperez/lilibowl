@@ -5,31 +5,41 @@
             <div class="modal-body">
                 <div class="container-fluid">
                     <div class="row">
-                        <img src="images/image_popup.png" alt="Photo illustrant un bol" class="col-md-6 img" />
+                        <div class="col-md-6">
+                            <img src="images/image_popup.png" alt="Photo illustrant un bol" class="img" />
+                        </div>
                         <div class="col-md-6 inscrivez-vous">
-                            <div class="cross">    
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
+                            <div>
+                                <img style="display:none" class="ellipse1" src="/images/Ellipse1.png" alt="Ellipse décorative de la pop up">
                             </div>
-                            <div class="text1-wrapper">
-                                <p id="inscription" style="display:block" class="inscription2">INSCRIVEZ-VOUS À <br/>NOTRE NEWSLETTER !</p>
-                                <p class="recevez" style="display:block" id="recevez">Recevez le nouveau menu de saison au début de chaque mois,
-                                    ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
-                                </p>
+                            <div>
+                                <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
                             </div>
-                            <div class="text2-wrapper">
-                                <p class="inscription2" style="display:none" id="merci">MERCI POUR VOTRE <br /> INSCRIPTION !</p>
-                                <p id="confirm" style="display:none" class="recevez">
-                                    BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant <i class="material-icons smiley">
-                                    sentiment_satisfied</i>
-                                </p>
+                            <div class="inner-wrapper">
+                                <div class="text1-wrapper">
+                                    <p id="inscription" style="display:block" class="inscription2">INSCRIVEZ-VOUS À <br/>NOTRE NEWSLETTER !</p>
+                                    <p class="recevez" style="display:block" id="recevez">Recevez le nouveau menu de saison au début de chaque mois,
+                                        ainsi que des informations sur nos ateliers et événements dans votre boîte mail :)
+                                    </p>
+                                </div>
+                                <div class="text2-wrapper">
+                                    <p class="inscription2" style="display:none" id="merci">MERCI POUR VOTRE <br /> INSCRIPTION !</p>
+                                    <p id="confirm" style="display:none" class="recevez">
+                                        BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant <i class="material-icons smiley">
+                                        sentiment_satisfied</i>
+                                    </p>
+                                </div>
+                                <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
+                                    @csrf
+                                    <label class="label">Email</label>
+                                    <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
+                                    <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
+                                    <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
+                                </form>
                             </div>
-                            <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
-                                @csrf
-                                <label class="label">Email</label>
-                                <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
-                                <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
-                                <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
-                            </form>
+                            <div>
+                                <img style="display:none" class="ellipse2" src="/images/Ellipse2.png" alt="Ellipse décorative de la pop up">
+                            </div>
                         </div>
                     </div>
                 </div>

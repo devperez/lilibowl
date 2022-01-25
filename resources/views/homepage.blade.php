@@ -234,7 +234,7 @@
             $(document).ready(function(){
                 setTimeout(function(){
                 $('#myModal').modal('show');
-                },5000);
+                },1000);
             })
 
         //script pour récupérer l'adresse mail
@@ -268,7 +268,8 @@
                 $('#confirm').addClass().css('display','block');
                 $('#inscription').addClass().css('display', 'none');
                 $('#form').addClass().css('display', 'none');
-                $('.text2-wrapper').addClass().css('margin-top', '35%');
+                $('.ellipse1').addClass().css('display', 'block');
+                $('.ellipse2').addClass().css('display', 'block');
 
                 // setTimeout(function(){
                 //     $('#myModal').modal('hide');
