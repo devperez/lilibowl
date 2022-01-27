@@ -25,7 +25,7 @@
                                 <div class="text2-wrapper">
                                     <p class="inscription2" style="display:none" id="merci">MERCI POUR VOTRE <br /> INSCRIPTION !</p>
                                     <p id="confirm" style="display:none" class="recevez">
-                                        BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant <i class="material-icons smiley">
+                                        BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant !<i class="material-icons smiley">
                                         sentiment_satisfied</i>
                                     </p>
                                 </div>

@@ -9,7 +9,7 @@ class MailController extends Controller
 {
     public function getmail(Request $request)
     {
-        // dd($request->email);
+        //dd($request->email);
         $this -> validate($request,[
             'email' => 'required|email|unique:mails|email:rfc,dns',
         ]);

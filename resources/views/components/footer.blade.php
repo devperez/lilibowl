@@ -3,15 +3,21 @@
     <section class="footer">
         <div class="newsletter">
             <p class="titre">RECEVOIR LA NEWSLETTER</p>
+            <p class="titre2" style="display:none">MERCI POUR VOTRE INSCRIPTION !</p>
             <p class="texte">Recevez le nouveau menu de saison au début de chaque mois, ainsi que des informations
-                    sur nos ateliers et événements dans votre boîte mail :)
+                sur nos ateliers et événements dans votre boîte mail :)
+            </p>
+            <p class="texte2" style="display:none">BRAVO ! Vous faites maintenant partie de la Lili Team engagée !<br /> À très bientôt dans notre restaurant !<i class="material-icons smiley">
+                sentiment_satisfied</i>
             </p>
         </div>
-        <div class="inscription">
+        <form class="inscription" id="footerForm" method="POST" action="{{ route('getmail') }}">
+            @csrf
             <label>Email</label>
-            <input type="email" placeholder="lili@mail.com">
-            <button class="button"> Je m'inscris !</button>
-        </div>
+            <input class="input" type="email" name="email" id="footerEmail" placeholder="lili@mail.com">
+            <p class="error" id="error2">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
+            <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
+        </form>
     </section>
     <hr>
     <footer id="contact">
@@ -46,3 +52,4 @@
     </footer>
 </div>
 
+<script src="/js/footerNewsletter.js"></script>
