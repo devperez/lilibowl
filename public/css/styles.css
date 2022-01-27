@@ -658,8 +658,8 @@ address {
 
 .ellipse2 {
     position: absolute;
-    margin-right: 0;
-    margin-bottom: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .inscrivez-vous {
@@ -754,13 +754,11 @@ input::placeholder {
 
 .error {
     display:none;
-    flex-direction: row;
     color:red;
-    margin-left: 60px;
     font-family: 'Karla', sans-serif;
     line-height: 150%;
     font-size: 16px;
     font-weight: normal;
-    justify-content: space-around;
+    width: 384px;
 }
 

@@ -184,7 +184,7 @@
                                         BOwL qui n’utilise que de bons produits, majoritairement en circuit court, pour respecter au mieux l'environnement.
                                         <br /><br />
                                         Issu d’une famille d’agriculteurs et de maraîchers bio, j’ai été dès le plus jeune âge sensible à l’origine,
-                                        la qualité et la fraîcheur de mes produits. Mon projet serait d’ouvrir un restaurant avec un potager bio, où
+                                        la qualité et la fraîcheur de mes produits. Mon projet serait d’ouvrir un restaurant avec un potager bio, où
                                         je pourrais cultiver mes propres légumes que l’on retrouvera à la carte. 
                                     </p>
                                 </div>
@@ -230,66 +230,56 @@
             @endsection
         <!-- END POP UP -->
         
-        <script>
-            $(document).ready(function(){
-                setTimeout(function(){
-                $('#myModal').modal('show');
-                },1000);
-            })
+        <script src="/js/newsletter.js">
+        //     $(document).ready(function(){
+        //         setTimeout(function(){
+        //         $('#myModal').modal('show');
+        //         },5000);
+        //     })
 
-        //script pour récupérer l'adresse mail
+        // //script pour récupérer l'adresse mail
 
-            $(document).ready(function () {
-                $("form").submit(function(event) {  
-                    event.preventDefault();
+        //     $(document).ready(function () {
+        //         $("form").submit(function(event) {  
+        //             event.preventDefault();
 
-                $('#error').addClass().css('display','none');
+        //         $('#error').addClass().css('display','none');
 
-                var formData = {
-                    email: $("#email").val(),
-                    _token: $('input[name="_token"]').val(),
-                };
+        //         var formData = {
+        //             email: $("#email").val(),
+        //             _token: $('input[name="_token"]').val(),
+        //         };
         
-            console.log(formData);
-            $.ajax({
-                type:"POST",
-                url: '{{ route('getmail') }}',
-                data: formData,
-                dataType: "json",
-                encode:true,
-            })
-            .done(function() {
-                // $('#register').on('click', function(e) {  
-                // e.preventDefault();
-                // $('.alert-success').removeClass('hidden');
-                console.log('ok');
-                $('#recevez').addClass().css('display','none');
-                $('#merci').addClass().css('display','block');
-                $('#confirm').addClass().css('display','block');
-                $('#inscription').addClass().css('display', 'none');
-                $('#form').addClass().css('display', 'none');
-                $('.ellipse1').addClass().css('display', 'block');
-                $('.ellipse2').addClass().css('display', 'block');
+        //     console.log(formData);
+        //     $.ajax({
+        //         type:"POST",
+        //         url: '{{ route('getmail') }}',
+        //         data: formData,
+        //         dataType: "json",
+        //         encode:true,
+        //     })
+        //     .done(function() {
+        //         console.log('ok');
+        //         $('#recevez').addClass().css('display','none');
+        //         $('#merci').addClass().css('display','block');
+        //         $('#confirm').addClass().css('display','block');
+        //         $('#inscription').addClass().css('display', 'none');
+        //         $('#form').addClass().css('display', 'none');
+        //         $('.ellipse1').addClass().css('display', 'block');
+        //         $('.ellipse2').addClass().css('display', 'block');
 
-                // setTimeout(function(){
-                //     $('#myModal').modal('hide');
-                // },4000);
-            })
-            .fail(function() {
-                $('#error').addClass().css('display','flex');
-                $('.label').addClass().css('width', '50%');
-                $('.form').addClass().css('align-items', 'center');
-                // console.log(formData);
-                // $('#register').on('click', function(e) {  
-                // e.preventDefault();
-                console.log('fail');
-                // $.each(data.responseJSON, function (key, value) {
-                // var input = '#formRegister input[name=' + key + ']';
-                // $(input + '+small').text(value);
-                // $(input).parent().addClass('has-error');
-                });
-            });
-        });        
+        //         setTimeout(function(){
+        //             $('#myModal').modal('hide');
+        //         },5000);
+        //     })
+        //     .fail(function() {
+        //         $('#error').addClass().css('display','flex');
+        //         $('.label').addClass().css('width', '50%');
+        //         $('.form').addClass().css('align-items', 'center');
+        //         console.log('fail');
+        //         });
+        //     });
+        // });        
     </script>
 </body>
 </html>
