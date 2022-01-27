@@ -467,7 +467,7 @@ ul li:before {
     margin-right: 104px;
 }
 
-.titre {
+.titre, .titre2 {
     font-family: 'Karla', sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -477,7 +477,7 @@ ul li:before {
     text-align:center;
 }
 
-.texte {
+.texte, .texte2 {
     font-family: 'Karla', sans-serif;
     font-size: 24px;
     line-height: 140%;
@@ -644,10 +644,6 @@ address {
     position:absolute;
     top:16px;
     right:16px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: right;
-    width: 100%; */
 }
 
 .ellipse1 {
@@ -690,16 +686,11 @@ address {
 }
 
 .text1-wrapper, .text2-wrapper {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
     width: 384px;
-
-    /* margin-left: 48px; */
 }
 
 .recevez {
@@ -710,7 +701,6 @@ address {
     margin-bottom: 32px;
     margin-top: 16px;
     width: 384px;
-    /* margin-left: 48px; */
 }
 
 .smiley {
@@ -719,8 +709,6 @@ address {
 
 .form {
     width: 384px;
-
-    /* margin-left: 90px; */
 }
 
 .input {
