@@ -12,7 +12,6 @@
             </p>
         </div>
         <form class="inscription" id="footerForm" method="POST" action="{{ route('getmail') }}">
-            @csrf
             <label>Email</label>
             <input class="input" type="email" name="email" id="footerEmail" placeholder="lili@mail.com">
             <p class="error" id="error2">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
@@ -51,5 +50,3 @@
         </div>
     </footer>
 </div>
-
-<script src="/js/footerNewsletter.js"></script>
