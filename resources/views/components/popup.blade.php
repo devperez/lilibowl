@@ -30,7 +30,6 @@
                                     </p>
                                 </div>
                                 <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
-                                    @csrf
                                     <label class="label">Email</label>
                                     <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
                                     <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
