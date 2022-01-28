@@ -8,6 +8,7 @@ $(function(){
     },5000);
 })
 
+
 // Récupération du mail s'il est donné dans le footer
 $(function () {
     $("#footerForm").on("submit",function(event) {  
