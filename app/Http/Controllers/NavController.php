@@ -10,5 +10,10 @@ class NavController extends Controller
     {
         return view('homepage');
     }
+
+    public function restaurant()
+    {
+        return view('restaurant');
+    }
     
 }

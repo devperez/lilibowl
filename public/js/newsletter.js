@@ -4,7 +4,7 @@
 //Affichage de la pop up au bout de 5 secondes
 $(function(){
     setTimeout(function(){
-    $('#myModal').modal('show');
+        $('#myModal').modal('show');
     },5000);
 })
 

@@ -32,7 +32,7 @@
                 <div class="navbar">
                     <div>
                         <a class="links hvr-underline-from-left" href="#concept">Notre concept</a>
-                        <a class="links hvr-underline-from-left" href="#">Le restaurant</a>
+                        <a class="links hvr-underline-from-left" href="{{ route('restaurant') }}">Le restaurant</a>
                         <a class="links hvr-underline-from-left" href="#">Le menu</a>
                         <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
                         <a class="links hvr-underline-from-left" href="#">Formations</a>
