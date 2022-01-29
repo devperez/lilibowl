@@ -67,8 +67,12 @@ nav {
     height: 100px;
 }
 
-a {
+.links {
     text-decoration: none;
+}
+
+.links:active {
+    text-decoration: #A89505;
 }
 
 a:hover {
@@ -117,9 +121,7 @@ a:hover {
     right: 0;
 }
 
-.link:active {
-    color: #A89505;
-}
+
 
 .instaicon {
     padding-left: 32px;
@@ -169,7 +171,7 @@ h2 {
 
 .concepttext {
     margin-right: 36px;
-    color:#2e2e29;
+    color:#131311;
 }
 
 p {
@@ -232,7 +234,7 @@ h4 {
     font-style: italic;
     font-size: 20px;
     line-height: 140%;
-    color: #2e2e29;
+    color: #131311;
 }
 
 .quotemark2 {
@@ -493,7 +495,7 @@ input {
     width: 378px;
     height: 60px;
     border-radius: 10px;
-    border: gray solid 1px;
+    border: #c8c8c1 solid 1px;
 }
 
 input::placeholder {
@@ -634,7 +636,7 @@ address {
 }
 
 .modal {
-    filter:drop-shadow(10px 5px 5px black);
+    filter:drop-shadow(10px 5px 5px #131311);
 }
 
 .modal-xl {
@@ -683,7 +685,6 @@ address {
     font-size: 36px;
     line-height: 140%;
     width: 384px;
-    /* margin-left: 48px; */
 }
 
 .text1-wrapper, .text2-wrapper {

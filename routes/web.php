@@ -20,6 +20,7 @@ use App\Http\Controllers\CsvController;
 */
 
 Route::get('/', [NavController::class, 'homepage'])->name('homepage');
+Route::get('/restaurant', [NavController::class, 'restaurant'])->name('restaurant');
 Route::post('/getmail', [MailController::class, 'getmail'])->name('getmail');
 
 
