@@ -31,20 +31,22 @@
                 </div>
                 <div class="navbar">
                     <div>
-                        <a class="links hvr-underline-from-left" href="#concept">Notre concept</a>
+                        <a class="links hvr-underline-from-left" href="#concept">Notre Concept</a>
                         <div class="btn-group">
-                            <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le restaurant</a>
-                            <bouton type="button" class="dropdown-toggle btn-restaurant" data-bs-toggle="dropdown" aria-expanded="false">
-                            </bouton>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Le restaurant</a></li>
-                                <li><a class="dropdown-item" href="#">Service traiteur</a></li>
-                                <li><a class="dropdown-item" href="#">Location de vaisselle</a></li>
-                                <li><a class="dropdown-item" href="#">Boutique</a></li>
-                            </ul>
+                            <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le Restaurant</a>
+                            <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="polygon" src="/images/Polygon.png"></bouton>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                             </div>
-                        <!-- <a class="links hvr-underline-from-left" href="{{ route('restaurant') }}">Le restaurant</a> -->
-                        <a class="links hvr-underline-from-left" href="#">Le menu</a>
+                        </div>
+                        <a class="links hvr-underline-from-left" href="#">Le Menu</a>
                         <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
                         <a class="links hvr-underline-from-left" href="#">Formations</a>
                         <a class="links hvr-underline-from-left" href="#contact">Contact</a>
@@ -94,7 +96,7 @@
                             Parce que ma cuisine, (la cuisine de Julie ou de Lili) s’inspire des Bouddha bowls, assiettes composées principalement de légumes,
                             de céréales et de légumineuses qui composent un repas complet, sain et équilibré. Par ailleurs, j’ai voulu un animal de la vie sauvage
                             pour illustrer le logo parce que j’adore cuisiner le fruit de mes cueillettes lors de mes balades en forêt.<br />
-                            « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Et ne soyez pas étonnés si nous prenons plaisir à vous appeler
+                            « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Et ne soyez pas étonnés si nous prenons plaisir à vous appeler
                             nos chouettes clients !
                             </p>
                             <p class="quoteauthor">Julie</p>
