@@ -2,11 +2,15 @@
 //le token csrf est désactivé pour la route getmail
 
 //Affichage de la pop up au bout de 5 secondes
-$(function(){
-    setTimeout(function(){
-        $('#myModal').modal('show');
-    },5000);
-})
+if(Cookies.get('pop') != 'seen') {
+    $(function() {
+        setTimeout(function() {
+            $('#myModal').modal('show');
+        },5000);
+        Cookies.set('pop','seen', {expires : 1 });
+        })
+    }
+
 
 
 // Récupération du mail s'il est donné dans le footer

@@ -20,7 +20,7 @@
 
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
     <body>
@@ -32,7 +32,18 @@
                 <div class="navbar">
                     <div>
                         <a class="links hvr-underline-from-left" href="#concept">Notre concept</a>
-                        <a class="links hvr-underline-from-left" href="{{ route('restaurant') }}">Le restaurant</a>
+                        <div class="btn-group">
+                            <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le restaurant</a>
+                            <bouton type="button" class="dropdown-toggle btn-restaurant" data-bs-toggle="dropdown" aria-expanded="false">
+                            </bouton>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Le restaurant</a></li>
+                                <li><a class="dropdown-item" href="#">Service traiteur</a></li>
+                                <li><a class="dropdown-item" href="#">Location de vaisselle</a></li>
+                                <li><a class="dropdown-item" href="#">Boutique</a></li>
+                            </ul>
+                            </div>
+                        <!-- <a class="links hvr-underline-from-left" href="{{ route('restaurant') }}">Le restaurant</a> -->
                         <a class="links hvr-underline-from-left" href="#">Le menu</a>
                         <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
                         <a class="links hvr-underline-from-left" href="#">Formations</a>
