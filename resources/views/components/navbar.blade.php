@@ -7,8 +7,10 @@
         <div>
             <a class="links hvr-underline-from-left" href="{{ route('homepage') }}">Notre Concept</a>
             <div class="btn-group">
-                <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le Restaurant</a>
-                <bouton type="button" class="dropdown-toggle btn-restaurant" data-bs-toggle="dropdown" aria-expanded="false"></bouton>
+                <a class="active" href=" {{ route('restaurant') }}">Le Restaurant</a>
+                <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="polygon" src="/images/Polygon.png">
+                </bouton>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
                     <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
