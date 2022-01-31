@@ -60,10 +60,10 @@ nav {
     position: relative;
 }
 
-.btn-restaurant {
-    color: white;
-    width:15px;
+.polygon {
+    margin-left: 6px;
 }
+
 .logo {
     position: relative;
     left: 32px;
@@ -124,8 +124,6 @@ a:hover {
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
 }
-
-
 
 .instaicon {
     padding-left: 32px;
