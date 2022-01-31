@@ -28,12 +28,15 @@ nav {
     height: 100px;
 }
 
-.links {
+.active {
+    border-bottom: solid 4px #A89505;
     text-decoration: none;
-}
-
-.links:active {
-    text-decoration: #A89505;
+    margin-left: 32px;
+    color: #131311;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100%;
 }
 
 a:hover {
@@ -41,6 +44,7 @@ a:hover {
 }
 
 .links {
+    text-decoration: none;
     padding-left: 32px;
     padding-bottom: 5px;
     color: #131311;

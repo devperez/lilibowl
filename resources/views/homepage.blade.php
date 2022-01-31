@@ -31,7 +31,7 @@
                 </div>
                 <div class="navbar">
                     <div>
-                        <a class="links hvr-underline-from-left" href="#concept">Notre Concept</a>
+                        <a class="active" href="#concept">Notre Concept</a>
                         <div class="btn-group">
                             <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le Restaurant</a>
                             <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
