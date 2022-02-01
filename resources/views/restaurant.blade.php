@@ -21,15 +21,40 @@
     @include('components.navbar')
         @yield('navbar')
     <!-- end navbar -->
+
     
-    <div class="topPage">
-        <img src="/images/fleur_titre.svg" alt="illustration florale">
+    <section class="topPage">
+        <div class="fleur">
+            <img src="/images/fleur_titre.svg" alt="illustration florale">
+        </div>
         <div class="pageTitle">
             <h2 class="title">Le Restaurant</h2>
         </div>
-    </div>
+        <div class="ellipse_wrapper">
+            <img class="ellipse" src="/images/Ellipse_restaurant.png" alt="ellipse décorative">
+        </div>
+    </section>
 
-    
+    <section class="restauration" id="restauration">
+        <div class="left_part">
+            <div class="title_wrapper">
+                <h4>Restauration sur place ou <br /> à emporter & service livraison</h4>
+            </div>
+            <div class="restauration_texte_wrapper">
+                <p class="restauration_texte">
+                Nous vous accueillons dans notre restaurant situé dans la plus ancienne maison médiévale du centre historique de Cahors, <strong> en service continu du lundi au vendredi de 11h00 à 15h00</strong> :<br />
+                - 6 places assises en salle,<br />
+                - terrasse et petit salon accueillants.<br />
+                <br />
+                Réservations uniquement par téléphone.<br />
+                <br />
+                Livraison continue le mardi et le jeudi dans le Grand Cahors.
+                </p>
+            </div>
+        </div>
+        <div>
+        </div>
+    </section>
     
     </body>
 </html>
