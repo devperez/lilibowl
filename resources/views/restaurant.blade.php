@@ -1,15 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!-- CSS -->        
-        <link rel="stylesheet" href="/css/restaurant_styles.css" />
+        <!--FONT-->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+        <!-- CSS -->        
+        <link rel="stylesheet" href="/css/restaurant_styles.css" />
 
         <title>Lili BOwL | Le restaurant</title>
     </head>
@@ -19,7 +22,12 @@
         @yield('navbar')
     <!-- end navbar -->
     
-    <div style="height:2000px">test</div>
+    <div class="topPage">
+        <img src="/images/fleur_titre.svg" alt="illustration florale">
+        <div class="pageTitle">
+            <h2 class="title">Le Restaurant</h2>
+        </div>
+    </div>
 
     
     

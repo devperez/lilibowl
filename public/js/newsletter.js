@@ -1,13 +1,13 @@
 //Script général pour la récupération des adresses mails
 //le token csrf est désactivé pour la route getmail
-
+console.log(Cookies.get('pop'));
 //Affichage de la pop up au bout de 5 secondes
 if(Cookies.get('pop') != 'seen') {
     $(function() {
         setTimeout(function() {
             $('#myModal').modal('show');
         },5000);
-        Cookies.set('pop','seen', {expires : 1 });
+        Cookies.set('pop','seen', {expires : 86400});
         })
     }
 
