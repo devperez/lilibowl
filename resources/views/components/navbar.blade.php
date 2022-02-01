@@ -9,11 +9,15 @@
             <div class="btn-group">
                 <a class="active" href=" {{ route('restaurant') }}">Le Restaurant</a>
                 <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="polygon" src="/images/Polygon.png">
+                <img class="polygon" src="/images/Polygonblack.png">
                 </bouton>
                 <div class="dropdown-menu">
+                <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
+                <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
+                    <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
+                    <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                 </div>
             </div>
