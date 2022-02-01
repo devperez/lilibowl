@@ -192,9 +192,9 @@ h4 {
     z-index: -2;
 }
 
-/*Section restauration */
+/*Section restauration et vaisselle */
 
-.restauration {
+.restauration, .vaisselle {
     height: 732px;
     background-color: #EBF3E7;
     z-index: 10;
@@ -203,21 +203,285 @@ h4 {
     justify-content: center;
 }
 
-.left_part {
+.left_part_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 120px;
 }
 
-.restauration_texte_wrapper {
-    width: 584px;
-    height: 372px;
+.left_part_vaisselle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 240px;
 }
 
-.restauration_texte {
+.texte_wrapper_1 {
+    width: 584px;
+    height: 372px;
+    margin-right: 54px;
+}
+
+.texte_wrapper_vaisselle {
+    width: 584px;
+    height: 175px;
+}
+
+.texte_1 {
     font-family: 'Karla', sans-serif;
     line-height: 140%;
     font-size: 24px;
 }
 
-.title_wrapper {
+.title_wrapper_1 {
     margin-bottom: 16px;
+}
+
+.right_part_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+
+
+/*Section traiteur et boutique */
+
+.traiteur, .boutique {
+    height: 732px;
+    z-index: 10;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+
+.left_part_2 {
+    margin-top: 120px;
+}
+
+.texte_wrapper_2 {
+    width: 584px;
+    height: 372px;
+    margin-left: 68px;
+}
+
+.texte_2 {
+    font-family: 'Karla', sans-serif;
+    line-height: 140%;
+    font-size: 24px;
+}
+
+.title_wrapper_2 {
+    margin-bottom: 16px;
+    margin-left: 68px;
+}
+
+.right_part_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Section FOOTER newsletter */
+
+.footer {
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.newsletter {
+    width: 710px;
+    margin-right: 104px;
+}
+
+.titre, .titre2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+    margin-top: 68px;
+    margin-bottom: 16px;
+    text-align:center;
+}
+
+.texte, .texte2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    width: 100%;
+}
+
+label {
+    font-family: 'karla', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    width: 378px;
+    height: 60px;
+    border-radius: 10px;
+    border: #c8c8c1 solid 1px;
+}
+
+.input[name="email"] {
+    font-family: 'Karla',sans-serif;
+    line-height: 140%;
+    font-size: 20px;
+    color: #131311;
+    text-indent: 16px;
+}
+
+.error {
+    display:none;
+    color:red;
+    font-family: 'Karla', sans-serif;
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: normal;
+    width: 384px;
+}
+
+.smiley {
+    vertical-align: text-bottom;
+}
+
+input::placeholder {
+    color: #97978b;
+}
+
+.button {
+    width: 378px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f8e21c;
+    color: #131311;
+    font-family: 'karla',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 32px;
+    border: none;
+    align-items: center;
+}
+
+hr {
+    margin: 0;
+}
+
+/* section FOOTER deuxième partie */
+
+footer {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.logo-contact-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
+}
+
+.logolili {
+    display: flex;
+    justify-content: center;
+    width: 365px;
+}
+
+.contact {
+    font-family: 'karla',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+}
+
+.insta {
+    margin-right: 32px;
+}
+
+.wrapper-horaires {
+    width: 365px;
+    height: 56px;
+    margin-top: 48px;
+}
+
+.horaires {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color:#131311;
+}
+
+.partagez-wrapper {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleicon {
+    margin: 0 48px 0 48px;
+}
+
+.partagez {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.last_section {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #cee2c5 0%, #fefbe1 50%);
+}
+
+.mentions {
+    margin-top: 120px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+/*pulsing heart*/
+
+.heart {
+    color: #5f9249;
+    animation: pulse 1s linear infinite;
+    height: 15px;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
