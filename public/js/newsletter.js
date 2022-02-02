@@ -7,7 +7,7 @@ if(Cookies.get('pop') != 'seen') {
         setTimeout(function() {
             $('#myModal').modal('show');
         },5000);
-        Cookies.set('pop','seen', {expires : 86400});
+        Cookies.set('pop','seen', {expires : 1});
         })
     }
 

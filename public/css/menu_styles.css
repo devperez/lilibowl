@@ -1,0 +1,142 @@
+/*règles générales*/
+body, html, main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+/*barre de navigation*/
+nav {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15) ;
+    height: 148px;
+    border: solid 1px 0 1px 0 #c8c7c1;
+    background-color: #fff;
+}
+
+.navbar {
+    position: relative;
+}
+
+.btn-restaurant {
+    color: #131311;
+    width:15px;
+}
+.logo {
+    position: relative;
+    left: 32px;
+    width: 100px;
+    height: 100px;
+}
+
+.actif {
+    border-bottom: solid 4px #DBC207;
+    text-decoration: none;
+    margin-left: 32px;
+    color: #131311;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.active:hover {
+    color: #131311;
+}
+
+.polygon {
+    margin-left: 6px;
+}
+
+a:hover {
+    color:#131311;
+}
+
+/*dropdown menu */
+
+.dropdown-menu {
+    border-radius: 0;
+    border: solid 1px #76766D;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 12px !important;
+}
+
+.dropdown-item {
+    font-family: 'Karla', sans-serif;
+    font-weight:500;
+    line-height: 100%;
+    color: #76766D;
+}
+
+/*end dropdown menu */
+
+.links {
+    text-decoration: none;
+    padding-left: 32px;
+    padding-bottom: 5px;
+    color: #131311;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100%;
+    transition-duration: 0.3s;
+}
+
+.links:hover {
+    color: #131311;
+}
+
+/*Hover animation */
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 32px;
+    right: 100%;
+    bottom: 0;
+    background: #DBC207;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+/*End hover animation*/
+
+.instaicon {
+    padding-left: 32px;
+    height: 24px;
+}
+
+.fbicon {
+    margin-left: 24px;
+    height: 24px;
+    margin-right: 32px;
+}

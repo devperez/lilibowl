@@ -7,7 +7,7 @@
         <div>
             <a class="links hvr-underline-from-left" href="{{ route('homepage') }}">Notre Concept</a>
             <div class="btn-group">
-                <a class="actif" href=" {{ route('restaurant') }}">Le Restaurant</a>
+                <a class="links hvr-underline-from-left" id="restaurant" href=" {{ route('restaurant') }}">Le Restaurant</a>
                 <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img class="polygon" src="/images/Polygonblack.png">
                 </bouton>
@@ -21,10 +21,10 @@
                     <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                 </div>
             </div>
-            <a class="links hvr-underline-from-left" href="#">Le Menu</a>
-            <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
-            <a class="links hvr-underline-from-left" href="#">Formations</a>
-            <a class="links hvr-underline-from-left" href="#contact">Contact</a>
+            <a class="links hvr-underline-from-left" id="menus" href="{{ route('menus') }}">Le Menu</a>
+            <a class="links hvr-underline-from-left" id="sensibilisation" href="#">Sensibilisation</a>
+            <a class="links hvr-underline-from-left" id="formations" href="#">Formations</a>
+            <a class="links hvr-underline-from-left" id="contact" href="#contact">Contact</a>
         </div>
         <div class="icones">
             <a href="#"><img class="instaicon" src="/images/Instagram_general.png" alt="icones du réseau social Instagram" /></a>
