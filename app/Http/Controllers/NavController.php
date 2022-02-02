@@ -15,5 +15,10 @@ class NavController extends Controller
     {
         return view('restaurant');
     }
+
+    public function menus()
+    {
+        return view('menufront');
+    }
     
 }

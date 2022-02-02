@@ -18,7 +18,7 @@ nav {
     z-index: 10000;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15) ;
     height: 148px;
-    border: solid 1px #c8c7c1;
+    border: solid 1px 0 1px 0 #c8c7c1;
     background-color: #fff;
 }
 
@@ -197,9 +197,7 @@ h4 {
 .restauration, .vaisselle {
     height: 732px;
     background-color: #EBF3E7;
-    z-index: 10;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -243,7 +241,6 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin-top: 120px;
-
 }
 
 
@@ -251,7 +248,6 @@ h4 {
 
 .traiteur, .boutique {
     height: 732px;
-    z-index: 10;
     display: flex;
     flex-direction:row-reverse;
     justify-content: center;

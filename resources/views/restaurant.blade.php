@@ -18,6 +18,8 @@
         <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         
+        <script src="/js/nav.js"></script>
+
         <title>Lili BOwL | Le restaurant</title>
     </head>
     <body>
@@ -64,7 +66,7 @@
     </section>
     
     <section class="traiteur" id="traiteur">
-    <div class="left_part_2">
+        <div class="left_part_2">
             <div class="title_wrapper_2">
                 <h4>Service traiteur (hors été) <br /> & commande de gâteaux</h4>
             </div>
@@ -107,7 +109,7 @@
     </section>
 
     <section class="boutique" id="boutique">
-    <div class="left_part_2">
+        <div class="left_part_2">
             <div class="title_wrapper_2">
                 <h4>Boutique : produits dont nous<br /> sommes ambassadeurs</h4>
             </div>
