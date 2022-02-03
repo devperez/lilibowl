@@ -12,8 +12,8 @@
                 <img class="polygon" src="/images/Polygonblack.png">
                 </bouton>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
-                <hr class="dropdown-divider">
+                    <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
+                    <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
                     <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
@@ -24,7 +24,7 @@
             <a class="links hvr-underline-from-left" id="menus" href="{{ route('menus') }}">Le Menu</a>
             <a class="links hvr-underline-from-left" id="sensibilisation" href="#">Sensibilisation</a>
             <a class="links hvr-underline-from-left" id="formations" href="#">Formations</a>
-            <a class="links hvr-underline-from-left" id="contact" href="#contact">Contact</a>
+            <a class="links hvr-underline-from-left" id="navcontact" href="#contact">Contact</a>
         </div>
         <div class="icones">
             <a href="#"><img class="instaicon" src="/images/Instagram_general.png" alt="icones du réseau social Instagram" /></a>
