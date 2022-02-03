@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Menu;
+use Illuminate\Support\Facades\DB;
+
+
 
 class NavController extends Controller
 {
@@ -18,7 +22,10 @@ class NavController extends Controller
 
     public function menus()
     {
-        return view('menufront');
+        $menu = DB::table('menus')->pluck('file');
+        $boisson = DB::table('boissons')->pluck('file');
+        $dessert = DB::table('desserts')->pluck('file');
+        return view('menufront', compact('menu', 'boisson', 'dessert'));
     }
     
 }
