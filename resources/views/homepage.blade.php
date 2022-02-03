@@ -1,6 +1,3 @@
-@extends('components.popup')
-
-@extends('components.footer')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -17,7 +14,8 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="/css/styles.css" />
-
+        <link rel="stylesheet" href="/css/footer.css" />
+        
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
@@ -233,14 +231,14 @@
                 </div>
             </section>
             <!-- FOOTER -->
-            @section('footer')
-            @endsection
+            @include('components.footer')
+            @yield('footer')
             <!-- END FOOTER -->
         </main>
 
         <!-- POP UP -->
-        @section('popup')
-            @endsection
+        @include('components.popup')
+        @yield('popup')
         <!-- END POP UP -->
     
     <script src="/js/newsletter.js"></script>
