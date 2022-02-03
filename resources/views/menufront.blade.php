@@ -38,9 +38,37 @@
         <div class="title">
             <h2>Le Menu</h2>
         </div>
-        <img src="/images/fleur.png" alt="Fleur décorative">
+        <div>
+            <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
         </div>
-    <img src="/images/Ellipse_menu.png" alt="Ellipse décorative">
+    </div>
+    <div class="left">
+        <img class="ellipse1" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
+        <img class="ellipse2" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
+        <img class="ellipse3" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
+        <img class="ellipse" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
+    </div>
+    <div class="right">
+        <img class="ellipse5" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">   
+        <img class="ellipse6" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">   
+        <img class="ellipse7" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">
+    </div>
+    <div class="display_wrapper">
+        <div class="menu">
+            @foreach ($menu as $item)
+            <img src="{{ asset('storage/menus/'.$item) }}" alt="">
+            @endforeach
+        </div>
+        <div class="menu">
+            @foreach ($boisson as $drink)
+            <img src="{{ asset('storage/boissons/'.$drink) }}" alt="">
+            @endforeach
+        </div>
+        <div class="menu">
+            @foreach ($dessert as $objet)
+            <img src="{{ asset('storage/desserts/'.$objet) }}" alt="">
+            @endforeach
+        </div>
     </div>
 </body>
 </html>

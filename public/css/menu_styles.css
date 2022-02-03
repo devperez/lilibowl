@@ -14,18 +14,68 @@ h2 {
     color: #131311;
 }
 
-.header_wrapper {
+.header_wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 310px;
-    margin-top: 150px;
 }
 
 .title {
+    margin-top: 268px;
+    margin-bottom: 120px;
+}
+
+.fleur {
+    position: absolute;
+    right: 0;
+    top: 98px;
+}
+
+/*styles des ellipses */
+
+.left {
     display: flex;
-    flex-direction: row;
-    align-self: center;
-    text-align: center;
+    flex-direction: column;
+    height: 5200px;
+    top: 228px;
+    position: absolute;
+    z-index: -2;
+}
+
+.ellipse1 {
+    margin-bottom: 400px;
+}
+
+.ellipse2, .ellipse3 {
+    margin-bottom: 800px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 5200px;
+    top: 628px;
+    position: absolute;
+    right: 0;
+    z-index: -2;
+}
+
+.ellipse5, .ellipse6 {
+    margin-bottom: 800px;
+}
+
+.diplay_wrapper {
+    width: 1000px;
+    height: 4440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    margin: auto;
+    margin-bottom: 120px;
+    width:1240px;
+    height:1755px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }

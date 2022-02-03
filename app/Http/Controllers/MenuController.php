@@ -111,7 +111,7 @@ class MenuController extends Controller
             $path = storage_path('app/public/boissons/'.$filenametostore);
             //dd($path);
             $boisson = Boisson::select('file');
-            $boisson->create([//upload du nom du fichier en base
+            $boisson->update([//upload du nom du fichier en base
             'file'=>$filenametostore,
         ]);
     
