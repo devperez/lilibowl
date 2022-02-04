@@ -116,17 +116,6 @@ $(document).ready(function(){
     });
 });
 
-//validation des fichiers
-$(document).ready(function (){
-    "use strict";
-    $('#form1').validate({
-        menu1: {
-            required:true,
-            extension:"jpg,jpeg,png",
-        }
-    });
-});
-
 //Affichage des aperçus à l'upload du menu
 $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
 
