@@ -43,7 +43,7 @@ class MenuController extends Controller
             $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
             //dd($filename);
             $extension = $request->file('menu1')->getClientOriginalExtension();
-            // dd($extension);
+            //dd($extension);
             $filenametostore = $filename.'_'.time().'.'.$extension;
             // dd($filenametostore);
             $request->file('menu1')->storeAs('public/menus', $filenametostore); //upload du fichier
