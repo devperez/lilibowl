@@ -15,7 +15,7 @@
     <p>La mise à jour a bien été effectuée.</p>
 </div>
 <div id="fail" class="alert alert-danger msg">
-    <p>Merci de bien vouloir choisir un fichier pdf compatible.</p>
+    <p>Merci de bien vouloir choisir un fichier image compatible.</p>
 </div>
 
 <div style="display:block" id="menu1">
@@ -24,7 +24,8 @@
             @csrf
                 <label class="formlabel">Mise à jour du menu principal</label>
                 <input type="file" class="fileInput btn-secondary" name="menu1"/>
-                <iframe class="prev" id="menu"></iframe>
+                <!-- <iframe class="prev" id="menu"></iframe> -->
+                <img class="prev" src="" id="menu" alt="">
                 <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
         </form>
     </div>
@@ -105,11 +106,13 @@ $(document).ready(function(){
 });
 
 //Affichage des aperçus à l'upload du menu
+$('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
 
     function readURL(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
-            
+            $('.prev').addClass().css('opacity', '1');
+
             reader.onload = function (e) {
                 $('.prev').attr('src', e.target.result);
             }
@@ -141,6 +144,8 @@ $(document).ready(function(){
         $('.fileInput').val('');
         $('#success').addClass().css('display', 'block');
         $('#success').fadeOut(4000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+
     })
     .fail(function(){
         console.log('fail');
@@ -169,6 +174,7 @@ $(document).ready(function(){
         $('.fileInput').val('');
         $('#success').addClass().css('display', 'block');
         $('#success').fadeOut(4000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(){
         console.log('fail');
@@ -197,6 +203,7 @@ $(document).ready(function(){
         $('.fileInput').val('');
         $('#success').addClass().css('display', 'block');
         $('#success').fadeOut(4000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(){
         console.log('fail');
