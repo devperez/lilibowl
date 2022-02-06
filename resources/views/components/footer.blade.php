@@ -18,7 +18,6 @@
             <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
         </form>
     </section>
-    <hr>
     <footer id="contact">
         <div class="logo-contact-photo">
             <div class="logo-contact-icones">

@@ -571,7 +571,7 @@ ul li:before {
     line-height: 140%;
     font-size: 20px;
     color: #131311;
-    text-indent: 16px;
+    /* text-indent: 16px; */
 }
 
 input::placeholder {
@@ -579,7 +579,7 @@ input::placeholder {
     line-height: 140%;
     font-size: 20px;
     color: #97978b;
-    text-indent: 0;
+    /* text-indent: 16px; */
 }
 
 .label {
