@@ -3,8 +3,6 @@ $(function () {
     $("#footerForm").on("submit",function(event) {  
         event.preventDefault();
 
-        $('#error2').addClass().css('display','none');
-        
         var formData = {
             email: $("#footerEmail").val(),
         };

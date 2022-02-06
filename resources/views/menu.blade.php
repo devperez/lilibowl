@@ -7,6 +7,7 @@
     <div class="col-lg-12">
         <div class="pull-left">
         <h2 class="formlabel">Gestion des menus</h2>
+        <p class="attention">Attention, vérifiez bien l'extention de vos fichiers. Seuls les fichiers '.jpg', '.jpeg' et '.png' sont acceptés.</p>
         </div>
     </div>
 </div>
@@ -14,38 +15,27 @@
 <div class="wrapper_form" style="display:block" id="menu1">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12" style="margin-bottom:80px; display:flex; flex-direction:row; justify-content:center;">
-                <!-- <p>Vous souhaitez mettre à jour un autre menu :</p> -->
+            <div class="col-lg-12 btn_wrapper">
                 <button style="margin-right:20px;" class="btn2 btn bg-yellow">Le menu des desserts</button>
                 <button class="btn3 btn bg-yellow">Le menu des boissons</button>
             </div>
         </div>
         <div id="success" class="alert alert-success msg">
-    <p>La mise à jour a bien été effectuée.</p>
-</div>
-<div id="fail" class="alert alert-danger msg">
-    <p>Merci de bien vouloir choisir un fichier image compatible.</p>
-</div>
+            <p>La mise à jour a bien été effectuée.</p>
+        </div>
+        <div id="fail" class="alert alert-danger msg">
+            <p>Merci de bien vouloir choisir un fichier image compatible.</p>
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <form class="menuform" id="form1" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                     <label class="formlabel">Mise à jour du menu principal</label>
-                    <input form="form1" class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
+                    <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
                     <input type="file" class="fileInput btn-secondary" name="menu1"/>
-                    <img class="prev" src="" id="menu" alt="">
+                    <img class="prev" src="" alt="">
                 </form>
             </div>
-            <!-- <div class="col-lg-6 right">
-                <input form="form1" class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
-                <div>
-                    <div>    
-                        <p>Vous souhaitez mettre à jour :</p>
-                        <button class="btn2 btn bg-yellow">Le menu des desserts</button>
-                        <button class="btn3 btn bg-yellow">Le menu des boissons</button>
-                    </div>
-                </div> -->
-            </div> -->
         </div>
     </div>
 </div>
@@ -53,40 +43,44 @@
 
 <div style="display:none" id="menu2">
     <div class="container">
-        <form class="menuform" id="form2" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
-            @csrf
-                <label class="formlabel">Mise à jour du menu des desserts</label>
-                <input type="file" class="fileInput btn-secondary" name="menu2"/>
-                <iframe class="prev"></iframe>
-                <input class="btn bg-lime submit" type="submit" id="btn2" value="Mettre à jour"/>
-        </form>
-    </div>
-    <hr>
-    <div style="display:flex; flex-direction:column; text-align:center;">
-        <div>    
-            <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1 btn btn bg-yellow">Le menu principal</button>
-            <button class="btn3 btn btn bg-yellow">Le menu des boissons</button>
+        <div class="row">
+            <div class="col-lg-12 btn_wrapper">
+                <button style="margin-right:20px;" class="btn1 btn btn bg-yellow">Le menu principal</button>
+                <button class="btn3 btn btn bg-yellow">Le menu des boissons</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="menuform" id="form2" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
+                @csrf
+                    <label class="formlabel">Mise à jour du menu des desserts</label>
+                    <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
+                    <input type="file" class="fileInput btn-secondary" name="menu2"/>
+                    <img class="prev" src="" alt="">
+                </form>
+            </div>
         </div>
     </div>
 </div>
 
 <div style="display:none" id="menu3">
     <div class="container">
-        <form class="menuform" id="form3" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
-            @csrf
-                <label class="formlabel">Mise à jour du menu des boissons</label>
-                <input type="file" class="fileInput btn-secondary" name="menu3"/>
-                <iframe class="prev"></iframe>
-                <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
-        </form>
-    </div>
-    <hr>
-    <div style="display:flex; flex-direction:column; text-align:center;">
-        <div>    
-            <p>Vous souhaitez mettre à jour :</p>
-            <button class="btn1 btn btn bg-yellow">Le menu principal</button>
-            <button class="btn2 btn btn bg-yellow">Le menu des desserts</button>
+        <div class="row">
+            <div class="col-lg-12 btn_wrapper">
+                <button style="margin-right:20px;" class="btn1 btn btn bg-yellow">Le menu principal</button>
+                <button class="btn2 btn btn bg-yellow">Le menu des desserts</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="menuform" id="form3" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
+                @csrf
+                    <label class="formlabel">Mise à jour du menu des boissons</label>
+                    <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
+                    <input type="file" class="fileInput btn-secondary" name="menu3"/>
+                    <img class="prev" src="" alt="">
+                </form>
+            </div>
         </div>
     </div>  
 </div>
