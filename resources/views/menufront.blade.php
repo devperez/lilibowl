@@ -73,5 +73,8 @@
     </div>
     @include('components.footer')
     @yield('footer')
+
+    <script src="/js/newsletterFooter.js"></script>
+
 </body>
 </html>
