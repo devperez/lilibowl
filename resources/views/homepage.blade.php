@@ -57,7 +57,7 @@
             </nav>
             <div class="hero">
                 <div class="hero-inner">
-                    <h1>Cuisine végétale<br />et éco-responsable</h1>
+                    <h1 class="accroche">Cuisine végétale<br />et éco-responsable</h1>
                 </div>
             </div>
         </section>
