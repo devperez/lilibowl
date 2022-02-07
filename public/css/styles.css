@@ -19,8 +19,19 @@ body, html, main {
 }
 
 .hero-inner {
-    width: 866px;
+    width: 1165px;
+    /* height: 628px; */
+    background-image: url(/images/blob.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.accroche {
+    padding:120px;
+}
+
+
 
 @font-face {
     font-family: 'Verona serial';
@@ -54,6 +65,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    top: 0;
+    background: linear-gradient(180deg, rgba(92, 82, 8, 0.33) 50.52%, rgba(0, 0, 0, 0) 100%);
 }
 
 .navbar {
@@ -72,7 +85,7 @@ nav {
 }
 
 .actif {
-    border-bottom: solid 4px #DBC207;
+    border-bottom: solid 3px #DBC207;
     text-decoration: none;
     margin-left: 32px;
     color: white;
@@ -122,13 +135,14 @@ a:hover {
 }
 
 .menu_item {
-    border: solid 3px #fff;
-    padding: 15px;
+    border: solid 2px #fff;
+    padding: 16px;
     border-radius: 10px;
 }
 
 .menu_item:hover {
     border: solid 3px #DBC207;
+    padding:15px;
 }
 
 .hvr-underline-from-left {
@@ -149,7 +163,7 @@ a:hover {
     right: 100%;
     bottom: 0;
     background: #DBC207;
-    height: 4px;
+    height: 3px;
     -webkit-transition-property: right;
     transition-property: right;
     -webkit-transition-duration: 0.3s;

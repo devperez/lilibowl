@@ -5,7 +5,7 @@
     </div>
     <div class="navbar">
         <div>
-            <a class="links hvr-underline-from-left" href="{{ route('homepage') }}">Notre Concept</a>
+            <a class="links hvr-underline-from-left" href="{{ route('homepage') }}#concept">Notre Concept</a>
             <div class="btn-group">
                 <a class="links hvr-underline-from-left" id="restaurant" href=" {{ route('restaurant') }}">Le Restaurant</a>
                 <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
