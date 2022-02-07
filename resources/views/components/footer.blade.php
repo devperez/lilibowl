@@ -28,10 +28,10 @@
                     <div style="text-align:center;">
                         <p class="contact">Contactez-nous</p>
                     </div>
-                    <div>
-                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">12, rue Daurade, 46000 Cahors</span><br />
-                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">06.30.03.73.89</span><br />
-                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">lilibowl.cahors@gmail.com</span>
+                    <div style="display:flex; flex-direction:column; align-items:center;">
+                        <span style="display:inline-block;margin-bottom:24px;">12, rue Daurade, 46000 Cahors</span><br />
+                        <span style="display:inline-block;margin-bottom:24px;">06.30.03.73.89</span><br />
+                        <span style="display:inline-block;margin-bottom:24px;">lilibowl.cahors@gmail.com</span>
                     </div>
                     <div>
                         <img class="insta" src="/images/Insta.png" alt="icône instagram" />
