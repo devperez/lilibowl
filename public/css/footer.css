@@ -106,17 +106,27 @@ footer {
     height: 100px;
 }
 
+.logo-contact-icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:355px;
+    margin-right:148px;
+    margin-top: -80px;
+}
+
 .logolili {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     width: 365px;
+    margin-bottom: 47px;
 }
 
 .contact {
     font-family: 'karla',sans-serif;
     font-weight: bold;
     font-size: 24px;
-    line-height: 140px;
 }
 
 address {
@@ -129,9 +139,12 @@ address {
 }
 
 .wrapper-horaires {
-    width: 365px;
+    width: 355px;
     height: 56px;
     margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .horaires {
@@ -139,6 +152,8 @@ address {
     font-style: italic;
     font-size: 20px;
     color:#131311;
+    text-align: center;
+    
 }
 
 .partagez-wrapper {
@@ -163,7 +178,6 @@ address {
 .last_section {
     margin: 0;
     padding: 0;
-    /* background: linear-gradient(180deg, #cee2c5 0%, #fefbe1 50%); */
 }
 
 .mentions {

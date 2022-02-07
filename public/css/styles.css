@@ -121,6 +121,16 @@ a:hover {
     transition-duration: 0.3s;
 }
 
+.menu_item {
+    border: solid 3px #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu_item:hover {
+    border: solid 3px #DBC207;
+}
+
 .hvr-underline-from-left {
     display: inline-block;
     vertical-align: middle;

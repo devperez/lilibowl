@@ -24,15 +24,23 @@
                 <div class="logolili">
                     <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
                 </div>
-                <p class="contact">Contactez-nous</p>
-                <address>12, rue Daurade, 46000 Cahors<br />
-                        06.30.03.73.89<br />
-                        lilibowl.cahors@gmail.com
-                </address>
-                <img class="insta" src="/images/Insta.png" alt="icône instagram" />
-                <img src="/images/Fb.png" alt="icône facebook" />
-                <div class="wrapper-horaires">
-                    <p class="horaires">Ouvert du lundi au samedi, de 11h à 15h, sur place ou à emporter.</p>
+                <div style="display:flex; flex-direction:column;align-items:center; width:355px;">
+                    <div style="text-align:center;">
+                        <p class="contact">Contactez-nous</p>
+                    </div>
+                    <div>
+                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">12, rue Daurade, 46000 Cahors</span><br />
+                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">06.30.03.73.89</span><br />
+                        <span style="display:inline-block;margin-bottom:24px; margin-top:0">lilibowl.cahors@gmail.com</span>
+                    </div>
+                    <div>
+                        <img class="insta" src="/images/Insta.png" alt="icône instagram" />
+                        <img src="/images/Fb.png" alt="icône facebook" />
+                    </div>
+                    <div class="wrapper-horaires">
+                        <div class="horaires">Ouvert du lundi au vendredi, de 11h à 15h,<br />
+                                            sur place ou à emporter.</div>
+                    </div>
                 </div>
             </div>
             <div class="photo-texte">
