@@ -91,6 +91,30 @@ a:hover {
     color: #131311;
 }
 
+.menu_item {
+    border: solid 3px #131311;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.menu_item:hover {
+    border: solid 3px #DBC207;
+}
+
+.menu_item_actif {
+    text-decoration: none;
+    color: #131311;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 24px;
+    border: solid 3px #DBC207;
+}
+
 /*Hover animation */
 
 .hvr-underline-from-left {

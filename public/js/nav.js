@@ -8,7 +8,7 @@ $(function() {
     if(URL == "http://127.0.0.1:8000/cartes")
     {
         $('#menus').removeClass();
-        $('#menus').addClass('actif');
+        $('#menus').addClass('menu_item_actif');
     }  
     if(URL == "http://127.0.0.1:8000/sensibilisation")
     {
