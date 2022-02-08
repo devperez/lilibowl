@@ -7,7 +7,7 @@
     <div class="col-lg-12">
         <div class="pull-left">
         <h2 class="formlabel">Gestion des menus</h2>
-        <p class="attention">Attention, vérifiez bien l'extention de vos fichiers. Seuls les fichiers '.jpg', '.jpeg' et '.png' sont acceptés.</p>
+        <p class="attention">Attention, vérifiez bien l'extention de vos fichiers. Seuls les fichiers '.png' sont acceptés.</p>
         </div>
     </div>
 </div>
@@ -49,6 +49,12 @@
                 <button class="btn3 btn btn bg-yellow">Le menu des boissons</button>
             </div>
         </div>
+        <div id="success2" class="alert alert-success msg">
+            <p>La mise à jour a bien été effectuée.</p>
+        </div>
+        <div id="fail2" class="alert alert-danger msg">
+            <p>Merci de bien vouloir choisir un fichier image compatible.</p>
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <form class="menuform" id="form2" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
@@ -70,6 +76,12 @@
                 <button style="margin-right:20px;" class="btn1 btn btn bg-yellow">Le menu principal</button>
                 <button class="btn2 btn btn bg-yellow">Le menu des desserts</button>
             </div>
+        </div>
+        <div id="success3" class="alert alert-success msg">
+            <p>La mise à jour a bien été effectuée.</p>
+        </div>
+        <div id="fail3" class="alert alert-danger msg">
+            <p>Merci de bien vouloir choisir un fichier image compatible.</p>
         </div>
         <div class="row">
             <div class="col-lg-12">
@@ -157,6 +169,8 @@ $(document).ready(function(){
         console.log('fail');
         $('#fail').addClass().css('display', 'block');
         $('#fail').fadeOut(5000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+        $('.fileInput').val('');
     });
 });
 });
@@ -178,14 +192,16 @@ $(document).ready(function(){
         console.log('ok');
         $('.prev').attr('src','');
         $('.fileInput').val('');
-        $('#success').addClass().css('display', 'block');
-        $('#success').fadeOut(4000);
+        $('#success2').addClass().css('display', 'block');
+        $('#success2').fadeOut(4000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(){
         console.log('fail');
-        $('#fail').addClass().css('display', 'block');
-        $('#fail').fadeOut(5000);
+        $('#fail2').addClass().css('display', 'block');
+        $('#fail2').fadeOut(5000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+        $('.fileInput').val('');
     });
 });
 });
@@ -207,14 +223,16 @@ $(document).ready(function(){
         console.log('ok');
         $('.prev').attr('src','');
         $('.fileInput').val('');
-        $('#success').addClass().css('display', 'block');
-        $('#success').fadeOut(4000);
+        $('#success3').addClass().css('display', 'block');
+        $('#success3').fadeOut(4000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(){
         console.log('fail');
-        $('#fail').addClass().css('display', 'block');
-        $('#fail').fadeOut(5000);
+        $('#fail3').addClass().css('display', 'block');
+        $('#fail3').fadeOut(5000);
+        $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+        $('.fileInput').val('');
     });
 });
 });
