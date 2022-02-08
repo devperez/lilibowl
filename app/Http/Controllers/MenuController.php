@@ -44,59 +44,59 @@ class MenuController extends Controller
             //dd($filename);
             $extension = $request->file('menu1')->getClientOriginalExtension();
             //dd($extension);
-            $filenametostore = $filename.'_'.time().'.'.$extension;
+            
+            if (($extension == "png") || ($extension == "PNG"))
+            {
+                $filenametostore = $filename.'_'.time().'.'.$extension;
             // dd($filenametostore);
-            $request->file('menu1')->storeAs('public/menus', $filenametostore); //upload du fichier
-            $path = storage_path('app/public/menus/'.$filenametostore);
+                $request->file('menu1')->storeAs('public/menus', $filenametostore); //upload du fichier
+                $path = storage_path('app/public/menus/'.$filenametostore);
             //dd($path);
-            $menu = Menu::select('file');
+                $menu = Menu::select('file');
 
-            $menu->update([
-                'file'=>$filenametostore,
-            ]);
-        
-            $menu = DB::table('menus')->pluck('file');
-            $menu = $menu[0];
-        
-            return true;
+                $menu->update([
+                    'file'=>$filenametostore,
+                ]);
+                return true;
+            }
         }
         elseif ($request->hasFile('')) {
             return false;
-        }
-        
+        };
+        // dd($request->hasFile('menu3'));
         //pour les desserts
         
         if ($request->hasFile('menu2'))
         {
+            
             $filenamewithextension = $request->file('menu2')->getClientOriginalName();
             //dd($filenamewithextension);
             $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
             //dd($filename);
             $extension = $request->file('menu2')->getClientOriginalExtension();
             // dd($extension);
-            $filenametostore = $filename.'_'.time().'.'.$extension;
+            
+            if (($extension == "png") || ($extension == "PNG"))
+            {
+                $filenametostore = $filename.'_'.time().'.'.$extension;
             //dd($filenametostore);
-            $request->file('menu2')->storeAs('public/desserts', $filenametostore); //upload du fichier dans son dossier
-            $path = storage_path('app/public/desserts/'.$filenametostore);
+                $request->file('menu2')->storeAs('public/desserts', $filenametostore); //upload du fichier dans son dossier
+                $path = storage_path('app/public/desserts/'.$filenametostore);
             //dd($path);
-            $dessert = Dessert::select('file');
-            $dessert->update([//upload du nom du fichier en base
-            'file'=>$filenametostore,
-        ]);
-
-            $dessert = DB::table('desserts')->pluck('file');
-            //dd($dessert);
-            $dessert = $dessert[0];
-            return true;
-
+                $dessert = Dessert::select('file');
+                $dessert->update([//upload du nom du fichier en base
+                'file'=>$filenametostore,
+                ]);
+                return true;
+            }
         }
         elseif ($request->hasFile(''))
         {
             return false;
-        }
+        };
         
         //pour les boissons
-        
+        //dd($request->hasFile('menu3'));
         if ($request->hasFile('menu3'))
         {
             $filenamewithextension = $request->file('menu3')->getClientOriginalName();
@@ -104,27 +104,26 @@ class MenuController extends Controller
             $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
             //dd($filename);
             $extension = $request->file('menu3')->getClientOriginalExtension();
-            // dd($extension);
-            $filenametostore = $filename.'_'.time().'.'.$extension;
+            //dd($extension);
+            //dd ($extension == "PNG");
+
+            if (($extension == "png") || ($extension == "PNG"))
+            {
+                $filenametostore = $filename.'_'.time().'.'.$extension;
             //dd($filenametostore);
-            $request->file('menu3')->storeAs('public/boissons', $filenametostore); //upload du fichier dans son dossier
-            $path = storage_path('app/public/boissons/'.$filenametostore);
+                $request->file('menu3')->storeAs('public/boissons', $filenametostore); //upload du fichier dans son dossier
+                $path = storage_path('app/public/boissons/'.$filenametostore);
             //dd($path);
-            $boisson = Boisson::select('file');
-            $boisson->update([//upload du nom du fichier en base
-            'file'=>$filenametostore,
-        ]);
-    
-            $boisson = DB::table('boissons')->pluck('file');
-            //dd($boisson);
-            $boisson = $boisson[0];
-            return true;
+                $boisson = Boisson::select('file');
+                $boisson->update([//upload du nom du fichier en base
+                'file'=>$filenametostore,
+                ]);
+                return true;
+            }
         }
-    
         elseif ($request(hasFile('')))
         {
-        return false;
+            return false;
         }
     }
-    
 }
