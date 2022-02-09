@@ -126,9 +126,5 @@ class MenuController extends Controller
                 return false;
             }
         }
-        elseif ($request(hasFile('')))
-        {
-            return false;
-        }
     }
 }

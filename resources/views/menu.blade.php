@@ -158,7 +158,7 @@ $(document).ready(function(){
         dataType: 'json',
     })
     .done(function(data){
-        console.log(data);
+        //console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success').addClass().css('display', 'block');
@@ -167,7 +167,7 @@ $(document).ready(function(){
 
     })
     .fail(function(data){
-        console.log(data);
+        //console.log(data);
         $('#fail').addClass().css('display', 'block');
         $('#fail').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
@@ -191,7 +191,7 @@ $(document).ready(function(){
         dataType: 'json',
     })
     .done(function(data){
-        console.log(data);
+        //console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success2').addClass().css('display', 'block');
@@ -199,7 +199,7 @@ $(document).ready(function(){
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(data){
-        console.log(data);
+        //console.log(data);
         $('#fail2').addClass().css('display', 'block');
         $('#fail2').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
@@ -223,7 +223,7 @@ $(document).ready(function(){
         dataType: 'json',
     })
     .done(function(data){
-        console.log(data);
+        //console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success3').addClass().css('display', 'block');
@@ -231,7 +231,7 @@ $(document).ready(function(){
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
     .fail(function(data){
-        console.log(data);
+        //console.log(data);
         $('#fail3').addClass().css('display', 'block');
         $('#fail3').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
