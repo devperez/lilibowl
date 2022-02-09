@@ -155,9 +155,10 @@ $(document).ready(function(){
         data: new FormData(this),
         processData: false,
         contentType: false,
+        dataType: 'json',
     })
-    .done(function(){
-        console.log('ok');
+    .done(function(data){
+        console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success').addClass().css('display', 'block');
@@ -165,8 +166,8 @@ $(document).ready(function(){
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
 
     })
-    .fail(function(){
-        console.log('fail');
+    .fail(function(data){
+        console.log(data);
         $('#fail').addClass().css('display', 'block');
         $('#fail').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
@@ -187,17 +188,18 @@ $(document).ready(function(){
         data: new FormData(this),
         processData: false,
         contentType: false,
+        dataType: 'json',
     })
-    .done(function(){
-        console.log('ok');
+    .done(function(data){
+        console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success2').addClass().css('display', 'block');
         $('#success2').fadeOut(4000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
-    .fail(function(){
-        console.log('fail');
+    .fail(function(data){
+        console.log(data);
         $('#fail2').addClass().css('display', 'block');
         $('#fail2').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
@@ -218,17 +220,18 @@ $(document).ready(function(){
         data: new FormData(this),
         processData: false,
         contentType: false,
+        dataType: 'json',
     })
-    .done(function(){
-        console.log('ok');
+    .done(function(data){
+        console.log(data);
         $('.prev').attr('src','');
         $('.fileInput').val('');
         $('#success3').addClass().css('display', 'block');
         $('#success3').fadeOut(4000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
     })
-    .fail(function(){
-        console.log('fail');
+    .fail(function(data){
+        console.log(data);
         $('#fail3').addClass().css('display', 'block');
         $('#fail3').fadeOut(5000);
         $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
