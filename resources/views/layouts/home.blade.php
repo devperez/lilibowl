@@ -18,6 +18,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Theme style -->
   <link rel="stylesheet" href="/adminLTE/css/adminlte.min.css">
   <link rel="stylesheet" href="/css/bostyles.css">
+
+
 </head>
 
 <body class="sidebar-mini sidebar-collapse">
@@ -182,11 +184,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- jQuery -->
 <script src="/adminLTE/plugins/jquery/jquery.min.js"></script>
+
 <!-- Bootstrap 4 -->
 <script src="/adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/adminLTE/js/adminlte.min.js"></script>
-<script src="js/backoffice/autologout.js"></script>
+<script src="/js/backoffice/autologout.js"></script>
+
 <script>
 /** add active class and stay opened when selected */
 var url = window.location;

@@ -5,7 +5,6 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <!-- <h2>Créer un nouvel administrateur</h2> -->
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
@@ -13,7 +12,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form id="#form">
+                    <form id="form">
                         @csrf
 
                         <div class="row mb-3">
@@ -45,7 +44,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Mot de passe') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Mot de passe (8 caractères minimum)') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
@@ -73,52 +72,11 @@
     </div>
     <div id="success" class="alert alert-success" style="display:none">
             <p>Le nouvel administrateur a été créé avec succès !</p>
-        </div>
+    </div>
+    <div id="fail" class="alert alert-danger" style="display:none">
+            <p>Il y a eu un problème. Vérifiez le mot de passe : il doit faire 8 caractères au minimum, vérifiez également que l'adresse mail n'existe pas déjà.</p>
+    </div>
 </div>
 
-<script>
-    
-    $(document).ready(function(){
-        $("#form").submit(function(event) {  
-            event.preventDefault();
-
-            var formData = {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                password: $("#password").val(),
-                _token: $('input[name="_token"]').val(),
-                };
-            
-            $.ajax({
-                type:"POST",
-                url: '{{ route('createnewadmin') }}',
-                data: formData,
-                dataType:"json",
-                encode: true,
-            })
-            .done(function() {
-                $('#success').addClass().css('display','block');
-            })
-            .fail(function() {
-                console.log('fail');
-            });
-        });
-    });
-
-// autologout.js
-
-$(document).ready(function () {
-    const timeout = 900000;  // 900000 ms = 15 minutes
-    var idleTimer = null;
-    $('*').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
-        clearTimeout(idleTimer);
-
-        idleTimer = setTimeout(function () {
-            document.getElementById('form_id').submit();
-        }, timeout);
-    });
-    $("body").trigger("mousemove");
-});
-
-</script>
+<script src="/js/backoffice/createNewAdmin.js"></script>
 @endsection

@@ -8,9 +8,9 @@
             <a class="links hvr-underline-from-left" href="{{ route('homepage') }}#concept">Notre Concept</a>
             <div class="btn-group">
                 <a class="links hvr-underline-from-left" id="restaurant" href=" {{ route('restaurant') }}">Le Restaurant</a>
-                <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img class="polygon" src="/images/Polygonblack.png">
-                </bouton>
+                </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
                     <hr class="dropdown-divider">

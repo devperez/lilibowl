@@ -40,7 +40,7 @@ class HomeController extends Controller
     }
     public function create(Request $request)
     {
-        // dd($request);
+        //dd($request);
         $this->validate($request, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
