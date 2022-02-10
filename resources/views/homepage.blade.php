@@ -20,6 +20,7 @@
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+        
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
     <body>
@@ -33,8 +34,8 @@
                         <a class="links hvr-underline-from-left" href="#concept">Notre Concept</a>
                         <div class="btn-group">
                             <a class="links hvr-underline-from-left" href=" {{ route('restaurant') }}">Le Restaurant</a>
-                            <bouton type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img class="polygon" src="/images/Polygon.png"></bouton>
+                            <a href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="polygon" src="/images/Polygon.png" alt="flêche du menu déroulant"></a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
                                 <hr class="dropdown-divider">
@@ -127,11 +128,10 @@
                     </div>
                 </div>
                     
-                </div>
             </section>
             <section class="container-frise">
                 <div class="marque">
-                    <div class="mots-clés" data-text="SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183 SANS GLUTEN &#183 LOCAL &#183 VÉGÉTALIEN &#183 ÉTIQUE &#183 SANS PLASTIQUE &#183 BIO &#183 SAIN &#183 ÉCO-RESPONSABLE &#183 DURABLE &#183 FAIT MAISON &#183"></div>
+                    <div class="mots-clés" data-text="SANS GLUTEN &#183; LOCAL &#183; VÉGÉTALIEN &#183; ÉTIQUE &#183; SANS PLASTIQUE &#183; BIO &#183; SAIN &#183; ÉCO-RESPONSABLE &#183; DURABLE &#183; FAIT MAISON &#183; SANS GLUTEN &#183; LOCAL &#183; VÉGÉTALIEN &#183; ÉTIQUE &#183; SANS PLASTIQUE &#183; BIO &#183; SAIN &#183; ÉCO-RESPONSABLE &#183; DURABLE &#183; FAIT MAISON &#183;"></div>
                 </div>
             </section>
             <section class="carrousel container">
@@ -228,7 +228,7 @@
                 </div>
                 <div class="buttons">
                     <img class="previous" src="/images/previous.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
-                    <img src="/images/next.png" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
+                    <img src="/images/next.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
                 </div>
             </section>
             <!-- FOOTER -->

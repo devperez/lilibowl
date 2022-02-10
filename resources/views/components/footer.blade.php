@@ -53,7 +53,7 @@
             <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" /> par David PEREZ</span>
+            <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par David PEREZ</span>
         </div>
     </footer>
 </div>

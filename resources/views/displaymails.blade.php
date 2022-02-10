@@ -70,10 +70,5 @@ $(document).ready(function (){
             $("#msg").fadeOut(5000);
         })
     })
-    
-
-
-
-
 </script>
 @endsection
