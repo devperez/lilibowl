@@ -186,7 +186,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/adminLTE/js/adminlte.min.js"></script>
-
+<script src="js/backoffice/autologout.js"></script>
 <script>
 /** add active class and stay opened when selected */
 var url = window.location;
