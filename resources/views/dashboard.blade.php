@@ -32,7 +32,7 @@
         </form>
       </div>
     </div>
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
 </div>
 
 
