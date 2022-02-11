@@ -46,8 +46,8 @@
                                 <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                             </div>
                         </div>
-                        <a class="links hvr-underline-from-left" href="#">Sensibilisation</a>
-                        <a class="links hvr-underline-from-left" href="#">Formations</a>
+                        <a class="links hvr-underline-from-left" href="{{ route('sensibilisation') }}">Sensibilisation</a>
+                        <a class="links hvr-underline-from-left" href="{{ route('formations') }}">Formations</a>
                         <a class="links menu_item" href="{{ route('menus') }}">Le Menu</a>
                         <a class="links hvr-underline-from-left" href="#contact">Contact</a>
                     </div>
@@ -243,5 +243,6 @@
         <!-- END POP UP -->
     
     <script src="/js/newsletter.js"></script>
+    <script src="/js/newsletterFooter.js"></script>
 </body>
 </html>

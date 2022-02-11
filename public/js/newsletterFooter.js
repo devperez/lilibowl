@@ -24,6 +24,7 @@ $(function () {
         })
         .fail(function() {
             $('#error2').addClass().css('display','block');
+            $('.crossErrorWrapper2').addClass().css('display', 'inline');
             // console.log('fail');
         });
     });

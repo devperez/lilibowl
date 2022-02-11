@@ -32,6 +32,7 @@
                                 <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
                                     <label class="label">Email</label>
                                     <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
+                                    <span class="crossErrorWrapper"><img class="crossError" src="/images/icone_croix.png" alt="croix rouge d'erreur"/></span>
                                     <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                     <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
                                 </form>

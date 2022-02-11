@@ -28,4 +28,12 @@ class NavController extends Controller
         return view('menufront', compact('menu', 'boisson', 'dessert'));
     }
     
+    public function sensibilisation()
+    {
+        return view('sensibilisation');
+    }
+    public function formations()
+    {
+        return view('formations');
+    }
 }

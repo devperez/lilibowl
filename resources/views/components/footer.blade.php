@@ -14,6 +14,7 @@
         <form class="inscription" id="footerForm" method="POST" action="{{ route('getmail') }}">
             <label>Email</label>
             <input class="input" type="email" name="email" id="footerEmail" placeholder="lili@mail.com">
+            <span class="crossErrorWrapper2"><img class="crossError2" src="/images/icone_croix.png" alt="croix rouge d'erreur"/></span>
             <p class="error" id="error2">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
             <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
         </form>

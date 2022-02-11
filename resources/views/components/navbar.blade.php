@@ -21,8 +21,8 @@
                     <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                 </div>
             </div>
-            <a class="links hvr-underline-from-left" id="sensibilisation" href="#">Sensibilisation</a>
-            <a class="links hvr-underline-from-left" id="formations" href="#">Formations</a>
+            <a class="links hvr-underline-from-left" id="sensibilisation" href="{{ route('sensibilisation') }}">Sensibilisation</a>
+            <a class="links hvr-underline-from-left" id="formations" href="{{ route('formations') }}">Formations</a>
             <a class="links menu_item" id="menus" href="{{ route('menus') }}">Le Menu</a>
             <a class="links hvr-underline-from-left" id="navcontact" href="#contact">Contact</a>
         </div>

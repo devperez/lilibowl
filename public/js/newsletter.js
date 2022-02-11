@@ -14,50 +14,15 @@ if(Cookies.get('pop') != 'seen') {
 }
 
 
+//Récupération du mail donné dans la pop up
+$("#form").on("submit",function(event) {  
+    event.preventDefault();
+    $('#error').addClass().css('display','none');
 
-// Récupération du mail s'il est donné dans le footer
-$(function () {
-    $("#footerForm").on("submit",function(event) {  
-        event.preventDefault();
-
-        $('#error2').addClass().css('display','none');
-        
-        var formData = {
-            email: $("#footerEmail").val(),
-        };
-        // console.log(formData);
-        $.ajax({
-            type: "POST",
-            url: "http://127.0.0.1:8000/getmail",
-            data: formData,
-            dataType: "json",
-            encode: true,
-        })
-        .done(function() {
-            // console.log('ok');
-            $('.titre').addClass().css('display','none');
-            $('.texte').addClass().css('display','none');
-            $('.titre2').addClass().css('display','block');
-            $('.texte2').addClass().css('display','block');
-            $('#footerForm').addClass().css('display','none');
-        })
-        .fail(function() {
-            $('#error2').addClass().css('display','block');
-            // console.log('fail');
-        });
-    });
-
-    //Récupération du mail s'il est donné dans la pop up
-    $("#form").on("submit",function(event) {  
-        event.preventDefault();
-
-        $('#error').addClass().css('display','none');
-
-        var formData = {
-            email: $("#email").val(),
-        };
-
-// console.log(formData);
+    var formData = {
+        email: $("#email").val(),
+    };
+    // console.log(formData);
     $.ajax({
         type:"POST",
         url: "http://127.0.0.1:8000/getmail",
@@ -81,9 +46,9 @@ $(function () {
     })
     .fail(function() {
         $('#error').addClass().css('display','flex');
+        $('.crossErrorWrapper').addClass().css('display','inline');
         $('.label').addClass().css('width', '50%');
         $('.form').addClass().css('align-items', 'center');
         // console.log('undone');
         });
     });
-});

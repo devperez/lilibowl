@@ -621,3 +621,13 @@ input::placeholder {
     width: 384px;
 }
 
+.crossErrorWrapper {
+    position:relative;
+    right:42px;
+    top:21px;
+    display:none;
+}
+
+.crossError {
+    position:absolute;
+}

@@ -89,6 +89,17 @@ input::placeholder {
     width: 384px;
 }
 
+.crossErrorWrapper2 {
+    position:relative;
+    left:350px;
+    bottom: 40px;
+    display:none;
+}
+
+.crossError2 {
+    position:absolute;
+}
+
 /* section FOOTER deuxième partie */
 
 footer {
