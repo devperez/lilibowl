@@ -193,6 +193,14 @@ main {
     align-items: center;
 }
 
+.fleurDeco2 {
+    display: none;
+}
+
+.concept_title {
+    display: flex;
+}
+
 .concept {
     margin-top: 120px;
     width: 890px;
@@ -202,7 +210,7 @@ main {
 
 }
 
-h2 {
+.concept_title {
     margin-bottom: 36px;
     font-family: 'josefin Sans', sans-serif;
     font-weight:600;
@@ -217,10 +225,6 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-}
-
-.concepttext {
-    margin-right: 36px;
     color:#131311;
 }
 
@@ -630,4 +634,56 @@ input::placeholder {
 
 .crossError {
     position:absolute;
+}
+
+
+@media screen and (max-width:900px) {
+
+    .background {
+        background-image: url(/images/mobile_background_image.png);
+    }
+
+    .accroche {
+        font-size: 48px;
+        line-height: 110%;
+    }
+
+    .hero-inner {
+        background-image: url(/images/mobile_blob.png);
+    }
+    
+    .concept_title {
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    .concept {
+        margin-top: 80px;
+    }
+
+    .conceptwrapper {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        color:#131311;
+    }
+
+    .fleurDeco1 {
+        display: none;
+    }
+
+    .fleurDeco2 {
+        display: block;
+        height: 100px;
+        position: absolute;
+        left: 220px;
+        top: -50px;
+    }
 }
