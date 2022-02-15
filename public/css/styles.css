@@ -261,8 +261,12 @@ h4 {
 
 .bowlpic {
     margin-right: 92px;
-    width: 288px;
-    height: 288px;
+    width: 319px;
+    height: 319px;
+}
+
+.bowlpicwrapper2 {
+    display: none;
 }
 
 .quotationmarksandtext {
@@ -306,6 +310,10 @@ h4 {
     text-align: end;
 }
 
+.quoteauthor2 {
+    display: none;
+}
+
 /*section engagements*/
 
 .engagement {
@@ -331,7 +339,7 @@ h4 {
     z-index: -1;
 }
 
-.engagementtitre {
+.engagementtitrewrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -339,11 +347,13 @@ h4 {
     margin-bottom: 40px;
 }
 
-h2 {
-    font-weight: 600;
+.engagementtitre {
+    font-size: 56px;
     line-height: 120%;
-    margin-bottom: 0;
+    font-weight: 600;
+    font-family: 'josefin Sans', sans-serif;
 }
+
 
 ul {
     list-style-type: none;
@@ -417,6 +427,10 @@ ul li:before {
 
 /*Section équipe*/
 
+.mobile {
+    display: none;
+}
+
 .carrousel {
     margin-bottom: 120px;
     width: 100%;
@@ -431,6 +445,9 @@ ul li:before {
 .equipe {
     margin-top: 120px;
     margin-bottom: 80px;
+    font-family: 'josefin Sans',sans-serif;
+    font-size: 56px;
+    line-height: 120%;
 }
 
 .section-title {
@@ -637,8 +654,10 @@ input::placeholder {
 }
 
 
-@media screen and (max-width:900px) {
-
+@media screen and (max-width:375px) {
+    
+    /*HERO*/
+    
     .background {
         background-image: url(/images/mobile_background_image.png);
     }
@@ -652,6 +671,8 @@ input::placeholder {
         background-image: url(/images/mobile_blob.png);
     }
     
+    /*CONCEPT*/
+
     .concept_title {
         font-size: 32px;
         line-height: 120%;
@@ -661,6 +682,9 @@ input::placeholder {
 
     .concept {
         margin-top: 80px;
+        margin-right: 16px;
+        margin-left: 16px;
+        height: 800px;
     }
 
     .conceptwrapper {
@@ -686,4 +710,185 @@ input::placeholder {
         left: 220px;
         top: -50px;
     }
+
+    /*pourquoi lili bowl*/
+    
+    .quotationwrapper {
+        margin-top: 48px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 80px;
+    }
+
+    .pourquoi {
+        font-size: 24px;
+    }
+
+    .bowlpicwrapper1 {
+        display: none;
+    }
+
+    .bowlpicwrapper2 {
+        margin-top: 16px;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    .bowlpic2 {
+        height: 200px;
+        height: 200px;
+    }
+
+    .quotemark1 {
+        margin-right: -20px;
+    }
+
+    .quoteandtext {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 311px;
+    }
+
+    .quotetext {
+        width: 285px;
+        line-height: 140%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .quoteauthor {
+        display: none;
+    }
+
+    .quoteauthor2 {
+        display: inline-block;
+        width: 95%;
+        text-align: end;
+    }
+
+    .quotationmarkright {
+        display: none;
+    }
+
+    /*Engagements*/
+
+    .engagementtitre {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .engagement {
+        width:375px;
+        margin-bottom: 0;
+    }
+
+    .wrapper_engagement {
+        width: 327px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .texteli {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        padding-right: 16px;
+    }
+    
+    .fleur_engagement {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    /*SECTIO FRISE */
+
+    .marque [data-text] {
+        height: 80px;
+        padding-top: 25px;
+    }
+
+    .mots-clés {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+
+    /*SECTION CARROUSEL */
+
+    .carrousel, .buttons {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin-top: 80px;
+        width: 375px;
+        margin-bottom: 80px;
+    }
+
+    .mobile_section-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile_equipe {
+        font-family: 'josefin Sans', sans-serif;
+        font-size: 32px;
+        line-height: 120%;
+        font-weight: 700;
+    }
+
+    .membre {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .mobile_profile-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .membrepic {
+        width: 250px;
+        height: 250px;
+        align-items: center;
+    }
+
+    .mobile_profile_title_wrapper {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .mobile_profile_title {
+        font-size: 24px;
+        line-height: 120%;
+        color:#A89505;
+        font-family: 'josefin Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .mobile_profile_text_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile_profile_text {
+        font-size: 16px;
+        line-height: 140%;
+        width: 375px;
+    }
+
+    .separator {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
 }

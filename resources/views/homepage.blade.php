@@ -124,12 +124,18 @@
                     <img class="fleurDeco1" src="/images/homepage_fleur.svg" alt="illustration botanique" />
                 </div>
             </section>
+
             <section class="quotationwrapper">
-                <div class="bowlpicwrapper">
+                <div class="bowlpicwrapper1">
                     <img class="bowlpic" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
                 </div>
                 <div class="innerwrapper">
-                    <h4>Pourquoi le nom Lili BOwL ?</h4>
+                    <div class="pourquoiwrapper">
+                        <h4 class="pourquoi">Pourquoi le nom Lili BOwL ?</h4>
+                    </div>
+                    <div class="bowlpicwrapper2">
+                    <img class="bowlpic2" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
+                </div>
                     <div class="quoteandtext">
                         <div class="quotationmarkleft">
                             <img class="quotemark1" src="/images/homepage_quotationmark1.png" alt="guillemets stylisés" />
@@ -140,7 +146,8 @@
                             de céréales et de légumineuses qui composent un repas complet, sain et équilibré. Par ailleurs, j’ai voulu un animal de la vie sauvage
                             pour illustrer le logo parce que j’adore cuisiner le fruit de mes cueillettes lors de mes balades en forêt.<br />
                             « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Et ne soyez pas étonnés si nous prenons plaisir à vous appeler
-                            nos chouettes clients !
+                            nos chouettes clients !<br />
+                            <span class="quoteauthor2">Julie</span>
                             </p>
                             <p class="quoteauthor">Julie</p>
                         </div>
@@ -150,9 +157,10 @@
                     </div>
                 </div>
             </section>
+
             <section class="engagement">
-                <div class="engagementtitre">
-                    <h2>Nos engagements</h2>
+                <div class="engagementtitrewrapper">
+                    <h2 class="engagementtitre">Nos engagements</h2>
                 </div>
                 <div class="wrapper_engagement">
                     <div>
@@ -170,17 +178,20 @@
                         <img src="/images/homepage_fleur2.svg" alt="illustration florale" />
                     </div>
                 </div>
-                    
             </section>
+
             <section class="container-frise">
                 <div class="marque">
                     <div class="mots-clés" data-text="SANS GLUTEN &#183; LOCAL &#183; VÉGÉTALIEN &#183; ÉTIQUE &#183; SANS PLASTIQUE &#183; BIO &#183; SAIN &#183; ÉCO-RESPONSABLE &#183; DURABLE &#183; FAIT MAISON &#183; SANS GLUTEN &#183; LOCAL &#183; VÉGÉTALIEN &#183; ÉTIQUE &#183; SANS PLASTIQUE &#183; BIO &#183; SAIN &#183; ÉCO-RESPONSABLE &#183; DURABLE &#183; FAIT MAISON &#183;"></div>
                 </div>
             </section>
+
             <section class="carrousel container">
                 <div class="section-title">
                     <h2 class="equipe">L'équipe Lili BOwL</h2>
                 </div>
+
+                <!-- Wrapper du carrousel / version desktop -->
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -272,6 +283,106 @@
                 <div class="buttons">
                     <img class="previous" src="/images/previous.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
                     <img src="/images/next.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
+                </div>
+            </section>
+
+            <!-- FIN du CARROUSEL / Début version mobile -->
+            <section class="mobile">
+                <div class="mobile_section-title">
+                    <h2 class="mobile_equipe">L'équipe Lili BOwL</h2>
+                </div>
+                <div class="membre">
+                    <div class="mobile_profile-pic">
+                        <img src="/images/homepage_photoJulie.png" class="membrepic" alt="photo de Julie Giverne">
+                    </div>
+                    <div class="mobile_profile_title_wrapper">
+                        <h5 class="mobile_profile_title">Julie Giverne, à l'origine<br /> de ce beau projet</h5>
+                    </div>
+                    <div class="mobile_profile_text1_wrapper">
+                        <p class="mobile_profile_text1">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
+                        ma mémoire, les saveurs de la cuisine maternelle, une cuisine à base de céréales et de végétaux, qui soigne et
+                        qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires
+                        ont été inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />
+                        J’ai toujours été convaincue d’une relation étroite entre l’alimentation, la santé et le bien-être, mais jamais
+                        je n’aurais pensé ouvrir un jour mon restaurant. Jusqu’à cette nuit où, cherchant à créer une activité de sens,
+                        en lien avec le respect de soi, de l’environnement, de la santé, j’ai eu envie de partager ma cuisine aux autres.
+                        Commençant dans la cuisine de ma maison, j’ai débuté par livrer des repas à vélo, et c’est en été 2020 que j’ouvre
+                        la porte de mon propre restaurant au profit d’une cuisine végétale et gourmande !<br /><br />
+                        Dans mon rôle de cheffe d’entreprise, je partage avec conviction une attitude sincèrement positive à l’égard de mes
+                        collaborateurs en basant la relation de travail sur la confiance, la motivation, le respect et l’écoute. 
+                        </p>
+                    </div>
+                    <div class="separator">
+                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                    </div>
+                </div>
+                <div class="membre">
+                    <div class="mobile_profile-pic">
+                        <img src="/images/homepage_photoEmilie.png" class="membrepic" alt="photo d'Émilie">
+                    </div>
+                    <div class="mobile_profile_title_wrapper">
+                        <h5 class="mobile_profile_title">Émilie</h5>
+                    </div>
+                    <div class="mobile_profile_text_wrapper">
+                        <p class="mobile_profile_text">Depuis l’enfance, j’ai été sensibilisée à l’impact de mon alimentation sur ma santé.
+                            Puis par goût, mais également par convictions liées au bien-être animal et à l’écologie, j’ai pris la décision
+                            de ne plus manger de viande. Est alors née une prise de conscience : la nourriture que nous consommons est trop
+                            grasse, trop transformée et trop carnée.<br /><br />
+                            Globetrotteuse super active nouvellement installée dans le Lot, je mets un point d’honneur à ce que mes habitudes
+                            de vie et mes voyages soient les plus respectueux possible pour la planète. Depuis plusieurs années maintenant,
+                            je suis un régime entièrement végétal. J’accompagne aujourd’hui le restaurant Lili BOwL avec engagement, joie et
+                            bonne humeur en cuisine, au service et sur l’ensemble des projets de sensibilisation naissants ! Je suis fière de
+                            mettre au service de cette entreprise mes compétences en marketing et communication. 
+                        </p>
+                    </div>
+                    <div class="separator">
+                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                    </div>
+                </div>
+                <div class="membre">
+                    <div class="mobile_profile-pic">
+                        <img src="/images/homepage_photoThomas.png" class="membrepic" alt="photo de Thomas">
+                    </div>
+                    <div class="mobile_profile_title_wrapper">
+                        <h5 class="mobile_profile_title">Thomas</h5>
+                    </div>
+                    <div class="mobile_profile_text_wrapper">
+                        <p class="mobile_profile_text">Pur produit lotois, j’ai fait avec fierté mes classes dans dans les restaurants
+                            Le Melchior et Au Fil des Douceurs de Cahors. Après plusieurs années, notamment sur Toulouse et en Espagne,
+                            j'ai souhaité travailler dans un restaurant italien où j’ai pu élaborer avec amour et précision l’une de mes
+                            recettes végétaliennes préférées de lasagnes au pesto ! Aujourd’hui je partage fièrement les valeurs de Lili
+                            BOwL qui n’utilise que de bons produits, majoritairement en circuit court, pour respecter au mieux l'environnement.
+                            <br /><br />
+                            Issu d’une famille d’agriculteurs et de maraîchers bio, j’ai été dès le plus jeune âge sensible à l’origine,
+                            la qualité et la fraîcheur de mes produits. Mon projet serait d’ouvrir un restaurant avec un potager bio, où
+                            je pourrais cultiver mes propres légumes que l’on retrouvera à la carte.  
+                        </p>
+                    </div>
+                    <div class="separator">
+                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                    </div>
+                </div>
+                <div class="membre">
+                    <div class="mobile_profile-pic">
+                        <img src="/images/homepage_photoAnaelle.png" class="membrepic" alt="photo d'Anaëlle">
+                    </div>
+                    <div class="mobile_profile_title_wrapper">
+                        <h5 class="mobile_profile_title">Anaëlle</h5>
+                    </div>
+                    <div class="mobile_profile_text_wrapper">
+                        <p class="mobile_profile_text">Lorsque j'ai franchi pour la première fois la porte du restaurant Lili BOwL, j’étais une
+                            lycéenne de 18 ans, sans expérience technique en cuisine. Mais une véritable soif d’apprendre en cuisine
+                            professionnelle m’animait. Julie avait alors pris le risque de me faire confiance en me transmettant son
+                            savoir-faire, mais aussi son amour pour les bons produits et pour le travail bien fait.<br /><br />
+                            J’ai passé des moments formidables, entourée d’une équipe souriante et bienveillante et ayant toujours
+                            pour but de fournir aux clients une cuisine plaisir qui a du goût, mais aussi de leur faire vivre une
+                            véritable expérience humaine et éco responsable !<br /><br />
+                            Après mon année passée parmi les chouettes Lili BOwL, je suis à présent étudiante en école de management
+                            hôtelier, Vatel à Paris, où je travaille pour les plus grands noms de l'hôtellerie comme le Four Seasons 
+                            où je suis comblée. Il n’y a pas un jour où je n’utilise pas les compétences transversales que j’ai apprises
+                            chez Lili BOwL qui m’a permis de mettre le pied à l’étrier, ce qui est souvent le plus difficile ! 
+                        </p>
+                    </div>
                 </div>
             </section>
             <!-- FOOTER -->
