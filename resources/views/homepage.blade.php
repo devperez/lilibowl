@@ -298,8 +298,8 @@
                     <div class="mobile_profile_title_wrapper">
                         <h5 class="mobile_profile_title">Julie Giverne, à l'origine<br /> de ce beau projet</h5>
                     </div>
-                    <div class="mobile_profile_text1_wrapper">
-                        <p class="mobile_profile_text1">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
+                    <div class="mobile_profile_text_wrapper">
+                        <p class="mobile_profile_text">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
                         ma mémoire, les saveurs de la cuisine maternelle, une cuisine à base de céréales et de végétaux, qui soigne et
                         qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires
                         ont été inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />

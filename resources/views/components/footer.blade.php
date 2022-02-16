@@ -25,16 +25,18 @@
                 <div class="logolili">
                     <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
                 </div>
+                <div class="mobile_horaires">Ouvert du lundi au vendredi,<br /> de 11h à 15h,
+                                            sur place ou à emporter.</div>
                 <div style="display:flex; flex-direction:column;align-items:center; width:355px;">
                     <div style="text-align:center;">
                         <p class="contact">Contactez-nous</p>
                     </div>
-                    <div style="display:flex; flex-direction:column; align-items:center;">
-                        <span style="display:inline-block;margin-bottom:24px;">12, rue Daurade, 46000 Cahors</span><br />
-                        <span style="display:inline-block;margin-bottom:24px;">06.30.03.73.89</span><br />
-                        <span style="display:inline-block;margin-bottom:24px;">lilibowl.cahors@gmail.com</span>
+                    <div class="detail_wrapper">
+                        <span class="detail">12, rue Daurade, 46000 Cahors</span><br />
+                        <span class="detail">06.30.03.73.89</span><br />
+                        <span class="detail">lilibowl.cahors@gmail.com</span>
                     </div>
-                    <div>
+                    <div class="social_wrapper">
                         <img class="insta" src="/images/Insta.png" alt="icône instagram" />
                         <img src="/images/Fb.png" alt="icône facebook" />
                     </div>
@@ -50,8 +52,10 @@
         </div>
         <div class="partagez-wrapper">
             <span class="partagez">Partagez votre expérience :</span>
-            <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" />
-            <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
+            <div class="icones_wrapper">
+                <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" />
+                <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
+            </div>
         </div>
         <div class="mentions">
             <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par David PEREZ</span>
