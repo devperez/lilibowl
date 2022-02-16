@@ -52,6 +52,17 @@ label {
     transition: transform .5s ease-in-out;
 }
 
+.h1 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 40px;
+}
+
 .asideList {
     list-style: none;
     padding: 0;
@@ -128,13 +139,4 @@ input[type="checkbox"]:checked ~ label .middle {
 
 .middle {
     margin: 0 auto;
-}
-
-.ua {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    color: #0799d3;
-    font-size: 2em;
-    z-index: 2;
 }

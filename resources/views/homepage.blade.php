@@ -25,14 +25,14 @@
         
         <title>Lili BoWL - Cuisine végétale et éco-responsable</title>
     </head>
-    <body>
+    <body class="content">
         <section class="background">
+        @include('components.navbar_mobile')
+                @yield('navbar_mobile')
             <nav>
                 <div id="logo">
                     <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
                 </div>
-                @include('components.navbar_mobile')
-                @yield('navbar_mobile')
                 <div class="navbar">
                     <div>
                         <a class="links hvr-underline-from-left" href="#concept">Notre Concept</a>
