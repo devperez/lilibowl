@@ -16,6 +16,8 @@
         <!-- CSS -->
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="stylesheet" href="/css/footer.css" />
+        <link rel="stylesheet" href="/css/navbar_mobile.css" />
+
         
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -29,6 +31,8 @@
                 <div id="logo">
                     <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
                 </div>
+                @include('components.navbar_mobile')
+                @yield('navbar_mobile')
                 <div class="navbar">
                     <div>
                         <a class="links hvr-underline-from-left" href="#concept">Notre Concept</a>
@@ -57,45 +61,6 @@
                     </div>
                 </div>
             </nav>
-            <!-- <nav class="navbar navbar-expand-lg navbar-light navCustom">
-                <div class="container-fluid">
-                 <div id="logo">
-                <img class="logo navbar-brand" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
-                 </div> 
-                 <div class="navbarCustom"> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menuCustom" id="navbarNavDropdown">
-                <div>
-                    <a class="links hvr-underline-from-left" aria-current="page" href="{{ route('homepage') }}#concept">Notre Concept</a>
-                    <div class="btn-group">
-                        <a class="links hvr-underline-from-left" id="restaurant" href=" {{ route('restaurant') }}">Le Restaurant</a>
-                        <a href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="polygon" src="/images/Polygon.png"></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
-                            <hr class="dropdown-divider">
-                            <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
-                            <hr class="dropdown-divider">
-                            <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
-                            <hr class="dropdown-divider">
-                            <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
-                        </div>
-                    </div>
-                    <a class="links hvr-underline-from-left" id="sensibilisation" href="{{ route('sensibilisation') }}">Sensibilisation</a>
-                    <a class="links hvr-underline-from-left" id="formations" href="{{ route('formations') }}">Formations</a>
-                    <a class="links menu_item" id="menus" href="{{ route('menus') }}">Le Menu</a>
-                    <a class="links hvr-underline-from-left" id="navcontact" href="#contact">Contact</a>
-                </div>
-                <div class="icones">
-                    <a href="#"><img class="instaicon" src="/images/Instagram.png" alt="icones du réseau social Instagram" /></a>
-                    <a href="#"><img class="fbicon" src="/images/Facebook.png" alt="icones du réseau social Facebook" /></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav> -->
 
             <div class="hero">
                 <div class="hero-inner">

@@ -336,7 +336,7 @@ address {
         margin-left: 16px;
         margin-right: 16px;
         width: 100%;
-        text-align: center;
+        align-content: center;
         margin-top: 80px;
     }
 
