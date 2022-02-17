@@ -53,6 +53,10 @@ body, html, main {
 }
 
 /*barre de navigation*/
+.navbar_mobile {
+    display: none;
+}
+
 nav {
     width:100%;
     display: flex;
@@ -657,6 +661,24 @@ input::placeholder {
 @media screen and (max-width:375px) {
     
     /*HERO*/
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin-top: 12px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        padding-top: 33px;
+        padding-right: 12px;
+    }
     
     .background {
         background-image: url(/images/mobile_background_image.png);
@@ -684,19 +706,21 @@ input::placeholder {
         margin-top: 80px;
         margin-right: 16px;
         margin-left: 16px;
-        height: 800px;
     }
 
     .conceptwrapper {
-        font-size: 16px;
-        line-height: 140%;
         width: 327px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-bottom: 60px;
         color:#131311;
+    }
+
+    .concepttext {
+        font-size: 16px;
+        line-height: 140%;
+        font-family: 'Karla', sans-serif;
     }
 
     .fleurDeco1 {
@@ -714,7 +738,7 @@ input::placeholder {
     /*pourquoi lili bowl*/
     
     .quotationwrapper {
-        margin-top: 48px;
+        margin-top: 24px;
         margin-right: 16px;
         margin-left: 16px;
         margin-bottom: 80px;
@@ -735,7 +759,7 @@ input::placeholder {
     }
 
     .bowlpic2 {
-        height: 200px;
+        width: 200px;
         height: 200px;
     }
 
