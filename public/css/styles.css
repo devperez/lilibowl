@@ -364,14 +364,14 @@ ul {
     margin-bottom: 56px;
 }
 
-li {
+.li_engagement {
     width: 650px;
     margin-bottom: 24px;
     display: flex;
     flex-direction: row;
 }
 
-ul li:before {
+.li_engagement:before {
     content:"\2022";
     margin-right: 16px;
     color: #5f9249;
@@ -666,8 +666,13 @@ input::placeholder {
         width: 75px;
         height: 75px;
         margin-top: 12px;
+        left:12px;
     }
 
+    #logo {
+        width: 100%;
+    }
+    
     .navbar {
         display: none;
     }
@@ -676,7 +681,6 @@ input::placeholder {
         display: flex;
         flex-direction: row;
         justify-content: end;
-        padding-top: 33px;
         padding-right: 12px;
     }
     
@@ -827,7 +831,7 @@ input::placeholder {
         padding: 0;
     }
 
-    /*SECTIO FRISE */
+    /*SECTION FRISE */
 
     .marque [data-text] {
         height: 80px;

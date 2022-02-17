@@ -27,13 +27,11 @@
     </head>
     <body class="content">
         <section class="background">
-            <div class="navbar_mobile">
-                @include('components.navbar_mobile')
-                @yield('navbar_mobile')
-            </div>
             <nav>
                 <div id="logo">
                     <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
+                    @include('components.navbar_mobile')
+                    @yield('navbar_mobile')
                 </div>
                 <div class="navbar">
                     <div>
@@ -132,13 +130,13 @@
                 <div class="wrapper_engagement">
                     <div>
                         <ul>
-                            <li><p class="texteli">Proposer une cuisine sans gluten et végétale variée aux influences du monde.</p></li>
-                            <li><p class="texteli">Utiliser des produits majoritairement issus de l’agriculture biologique, sans pesticides et de saison.</p></li>
-                            <li><p class="texteli">Connaître les producteurs et privilégier les circuits courts pour éviter le gaspillage alimentaire et favoriser l’économie locale.</p></li>
-                            <li><p class="texteli">Respecter l’environnement dans une démarche éco-responsable (lunch boxes consignées en verre, tri sélectif, compost,
+                            <li class="li_engagement"><p class="texteli">Proposer une cuisine sans gluten et végétale variée aux influences du monde.</p></li>
+                            <li class="li_engagement"><p class="texteli">Utiliser des produits majoritairement issus de l’agriculture biologique, sans pesticides et de saison.</p></li>
+                            <li class="li_engagement"><p class="texteli">Connaître les producteurs et privilégier les circuits courts pour éviter le gaspillage alimentaire et favoriser l’économie locale.</p></li>
+                            <li class="li_engagement"><p class="texteli">Respecter l’environnement dans une démarche éco-responsable (lunch boxes consignées en verre, tri sélectif, compost,
                                     revalorisation des déchets…).</p></li>
-                            <li><p class="texteli">Éduquer le plus grand nombre à l’alimentation santé et au goût.</p></li>
-                            <li><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
+                            <li class="li_engagement"><p class="texteli">Éduquer le plus grand nombre à l’alimentation santé et au goût.</p></li>
+                            <li class="li_engagement"><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
                         </ul>
                     </div>
                     <div class="fleur_engagement">
