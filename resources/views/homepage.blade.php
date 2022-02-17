@@ -27,8 +27,10 @@
     </head>
     <body class="content">
         <section class="background">
-        @include('components.navbar_mobile')
+            <div class="navbar_mobile">
+                @include('components.navbar_mobile')
                 @yield('navbar_mobile')
+            </div>
             <nav>
                 <div id="logo">
                     <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
