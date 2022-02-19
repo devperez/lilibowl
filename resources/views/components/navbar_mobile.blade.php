@@ -1,5 +1,5 @@
 @yield("navbar_mobile")
-<div id="menu-button">
+<div class="hamburger" id="menu-button">
     <div id="line-1"></div>
     <div id="line-2"></div>
     <div id="line-3"></div>
