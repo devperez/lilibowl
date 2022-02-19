@@ -1,16 +1,20 @@
 //Script général pour la récupération des adresses mails
 //le token csrf est désactivé pour la route getmail
-//Cookies.remove('pop');
-console.log(Cookies.get('pop'));
 
+// console.log(screen.width);
+
+// Cookies.remove('pop');
+console.log(Cookies.get('pop'));
+if (screen.width >= 960) { //pas d'affichage de pop up sur les téléphones portables et les petits écrans
 //Affichage de la pop up au bout de 5 secondes
-if(Cookies.get('pop') != 'seen') {
-    $(function() {
-        setTimeout(function() {
-            $('#myModal').modal('show');
-        },5000);
-    })
-    Cookies.set('pop','seen');
+    if(Cookies.get('pop') != 'seen') {
+        $(function() {
+            setTimeout(function() {
+                $('#myModal').modal('show');
+            },5000);
+        })
+        Cookies.set('pop','seen');
+    }
 }
 
 
