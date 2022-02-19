@@ -16,6 +16,7 @@ nav {
 
 .navbar {
     position: relative;
+    display: block;
 }
 
 .btn-restaurant {
@@ -162,3 +163,6 @@ a:hover {
     height: 24px;
     margin-right: 32px;
 }
+
+
+

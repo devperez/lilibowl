@@ -143,3 +143,20 @@ h4 {
     flex-direction: column;
     justify-content: center;
 }
+
+
+@media screen and (max-width:375px) {
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    nav {
+        height: 99px;
+    }
+
+}

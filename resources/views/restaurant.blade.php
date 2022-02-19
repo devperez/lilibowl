@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="/css/navbar.css" />
         <link rel="stylesheet" href="/css/footer.css" />
         <link rel="stylesheet" href="/css/restaurant_styles.css" />
+        <link rel="stylesheet" href="/css/navbar_mobile.css" />
         
         <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -33,7 +34,6 @@
     @include('components.navbar')
         @yield('navbar')
     <!-- end navbar -->
-
     
     <section class="topPage">
         <div class="fleur">
