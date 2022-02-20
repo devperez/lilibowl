@@ -6,6 +6,10 @@ body, html, main {
     scroll-behavior:smooth;
 }
 
+.hamburger {
+    display: none;
+}
+
 /*Section Top page*/
 
 h2 {
@@ -53,11 +57,14 @@ h4 {
 }
 
 .ellipse {
-    position: relative;
     z-index: -2;
 }
 
 /*Section restauration et vaisselle */
+
+.mobile_right_part_1 {
+    display: none;
+}
 
 .restauration, .vaisselle {
     height: 732px;
@@ -146,6 +153,12 @@ h4 {
 
 
 @media screen and (max-width:375px) {
+
+    /*navbar, logo et section top page*/
+    .hamburger {
+        display: block;
+    }
+
     .navbar {
         display: none;
     }
@@ -159,4 +172,93 @@ h4 {
         height: 99px;
     }
 
+    .topPage {
+        width: 375px;
+        height: 134px;
+        margin-top: 99px;
+    }
+
+    .fleur {
+        position: relative;
+    }
+
+    .fleur_image {
+        width: 140px;
+        height: 290px;
+        position: absolute;
+        left: -45px;
+        top: -50px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .ellipse_wrapper {
+        position: relative;
+        
+    }
+
+    .ellipse {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: -130px;
+    }
+
+    /*Section restauration*/
+
+    .restauration{
+        flex-direction: column;
+        width: 375px;
+        height: 681px;
+        padding-top: 60px;
+        justify-content: center;
+    }
+
+    .right_part_1 {
+        display: none;
+    }
+
+    .mobile_right_part_1 {
+        display: block;
+    }
+
+    .title_1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .title_wrapper_1 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .picture_wrapper_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .picture_1 {
+        width: 312px;
+        height: 200px;
+    }
+
+    .texte_wrapper_1 {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 16px;
+    }
+
+    .texte_1 {
+        width: 327px;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: left;
+        
+    }
 }

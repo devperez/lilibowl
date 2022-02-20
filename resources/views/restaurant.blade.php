@@ -37,7 +37,7 @@
     
     <section class="topPage">
         <div class="fleur">
-            <img src="/images/fleur_titre.svg" alt="illustration florale">
+            <img class="fleur_image" src="/images/fleur_titre.svg" alt="illustration florale">
         </div>
         <div class="pageTitle">
             <h2 class="title">Le Restaurant</h2>
@@ -50,7 +50,12 @@
     <section class="restauration" id="restauration">
         <div class="left_part_1">
             <div class="title_wrapper_1">
-                <h4>Restauration sur place ou <br /> à emporter & service livraison</h4>
+                <h4 class="title_1">Restauration sur place ou <br /> à emporter & service livraison</h4>
+            </div>
+            <div class="mobile_right_part_1">
+                <div class="picture_wrapper_1">
+                    <img class="picture_1" src="/images/placeholder.png" alt="">
+                </div>
             </div>
             <div class="texte_wrapper_1">
                 <p class="texte_1">
