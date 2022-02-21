@@ -59,12 +59,14 @@
     margin-top: 96px;
     margin-left: 111px;
     margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 #menu ul li {
     list-style: none;
     text-align: end;
-    width: 232px;
     margin-bottom: 40px;
     color:#131311;
 }
@@ -74,7 +76,7 @@
 }
 
 #menu ul li:active {
-    color:#DBC207;
+    color:#A89505;
 }
 
 ul {
@@ -89,4 +91,19 @@ ul {
 
 .mobile_fbicon {
     margin-left: 32px;
+}
+
+.special {
+    display: inline-block;
+}
+
+.menu_item2 {
+    border: solid 2px #131311;
+    padding: 16px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.logo {
+    left: 12px;
 }
