@@ -79,7 +79,12 @@
     <section class="traiteur" id="traiteur">
         <div class="left_part_2">
             <div class="title_wrapper_2">
-                <h4>Service traiteur (hors été) <br /> & commande de gâteaux</h4>
+                <h4 class="title_2">Service traiteur (hors été) <br /> & commande de gâteaux</h4>
+            </div>
+            <div class="mobile_right_part_2">
+                <div class="picture_wrapper_2">
+                    <img class="picture_2" src="/images/placeholder.png" alt="">
+                </div>
             </div>
             <div class="texte_wrapper_2">
                 <p class="texte_2">
@@ -104,9 +109,14 @@
     <section class="vaisselle" id="vaisselle">
         <div class="left_part_vaisselle">
             <div class="title_wrapper_1">
-                <h4>Location de vaisselle</h4>
+                <h4 class="title_3">Location de vaisselle</h4>
             </div>
-            <div class="texte_wrapper_vaisselle">
+            <div class="mobile_right_part_1">
+                <div class="picture_wrapper_1">
+                    <img class="picture_3" src="/images/placeholder.png" alt="">
+                </div>
+            </div>
+            <div class="texte_wrapper_vaisselle texte_wrapper_3">
                 <p class="texte_1">
                     Vous pouvez louer notre vaisselle vintage romantique pour une table chic et conviviale (vaisselle mix and match <strong>pour 20 convives</strong>).
                 </p>
@@ -122,7 +132,12 @@
     <section class="boutique" id="boutique">
         <div class="left_part_2">
             <div class="title_wrapper_2">
-                <h4>Boutique : produits dont nous<br /> sommes ambassadeurs</h4>
+                <h4 class="title_4">Boutique</h4>
+            </div>
+            <div class="mobile_right_part_2">
+                <div class="picture_wrapper_2">
+                    <img class="picture_4" src="/images/placeholder.png" alt="">
+                </div>
             </div>
             <div class="texte_wrapper_2">
                 <p class="texte_2">
