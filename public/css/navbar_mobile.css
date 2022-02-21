@@ -77,6 +77,10 @@
     color:#DBC207;
 }
 
+ul {
+    padding: 0;
+}
+
 .mobile_icones {
     display: flex;
     flex-direction: row;
