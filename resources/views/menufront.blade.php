@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/menu_styles.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    
+    <link rel="stylesheet" href="/css/navbar_mobile.css" />
+
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
@@ -34,46 +35,48 @@
     @include('components.navbar')
     @yield('navbar')
     <!--END NAVBAR-->
-
-    <div class="header_wrapper">
-        <div class="title">
-            <h2>Le Menu</h2>
+    
+    <div class="background">
+        <div class="header_wrapper">
+            <div class="title">
+                <h2>Le Menu</h2>
+            </div>
+            <!-- <div> -->
+                <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
+            <!-- </div> -->
+        </div>
+        <div class="display_wrapper">
+            <div class="menu">
+                @foreach ($menu as $item)
+                <img src="{{ asset('storage/menus/'.$item) }}" alt="">
+                @endforeach
+            </div>
+            <div class="menu">
+                @foreach ($boisson as $drink)
+                <img src="{{ asset('storage/boissons/'.$drink) }}" alt="">
+                @endforeach
+            </div>
+            <div class="menu">
+                @foreach ($dessert as $objet)
+                <img src="{{ asset('storage/desserts/'.$objet) }}" alt="">
+                @endforeach
+            </div>
         </div>
         <div>
-            <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
+            <img class="photo" src="/images/photo_menu.png" alt="">
         </div>
     </div>
-    <div class="left">
-        <img class="ellipse1" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
-        <img class="ellipse2" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
-        <img class="ellipse3" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
-        <img class="ellipse" src="/images/Ellipse_menu.png" alt="Ellipse décorative">   
+    <div class="logos_wrapper">
+        <img class="logos" src="/images/green_food.jpg" alt="">
+        <img class="logos" src="/images/vegorest.png" alt="">
+        <img class="logos" src="/images/act4nature.png" alt="">
+        <img class="logos" src="/images/fait_maison.png" alt="">
     </div>
-    <div class="right">
-        <img class="ellipse5" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">   
-        <img class="ellipse6" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">   
-        <img class="ellipse7" src="/images/Ellipse2_menu.png" alt="Ellipse décorative">
-    </div>
-    <div class="display_wrapper">
-        <div class="menu">
-            @foreach ($menu as $item)
-            <img src="{{ asset('storage/menus/'.$item) }}" alt="">
-            @endforeach
-        </div>
-        <div class="menu">
-            @foreach ($boisson as $drink)
-            <img src="{{ asset('storage/boissons/'.$drink) }}" alt="">
-            @endforeach
-        </div>
-        <div class="menu">
-            @foreach ($dessert as $objet)
-            <img src="{{ asset('storage/desserts/'.$objet) }}" alt="">
-            @endforeach
-        </div>
-    </div>
-    @include('components.footer')
-    @yield('footer')
 
+        <!-- FOOTER -->
+        @include('components.footer')
+        @yield('footer')
+        <!--End FOOTER-->
     <script src="/js/newsletterFooter.js"></script>
 
 </body>
