@@ -30,7 +30,6 @@
     <title>Lili BOwL | Le Menu</title>
 </head>
 <body>
-    
     <!--NAVBAR-->
     @include('components.navbar')
     @yield('navbar')
@@ -39,26 +38,24 @@
     <div class="background">
         <div class="header_wrapper">
             <div class="title">
-                <h2>Le Menu</h2>
+                <h2 class="title_text">Le Menu</h2>
             </div>
-            <!-- <div> -->
-                <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
-            <!-- </div> -->
+            <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
         </div>
         <div class="display_wrapper">
             <div class="menu">
                 @foreach ($menu as $item)
-                <img src="{{ asset('storage/menus/'.$item) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/menus/'.$item) }}" alt="">
                 @endforeach
             </div>
             <div class="menu">
                 @foreach ($boisson as $drink)
-                <img src="{{ asset('storage/boissons/'.$drink) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="">
                 @endforeach
             </div>
             <div class="menu">
                 @foreach ($dessert as $objet)
-                <img src="{{ asset('storage/desserts/'.$objet) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="">
                 @endforeach
             </div>
         </div>
@@ -73,11 +70,30 @@
         <img class="logos" src="/images/fait_maison.png" alt="">
     </div>
 
-        <!-- FOOTER -->
+    <!-- FOOTER -->
         @include('components.footer')
         @yield('footer')
-        <!--End FOOTER-->
+    <!--End FOOTER-->
+
+    <div id="id_view_image_body"></div>
+    <div id="id_view_image"></div>
     <script src="/js/newsletterFooter.js"></script>
 
+    <script>
+        $("img").not(".no-fullscreen").click(function()
+    {
+        $("#id_view_image").html("<img src='"+$(this).attr('src')+"' class='view_image_img'/>");
+        $("#id_view_image_body").addClass("view_image_body");
+        $("#id_view_image").addClass("view_image");
+    });
+
+        $("#id_view_image").click(function()
+    {
+        $("#id_view_image").html("");
+        $("#id_view_image_body").removeClass("view_image_body");
+        $("#id_view_image").removeClass("view_image");
+    });
+
+    </script>
 </body>
 </html>
