@@ -155,8 +155,12 @@ h4 {
     justify-content: center;
 }
 
+.photo_before_footer {
+    width: 100%;
+    height: auto;
+}
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:300px) and (max-width:680px) {
 
     /*navbar, logo et section top page*/
     .hamburger {
@@ -177,7 +181,7 @@ h4 {
     }
 
     .topPage {
-        width: 375px;
+        width: 100%;
         height: 134px;
         margin-top: 99px;
     }
@@ -201,7 +205,6 @@ h4 {
 
     .ellipse_wrapper {
         position: relative;
-        
     }
 
     .ellipse {
@@ -215,7 +218,7 @@ h4 {
 
     .restauration {
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         height: 681px;
         padding-top: 60px;
         justify-content: center;
@@ -225,7 +228,7 @@ h4 {
         display: block;
         height: 740px;
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         justify-content: center;
         padding-bottom: 60px;
         padding-top: 60px;
@@ -238,7 +241,7 @@ h4 {
         justify-content: center;
         padding-bottom: 60px;
         padding-top: 60px;
-        width: 375px;
+        width: 100%;
     }
 
     .boutique {
@@ -248,7 +251,8 @@ h4 {
         justify-content: center;
         padding-bottom: 60px;
         padding-top: 60px;
-        width: 375px;
+        width: 100%;
+        margin-bottom: 0;
     }
 
     .right_part_1, .right_part_2 {
@@ -286,10 +290,157 @@ h4 {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .texte_1, .texte_2 {
         width: 327px;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: left;   
+    }
+}
+
+
+@media screen and (min-width: 681px) and (max-width:960px) {
+
+    /*navbar, logo et section top page*/
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    nav {
+        height: 99px;
+    }
+
+    .topPage {
+        width: 100%;
+        height: 134px;
+        margin-top: 99px;
+    }
+
+    .fleur {
+        position: relative;
+    }
+
+    .fleur_image {
+        width: 140px;
+        height: 290px;
+        position: absolute;
+        left: -45px;
+        top: -50px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .ellipse_wrapper {
+        position: relative;
+    }
+
+    .ellipse {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: -130px;
+    }
+
+    /*Sections restauration, traiteur, vaisselle et boutique*/
+
+    .restauration {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 681px;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    
+    .traiteur {
+        display: block;
+        height: 740px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    
+    .vaisselle {
+        display: block;
+        height: 475px;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        width: 100%;
+    }
+    
+    .boutique {
+        display: block;
+        height: 715px;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .right_part_1, .right_part_2 {
+        display: none;
+    }
+
+    .mobile_right_part_1, .mobile_right_part_2 {
+        display: block;
+    }
+
+    .title_1, .title_2, .title_3, .title_4 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .title_wrapper_1, .title_wrapper_2 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .picture_wrapper_1, .picture_wrapper_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .picture_1, .picture_2, .picture_3, .picture_4 {
+        width: 312px;
+        height: 200px;
+    }
+
+    .texte_wrapper_1, .texte_wrapper_2, .texte_wrapper_3 {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texte_1, .texte_2 {
+        width: 520px;
         font-size: 16px;
         line-height: 140%;
         text-align: left;   

@@ -160,6 +160,9 @@
             </div>
         </div>
     </section>
+    <div>
+        <img class="photo_before_footer" src="/images/photos_restau_mobile.png" alt="">
+    </div>
         <!--FOOTER-->
         @include('components.footer')
         @section('footer')

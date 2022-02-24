@@ -183,7 +183,7 @@ address {
 .partagez-wrapper {
     margin-top: 88px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -261,6 +261,9 @@ address {
     .newsletter {
         width: 100%;
         padding-top: 48px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .texte, .texte2 {
@@ -334,12 +337,11 @@ address {
     }
 
     .partagez-wrapper {
-        display: block;
-        margin-right: 16px;
-        margin-left: 16px;
-        width: 100%;
-        align-content: center;
-        margin-top: 80px;
+        margin-top: 88px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .partagez {
