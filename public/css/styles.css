@@ -617,7 +617,6 @@ ul {
     line-height: 140%;
     font-size: 20px;
     color: #131311;
-    /* text-indent: 16px; */
 }
 
 input::placeholder {
@@ -625,7 +624,6 @@ input::placeholder {
     line-height: 140%;
     font-size: 20px;
     color: #97978b;
-    /* text-indent: 16px; */
 }
 
 .label {
@@ -657,8 +655,12 @@ input::placeholder {
     position:absolute;
 }
 
+/*SECTION MOBILE*/
+/*MEDIA QUERIES*/
 
-@media screen and (max-width: 375px) {
+
+
+@media screen and (min-width: 300px) and (max-width:680px) {
     
     /*HERO*/
 
@@ -908,6 +910,262 @@ input::placeholder {
         font-size: 16px;
         line-height: 140%;
         width: 375px;
+    }
+
+    .separator {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width:960px) {
+
+    .background {
+        background-image: url(/images/background_image_680.jpg);
+    }
+
+    .hero-inner {
+        background-image: url(/images/blob_680.png);
+    }
+
+    .accroche {
+        font-size: 48px;
+        line-height: 110%;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin-top: 12px;
+        left:12px;
+    }
+
+    #logo {
+        width: 100%;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /*CONCEPT*/
+
+    .conceptwrapper {
+        width: 520px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:#131311;
+    }
+
+    .concept_title {
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    .concept {
+        margin-top: 80px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .concepttext {
+        font-size: 16px;
+        line-height: 140%;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .fleurDeco1 {
+        display: none;
+    }
+
+    .fleurDeco2 {
+        display: block;
+        height: 100px;
+        position: absolute;
+        left: 220px;
+        top: -50px;
+    }
+
+    /*pourquoi lili bowl*/
+    
+    .quotationwrapper {
+        margin-top: 24px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 80px;
+    }
+
+    .pourquoi {
+        font-size: 24px;
+    }
+
+    .bowlpicwrapper1 {
+        display: none;
+    }
+
+    .bowlpicwrapper2 {
+        margin-top: 16px;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    .bowlpic2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .quotemark1 {
+        margin-right: -20px;
+    }
+
+    .quoteandtext {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 520px;
+    }
+
+    .quotetext {
+        width: 520px;
+        line-height: 140%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .quoteauthor {
+        display: none;
+    }
+
+    .quoteauthor2 {
+        display: inline-block;
+        width: 95%;
+        text-align: end;
+    }
+
+    .quotationmarkright {
+        display: none;
+    }
+
+    /*Engagements*/
+
+    .engagementtitre {
+        font-size: 32px;
+        line-height: 120%;
+    }
+
+    .engagement {
+        width:680px;
+        margin-bottom: 0;
+    }
+
+    .wrapper_engagement {
+        width: 327px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .texteli {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        padding-right: 16px;
+    }
+    
+    .fleur_engagement {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+    
+    /*SECTION FRISE */
+
+    .marque [data-text] {
+        height: 80px;
+        padding-top: 25px;
+    }
+
+    .mots-clés {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    /*SECTION CARROUSEL */
+
+    .carrousel, .buttons {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin-top: 80px;
+        width: 520px;
+        margin-bottom: 80px;
+    }
+
+    .mobile_section-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile_equipe {
+        font-family: 'josefin Sans', sans-serif;
+        font-size: 32px;
+        line-height: 120%;
+        font-weight: 600;
+    }
+
+    .membre {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .mobile_profile-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .membrepic {
+        width: 250px;
+        height: 250px;
+        align-items: center;
+    }
+
+    .mobile_profile_title_wrapper {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .mobile_profile_title {
+        font-size: 24px;
+        line-height: 120%;
+        color:#A89505;
+        font-family: 'josefin Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .mobile_profile_text_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile_profile_text {
+        font-size: 16px;
+        line-height: 140%;
+        width: 520px;
     }
 
     .separator {

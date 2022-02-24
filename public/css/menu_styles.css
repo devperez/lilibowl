@@ -71,8 +71,9 @@ h2 {
 .logos {
     width: 80px;
     margin-right: 56px;
-
 }
+
+
 @media screen and (max-width:375px) {
 
     .background {
