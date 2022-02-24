@@ -235,9 +235,10 @@ address {
     }
 }
 
+/*PARTIE MOBILE*/
 /*MEDIA QUERIES */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:300px) and (max-width:680px) {
     
     /*Section newsletter*/
 
@@ -366,8 +367,136 @@ address {
     .error {
         width:327px;
     }
-
-    
 }
 
+@media screen and (max-width:681px) and (max-width:960px) {
+
+    /*Section newsletter*/
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        height: 444px;
+        padding-bottom: 48px;
+    }
+
+    .titre, .titre2 {
+        font-size: 24px;
+        line-height: 140%;
+        width: 327px;
+        margin-top: 0;
+        margin-left: 16px;
+        font-weight: bold;
+    }
+
+    .newsletter {
+        width: 100%;
+        padding-top: 48px;
+    }
+
+    .texte, .texte2 {
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: normal;
+        width: 327px;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 36px;
+    }
+
+    .inscription {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 327px;
+    }
+
+    label {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .input, .button {
+        width: 327px;
+    }
+
+    /*Section Contact */
+
+    .photo-texte {
+        display: none;
+    }
+
+    .logo-contact-icones {
+        width: 375px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .wrapper-horaires {
+        display: none;
+    }
+
+    .logolili {
+        margin-bottom: 0;
+    }
+
+    .mobile_horaires {
+        display: inline;
+        font-family: 'Karla', sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 24px;
+        margin-bottom: 48px;
+        text-align: center;
+    }
+
+    .contact {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .detail {
+        margin-bottom: 16px;
+    }
+
+    .social_wrapper {
+        margin-top: 24px;
+    }
+
+    .partagez-wrapper {
+        display: block;
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 100%;
+        align-content: center;
+        margin-top: 80px;
+    }
+
+    .partagez {
+        margin-left: 16px;
+    }
+
+    .icones_wrapper {
+        display: flex;
+        margin-top: 16px;
+        width: 375px;
+        justify-content: center;
+    }
+
+    .googleicon {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+
+    .mentions {
+        font-size: 13px;
+        line-height: 150%;
+    }
+
+    /* Partie cachée */
+    .error {
+        width:327px;
+    }
+}
 
