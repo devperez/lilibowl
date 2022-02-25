@@ -1267,7 +1267,9 @@ input::placeholder {
     }
 
     .bowlpicwrapper1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
     }
 
     .bowlpicwrapper2 {
@@ -1277,6 +1279,7 @@ input::placeholder {
     .bowlpic {
         width: 160px;
         height: 160px;
+        margin-right: 24px;
     }
 
     .quotemark1 {
@@ -1286,13 +1289,13 @@ input::placeholder {
     .quoteandtext {
         margin-left: 16px;
         margin-right: 16px;
-        width: 520px;
+        width: 436px;
     }
 
     .quotetext {
-        width: 520px;
+        width: 436px;
         line-height: 140%;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 40px;
     }
 
@@ -1304,6 +1307,127 @@ input::placeholder {
         display: inline-block;
         width: 95%;
         text-align: end;
+    }
+
+    /*Engagements*/
+
+    .engagementtitre {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .engagement {
+        width:100%;
+        margin-bottom: 0;
+    }
+
+    .wrapper_engagement {
+        width: 640px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .texteli {
+        font-size: 20px;
+        line-height: 140%;
+        width: 640px;
+        padding-right: 16px;
+    }
+    
+    .fleur_engagement {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    /*SECTION FRISE */
+
+    .marque [data-text] {
+        height: 103px;
+        padding-top: 30px;
+    }
+
+    .mots-clés {
+        font-size: 32px;
+        line-height: 110%;
+    }
+
+     /*SECTION CARROUSEL */
+
+    .carrousel, .buttons {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin-top: 80px;
+        width: 640px;
+        margin-bottom: 80px;
+    }
+
+    .mobile_section-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .mobile_equipe {
+        font-family: 'josefin Sans', sans-serif;
+        font-size: 40px;
+        line-height: 120%;
+        font-weight: 600;
+    }
+
+    .membre {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .mobile_profile-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .membrepic {
+        width: 360px;
+        height: 360px;
+        align-items: center;
+    }
+
+    .mobile_profile_title_wrapper {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .mobile_profile_title {
+        font-size: 28px;
+        line-height: 120%;
+        color:#A89505;
+        font-family: 'josefin Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .mobile_profile_text_wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile_profile_text {
+        font-size: 16px;
+        line-height: 140%;
+        width: 640px;
+    }
+
+    .separator {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
     }
 
 }
