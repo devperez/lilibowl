@@ -261,7 +261,7 @@
                         <img src="/images/homepage_photoJulie.png" class="membrepic" alt="photo de Julie Giverne">
                     </div>
                     <div class="mobile_profile_title_wrapper">
-                        <h5 class="mobile_profile_title">Julie Giverne, à l'origine<br /> de ce beau projet</h5>
+                        <h5 class="mobile_profile_title">Julie Giverne, à l'origine de ce beau projet</h5>
                     </div>
                     <div class="mobile_profile_text_wrapper">
                         <p class="mobile_profile_text">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
