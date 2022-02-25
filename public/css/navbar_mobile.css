@@ -104,6 +104,16 @@ ul {
     margin-left: 70px;
 }
 
+.menu_item2:active {
+    border: solid 2px #A89505;
+}
+
 .logo {
     left: 12px;
+}
+
+.mobile_menu_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
