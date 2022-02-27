@@ -1224,7 +1224,6 @@ input::placeholder {
         font-size: 40px;
         line-height: 120%;
         margin-bottom: 24px;
-        position: relative;
     }
 
     .concept {
@@ -1239,13 +1238,17 @@ input::placeholder {
         font-family: 'Karla', sans-serif;
     }
 
+    .fleurDeco1_wrapper {
+        position: relative;
+    }
+
     .fleurDeco1 {
-        display: block;
         position: absolute;
+        display: block;
         height: 200px;
         width: 80px;
-        right: 136px;
-        top: 870px;
+        right: -56px;
+        top: -300px;
     }
 
     .fleurDeco2 {
