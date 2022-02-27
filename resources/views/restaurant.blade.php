@@ -162,6 +162,7 @@
     </section>
     <div>
         <img class="photo_before_footer" src="/images/photos_restau_mobile.png" alt="">
+        <img class="photo_before_footer2" src="/images/frise_photos.png" alt="">
     </div>
         <!--FOOTER-->
         @include('components.footer')

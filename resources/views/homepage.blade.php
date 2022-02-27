@@ -86,7 +86,9 @@
                     sensibilisation à l’alimentation durable, et ce en commençant par la découverte de produits frais de saisons et de recettes ultra
                     gourmandes 100% végétales.
                     </p>
-                    <img class="fleurDeco1" src="/images/homepage_fleur.svg" alt="illustration botanique" />
+                    <div class="fleurDeco1_wrapper">
+                        <img class="fleurDeco1" src="/images/homepage_fleur.svg" alt="illustration botanique" />
+                    </div>
                 </div>
             </section>
 
