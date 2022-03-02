@@ -14,7 +14,9 @@
                 <a class="links_mobile" href="{{ route('restaurant') }}"><li>Le Restaurant</li></a>
                 <a class="links_mobile" href="{{ route('sensibilisation') }}"><li>Sensibilisation</li></a>
                 <a class="links_mobile" href="{{ route('formations') }}"><li>Formations</li></a>
-                <a class="links_mobile special" href="{{ route('menus') }}"><li class="menu_item2">Le Menu</li></a>
+                <div class="mobile_menu_wrapper">
+                    <a class="links_mobile special" href="{{ route('menus') }}"><li class="menu_item2">Le Menu</li></a>
+                </div>
                 <a class="links_mobile" href="#contact"><li>Contact</li></a>
                 <div class="mobile_icones">
                     <a href="#"><img class="instaicon" src="/images/Instagram_general.png" alt="icones du réseau social Instagram" /></a>

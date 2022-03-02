@@ -274,3 +274,76 @@ h2 {
         cursor: zoom-out;
     }
 }
+
+@media screen and (min-width: 961px) and (max-width:1331px) {
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-top: 12px;
+        left:12px;
+    }
+
+    #logo {
+        width: 100%;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        height: 128px;
+    }
+
+    .background {
+        background-image: url(/images/menu_background_960.png);
+        background-size: cover;
+        margin-top: 190px;
+    }
+
+    .fleur {
+        height: 260px;
+        top: 50px;
+        right: -20px;
+    }
+
+    .title {
+        padding-top: 0;
+        margin-bottom: 80px;
+    }
+
+    .title_text {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .menu_mobile {
+        width: 700px;
+        height: 1000px;
+        margin-bottom: 80px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 910px;
+        width: 700px;
+        margin-bottom: 180px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .photo2 {
+        width: 100%;
+        height: 160px;
+    }
+}
