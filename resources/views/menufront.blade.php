@@ -61,9 +61,8 @@
         </div>
         <div>
             <img class="photo" src="/images/photo_menu.png" alt="">
-        </div>
-        <div>
-        <img class="photo2" src="/images/frise_photos_menu_960.png" alt="">
+            <img class="photo2" src="/images/frise_photos_menu_960.png" alt="">
+            <img class="photo3" src="/images/mobile_menu_300.jpg" alt="">
         </div>
     </div>
     <div class="logos_wrapper">
