@@ -62,6 +62,9 @@
         <div>
             <img class="photo" src="/images/photo_menu.png" alt="">
         </div>
+        <div>
+        <img class="photo2" src="/images/frise_photos_menu_960.png" alt="">
+        </div>
     </div>
     <div class="logos_wrapper">
         <img class="logos" src="/images/green_food.jpg" alt="">
@@ -69,6 +72,7 @@
         <img class="logos" src="/images/act4nature.png" alt="">
         <img class="logos" src="/images/fait_maison.png" alt="">
     </div>
+    
 
     <!-- FOOTER -->
         @include('components.footer')
