@@ -23,7 +23,7 @@
         <div class="logo-contact-photo">
             <div class="logo-contact-icones">
                 <div class="logolili">
-                    <a href="#logo"><img class="logo-footer" src="/images/Logo-Lilibowl.png" alt="logo de Lili BOwL" /></a>
+                    <a href="#logo"><img class="logo-footer" src="/images/homepage/LILI_BOwL_logo_footer.png" alt="logo de Lili BOwL" /></a>
                 </div>
                 <div class="mobile_horaires">Ouvert du lundi au vendredi,<br /> de 11h à 15h,
                                             sur place ou à emporter.</div>
@@ -37,8 +37,8 @@
                         <span class="detail">lilibowl.cahors@gmail.com</span>
                     </div>
                     <div class="social_wrapper">
-                        <img class="insta" src="/images/Insta.png" alt="icône instagram" />
-                        <img src="/images/Fb.png" alt="icône facebook" />
+                        <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="insta" src="/images/homepage/Instagram_icon_black.svg" alt="icône instagram" /></a>
+                        <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img src="/images/homepage/Facebook_icon_black.svg" alt="icône facebook" /></a>
                     </div>
                     <div class="wrapper-horaires">
                         <div class="horaires">Ouvert du lundi au vendredi, de 11h à 15h,<br />
@@ -46,8 +46,8 @@
                     </div>
                 </div>
             </div>
-            <div class="photo-texte">
-                <img src="/images/footer_photo.png" alt="photo de la terrasse du restaurant" />
+            <div>
+                <img class="photo-texte" src="/images/homepage/photo_footer-min.png" alt="photo de la terrasse du restaurant" />
             </div>
         </div>
         <div class="partagez-wrapper">
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par David PEREZ</span>
+            <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
         </div>
     </footer>
 </div>

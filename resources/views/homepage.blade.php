@@ -29,7 +29,7 @@
         <section class="background">
             <nav>
                 <div id="logo">
-                    <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
+                    <img class="logo" src="/images/homepage/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
                     @include('components.navbar_mobile')
                     @yield('navbar_mobile')
                 </div>
@@ -56,8 +56,8 @@
                         <a class="links hvr-underline-from-left" href="#contact">Contact</a>
                     </div>
                     <div class="icones">
-                        <a href="#"><img class="instaicon" src="/images/Instagram.png" alt="icones du réseau social Instagram" /></a>
-                        <a href="#"><img class="fbicon" src="/images/Facebook.png" alt="icones du réseau social Facebook" /></a>
+                        <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="instaicon" src="/images/homepage/Instagram_icon_white.svg" alt="icones du réseau social Instagram" /></a>
+                        <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img class="fbicon" src="/images/homepage/Facebook_icon_white.svg" alt="icones du réseau social Facebook" /></a>
                     </div>
                 </div>
             </nav>
@@ -73,18 +73,16 @@
             <section class="concept" id="concept">
                 <div class="concept_title">
                     <h2 class="concept_title">Notre Concept</h2>
-                    <img class="fleurDeco2" src="/images/homepage_fleur.svg" alt="illustration botanique" />
+                    <img class="fleurDeco2" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
                 </div>
                 <div class="conceptwrapper">
                     <p class="concepttext">
-                    Chez Lili BOwL, nous sommes convaincus que nos habitudes alimentaires ont un impact significatif sur notre santé. 
-                    Certains aliments que nous consommons parfois au quotidien sont responsables de problèmes de santé majeurs. 
-                    Et pourtant, réapprendre à s’alimenter plus simplement, avec des produits naturels et de qualité, est un jeu de Lili !
-                    Se faire plaisir tout en respectant notre corps, notre esprit et nos besoins nous paraît être plus que jamais une nécessité. 
-                    <br /><br />
-                    Dans notre restaurant et par le biais de nos différents projets, nous vous invitons à vous diriger, tout en douceur, vers une 
-                    sensibilisation à l’alimentation durable, et ce en commençant par la découverte de produits frais de saisons et de recettes ultra
-                    gourmandes 100% végétales.
+                    Chez Lili Bowl, le bonheur est dans l’assiette, avec des recettes <strong>100% végétales ultra gourmandes, à base de produits frais, bio, locaux et de saison !</strong>
+                    Julie, notre chef, est convaincue depuis toujours d’une relation étroite entre <strong>l’alimentation et la santé</strong>, l’alimentation et <strong>le bien-être</strong>.<br />
+                    La cuisine de Julie est <strong>une cuisine qui pétille, une cuisine créative, un bonheur pour tous les sens</strong>, une découverte à chaque bouchée, <strong>qui prend soin de votre corps et de la planète</strong> !<br />
+                    C’est une cuisine pour les curieux qui met les crudités à l’honneur pour profiter de tous leurs <strong>bienfaits naturels</strong>.<br />
+                    C’est <strong>une cuisine conviviale et réconfortante</strong>, car préparer un repas c’est un don de soi, un échange.<br />
+                    C’est ce que Julie souhaite partager en maniant couteau et fourchette dans <a class="liens" href="{{ route('restaurant') }}">son restaurant</a>, mais aussi par le biais de ses différents <a class="liens" href="{{ route('sensibilisation') }}">projets</a> et de ses  sessions de <a class="liens" href="{{ route('formations') }}">formation</a> à la <strong>cuisine végétale</strong>.
                     </p>
                     <div class="fleurDeco1_wrapper">
                         <img class="fleurDeco1" src="/images/homepage_fleur.svg" alt="illustration botanique" />
@@ -94,32 +92,29 @@
 
             <section class="quotationwrapper">
                 <div class="bowlpicwrapper1">
-                    <img class="bowlpic" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
+                    <img class="bowlpic" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bowl" />
                 </div>
                 <div class="innerwrapper">
                     <div class="pourquoiwrapper">
                         <h4 class="pourquoi">Pourquoi le nom Lili BOwL ?</h4>
                     </div>
                     <div class="bowlpicwrapper2">
-                    <img class="bowlpic2" src="/images/homepage_bol.png" alt="illustration d'un bowl" />
+                    <img class="bowlpic2" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bowl" />
                 </div>
                     <div class="quoteandtext">
                         <div class="quotationmarkleft">
-                            <img class="quotemark1" src="/images/homepage_quotationmark1.png" alt="guillemets stylisés" />
+                            <img class="quotemark1" src="/images/homepage/quotation_mark_1.svg" alt="guillemets stylisés" />
                         </div>
                         <div>
                             <p class="quotetext">
-                            Parce que ma cuisine, (la cuisine de Julie ou de Lili) s’inspire des Bouddha bowls, assiettes composées principalement de légumes,
-                            de céréales et de légumineuses qui composent un repas complet, sain et équilibré. Par ailleurs, j’ai voulu un animal de la vie sauvage
-                            pour illustrer le logo parce que j’adore cuisiner le fruit de mes cueillettes lors de mes balades en forêt.<br />
-                            « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Et ne soyez pas étonnés si nous prenons plaisir à vous appeler
-                            nos chouettes clients !<br />
+                            “Lili” est le diminutif de Julie.<br /> “Bowl” parce que notre cuisine s’inspire des Bouddha bowls, assiettes veggies composées de fruits, de légumes, de céréales et de légumineuses qui offrent un repas complet, sain, équilibré et coloré.<br />  
+                            Aussi, il fallait un animal dans le logo pour illustrer le respect de la nature, le sauvage, que j’adore cueillir et cuisiner.  « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Alors ne soyez pas étonnés si nous prenons plaisir à vous appeler nos chouettes clients !<br />
                             <span class="quoteauthor2">Julie</span>
                             </p>
                             <p class="quoteauthor">Julie</p>
                         </div>
                         <div class="quotationmarkright">
-                            <img class="quotemark2" src="/images/homepage_quotationmark2.png" alt="guillemets stylisés" />
+                            <img class="quotemark2" src="/images/homepage/quotation_mark_2.svg" alt="guillemets stylisés" />
                         </div>
                     </div>
                 </div>
@@ -132,17 +127,18 @@
                 <div class="wrapper_engagement">
                     <div>
                         <ul>
-                            <li class="li_engagement"><p class="texteli">Proposer une cuisine sans gluten et végétale variée aux influences du monde.</p></li>
-                            <li class="li_engagement"><p class="texteli">Utiliser des produits majoritairement issus de l’agriculture biologique, sans pesticides et de saison.</p></li>
-                            <li class="li_engagement"><p class="texteli">Connaître les producteurs et privilégier les circuits courts pour éviter le gaspillage alimentaire et favoriser l’économie locale.</p></li>
-                            <li class="li_engagement"><p class="texteli">Respecter l’environnement dans une démarche éco-responsable (lunch boxes consignées en verre, tri sélectif, compost,
+                            <li class="li_engagement"><p class="texteli">Proposer <strong>une cuisine saine, végétale, variée, savoureuse et sans gluten</strong>, aux influences du monde.</p></li>
+                            <li class="li_engagement"><p class="texteli">Utiliser des <strong>produits frais</strong> majoritairement issus de l’agriculture <strong>biologique, sans pesticides et de saison</strong>.</p></li>
+                            <li class="li_engagement"><p class="texteli">Privilégier les <strong>circuits courts</strong> pour <strong>limiter notre empreinte carbone</strong> et <strong>favoriser l'économie locale</strong>.</p></li>
+                            <li class="li_engagement"><p class="texteli"><strong>Respecter l’environnement</strong> dans une <a class="liens" target="_blank" href="https://actu.fr/occitanie/cahors_46042/lili-bowl-a-cahors-le-seul-restaurant-du-lot-labellise-green-food_39255968.html"><strong>démarche éco-responsable</strong></a> (lunch boxes consignées en verre, tri sélectif, compost,
                                     revalorisation des déchets…).</p></li>
-                            <li class="li_engagement"><p class="texteli">Éduquer le plus grand nombre à l’alimentation santé et au goût.</p></li>
-                            <li class="li_engagement"><p class="texteli">Favoriser le lien social autours de projets, d’ateliers et de repas partagés.</p></li>
+                            <li class="li_engagement"><p class="texteli"><a class="liens" href="{{ route('sensibilisation') }}"><strong>Éduquer</strong></a> au goût et à <strong>l’alimentation santé</strong>.</p></li>
+                            <li class="li_engagement"><p class="texteli">Favoriser le <strong>lien social</strong> autour <a class="liens" href="{{ route('formations') }}">de projets</a>, <a class="liens" href="#">d’ateliers</a> et de repas partagés.</p></li>
                         </ul>
+                        <div class="amour">Et toujours avec amour !</div>
                     </div>
-                    <div class="fleur_engagement">
-                        <img src="/images/homepage_fleur2.svg" alt="illustration florale" />
+                    <div>
+                        <img class="fleur_engagement" src="/images/homepage/engagements_fleur.png" alt="illustration florale" />
                     </div>
                 </div>
             </section>
@@ -164,7 +160,7 @@
                         <div class="carousel-item active">
                             <div class="profile-text-title-pic">
                                 <div class="profile-pic1">
-                                    <img src="/images/homepage_photoJulie.png" class="d-block w-100" alt="photo de Julie Giverne">
+                                    <img src="/images/homepage/photo_Julie-min.png" class="d-block w-100" alt="photo de Julie Giverne">
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Julie Giverne, à l'origine de ce beau projet</h5>
@@ -199,14 +195,14 @@
                                     </p>
                                 </div>
                                 <div class="profile-pic2">
-                                    <img src="/images/homepage_photoEmilie.png" class="d-block w-100" alt="photo d'Émilie">
+                                    <img src="/images/homepage/photo_Emilie-min.png" class="d-block w-100" alt="photo d'Émilie">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="profile-text-title-pic">
                                 <div class="profile-pic1">
-                                    <img src="/images/homepage_photoThomas.png" class="d-block w-100" alt="photo de Thomas">
+                                    <img src="/images/homepage/photo_Thomas-min.png" class="d-block w-100" alt="photo de Thomas">
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Thomas</h5>
@@ -241,15 +237,15 @@
                                     </p>
                                 </div>
                                 <div class="profile-pic2">
-                                    <img src="/images/homepage_photoAnaelle.png" class="d-block w-100" alt="photo d'Anaëlle">
+                                    <img src="/images/homepage/photo_Anaelle-min.png" class="d-block w-100" alt="photo d'Anaëlle">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="buttons">
-                    <img class="previous" src="/images/previous.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
-                    <img src="/images/next.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
+                    <img class="previous" src="/images/homepage/fleche_1.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
+                    <img src="/images/homepage/fleche_2.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
                 </div>
             </section>
 
@@ -260,7 +256,7 @@
                 </div>
                 <div class="membre">
                     <div class="mobile_profile-pic">
-                        <img src="/images/homepage_photoJulie.png" class="membrepic" alt="photo de Julie Giverne">
+                        <img src="/images/homepage/photo_Julie-min.png" class="membrepic" alt="photo de Julie Giverne">
                     </div>
                     <div class="mobile_profile_title_wrapper">
                         <h5 class="mobile_profile_title">Julie Giverne, à l'origine de ce beau projet</h5>
@@ -280,12 +276,12 @@
                         </p>
                     </div>
                     <div class="separator">
-                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                        <img class="flower_separator" src="/images/homepage/fleur-transition.png" alt="séparateur végétal entre les différents membres de l'équipe">
                     </div>
                 </div>
                 <div class="membre">
                     <div class="mobile_profile-pic">
-                        <img src="/images/homepage_photoEmilie.png" class="membrepic" alt="photo d'Émilie">
+                        <img src="/images/homepage/photo_Emilie-min.png" class="membrepic" alt="photo d'Émilie">
                     </div>
                     <div class="mobile_profile_title_wrapper">
                         <h5 class="mobile_profile_title">Émilie</h5>
@@ -303,12 +299,12 @@
                         </p>
                     </div>
                     <div class="separator">
-                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                        <img class="flower_separator" src="/images/homepage/fleur-transition.png" alt="séparateur végétal entre les différents membres de l'équipe">
                     </div>
                 </div>
                 <div class="membre">
                     <div class="mobile_profile-pic">
-                        <img src="/images/homepage_photoThomas.png" class="membrepic" alt="photo de Thomas">
+                        <img src="/images/homepage/photo_Thomas-min.png" class="membrepic" alt="photo de Thomas">
                     </div>
                     <div class="mobile_profile_title_wrapper">
                         <h5 class="mobile_profile_title">Thomas</h5>
@@ -326,12 +322,12 @@
                         </p>
                     </div>
                     <div class="separator">
-                        <img src="/images/mobile_separator.png" alt="séparateur végétal entre les différents membres de l'équipe">
+                        <img class="flower_separator" src="/images/homepage/fleur-transition.png" alt="séparateur végétal entre les différents membres de l'équipe">
                     </div>
                 </div>
                 <div class="membre">
                     <div class="mobile_profile-pic">
-                        <img src="/images/homepage_photoAnaelle.png" class="membrepic" alt="photo d'Anaëlle">
+                        <img src="/images/homepage/photo_Anaelle-min.png" class="membrepic" alt="photo d'Anaëlle">
                     </div>
                     <div class="mobile_profile_title_wrapper">
                         <h5 class="mobile_profile_title">Anaëlle</h5>
@@ -352,6 +348,7 @@
                     </div>
                 </div>
             </section>
+
             <!-- FOOTER -->
             @include('components.footer')
             @yield('footer')

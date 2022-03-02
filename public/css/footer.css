@@ -159,6 +159,11 @@ address {
     align-content: center;
 }
 
+.photo-texte {
+    width: 600px;
+    height: 400px;
+}
+
 .horaires {
     font-family: 'Karla', sans-serif;
     font-style: italic;
