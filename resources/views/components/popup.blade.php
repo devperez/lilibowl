@@ -6,11 +6,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/image_popup.png" alt="Photo illustrant un bol" class="img" />
+                            <img src="images/popup/photo_popup-min.jpg" alt="Photo illustrant un bol" class="img" />
                         </div>
                         <div class="col-md-6 inscrivez-vous">
                             <div>
-                                <img style="display:none" class="ellipse1" src="/images/Ellipse1.png" alt="Ellipse décorative de la pop up">
+                                <img style="display:none" class="ellipse1" src="/images/popup/pop_up_ellipse1.png" alt="Ellipse décorative de la pop up">
                             </div>
                             <div>
                                 <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
@@ -32,13 +32,13 @@
                                 <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
                                     <label class="label">Email</label>
                                     <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
-                                    <span class="crossErrorWrapper"><img class="crossError" src="/images/icone_croix.png" alt="croix rouge d'erreur"/></span>
+                                    <span class="crossErrorWrapper"><img class="crossError" src="/images/popup/croixr.png" alt="croix rouge d'erreur"/></span>
                                     <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                     <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>
                                 </form>
                             </div>
                             <div>
-                                <img style="display:none" class="ellipse2" src="/images/Ellipse2.png" alt="Ellipse décorative de la pop up">
+                                <img style="display:none" class="ellipse2" src="/images/popup/pop_up_ellipse2.png" alt="Ellipse décorative de la pop up">
                             </div>
                         </div>
                     </div>

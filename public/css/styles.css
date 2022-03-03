@@ -561,12 +561,14 @@ ul {
     position: absolute;
     margin-left: 0;
     margin-top: 0;
+    width: 180px;
 }
 
 .ellipse2 {
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 230px;
 }
 
 .inscrivez-vous {
@@ -667,6 +669,11 @@ input::placeholder {
 
 .crossError {
     position:absolute;
+    width: 18px;
+}
+
+.img {
+    width: 480px;
 }
 
 /*SECTION MOBILE*/
