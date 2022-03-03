@@ -60,9 +60,10 @@
             </div>
         </div>
         <div>
-            <img class="photo" src="/images/menu/menu_photo_frise-min.jpg" alt="">
-            <img class="photo2" src="/images/frise_photos_menu_960.png" alt="">
-            <img class="photo3" src="/images/mobile_menu_300.jpg" alt="">
+            <img class="photo" src="/images/menu/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
+            <img class="photo2" src="/images/menu_responsive/menu_photo_frise_3rdbkpt-min.jpg" alt="Illustrations de plats et de desserts">
+            <img class="photo3" src="/images/menu_responsive/menu_photo_frise_mobile-min.jpg" alt="Illustrations de plats et de desserts">
+            <img class="photo4" src="/images/menu_responsive/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
         </div>
     </div>
     <div class="logos_wrapper">

@@ -62,7 +62,7 @@ h2 {
     height: auto;
 }
 
-.photo2, .photo3 {
+.photo2, .photo3, .photo4 {
     display: none;
 }
 
@@ -118,9 +118,13 @@ h2 {
     }
 
     .fleur {
-        width: 100px;
-        top: 80px;
-        right: -2px;
+        height: 150px;
+        top: 60px;
+        right: 0;
+    }
+
+    .display_wrapper {
+        margin-top: 125px;
     }
 
     .menu_mobile {
@@ -144,8 +148,13 @@ h2 {
     }
 
     .logos_wrapper {
+        display: flex;
+        justify-content: center;
         margin-right: 43px;
         margin-left: 43px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        width: 100%;
     }
 
 
@@ -187,8 +196,9 @@ h2 {
     }
 
     .photo3 {
+        display: block;
         width: 100%;
-        height: 160px;
+        height: auto;
     }
 }
 
@@ -241,6 +251,10 @@ h2 {
         margin-bottom: 48px;
     }
 
+    .display_wrapper {
+        margin-top: 125px;
+    }
+
     .menu_mobile {
         width: 480px;
         height: 700px;
@@ -287,6 +301,16 @@ h2 {
         max-height: 95%;
         max-width: 95%;
         cursor: zoom-out;
+    }
+
+    .photo2 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .photo, .photo3 {
+        display: none;
     }
 }
 
@@ -337,6 +361,10 @@ h2 {
         line-height: 120%;
     }
 
+    .display_wrapper {
+        margin-top: 125px;
+    }
+
     .menu_mobile {
         width: 700px;
         height: 1000px;
@@ -353,12 +381,13 @@ h2 {
         margin-bottom: 180px;
     }
 
-    .photo {
+    .photo, .photo2, .photo3 {
         display: none;
     }
 
-    .photo2 {
+    .photo4 {
+        display: block;
         width: 100%;
-        height: 160px;
+        height: auto;
     }
 }
