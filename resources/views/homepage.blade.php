@@ -135,7 +135,7 @@
                             <li class="li_engagement"><p class="texteli"><a class="liens" href="{{ route('sensibilisation') }}"><strong>Éduquer</strong></a> au goût et à <strong>l’alimentation santé</strong>.</p></li>
                             <li class="li_engagement"><p class="texteli">Favoriser le <strong>lien social</strong> autour <a class="liens" href="{{ route('formations') }}">de projets</a>, <a class="liens" href="#">d’ateliers</a> et de repas partagés.</p></li>
                         </ul>
-                        <div class="amour">Et toujours avec amour !</div>
+                        <div class="amour_wrapper"><p class="amour">Et toujours avec amour !</p></div>
                     </div>
                     <div>
                         <img class="fleur_engagement" src="/images/homepage/engagements_fleur.png" alt="illustration florale" />
