@@ -67,10 +67,10 @@
         </div>
     </div>
     <div class="logos_wrapper">
-        <img class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food.">
-        <img class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto.">
-        <img class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature.">
-        <img class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison.">
+        <a href="https://www.greenfood-label.com/listings/lili-bowl/" target="_blank"><img class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food."></a>
+        <a href="https://vegoresto.fr/cahors/lili-bowl/" target="_blank"><img class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto."></a>
+        <a href="https://www.ofb.gouv.fr/actualites/grands-groupes-pme-tpe-elles-sont-plus-de-100-entreprises-avoir-fait-le-choix-de" target="_blank"><img class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature."></a>
+        <a href="https://www.economie.gouv.fr/entreprises/fait-maison" target="_blank"><img class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison."></a>
     </div>
     
 

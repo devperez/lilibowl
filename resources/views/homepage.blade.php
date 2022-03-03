@@ -85,7 +85,7 @@
                     C’est ce que Julie souhaite partager en maniant couteau et fourchette dans <a class="liens" href="{{ route('restaurant') }}">son restaurant</a>, mais aussi par le biais de ses différents <a class="liens" href="{{ route('sensibilisation') }}">projets</a> et de ses  sessions de <a class="liens" href="{{ route('formations') }}">formation</a> à la <strong>cuisine végétale</strong>.
                     </p>
                     <div class="fleurDeco1_wrapper">
-                        <img class="fleurDeco1" src="/images/homepage_fleur.svg" alt="illustration botanique" />
+                        <img class="fleurDeco1" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
                     </div>
                 </div>
             </section>
