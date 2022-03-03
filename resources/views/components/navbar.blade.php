@@ -1,7 +1,7 @@
 @section('navbar')
 <nav>
     <div id="logo">
-        <img class="logo" src="/images/Logo-Lilibowl.png" alt="logo du restaurant" />
+        <img class="logo" src="/images/navbar_fixe/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
         <!-- menu mobile hamburger-->
         <div class="hamburger" id="menu-button">
             <div id="line-1"></div>
@@ -19,8 +19,8 @@
                 </div>
                 <a class="links_mobile" href="#contact"><li>Contact</li></a>
                 <div class="mobile_icones">
-                    <a href="#"><img class="instaicon" src="/images/Instagram_general.png" alt="icones du réseau social Instagram" /></a>
-                    <a href="#"><img class="mobile_fbicon" src="/images/Facebook_general.png" alt="icones du réseau social Facebook" /></a>
+                    <a href="#"><img class="instaicon" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
+                    <a href="#"><img class="mobile_fbicon" src="/images/navbar_fixe/Facebook_icon_black.svg" alt="icones du réseau social Facebook" /></a>
                 </div>
             </ul>
         </div>
@@ -50,8 +50,8 @@
             <a class="links hvr-underline-from-left" id="navcontact" href="#contact">Contact</a>
         </div>
         <div class="icones">
-            <a href="#"><img class="instaicon" src="/images/Instagram_general.png" alt="icones du réseau social Instagram" /></a>
-            <a href="#"><img class="fbicon" src="/images/Facebook_general.png" alt="icones du réseau social Facebook" /></a>
+            <a href="#"><img class="instaicon" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
+            <a href="#"><img class="fbicon" src="/images/navbar_fixe/Facebook_icon_black.svg" alt="icones du réseau social Facebook" /></a>
         </div>
     </div>
 </nav>
