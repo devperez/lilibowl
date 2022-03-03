@@ -163,9 +163,10 @@
         </div>
     </section>
     <div>
-        <img class="photo_before_footer3" src="/images/photo_restaurant_300.jpg" alt="">
-        <img class="photo_before_footer" src="/images/photos_restau_mobile.png" alt="">
-        <img class="photo_before_footer2" src="/images/restaurant/restaurant_photo_frise-min.jpg" alt="">
+        <img class="photo_before_footer4" src="/images/restaurant/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
+        <img class="photo_before_footer3" src="/images/restaurant_responsive/restaurant_photo_frise_mobile-min.jpg" alt="illustrations de plats.">
+        <img class="photo_before_footer" src="/images/photos_restau_mobile.png" alt="illustrations de plats.">
+        <img class="photo_before_footer2" src="/images/restaurant_responsive/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
     </div>
         <!--FOOTER-->
         @include('components.footer')
