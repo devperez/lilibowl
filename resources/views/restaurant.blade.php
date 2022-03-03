@@ -165,7 +165,7 @@
     <div>
         <img class="photo_before_footer3" src="/images/photo_restaurant_300.jpg" alt="">
         <img class="photo_before_footer" src="/images/photos_restau_mobile.png" alt="">
-        <img class="photo_before_footer2" src="/images/frise_photos.png" alt="">
+        <img class="photo_before_footer2" src="/images/restaurant/restaurant_photo_frise-min.jpg" alt="">
     </div>
         <!--FOOTER-->
         @include('components.footer')
