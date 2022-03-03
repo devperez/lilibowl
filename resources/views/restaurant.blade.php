@@ -37,13 +37,13 @@
     
     <section class="topPage">
         <div class="fleur">
-            <img class="fleur_image" src="/images/fleur_titre.svg" alt="illustration florale">
+            <img class="fleur_image" src="/images/restaurant/restaurant_fleur.png" alt="illustration florale">
         </div>
         <div class="pageTitle">
             <h2 class="title">Le Restaurant</h2>
         </div>
         <div class="ellipse_wrapper">
-            <img class="ellipse" src="/images/Ellipse_restaurant.png" alt="ellipse décorative">
+            <img class="ellipse" src="/images/restaurant/restaurant_ellipse.png" alt="ellipse décorative">
         </div>
     </section>
 
@@ -54,24 +54,27 @@
             </div>
             <div class="mobile_right_part_1">
                 <div class="picture_wrapper_1">
-                    <img class="picture_1" src="/images/placeholder.png" alt="">
+                    <img class="picture_1" src="/images/restaurant/gif_restaurant.gif" alt="Image de bols illustrant la partie restauration">
                 </div>
             </div>
             <div class="texte_wrapper_1">
                 <p class="texte_1">
-                Nous vous accueillons dans notre restaurant situé dans la plus ancienne maison médiévale du centre historique de Cahors, <strong> en service continu du lundi au vendredi de 11h00 à 15h00</strong> :<br />
+                Nous vous accueillons dans notre <strong>restaurant</strong> situé dans la plus ancienne maison médiévale du centre historique de Cahors :<br />
                 - 6 places assises en salle,<br />
-                - terrasse et petit salon accueillants.<br />
+                - terrasse extérieure accueillante.<br />
+                <strong>Du lundi au vendredi de 11h00 à 15h00.</strong><br />
+                <strong>Réservations par téléphone au 06 30 03 73 89.</strong><br />
                 <br />
-                Réservations uniquement par téléphone.<br />
-                <br />
-                Livraison continue le mardi et le jeudi dans le Grand Cahors.
+                <strong>Livraison</strong> par notre partenaire CallEats. Téléchargez l’application sur leur site : 
+                <a href="https://cahors.calleats.com/" target="_blank"><img class="calleats" src="/images/restaurant/logo_calleats.png" alt="logo du partenaire de livraison Call Eats"></a>
+
+
                 </p>
             </div>
         </div>
         <div class="right_part_1">
             <div class="picture_wrapper_1">
-                <img src="/images/placeholder.png" alt="">
+                <img src="/images/restaurant/gif_restaurant.gif" alt="Image de bols illustrant la partie restauration">
             </div>
         </div>
     </section>
@@ -83,25 +86,27 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_2" src="/images/placeholder.png" alt="">
+                    <img class="picture_2" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Images de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
                 <p class="texte_2">
                 SERVICE TRAITEUR<br />
-                Lili BOwl peut préparer des repas <strong>jusqu’à 50 couverts</strong> sur réservation. 
-                Pour vos repas de famille ou d’entreprise, n’hésitez pas à ajouter une touche végétale, engagée et saine.<br />
-
-                COMMANDES DE GÂTEAUX<br /> 
-                Tous nos gâteaux sont réalisables en grands formats (de 6 à 8 parts) <strong>sur commande au moins 48h en avance</strong>.
-                Personnalisation possible sur demande : décoration d’anniversaire, parfums, etc.<br />
+                Lili BOwl peut préparer des repas <strong>jusqu’à 50 couverts</strong> sur réservation.<br />
+                Pour vos repas de famille ou d’entreprise, pour  le  plaisir  d’ajouter  une  touche  végétale,  saine,  et 
+                engagée à vos évènements.<br />
+                <br />
+                COMMANDES DE GÂTEAUX<br />
+                Tous nos gâteaux sont réalisables en grands formats (de 6 à 12 parts) <strong>sur commande au moins 48h à l’avance</strong>.<br />
+                Personnalisation possible sur demande selon vos goûts et vos intolérances.<br />
+                Vous allez adorer nos desserts “GLO” (sans Gluten, sans Lait, sans Oeufs).<br />
                 Pour toute demande particulière, contactez-nous !
                 </p>
             </div>
         </div>
         <div class="right_part_2">
             <div class="picture_wrapper_2">
-                <img src="/images/placeholder.png" alt="">
+                <img src="/images/restaurant/gif_traiteur_gateau.gif" alt="Images de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
             </div>
         </div>
     </section>
@@ -113,18 +118,20 @@
             </div>
             <div class="mobile_right_part_1">
                 <div class="picture_wrapper_1">
-                    <img class="picture_3" src="/images/placeholder.png" alt="">
+                    <img class="picture_3" src="/images/restaurant/gif_vaisselle.gif" alt="Images illustrant la vaisselle disponible à la location.">
                 </div>
             </div>
             <div class="texte_wrapper_vaisselle texte_wrapper_3">
                 <p class="texte_1">
-                    Vous pouvez louer notre vaisselle vintage romantique pour une table chic et conviviale (vaisselle mix and match <strong>pour 20 convives</strong>).
+                Vous pouvez louer notre vaisselle <strong>vintage romantique</strong> pour une table chic et conviviale (vaisselle mix and match).<br />
+                Contactez-nous pour connaître la formule la plus adaptée à vos besoins.<br />
+                <strong>De 1 à 3€ par personne</strong>.
                 </p>
             </div>
         </div>
         <div class="right_part_1">
             <div class="picture_wrapper_1">
-                <img src="/images/placeholder.png" alt="">
+                <img src="/images/restaurant/gif_vaisselle.gif" alt="Images illustrant la vaisselle disponible à la location.">
             </div>
         </div>
     </section>
@@ -136,27 +143,22 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_4" src="/images/placeholder.png" alt="">
+                    <img class="picture_4" src="/images/restaurant/gif_boutique.gif" alt="Images illustrant les thés et cafés vendus au restaurant.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
                 <p class="texte_2">
-                Lili BOwl est ambassadeur des <strong>cafés Terramoka</strong> et
-                des <strong>thés Bio Tea Queen</strong>.<br />
+                Lili BOwl est ambassadeur des cafés Terramoka et des thés Bio Tea Queen.<br />
+                Terramoka est une petite entreprise française qui propose un <strong>café 100% bio, biodégradable et éthique</strong>, en vente au restaurant,  en vrac, moulu, en grains, en capsules Nespresso compostables ou en dosettes Senséo.<br />
+                Nous vendons également des <strong>thés bio</strong> de la marque toulousaine Bio Tea Queen qui sélectionne ses thés avec passion. Elle propose des thés bios de qualité délicatement parfumés et riches en saveur.<br />
                 <br />
-                Terramoka est une petite entreprise française qui propose un café 100% bio,
-                biodégradable et éthique, en vente au restaurant,  en vrac, moulu, en grains,
-                en capsules Nespresso compostables ou en dosettes Senséo.<br />
-                <br />
-                Nous vendons également des thés bio de la marque toulousaine "Bio Tea Queen"
-                qui sélectionne ses thés avec passion. Elle propose des thés bios de qualité
-                délicatement parfumés et riches en saveur.
+                Vous pourrez aussi repartir avec de jois articles Lili BOwL : de la vaisselle spécialement créée pour nous par notre voisine céramiste à l’atelier-boutique C’Dauré, des totes bags ou encore des germoirs.
                 </p>
             </div>
         </div>
         <div class="right_part_2">
             <div class="picture_wrapper_2">
-                <img src="/images/placeholder.png" alt="">
+                <img src="/images/restaurant/gif_boutique.gif" alt="Images illustrant les thés et cafés vendus au restaurant.">
             </div>
         </div>
     </section>
