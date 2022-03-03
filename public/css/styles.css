@@ -705,7 +705,7 @@ input::placeholder {
     }
     
     .background {
-        background-image: url(/images/mobile_background_image.png);
+        background-image: url(/images/homepage_responsive/mobile_background_image-min.jpg);
     }
 
     .accroche {
@@ -714,7 +714,7 @@ input::placeholder {
     }
 
     .hero-inner {
-        background-image: url(/images/mobile_blob.png);
+        background-image: url(/images/homepage_responsive/mobile_blob.png);
     }
     
     /*CONCEPT*/
@@ -851,6 +851,21 @@ input::placeholder {
         padding: 0;
     }
 
+    .amour_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 80px;
+        width: 327px;
+    }
+
+    .amour {
+        color: #131311;
+        font-family: 'Karla',sans-serif;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
     /*SECTION FRISE */
 
     .marque [data-text] {
@@ -948,11 +963,11 @@ input::placeholder {
 @media screen and (min-width: 681px) and (max-width:960px) {
 
     .background {
-        background-image: url(/images/background_image_680.jpg);
+        background-image: url(/images/homepage_responsive/3rdbkpt_header_photo-min.jpg);
     }
 
     .hero-inner {
-        background-image: url(/images/blob_680.png);
+        background-image: url(/images/homepage_responsive/3rdbkpt_blob.png);
     }
 
     .accroche {
@@ -1112,6 +1127,21 @@ input::placeholder {
     ul {
         padding: 0;
     }
+
+    .amour_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 80px;
+        width: 327px;
+    }
+
+    .amour {
+        color: #131311;
+        font-family: 'Karla',sans-serif;
+        font-size: 16px;
+        line-height: 140%;
+    }
     
     /*SECTION FRISE */
 
@@ -1212,11 +1242,11 @@ input::placeholder {
 @media screen and (min-width: 961px) and (max-width:1331px) {
     
     .background {
-        background-image: url(/images/photo_header_960.jpg);
+        background-image: url(/images/homepage_responsive/2ndbkpt_header_photo-min.jpg);
     }
 
     .hero-inner {
-        background-image: url(/images/blob_960.png);
+        background-image: url(/images/homepage_responsive/2ndbkpt_blob.png);
     }
 
     .accroche {
