@@ -39,13 +39,14 @@ h2 {
 .fleur {
     position: absolute;
     right: 0;
-    top: 98px;
+    top: 0;
+    height: 560px;
 }
 
 .display_wrapper {
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 307px;
 }
 
 .menu {
@@ -58,6 +59,11 @@ h2 {
 
 .photo {
     width: 100%;
+    height: auto;
+}
+
+.photo2, .photo3 {
+    display: none;
 }
 
 .logos_wrapper {

@@ -40,7 +40,7 @@
             <div class="title">
                 <h2 class="title_text">Le Menu</h2>
             </div>
-            <img class="fleur" src="/images/fleur.png" alt="Fleur décorative">
+            <img class="fleur" src="/images/menu/menu_fleur.png" alt="Fleur décorative">
         </div>
         <div class="display_wrapper">
             <div class="menu">
@@ -60,16 +60,16 @@
             </div>
         </div>
         <div>
-            <img class="photo" src="/images/photo_menu.png" alt="">
+            <img class="photo" src="/images/menu/menu_photo_frise-min.jpg" alt="">
             <img class="photo2" src="/images/frise_photos_menu_960.png" alt="">
             <img class="photo3" src="/images/mobile_menu_300.jpg" alt="">
         </div>
     </div>
     <div class="logos_wrapper">
-        <img class="logos" src="/images/green_food.jpg" alt="">
-        <img class="logos" src="/images/vegorest.png" alt="">
-        <img class="logos" src="/images/act4nature.png" alt="">
-        <img class="logos" src="/images/fait_maison.png" alt="">
+        <img class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food.">
+        <img class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto.">
+        <img class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature.">
+        <img class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison.">
     </div>
     
 
