@@ -208,6 +208,11 @@ main {
     display: none;
 }
 
+.fleurDeco1 {
+    width: 164px;
+    height: 396px;
+}
+
 .concept {
     margin-top: 120px;
     width: 720px;

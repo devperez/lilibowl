@@ -11,7 +11,7 @@ body, html, main {
 }
 
 .background {
-    background-image: url(/images/background_menu.png);
+    background-image: url(/images/menu/menu_background_image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,12 +81,6 @@ h2 {
 
 
 @media screen and (min-width:300px) and (max-width:680px) {
-
-    .background {
-        background-image: url(/images/background_menu_mobile.png);
-        background-size: cover;
-        margin-top: 32px;
-    }
 
     .title_text {
         font-size: 32px;
@@ -227,11 +221,6 @@ h2 {
         height: 99px;
     }
 
-    .background {
-        background-image: url(/images/background_menu_680.png);
-        background-size: cover;
-        margin-top: 32px;
-    }
 
     .fleur {
         width: 150px;
@@ -340,8 +329,6 @@ h2 {
     }
 
     .background {
-        background-image: url(/images/menu_background_960.png);
-        background-size: cover;
         margin-top: 190px;
     }
 
