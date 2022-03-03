@@ -46,7 +46,7 @@ $("#form").on("submit",function(event) {
 
         setTimeout(function(){
             $('#myModal').modal('hide');
-        },5000);
+        },7000);
     })
     .fail(function() {
         $('#error').addClass().css('display','flex');
