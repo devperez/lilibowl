@@ -1,0 +1,104 @@
+/*règles générales*/
+body, html, main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+.hamburger {
+    display: none;
+}
+
+a {
+    color: #131311;
+}
+
+.formations {
+    width: 100%;
+    position: relative;
+}
+
+.inner_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ellipse {
+    /* width: 800px; */
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: -150px;
+}
+
+.top_titre {
+    display: flex;
+    flex-direction: column;
+    width: 810px;
+    margin-top: 268px;
+    position: relative;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.fleur {
+    position: absolute;
+    width: 116px;
+    height: 280px;
+    right: 350px;
+    top: 228px;
+}
+
+.sous-titre {
+    margin-top: 32px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 130%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 500;
+}
+
+.texte_formations {
+    width: 816px;
+    height: 482px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: normal;
+    margin-bottom: 120px;
+    font-family: 'Karla', sans-serif;
+}
+
+.programmes {
+    display: flex;
+    justify-content: center;
+}
+
+.lien_image {
+    width: 526px;
+    height: 479px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.lien_image1 {
+    margin-right: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
