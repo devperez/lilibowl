@@ -41,7 +41,7 @@ a {
     margin: auto;
 }
 
-.titre {
+.top_titre {
     display: flex;
     flex-direction: column;
     width: 643px;
@@ -98,20 +98,23 @@ h5 {
 
 .tchin {
     background-color: #EBF3E7;
+    width: 100%;
 }
 
 .wrapper {
-    /* margin-left: 132px; */
-    /* margin-right: 132px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title_wrapper {
     width: 600px;
-    margin-left: 132px;
 }
 
 .tchin_title {
@@ -136,6 +139,169 @@ h5 {
 .tchin_1 {
     width: 540px;
     height: 810px;
+    margin-bottom: 34px;
     margin-left: 36px;
-    margin-right: 132px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+/* Section oser */
+
+.oser {
+    background-color: #FFFFE3;
+    width: 100%;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title_wrapper2 {
+    width: 600px;
+}
+
+.oser_title {
+    color: #A89505;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+}
+
+.left2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.right2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texte_oser {
+    color: #131311;
+    width: 600px;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 120px;
+    margin-top: 34px;
+}
+
+.oser_1 {
+    width: 540px;
+    height: 810px;
+    margin-bottom: 34px;
+    margin-right: 36px;
+}
+
+/*Section tiger */
+
+.tiger {
+    background-color: #EBF3E7;
+    width: 100%;
+}
+
+.tiger_title {
+    color: #5F9249;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+}
+
+.texte_tiger {
+    color: #131311;
+    width: 600px;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 120px;
+    margin-top: 34px;
+}
+
+.tiger_1 {
+    width: 540px;
+    height: 810px;
+    margin-bottom: 34px;
+    margin-left: 36px;
+    margin-top: 120px;
+}
+
+/*Section jardins */
+
+.jardins {
+    background-color: #FFFFE3;
+    width: 100%;
+}
+
+.jardins_title {
+    color: #A89505;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+}
+
+.texte_jardins {
+    color: #131311;
+    width: 600px;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 120px;
+    margin-top: 34px;
+}
+
+.jardins_1 {
+    width: 540px;
+    height: 810px;
+    margin-bottom: 34px;
+    margin-right: 36px;
+    margin-top: 120px;
+}
+
+/*Section alimentaire */
+
+.alimentaire {
+    background-color: #EBF3E7;
+    width: 100%;
+}
+
+.alimentaire_title {
+    color: #5F9249;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+}
+
+.texte_alimentaire {
+    color: #131311;
+    width: 600px;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 120px;
+    margin-top: 34px;
+}
+
+.alimentaire_1 {
+    width: 540px;
+    height: 810px;
+    margin-bottom: 34px;
+    margin-left: 36px;
+    margin-top: 120px;
 }
