@@ -1,0 +1,141 @@
+/*règles générales*/
+body, html, main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+.hamburger {
+    display: none;
+}
+
+a {
+    color: #131311;
+}
+/* Section projets */
+
+.projets {
+    width: 100%;
+    position: relative;
+    /* height: 1029px; */
+}
+
+.inner_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.fleur {
+    position: absolute;
+    width: 116px;
+    height: 280px;
+    top: -40px;
+    left: -202px;
+    margin-right: 80px;
+}
+
+.fleur_titre {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    width: 643px;
+    margin-top: 268px;
+    position: relative;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.sous-titre {
+    margin-top: 32px;
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 130%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 500;
+}
+
+.ellipse1 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    right: -470px;
+}
+
+.texte_projets {
+    width: 816px;
+    height: 482px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: normal;
+    margin-bottom: 120px;
+    font-family: 'Karla', sans-serif;
+}
+
+.ellipse2 {
+    position: absolute;
+    z-index: -2;
+    top: 850px;
+}
+
+/*Projet Tchin */
+
+.tchin {
+    background-color: #EBF3E7;
+}
+
+.wrapper {
+    /* margin-left: 132px; */
+    /* margin-right: 132px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.title_wrapper {
+    width: 600px;
+    margin-left: 132px;
+}
+
+.tchin_title {
+    color: #5f9249;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+}
+
+.texte_tchin {
+    color: #131311;
+    width: 600px;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 120px;
+    margin-top: 34px;
+}
+
+.tchin_1 {
+    width: 540px;
+    height: 810px;
+    margin-left: 36px;
+    margin-right: 132px;
+}
