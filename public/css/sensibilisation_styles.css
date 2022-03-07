@@ -13,12 +13,12 @@ body, html, main {
 a {
     color: #131311;
 }
+
 /* Section projets */
 
 .projets {
     width: 100%;
     position: relative;
-    /* height: 1029px; */
 }
 
 .inner_wrapper {
