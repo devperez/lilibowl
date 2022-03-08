@@ -20,9 +20,4 @@ $(function() {
         $('#formations').removeClass();
         $('#formations').addClass('actif');
     }
-    if(URL == "http://127.0.0.1:8000/contact")
-    {
-        $('#contact').removeClass();
-        $('#contact').addClass('actif');
-    }
 })

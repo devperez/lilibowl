@@ -121,7 +121,7 @@
             <div class="conclusion">
             Les dates de nos prochains cours seront communiquées,<br />
             sur notre page Facebook, notre compte Instagram<br />
-            et via notre notre newsletter !<br />
+            et via notre newsletter !<br />
             Réservation au 06 30 03 73 89.
             </div>
         </div>
@@ -140,10 +140,63 @@
     <section class="initiation" id="initiation">
         <div class="initiation_wrapper">
             <h3 class="initiation_title">Programme d'initiation à la cuisine végétale pour les professionnels</h3>
+            <p class="initiation_texte">
+            Vous êtes <strong>professionnel</strong> ou <strong>en reconversion</strong> et souhaitez satisfaire une nouvelle clientèle plus sensible au contenu de son assiette ?<br /> 
+            Une clientèle qui est intolérante ou allergique à certains aliments (gluten, laitages, œufs), qui souhaite se tourner vers les protéines végétales ou encore qui souhaite manger plus écologique, sain, énergétique et léger ?<br />
+            Pour vous initier aux techniques de découpe, de cuisson, d’assaisonnement et de nutrition, et afin de réaliser des préparations culinaires végétales sans allergènes, nous mettons à votre disposition une cuisine biologique et saine.<br />
+            Cela vous permettra de :<br />
+            &bull; mieux connaître le produit végétal afin de mettre en œuvre les techniques appropriées de cuisson, d’association et de sublimation du produit,<br />
+            &bull; proposer une cuisine tendance répondant à la demande de consommation actuelle.<br />
+            </p>
+            <p CLASS="formation">
+                BLOC DE COMPÉTENCES CUISINE VÉGÉTALE - FORMATION ACCÉLÉRÉE
+            </p>
+            <p class="details">
+            <strong>Durée</strong> :<br /> 
+            2 jours sur 2 semaines en présentiel :<br />
+            &bull; 2h de théorie<br />
+            &bull; 12h de pratique<br />
+            <br />
+            <strong>Pré-requis</strong> : expérience dans le domaine de la cuisine et connaissances culinaires<br />
+            <br />
+            <strong>Lieu</strong> : à définir selon le besoin<br />
+            <br />
+            <strong>Tarif</strong> : xx€<br />
+            <br />
+            <strong>Nombre de places</strong> : x<br />
+            <br />
+            <strong>Objectifs</strong> :<br />
+            &bull; Réaliser en autonomie des préparations culinaires végétales et sans allergènes dans le respect des consignes d’hygiène et de sécurité, dans un contexte professionnel et en fonction des interdits alimentaires énoncés.<br />
+            &bull; Connaitre les principales techniques de cuissons, de découpe et d’assaisonnement adaptés à la cuisine santé et les mettre en oeuvre pour réaliser un menu complet équilibré et de saison de l’entrée au dessert.<br />
+            <br />
+            <strong>Programme</strong> :<br />
+            Théorie - découpe, préparation, cuissons saines, dressage, gastronomie végétale et épices - cuisine du monde - pâtisserie sans gluten – crusine (cuisine crue) - équilibrage alimentaire - plantes sauvages - mise en pratique et organisation en cuisine.<br />
+            <br />
+            <strong>Méthodes pédagogiques</strong> :<br />
+            Apports théoriques.<br />
+            Ateliers pratiques.<br />
+            Alternance de travail individuel et en groupe.<br />
+            Un support de cours sera remis à chaque participant comportant des fiches recettes et des apports théoriques sur la cuisine végétale saine, gourmande, respectueuse de notre microbiote et de l’environnement.<br />
+            <br />
+            <strong>Méthode d’évaluation et de suivi</strong> :<br />
+            Auto-Evaluation individuelle à l’entrée et à la sortie.<br />
+            Questionnaires d'évaluation journaliers pour mesurer le niveau des connaissances acquises.<br />
+            Mise en situation finale avec évaluation du degré de maîtrise des savoirs et des techniques apprises.<br />
+            Personnalisation de la formation (adaptation du contenu, du niveau des recettes et des interdits alimentaires).<br />
+            </p>
+            <p class="conclusion">
+                Pour toute demande (programmes de formations,<br /> 
+                dates des prochaines sessions, inscriptions...),<br />
+                merci de nous contacter au 06 30 03 73 89.
+            </p>
         </div>
+        <img class="fleur_initiation" src="/images/formations/formations_fleur_sections.png" alt="">
     </section>
 
-
+    <!--footer-->
+    @include('components.footer')
+        @yield('footer')
+    <!-- end footer -->
 
     <!--script pour la modif des images lors du hover -->
     <script src="/js/hover.js"></script>
