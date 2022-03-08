@@ -1,6 +1,6 @@
 @yield('footer')
 <div class="last_section container-fluid">
-    <section class="footer">
+    <section class="footer" id="newsletter">
         <div class="newsletter">
             <p class="titre">RECEVOIR LA NEWSLETTER</p>
             <p class="titre2" style="display:none">MERCI POUR VOTRE INSCRIPTION !</p>
@@ -32,7 +32,7 @@
                         <p class="contact">Contactez-nous</p>
                     </div>
                     <div class="detail_wrapper">
-                        <span class="detail">12, rue Daurade, 46000 Cahors</span><br />
+                        <a href="https://g.page/lili-bowl?share" target="_blank"><span class="detail address">12, rue Daurade, 46000 Cahors</span></a><br />
                         <span class="detail">06.30.03.73.89</span><br />
                         <span class="detail">lilibowl.cahors@gmail.com</span>
                     </div>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; Mentions légales - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
+            <span>Lili BOwL &copy; <a class="lien" href="#" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="lien" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
         </div>
     </footer>
 </div>

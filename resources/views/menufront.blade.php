@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content= "Lili BOwL, restaurant végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée : consultez le menu !" />
+    <meta name="robots" content= "index, follow">
     
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://???????">
+    <meta property="og:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+    <meta property="og:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+    <meta property="og:image" content="/images/image_social_media_tag_menu_Fbk.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content=" https://???????">
+    <meta property="twitter:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+    <meta property="twitter:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+    <meta property="twitter:image" content="adresse image">
+
     <!--FONT-->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
@@ -27,7 +43,7 @@
     <!--script pour soulignement des items de la navbar suivant la page-->
     <script src="/js/nav.js"></script>
 
-    <title>Lili BOwL | Le Menu</title>
+    <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
 </head>
 <body>
     <!--NAVBAR-->

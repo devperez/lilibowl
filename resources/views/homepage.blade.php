@@ -3,6 +3,24 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content= "Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée." />
+        <meta name="robots" content= "index, follow">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://???????">
+        <meta property="og:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+        <meta property="og:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+        <meta property="og:image" content="/images/image_social_media_tags.jpg">
+
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content=" https://???????">
+        <meta property="twitter:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+        <meta property="twitter:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+        <meta property="twitter:image" content="adresse image">
+
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +41,7 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
         
-        <title>Lili BOwL | Cuisine végétale et éco-responsable</title>
+        <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
     </head>
     <body class="content">
         <section class="background">

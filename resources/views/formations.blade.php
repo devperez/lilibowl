@@ -4,6 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content= "Lili BOwL | Restaurant et traiteur végétarien qui propose des formations à la cuisine végétale pour particuliers et professionnels." />
+        <meta name="robots" content= "index, follow">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://???????">
+        <meta property="og:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+        <meta property="og:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+        <meta property="og:image" content="/images/image_social_media_tags.jpg">
+
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content=" https://???????">
+        <meta property="twitter:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
+        <meta property="twitter:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
+        <meta property="twitter:image" content="adresse image">
         
         <!--FONT-->
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -27,8 +44,7 @@
         <!--script pour soulignement des items de la navbar suivant la page-->
         <script src="/js/nav.js"></script>
         
-
-        <title>Lili BOwL | Formations à la cuisine végétale</title>
+        <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
     </head>
     <body>
 
@@ -51,8 +67,8 @@
             </div>
         </div>
         <p class="texte_formations">
-            Plus qu'une simple démonstration et plus qu'un apprentissage de recettes, nos cours vous donneront des clefs pour cuisiner végétal chez vous, en vous faisant plaisir et en vous régalant.<br />
-            Que ce soit la curiosité qui vous amène ou que vous ayez entamé une démarche pour mettre plus de végétal dans vos assiettes, que vous soyez déjà un cordon bleu ou que vous débutiez, nous avons hâte de vous accueillir dans notre restaurant rue Daurade pour partager nos connaissances avec vous !<br />
+            Plus qu'une simple démonstration et plus qu'un apprentissage de recettes, nos cours vous donneront des clefs pour <strong>cuisiner végétal</strong> chez vous, en vous faisant plaisir et en vous régalant.<br />
+            Que ce soit la curiosité qui vous amène ou que vous ayez entamé une démarche pour mettre plus de végétal dans vos assiettes, que vous soyez déjà un cordon bleu ou que vous débutiez, nous avons hâte de vous accueillir dans <a href="#contact">notre restaurant rue Daurade</a> pour partager nos connaissances avec vous !<br />
             <br />
             En tant que formateurs, nous mettons la convivialité, la pratique et le partage au cœur de nos ateliers.
         </p>
@@ -120,8 +136,8 @@
         <div class="ateliers_wrapper">
             <div class="conclusion">
             Les dates de nos prochains cours seront communiquées,<br />
-            sur notre page Facebook, notre compte Instagram<br />
-            et via notre newsletter !<br />
+            sur notre page <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank">Facebook</a>, notre compte <a href="https://www.instagram.com/lili_bowl/" target="_blank">Instagram</a><br />
+            et via notre <a href="#newsletter">newsletter !</a><br />
             Réservation au 06 30 03 73 89.
             </div>
         </div>
