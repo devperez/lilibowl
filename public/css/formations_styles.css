@@ -236,13 +236,15 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .initiation_wrapper {
     padding-top: 120px;
     width: 800px;
+    display: flex;
+    flex-direction: column;
 }
 
 .initiation_title {
@@ -252,4 +254,40 @@ h5 {
     line-height: 120%;
     font-weight: 600;
     text-align: center;
+    width: 800px;
+    margin-bottom: 32px;
+}
+
+.fleur_initiation {
+    width: 100px;
+    height: 240px;
+    margin-left: 68px;
+    margin-top: 80px;
+}
+
+.initiation_texte {
+    width: 800px;
+    color: #131311;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: "Karla", sans-serif;
+    text-align: left;
+}
+
+.formation {
+    color: #5F9249;
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.details {
+    color: #131311;
+    font-size: 20px;
+    line-height: 140%;
+    font-family: "Karla", sans-serif;
+    text-align: left;
+    margin-bottom: 104px;
 }
