@@ -102,3 +102,154 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+.ateliers {
+    background-image: url(/images/formations/formations_bkgd_atelier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fleur_section {
+    width: 100px;
+    height: 240px;
+    margin-top: 80px;
+}
+
+.title_section {
+    color: #131311;
+    font-size: 48px;
+    line-height: 120%;
+    font-family: "Josefin sans", sans-serif;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: 88px;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_header {
+    width: 820px;
+    margin-left: 68px;
+    line-height: 140%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    color: #131311;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.ateliers_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ateliers_titre {
+    font-size: 40px;
+    line-height: 120%;
+    color: #A89505;
+    font-family: "Josefin sans", sans-serif;
+    margin-top: 104px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.ateliers_texte {
+    color: #131311;
+    text-align: left;
+    font-size: 20px;
+    line-height: 140%;
+    font-family: 'Karla', sans-serif;
+    width: 800px;
+    margin-bottom: 104px;
+}
+
+.ateliers_titre2 {
+    font-size: 40px;
+    line-height: 120%;
+    color: #A89505;
+    font-family: "Josefin sans", sans-serif;
+    margin-top: 104px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    width: 600px;
+}
+
+.conclusion {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #131311;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.gift {
+    width: 234.19px;
+    height: 260.16px;
+    margin-top: 82px;
+    margin-right: 31.77px;
+}
+
+.cadeau {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 121.68px;
+}
+
+.gift_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.gift_title {
+    margin-top: 121px;
+    color: #131311;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: "Josefin sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.gift_text {
+    width: 800px;
+    color: #131311;
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.initiation {
+    background-image: url(/images/formations/formations_bkgd_initiationpro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.initiation_wrapper {
+    padding-top: 120px;
+    width: 800px;
+}
+
+.initiation_title {
+    color: #131311;
+    font-family: "Josefin sans", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 600;
+    text-align: center;
+}
