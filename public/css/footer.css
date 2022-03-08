@@ -185,6 +185,10 @@ address {
     margin-bottom:24px;
 }
 
+.address {
+    text-decoration: underline;
+}
+
 .partagez-wrapper {
     margin-top: 88px;
     display: flex;
@@ -240,8 +244,13 @@ address {
     }
 }
 
-.liens {
+/* .liens {
     color: #131311;
+} */
+
+.lien {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /*PARTIE MOBILE*/
