@@ -26,6 +26,7 @@
         
         <!--script pour soulignement des items de la navbar suivant la page-->
         <script src="/js/nav.js"></script>
+        
 
         <title>Lili BOwL | Formations à la cuisine végétale</title>
     </head>
@@ -62,25 +63,90 @@
     </div>
 
     <section class="menu">
-        <a href="#"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt=""></a>
-        <a href="#"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt=""></a>
+        <a href="#ateliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt=""></a>
+        <a href="#initiation"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt=""></a>
+    </section>
+
+    <section class="ateliers" id="ateliers">
+        <div class="section_header">
+            <img class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="">
+            <div class="header_wrapper">
+                <h3 class="title_section">Ateliers de cuisine pour les particuliers</h3>
+                <p class="text_header">
+                Vous souhaitez en apprendre davantage sur les sensibilités alimentaires, différentes astuces et délices végétaux ? Nos ateliers sont conviviaux et ludiques pour libérer votre créativité végétale !
+                </p>
+            </div>
+        </div>
+        <div class="ateliers_wrapper">
+            <div>
+                <h4 class="ateliers_titre">Ateliers de cuisine pour adultes</h4>
+            </div>
+            <div class="ateliers_texte">
+                Ces ateliers peuvent durer <strong>entre 1 heure et 6 heures</strong> selon l’apprentissage souhaité :<br />
+                &bull; 1 recette,<br />
+                &bull; 1 repas,<br />
+                &bull; 1 technique,<br />
+                &bull; des bases culinaires sans allergène,<br />
+                &bull; cuisine végétarienne équilibrée,<br />
+                &bull; la cuisine végétale équilibrée,<br />
+                &bull; la cuisine vivante.<br />
+                <br />
+                Atelier pour <strong>5 à 6 personnes</strong> au 12 rue Daurade ou autre lieu si l’atelier est réalisé en partenariat avec une autre structure.<br />
+                <strong>Prix : nous consulter.</strong>
+            </div>
+        </div>
+        <div class="ateliers_wrapper">
+            <div>
+                <h4 class="ateliers_titre">Ateliers de cuisine pour enfants</h4>
+            </div>
+            <div class="ateliers_texte">
+            Apprenez à réaliser des truffes au chocolat gourmandes, des sablés sans gluten, des gâteaux simples pour un anniversaire sans allergène, le tout 100% végétal !<br />
+            <br />
+            Atelier d’<strong>une heure pour 5 enfants maximum</strong> (dès 6 ans) au 12 rue Daurade.<br />
+            <strong>Prix : 30 euros.</strong>
+            </div>
+        </div>
+        <div class="ateliers_wrapper">
+            <div>
+                <h4 class="ateliers_titre2">Ateliers desserts pour les fêtes ou un évènement particulier</h4>
+            </div>
+            <div class="ateliers_texte">
+                Un cadeau à ne pas manquer pour réaliser des desserts de fêtes sans allergènes et avec moins de sucre. Pour une cuisine végétale, saine et gourmande à tous les moments clés de l’année.<br />
+                <br />
+                Atelier de <strong>4 heures, pour 6 personnes maximum</strong>, au 12 rue Daurade.<br />
+                <strong>Prix : 75 euros.</strong>
+            </div>
+        </div>
+        <div class="ateliers_wrapper">
+            <div class="conclusion">
+            Les dates de nos prochains cours seront communiquées,<br />
+            sur notre page Facebook, notre compte Instagram<br />
+            et via notre notre newsletter !<br />
+            Réservation au 06 30 03 73 89.
+            </div>
+        </div>
+    </section>
+
+    <section class="cadeau">
+        <img class="gift" src="/images/formations/formations_cadeau.png" alt="image d'un cadeau">
+        <div class="gift_text">
+            <h4 class="gift_title">Bons cadeaux</h4>
+            <p class="gift_text">
+            Que ce soit pour offrir à quelqu'un d'autre ou pour vous-mêmes, vous pouvez désormais acheter des bons pour nos cours de cuisine & de pâtisserie dans notre restaurant. 
+            </p>
+        </div>
+    </section>
+
+    <section class="initiation" id="initiation">
+        <div class="initiation_wrapper">
+            <h3 class="initiation_title">Programme d'initiation à la cuisine végétale pour les professionnels</h3>
+        </div>
     </section>
 
 
 
+    <!--script pour la modif des images lors du hover -->
+    <script src="/js/hover.js"></script>
+</body>
+</html>
 
-
-
-<script>
-    $(".lien_image1").hover(function(){
-        $(".lien_image1").attr('src','/images/formations/formations_lien_atelier_hover.png');
-    },function(){
-        $(".lien_image1").attr("src", "/images/formations/formations_lien_atelier.png");
-    });
-
-    $(".lien_image2").hover(function(){
-        $(".lien_image2").attr('src','/images/formations/formations_lien_initiationpro_hover.png');
-    },function(){
-        $(".lien_image2").attr("src", "/images/formations/formations_lien_initiationpro.png");
-    });
-</script>
