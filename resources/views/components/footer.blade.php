@@ -32,7 +32,7 @@
                         <p class="contact">Contactez-nous</p>
                     </div>
                     <div class="detail_wrapper">
-                        <a href="https://g.page/lili-bowl?share" target="_blank"><span class="detail address">12, rue Daurade, 46000 Cahors</span></a><br />
+                        <a class="lien" href="https://g.page/lili-bowl?share" target="_blank"><span class="detail address">12, rue Daurade, 46000 Cahors</span></a><br />
                         <span class="detail">06.30.03.73.89</span><br />
                         <span class="detail">lilibowl.cahors@gmail.com</span>
                     </div>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; <a class="lien" href="#" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="lien" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
+            <span>Lili BOwL &copy; <a class="liens" href="{{ route('mentions') }}" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
         </div>
     </footer>
 </div>

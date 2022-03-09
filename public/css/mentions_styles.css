@@ -1,0 +1,17 @@
+/*règles générales*/
+body, html, main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+.hamburger {
+    display: none;
+}
+
+section {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}

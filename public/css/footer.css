@@ -244,12 +244,15 @@ address {
     }
 }
 
-/* .liens {
+.liens {
     color: #131311;
-} */
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .lien {
-    font-weight: bold;
+    color:#131311;
+    /* font-weight: bold; */
     text-decoration: none;
 }
 

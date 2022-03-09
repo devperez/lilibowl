@@ -36,4 +36,9 @@ class NavController extends Controller
     {
         return view('formations');
     }
+
+    public function mentions()
+    {
+        return view('mentions');
+    }
 }
