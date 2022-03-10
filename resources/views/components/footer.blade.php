@@ -54,7 +54,7 @@
             <span class="partagez">Partagez votre expérience :</span>
             <div class="icones_wrapper">
             <div class="review-widget_net" data-uuid="f581a3d9-1d1b-4455-8816-0e3f04b2bab4" data-template="2" data-filter="" data-lang="en" data-theme="light"><center><a href="https://www.review-widget.net/" target="_blank" rel="noopener"><img src="https://grwapi.net/assets/spinner/spin.svg" title="Google Review Widget" alt="Review Widget"></a></center></div><script async type="text/javascript" src="https://grwapi.net/widget.min.js"></script>
-                <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" />
+                <!-- <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" /> -->
                 <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
             </div>
         </div>
