@@ -394,6 +394,9 @@ h5 {
         padding-bottom: 60px;
     }
 
+    /*Projet Tchin */
+
+
     .title_wrapper {
         width: 297px;
     }
@@ -408,5 +411,113 @@ h5 {
         padding-top: 36px;
         font-size: 24px;
         line-height: 120%;
+        text-align: center;
+    }
+
+    .tchin_1 {
+        display: none;
+    }
+
+    .texte_tchin {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-bottom: 48px;
+    }
+
+    /*Projet Osez croquer le paysage*/
+    
+    .wrapper2 {
+        flex-direction: column;
+    }
+
+    .left2 {
+        display: none;
+    }
+
+    .oser_title {
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .title_wrapper2 {
+        width: 347px;
+        padding-top: 0;
+    }
+
+    .texte_oser {
+        width: 327px;
+        font-size: 16px;
+        line-height: 140%;
+        padding-bottom: 48px;
+    }
+
+    /*Projet Tiger Milk*/
+
+    .tiger_title {
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        padding-top: 48px;
+    }
+
+    .texte_tiger {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        padding-bottom: 48px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    /*Projet jardins urbains*/
+
+    .left2 {
+        display: none;
+    }
+
+    .title_wrapper2 {
+        padding-top: 48px;
+        width: 287px;
+    }
+
+    .jardins_title {
+        font-size: 24px;
+        line-height: 120%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .texte_jardins {
+        width: 327px;
+        font-size: 16px;
+        line-height: 140%;
+        padding-bottom: 48px;
+    }
+
+    /*Projet alimentaire*/
+
+    .alimentaire_title {
+        padding-top: 48px;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .texte_alimentaire {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        padding-bottom: 48px;
     }
 }
