@@ -42,3 +42,9 @@ Route::get('/menu', [MenuController::class, 'index'])->name('menuindex');
 Route::post('/menu', [MenuController::class, 'maj'])->name('maj');
 Route::post('/mails/export',[CsvController::class, 'export'])->name('export');
 Route::post('/home/export',[CsvController::class, 'partial'])->name('partial');
+
+
+// Méthode fallback() en dernière position
+Route::fallback(function() {
+    return view('404'); // la vue 404.blade.php
+});

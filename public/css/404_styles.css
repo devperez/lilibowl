@@ -1,0 +1,47 @@
+/*règles générales*/
+body, html, main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+    background-color: #dbc207;
+}
+
+.hamburger {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #131311;
+    font-family: 'Karla', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: #131311;
+    margin-bottom: 40px;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.pic {
+    width: 10%;
+}
+
+@keyframes rotateAnim {
+    from {transform: rotateY(0);}
+    to {transform: rotateY(360deg);}
+}
+.owl {
+    animation: rotateAnim 5s linear infinite;
+}
