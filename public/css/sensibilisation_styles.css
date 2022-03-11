@@ -739,3 +739,215 @@ h5 {
         padding-bottom: 60px;
     }
 }
+
+@media screen and (min-width: 961px) and (max-width:1331px) {
+
+    /*navbar, logo et section top page*/
+    .projets {
+        width: 100%;
+        position: relative;
+    }
+
+    .hamburger {
+    display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    nav {
+        height: 128px;
+    }
+
+    .ellipse1 {
+        width: 360px;
+        height: 360px;
+        position: absolute;
+        right: -150px;
+    }
+
+    .ellipse2 {
+        width: 360px;
+        height: 360px;
+        left: -200px;
+        top: 750px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .top_titre {
+        display: flex;
+        flex-direction: column;
+        margin-top: 177px;
+        position: relative;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .fleur {
+        position: absolute;
+        width: 74px;
+        height: 176px;
+        top: 0;
+        left: -46px;
+        margin-left: -40px;
+    }
+
+    h5 {
+        font-size: 24px;
+        line-height: 130%;
+        font-family: 'Josefin sans', sans-serif;
+        font-weight: 500;
+        margin: auto;
+        color: #131311;
+    }
+
+    .sous-titre {
+        margin-top: 24px;
+        width: 480px;
+    }
+
+    .texte_projets {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 140%;
+        width: 600px;
+        padding-bottom: 80px;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    /*Projet Tchin */
+
+
+    .title_wrapper {
+        width: 620px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tchin_title {
+        padding-top: 80px;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .tchin_1 {
+        display: none;
+    }
+
+    .texte_tchin {
+        font-size: 20px;
+        line-height: 140%;
+        width: 600px;
+        margin-left: 180px;
+        margin-right: 180px;
+        padding-bottom: 80px;
+    }
+
+    /*Projet Osez croquer le paysage*/
+    
+    .wrapper2 {
+        flex-direction: column;
+    }
+
+    .left2 {
+        display: none;
+    }
+
+    .oser_title {
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .title_wrapper2 {
+        width: 600px;
+        padding-top: 0;
+    }
+
+    .texte_oser {
+        width: 600px;
+        font-size: 20px;
+        line-height: 140%;
+        padding-bottom: 80px;
+    }
+
+    /*Projet Tiger Milk*/
+
+    .tiger_title {
+        font-size: 32px;
+        line-height: 120%;
+        padding-top: 80px;
+        text-align: center;
+        width: 600px;
+    }
+
+    .texte_tiger {
+        font-size: 20px;
+        line-height: 140%;
+        width: 600px;
+        padding-bottom: 80px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    /*Projet jardins urbains*/
+
+    .left2 {
+        display: none;
+    }
+
+    .jardins_title {
+        font-size: 32px;
+        line-height: 120%;
+        padding-top: 80px;
+        text-align: center;
+        width: 600px;
+    }
+
+    .texte_jardins {
+        width: 600px;
+        font-size: 20px;
+        line-height: 140%;
+        padding-bottom: 80px;
+    }
+
+    /*Projet alimentaire*/
+
+    .alimentaire_title {
+        padding-top: 80px;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .texte_alimentaire {
+        font-size: 20px;
+        line-height: 140%;
+        width: 600px;
+        padding-bottom: 80px;
+    }
+}
