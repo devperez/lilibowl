@@ -110,14 +110,14 @@
 
             <section class="quotationwrapper">
                 <div class="bowlpicwrapper1">
-                    <img class="bowlpic" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bowl" />
+                    <img class="bowlpic" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bol" />
                 </div>
                 <div class="innerwrapper">
                     <div class="pourquoiwrapper">
                         <h4 class="pourquoi">Pourquoi le nom Lili BOwL ?</h4>
                     </div>
                     <div class="bowlpicwrapper2">
-                    <img class="bowlpic2" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bowl" />
+                    <img class="bowlpic2" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bol" />
                 </div>
                     <div class="quoteandtext">
                         <div class="quotationmarkleft">
@@ -126,7 +126,7 @@
                         <div>
                             <p class="quotetext">
                             “Lili” est le diminutif de Julie.<br /> “Bowl” parce que notre cuisine s’inspire des Bouddha bowls, assiettes veggies composées de fruits, de légumes, de céréales et de légumineuses qui offrent un repas complet, sain, équilibré et coloré.<br />  
-                            Aussi, il fallait un animal dans le logo pour illustrer le respect de la nature, le sauvage, que j’adore cueillir et cuisiner.  « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Alors ne soyez pas étonnés si nous prenons plaisir à vous appeler nos chouettes clients !<br />
+                            Aussi, il fallait un animal dans le logo pour illustrer le respect de la nature, le sauvage, que j’adore cueillir et cuisiner.  « Owl » en anglais veut dire chouette, l’animal était donc tout trouvé. Alors ne soyez pas étonnés si nous prenons plaisir à vous appeler nos chouettes clients !<br />
                             <span class="quoteauthor2">Julie</span>
                             </p>
                             <p class="quoteauthor">Julie</p>

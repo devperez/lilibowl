@@ -98,8 +98,8 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img class="tchin_1" src="/images/sensibilisation/projet_tchin_1.png" alt="">
-                    <img class="tchin_1"src="/images/sensibilisation/projet_tchin_2.png" alt="">
+                    <img class="tchin_1" src="/images/sensibilisation/projet_tchin_1.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
+                    <img class="tchin_1"src="/images/sensibilisation/projet_tchin_2.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
                 </div>
             </div>
         </section>
@@ -107,8 +107,8 @@
         <section class="oser">
             <div class="wrapper2">
                 <div class="left2">
-                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_1.png" alt="">
-                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_2.png" alt="">
+                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_1.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
+                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_2.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
                 </div>
                 <div class="right2">
                     <div class="title_wrapper2">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img class="tiger_1" src="/images/sensibilisation/projet_tiger.png" alt="">
+                    <img class="tiger_1" src="/images/sensibilisation/projet_tiger.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
                 </div>
             </div>
         </section>
@@ -158,7 +158,7 @@
         <section class="jardins">
             <div class="wrapper2">
                 <div class="left2">
-                    <img class="jardins_1" src="/images/sensibilisation/projet_jardins.png" alt="">
+                    <img class="jardins_1" src="/images/sensibilisation/projet_jardins.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
                 </div>
                 <div class="right2">
                     <div class="title_wrapper2">
