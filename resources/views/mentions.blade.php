@@ -29,9 +29,9 @@
             Le présent site est la propriété de la société Lili BOwL.<br />
             Le restaurant Lili BOwL est situé au 12, rue Daurade 46000 Cahors.<br />
             La société Lili BOwL est représentée par Mme Julie Giverne sous la forme juridique EIRL.<br />
-            Capital : <br />
+
             La société est enregistrée au RCS de Cahors sous le numéro : A 814 829 024.<br />
-            Siège social du restaurant est situé au 321, rue du Dr Jean Ségala - 46000 Cahors<br />
+            Le siège social du restaurant est situé au 321, rue du Dr Jean Ségala - 46000 Cahors<br />
             Adresse email du restaurant : lilibowl.cahors@gmail.com<br />
             Numéro de TVA : FR75814829024<br />
         </p>

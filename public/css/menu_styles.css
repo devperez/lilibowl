@@ -102,7 +102,7 @@ h2 {
         display: none;
     }
 
-    .logo {
+    .logo_lili {
         height: 75px;
         width: 75px;
     }
@@ -198,7 +198,7 @@ h2 {
 
 @media screen and (min-width: 681px) and (max-width:960px) {
 
-    .logo {
+    .logo_lili {
         width: 75px;
         height: 75px;
         margin-top: 12px;
@@ -305,7 +305,7 @@ h2 {
 
 @media screen and (min-width: 961px) and (max-width:1331px) {
 
-    .logo {
+    .logo_lili {
         width: 80px;
         height: 80px;
         margin-top: 12px;
