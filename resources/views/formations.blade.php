@@ -79,13 +79,13 @@
     </div>
 
     <section class="menu">
-        <a href="#ateliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt=""></a>
-        <a href="#initiation"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt=""></a>
+        <a href="#ateliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+        <a href="#initiation"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
     <section class="ateliers" id="ateliers">
         <div class="section_header">
-            <img class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="">
+            <img class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="Fleur décorative">
             <div class="header_wrapper">
                 <h3 class="title_section">Ateliers de cuisine pour les particuliers</h3>
                 <p class="text_header">
@@ -144,7 +144,7 @@
     </section>
 
     <section class="cadeau">
-        <img class="gift" src="/images/formations/formations_cadeau.png" alt="image d'un cadeau">
+        <img class="gift" src="/images/formations/formations_cadeau.png" alt="image d'un paquet cadeau">
         <div class="gift_text">
             <h4 class="gift_title">Bons cadeaux</h4>
             <p class="gift_text">
@@ -202,7 +202,7 @@
                 merci de nous contacter au 06 30 03 73 89.
             </p>
         </div>
-        <img class="fleur_initiation" src="/images/formations/formations_fleur_sections.png" alt="">
+        <img class="fleur_initiation" src="/images/formations/formations_fleur_sections.png" alt="Fleur décorative">
     </section>
 
     <!--footer-->

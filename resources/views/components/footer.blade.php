@@ -41,8 +41,7 @@
                         <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img src="/images/homepage/Facebook_icon_black.svg" alt="icône facebook" /></a>
                     </div>
                     <div class="wrapper-horaires">
-                        <div class="horaires">Ouvert du lundi au vendredi, de 11h à 15h,<br />
-                                            sur place ou à emporter.</div>
+                        <div class="horaires">Ouvert du lundi au vendredi, de 11h à 15h, sur place ou à emporter.</div>
                     </div>
                 </div>
             </div>

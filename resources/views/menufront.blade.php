@@ -61,17 +61,17 @@
         <div class="display_wrapper">
             <div class="menu">
                 @foreach ($menu as $item)
-                <img class="menu_mobile" src="{{ asset('storage/menus/'.$item) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/menus/'.$item) }}" alt="Le menu principal du restaurant.">
                 @endforeach
             </div>
             <div class="menu">
                 @foreach ($boisson as $drink)
-                <img class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="Les boissons proposées par le restaurant.">
                 @endforeach
             </div>
             <div class="menu">
                 @foreach ($dessert as $objet)
-                <img class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="">
+                <img class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="Les desserts proposés par le restaurant.">
                 @endforeach
             </div>
         </div>

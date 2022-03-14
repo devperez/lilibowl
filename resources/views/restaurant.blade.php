@@ -103,7 +103,7 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_2" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Images de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
+                    <img class="picture_2" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
@@ -123,7 +123,7 @@
         </div>
         <div class="right_part_2">
             <div class="picture_wrapper_2">
-                <img src="/images/restaurant/gif_traiteur_gateau.gif" alt="Images de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
+                <img src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
             </div>
         </div>
     </section>
@@ -135,7 +135,7 @@
             </div>
             <div class="mobile_right_part_1">
                 <div class="picture_wrapper_1">
-                    <img class="picture_3" src="/images/restaurant/gif_vaisselle.gif" alt="Images illustrant la vaisselle disponible à la location.">
+                    <img class="picture_3" src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
                 </div>
             </div>
             <div class="texte_wrapper_vaisselle texte_wrapper_3">
@@ -148,7 +148,7 @@
         </div>
         <div class="right_part_1">
             <div class="picture_wrapper_1">
-                <img src="/images/restaurant/gif_vaisselle.gif" alt="Images illustrant la vaisselle disponible à la location.">
+                <img src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
             </div>
         </div>
     </section>
@@ -160,7 +160,7 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_4" src="/images/restaurant/gif_boutique.gif" alt="Images illustrant les thés et cafés vendus au restaurant.">
+                    <img class="picture_4" src="/images/restaurant/gif_boutique.gif" alt="Image illustrant les thés et cafés vendus au restaurant.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
