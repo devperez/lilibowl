@@ -23,11 +23,12 @@ nav {
     width:15px;
 }
 
-.logo {
+#logo {
     position: relative;
-    left: 32px;
     width: 100px;
     height: 100px;
+    top: -24px;
+    
 }
 
 .actif {

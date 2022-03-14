@@ -1,7 +1,7 @@
 @section('navbar')
 <nav>
     <div id="logo">
-        <img class="logo" src="/images/navbar_fixe/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
+        <img class="logo_lili" src="/images/navbar_fixe/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
         <!-- menu mobile hamburger-->
         <div class="hamburger" id="menu-button">
             <div id="line-1"></div>
