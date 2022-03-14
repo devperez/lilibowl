@@ -53,13 +53,12 @@
         <div class="partagez-wrapper">
             <span class="partagez">Partagez votre expérience :</span>
             <div class="icones_wrapper">
-            <div class="review-widget_net" data-uuid="f581a3d9-1d1b-4455-8816-0e3f04b2bab4" data-template="2" data-filter="" data-lang="en" data-theme="light"><center><a href="https://www.review-widget.net/" target="_blank" rel="noopener"><img src="https://grwapi.net/assets/spinner/spin.svg" title="Google Review Widget" alt="Review Widget"></a></center></div><script async type="text/javascript" src="https://grwapi.net/widget.min.js"></script>
-                <!-- <img class="googleicon" src="/images/icone_google.png" alt="icône Google pour laisser un avis" /> -->
-                <img src="/images/icone_tripadvisor.png" alt="icône pour aller sur le site de Tripadvisor" />
+                <div class="review-widget_net" data-uuid="f581a3d9-1d1b-4455-8816-0e3f04b2bab4" data-template="2" data-filter="" data-lang="en" data-theme="light"><a href="https://www.review-widget.net/" target="_blank" rel="noopener"><img src="https://grwapi.net/assets/spinner/spin.svg" title="Google Review Widget" alt="Review Widget"></a></div><script async type="text/javascript" src="https://grwapi.net/widget.min.js"></script>
+                <div id="TA_cdsratingsonlywide933" class="TA_cdsratingsonlywide"><ul id="d5LBktNnp" class="TA_links JlO4GwCeH"><li id="GtJK97lMZdS" class="S6PZHuu"><a target="_blank" href="https://www.tripadvisor.fr/Restaurant_Review-g187168-d21204190-Reviews-Lili_Bowl-Cahors_Lot_Occitanie.html"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg" alt="TripAdvisor"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&amp;uniq=933&amp;locationId=21204190&amp;lang=fr&amp;border=false&amp;shadow=true&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
             </div>
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; <a class="liens" href="{{ route('mentions') }}" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
+            <span>Lili BOwL &copy; 2022 - <a class="liens" href="{{ route('mentions') }}" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
         </div>
     </footer>
 </div>

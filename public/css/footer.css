@@ -197,8 +197,19 @@ address {
     align-items: center;
 }
 
-.googleicon {
-    margin: 0 48px 0 48px;
+.icones_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.review-widget_net {
+    margin-right: 16px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.logo {
+    left: 0;
 }
 
 .partagez {
@@ -372,14 +383,13 @@ address {
     .icones_wrapper {
         display: flex;
         margin-top: 16px;
-        width: 375px;
-        justify-content: center;
+        flex-direction: column;
     }
 
-    .googleicon {
-        margin-left: 0;
-        margin-right: 32px;
+    .review-widget_net {
+        margin-bottom: 16px;
     }
+
 
     .mentions {
         font-size: 12px;
@@ -511,10 +521,6 @@ address {
         justify-content: center;
     }
 
-    .googleicon {
-        margin-left: 0;
-        margin-right: 32px;
-    }
 
     .mentions {
         font-size: 13px;
@@ -642,11 +648,6 @@ address {
         margin-top: 16px;
         width: 375px;
         justify-content: center;
-    }
-
-    .googleicon {
-        margin-left: 0;
-        margin-right: 32px;
     }
 
     .mentions {

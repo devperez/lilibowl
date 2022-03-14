@@ -36,6 +36,7 @@ h1 {
 
 .pic {
     width: 10%;
+    margin-top: -25px;
 }
 
 @keyframes rotateAnim {

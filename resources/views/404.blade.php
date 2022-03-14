@@ -52,6 +52,6 @@
     <div class="main">
         <h1>ERREUR 4<img class="pic" src="/images/Photo_bol.png" alt="photo d'un bol vu de dessus">4</h1>
         <img class="owl" src="/images/chouette.png" alt="">
-        <h3>Nous sommes désolés, il n'y a rien ici !</h3>
+        <h3>Pas de bol, il n'y a rien ici !</h3>
     </div>
     </body>

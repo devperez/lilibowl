@@ -177,10 +177,6 @@
             <br />
             <strong>Lieu</strong> : à définir selon le besoin<br />
             <br />
-            <strong>Tarif</strong> : xx€<br />
-            <br />
-            <strong>Nombre de places</strong> : x<br />
-            <br />
             <strong>Objectifs</strong> :<br />
             &bull; Réaliser en autonomie des préparations culinaires végétales et sans allergènes dans le respect des consignes d’hygiène et de sécurité, dans un contexte professionnel et en fonction des interdits alimentaires énoncés.<br />
             &bull; Connaitre les principales techniques de cuissons, de découpe et d’assaisonnement adaptés à la cuisine santé et les mettre en oeuvre pour réaliser un menu complet équilibré et de saison de l’entrée au dessert.<br />

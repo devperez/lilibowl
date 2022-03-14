@@ -107,8 +107,10 @@ ul {
     border: solid 2px #A89505;
 }
 
-.logo {
-    left: 12px;
+.logo_lili {
+    margin-left: 32px;
+    margin-top: 24px;
+    width: 100px;
 }
 
 .mobile_menu_wrapper {

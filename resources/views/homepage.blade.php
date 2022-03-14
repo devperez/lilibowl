@@ -47,7 +47,7 @@
         <section class="background">
             <nav>
                 <div id="logo">
-                    <img class="logo" src="/images/homepage/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
+                    <img class="logo_lili" src="/images/homepage/LILI_BOwL_logo_header.png" alt="logo du restaurant" />
                     @include('components.navbar_mobile')
                     @yield('navbar_mobile')
                 </div>
