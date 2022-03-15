@@ -26,11 +26,14 @@ a {
 }
 
 .ellipse {
-    /* width: 800px; */
     height: 800px;
     position: absolute;
     left: 0;
     top: -150px;
+}
+
+.ellipse_mobile {
+    display: none;
 }
 
 .top_titre {
@@ -70,7 +73,7 @@ h5 {
 
 .texte_formations {
     width: 816px;
-    height: 482px;
+    /* height: 482px; */
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -101,6 +104,10 @@ h5 {
 .menu {
     display: flex;
     justify-content: center;
+}
+
+.menu_mobile {
+    display: none;
 }
 
 .ateliers {
@@ -290,4 +297,98 @@ h5 {
     font-family: "Karla", sans-serif;
     text-align: left;
     margin-bottom: 104px;
+}
+
+@media screen and (min-width:300px) and (max-width:680px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    nav {
+        height: 99px;
+    }
+
+    .ellipse {
+        display: none;
+    }
+
+    .ellipse_mobile {
+        display: block;
+        width: 260px;
+        height: 260px;
+        margin-top: 99px;
+        margin-left: -80px;
+    }
+
+    .top_titre {
+        display: flex;
+        flex-direction: column;
+        width: 275px;
+        margin-top: 147px;
+        position: relative;
+    }
+    
+    h2 {
+        font-size: 32px;
+        line-height: 120%;
+        font-weight: 600;
+        font-family: 'Josefin sans', sans-serif;
+    }
+
+    .fleur {
+        width: 40px;
+        height: 96px;
+        right: 0px;
+        top: 115px;
+    }
+
+    .sous-titre {
+        margin-top: 24px;
+        text-align: left;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 130%;
+        font-family: 'Josefin sans', sans-serif;
+        font-weight: 600;
+    }
+
+    .texte_formations {
+        width: 320px;
+        /* height: 482px; */
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        font-size: 16px;
+        line-height: 140%;
+        font-weight: normal;
+        margin-bottom: 40px;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu_mobile {
+        display: block;
+    }
+
+    .image_mobile {
+        width: 300px;
+        height: 278px;
+        margin-top: 24px;
+        margin-left: 35px;
+    }
 }

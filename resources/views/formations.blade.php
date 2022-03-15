@@ -56,6 +56,7 @@
     <section class="formations">
         <div class="inner_wrapper">
             <img class="ellipse" src="/images/formations/formations_ellipse.png" alt="Ellipse décorative">
+            <img class="ellipse_mobile" src="/images/formations_responsive/mobile_formations_ellipse.png" alt="Ellipse décorative">
             <img class="fleur" src="/images/formations/formations_fleur_titre.png" alt="Fleur décorative">
             <div class="fleur_titre">
                 <div class="top_titre">
@@ -81,6 +82,11 @@
     <section class="menu">
         <a href="#ateliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
         <a href="#initiation"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
+    </section>
+
+    <section class="menu_mobile">
+        <a href="#ateliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+
     </section>
 
     <section class="ateliers" id="ateliers">
