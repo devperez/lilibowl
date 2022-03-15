@@ -14,6 +14,10 @@ a {
     color: #131311;
 }
 
+.tchin_2, .tchin_3, .oser_2, .oser_3, .tiger_2, .tiger_3, .jardins_2, .jardins_3, .alimentaire_2, .alimentaire_3 {
+    display: none;
+}
+
 /* Section projets */
 
 .projets {
@@ -424,10 +428,19 @@ h5 {
         display: none;
     }
 
+    .tchin_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
     .texte_tchin {
         font-size: 16px;
         line-height: 140%;
         width: 327px;
+        margin-top: 0;
         margin-left: 24px;
         margin-right: 24px;
         padding-bottom: 48px;
@@ -443,11 +456,20 @@ h5 {
         display: none;
     }
 
+    .oser_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
     .oser_title {
         font-size: 24px;
         line-height: 120%;
         text-align: center;
         padding-top: 0;
+        width: 297px;
     }
 
     .title_wrapper2 {
@@ -460,6 +482,7 @@ h5 {
         font-size: 16px;
         line-height: 140%;
         padding-bottom: 48px;
+        margin-top: 0;
     }
 
     /*Projet Tiger Milk*/
@@ -476,16 +499,33 @@ h5 {
         line-height: 140%;
         width: 327px;
         padding-bottom: 48px;
+        margin-top: 0;
     }
 
     .right {
         display: none;
     }
 
+    .tiger_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
     /*Projet jardins urbains*/
 
-    .left2 {
+    .jardins_1 {
         display: none;
+    }
+
+    .jardins_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
     .title_wrapper2 {
@@ -505,6 +545,7 @@ h5 {
         font-size: 16px;
         line-height: 140%;
         padding-bottom: 48px;
+        margin-top: 0;
     }
 
     /*Projet alimentaire*/
@@ -636,6 +677,14 @@ h5 {
         display: none;
     }
 
+    .tchin_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 36px;
+    }
+
     .texte_tchin {
         font-size: 16px;
         line-height: 140%;
@@ -643,6 +692,7 @@ h5 {
         margin-left: 24px;
         margin-right: 24px;
         padding-bottom: 60px;
+        margin-top: 0;
     }
 
     /*Projet Osez croquer le paysage*/
@@ -653,6 +703,14 @@ h5 {
 
     .left2 {
         display: none;
+    }
+
+    .oser_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
     .oser_title {
@@ -672,6 +730,7 @@ h5 {
         font-size: 16px;
         line-height: 140%;
         padding-bottom: 60px;
+        margin-top: 0;
     }
 
     /*Projet Tiger Milk*/
@@ -688,16 +747,33 @@ h5 {
         line-height: 140%;
         width: 520px;
         padding-bottom: 60px;
+        margin-top: 0;
     }
 
     .right {
         display: none;
     }
 
+    .tiger_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
     /*Projet jardins urbains*/
 
     .left2 {
         display: none;
+    }
+
+    .jardins_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
     .title_wrapper2 {
@@ -717,6 +793,7 @@ h5 {
         font-size: 16px;
         line-height: 140%;
         padding-bottom: 60px;
+        margin-top: 0;
     }
 
     /*Projet alimentaire*/
@@ -756,9 +833,9 @@ h5 {
         display: none;
     }
 
-    .logo {
-        height: 75px;
-        width: 75px;
+    .logo_lili {
+        height: 80px;
+        width: 80px;
     }
 
     nav {
@@ -851,6 +928,14 @@ h5 {
         display: none;
     }
 
+    .tchin_3 {
+        display: block;
+        width: 435px;
+        height: 652px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
     .texte_tchin {
         font-size: 20px;
         line-height: 140%;
@@ -858,6 +943,7 @@ h5 {
         margin-left: 180px;
         margin-right: 180px;
         padding-bottom: 80px;
+        margin-top: 0;
     }
 
     /*Projet Osez croquer le paysage*/
@@ -868,6 +954,14 @@ h5 {
 
     .left2 {
         display: none;
+    }
+
+    .oser_3 {
+        display: block;
+        width: 435px;
+        height: 652px;
+        margin-top: 32px;
+        margin-bottom: 80px;
     }
 
     .oser_title {
@@ -887,6 +981,7 @@ h5 {
         font-size: 20px;
         line-height: 140%;
         padding-bottom: 80px;
+        margin-top: 0;
     }
 
     /*Projet Tiger Milk*/
@@ -904,16 +999,33 @@ h5 {
         line-height: 140%;
         width: 600px;
         padding-bottom: 80px;
+        margin-top: 0;
     }
 
     .right {
         display: none;
     }
 
+    .tiger_3 {
+        display: block;
+        width: 435px;
+        height: 652px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
     /*Projet jardins urbains*/
 
     .left2 {
         display: none;
+    }
+
+    .jardins_3 {
+        display: block;
+        width: 435px;
+        height: 652px;
+        margin-top: 32px;
+        margin-bottom: 40px;
     }
 
     .jardins_title {
@@ -929,6 +1041,7 @@ h5 {
         font-size: 20px;
         line-height: 140%;
         padding-bottom: 80px;
+        margin-top: 0;
     }
 
     /*Projet alimentaire*/
