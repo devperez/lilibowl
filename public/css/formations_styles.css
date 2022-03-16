@@ -73,7 +73,6 @@ h5 {
 
 .texte_formations {
     width: 816px;
-    /* height: 482px; */
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -365,7 +364,6 @@ h5 {
 
     .texte_formations {
         width: 320px;
-        /* height: 482px; */
         margin-top: 24px;
         margin-left: auto;
         margin-right: auto;
@@ -383,6 +381,7 @@ h5 {
 
     .menu_mobile {
         display: block;
+        margin-bottom: 60px;
     }
 
     .image_mobile {
@@ -390,5 +389,93 @@ h5 {
         height: 278px;
         margin-top: 24px;
         margin-left: 35px;
+        margin-bottom: 24px;
+    }
+
+    .ateliers {
+        background-image: url(/images/formations_responsive/mobile_formations_bkgd_atelier.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fleur_section {
+        display: none;
+    }
+
+    .title_section {
+        color: #131311;
+        font-size: 28px;
+        line-height: 120%;
+        margin-top: 60px;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .header_wrapper {
+        align-items: center;
+        text-align: center;
+        width: 253px;
+    }
+
+    .text_header {
+        width: 327px;
+        margin-left: 24px;
+        line-height: 140%;
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    .ateliers_titre {
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: auto;
+        margin-bottom: 16px;
+    }
+
+    .ateliers_texte {
+        font-size: 16px;
+        line-height: 140%;
+        width: 327px;
+        margin-bottom: 40px;
+    }
+
+    .ateliers_titre2 {
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 40px;
+        margin-bottom: 16px;
+        width: 345px;
+    }
+
+    .cadeau {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+        align-items: center;
+    }
+
+    .gift {
+        width: 144.35px;
+        height: 160.2px;
+        margin-top: 2px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .gift_title {
+        margin-top: 1px;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 8px;
+    }
+
+    .gift_text {
+        width: 327px;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .initiation {
+        background-image: url(/images/formations_responsive/mobile_formations_bkgd_initiationpro.png);
     }
 }
