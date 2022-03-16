@@ -58,12 +58,10 @@
             <img class="ellipse" src="/images/formations/formations_ellipse.png" alt="Ellipse décorative">
             <img class="ellipse_mobile" src="/images/formations_responsive/mobile_formations_ellipse.png" alt="Ellipse décorative">
             <img class="fleur" src="/images/formations/formations_fleur_titre.png" alt="Fleur décorative">
-            <div class="fleur_titre">
-                <div class="top_titre">
-                    <h2>Formation à la cuisine végétale</h2>
-                    <div class="sous-titre">
-                        <h5>Lili BOwL propose aussi des cours de cuisine !</h5>
-                    </div>
+            <div class="top_titre">
+                <h2>Formation à la cuisine végétale</h2>
+                <div class="sous-titre">
+                    <h5>Lili BOwL propose aussi des cours de cuisine !</h5>
                 </div>
             </div>
         </div>
