@@ -86,7 +86,7 @@
 
     <section class="menu_mobile">
         <a href="#ateliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
-
+        <a href="#ateliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_initiationpro-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
     <section class="ateliers" id="ateliers">
@@ -141,7 +141,7 @@
         </div>
         <div class="ateliers_wrapper">
             <div class="conclusion">
-            Les dates de nos prochains cours seront communiquées,<br />
+            Les dates de nos prochains cours seront communiquées<br />
             sur notre page <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank">Facebook</a>, notre compte <a href="https://www.instagram.com/lili_bowl/" target="_blank">Instagram</a><br />
             et via notre <a href="#newsletter">newsletter !</a><br />
             Réservation au 06 30 03 73 89.
