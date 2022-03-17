@@ -867,6 +867,8 @@ h5 {
         width: 66px;
         height: 160px;
         left: 82px;
+        margin-right: 74px;
+        margin-left: 40px;
     }
 
     .title_section {
@@ -894,52 +896,51 @@ h5 {
     }
 
     .ateliers_titre {
-        font-size: 24px;
+        font-size: 32px;
         line-height: 120%;
         margin-top: auto;
         margin-bottom: 16px;
     }
 
     .ateliers_texte {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 140%;
-        width: 520px;
-        margin-bottom: 40px;
+        width: 600px;
+        margin-bottom: 60px;
     }
 
     .ateliers_titre2 {
-        font-size: 24px;
+        font-size: 32px;
         line-height: 120%;
-        margin-top: 40px;
-        margin-bottom: 16px;
-        width: 345px;
+        margin-top: 60px;
+        margin-bottom: 24px;
+        width: 460px;
     }
 
     .cadeau {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 680px;
-        height: 100px;
+        width: 960px;
     }
 
     .gift {
         width: 144.35px;
         height: 160.2px;
-        margin-top: 32px;
+        margin-top: 100px;
         margin-left: 70px;
     }
 
     .gift_title {
-        margin-top: 50px;
-        font-size: 24px;
+        margin-top: 93px;
+        font-size: 32px;
         line-height: 120%;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 
     .gift_text {
-        width: 327px;
-        font-size: 16px;
+        width: 480px;
+        font-size: 20px;
         line-height: 140%;
     }
 
@@ -949,16 +950,18 @@ h5 {
 
     .initiation_wrapper {
         align-items: center;
-        width: 520px;
-        padding-top: 48px;
+        width: 600px;
+        padding-top: 80px;
     }
 
     .fleur_initiation {
-        display: none;
+        display: block;
+        width: 66px;
+        height: 160px;
     }
 
     .initiation_title {
-        font-size: 28px;
+        font-size: 36px;
         line-height: 120%;
         text-align: center;
         margin-bottom: 24px;
@@ -967,28 +970,29 @@ h5 {
 
     .initiation_texte {
         width: 100%;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 140%;
         margin-left: 24px;
         margin-right: 24px;
     }
 
     .formation {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 140%;
         font-weight: 600;
         text-align: center;
         margin-top: 40px;
+        width: 660px;
     }
     
     .details {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 140%;
         margin-bottom: 48px;
     }
 
     .conclusion {
-        font-size: 16px;
+        font-size: 20px;
         width: 100%;
         text-align: center;
         font-weight: 600;
