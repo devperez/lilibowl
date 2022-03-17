@@ -57,6 +57,7 @@
                 <h2 class="title_text">Le Menu</h2>
             </div>
             <img class="fleur" src="/images/menu/menu_fleur.png" alt="Fleur décorative">
+            <img class="fleur_mobile" src="images/menu_responsive/3rdbkpt_menu_fleur.svg" alt="Fleur décorative">
         </div>
         <div class="display_wrapper">
             <div class="menu">

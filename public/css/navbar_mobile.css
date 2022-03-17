@@ -109,12 +109,43 @@ ul {
 
 .logo_lili {
     margin-left: 12px;
-    margin-top: 36px;
-    width: 75px;
+    margin-top: 24px;
+    height: 100px;
+    width: 100px;
 }
 
 .mobile_menu_wrapper {
     display: flex;
     flex-direction: row;
     justify-content: end;
+}
+
+@media screen and (min-width:300px) and (max-width:680px) {
+    
+    .logo_lili {
+        margin-left: 12px;
+        margin-top: 36px;
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:960px) {
+    
+    .logo_lili {
+        margin-left: 12px;
+        margin-top: 36px;
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width:1331px) {
+
+    .logo_lili {
+        margin-left: 12px;
+        margin-top: 36px;
+        height: 80px;
+        width: 80px;
+    }
 }

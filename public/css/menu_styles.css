@@ -35,6 +35,9 @@ h2 {
     margin-bottom: 120px;
 }
 
+.fleur_mobile {
+    display: none;
+}
 
 .fleur {
     position: absolute;
@@ -82,6 +85,12 @@ h2 {
 
 @media screen and (min-width:300px) and (max-width:680px) {
 
+    .background {
+        background-image: url(/images/menu_responsive/3rdbkpt_menu_bkgd.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .title_text {
         font-size: 32px;
         line-height: 120%;
@@ -112,8 +121,15 @@ h2 {
     }
 
     .fleur {
-        height: 150px;
-        top: 60px;
+        display: none;
+    }
+
+    .fleur_mobile {
+        display: block;
+        height: 180px;
+        width: 107px;
+        position: absolute;
+        top: 50px;
         right: 0;
     }
 
@@ -203,6 +219,12 @@ h2 {
         height: 75px;
         margin-top: 12px;
         left:12px;
+    }
+
+    .background {
+        background-image: url(/images/menu_responsive/2ndbkpt_menu_bkgd.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #logo {
