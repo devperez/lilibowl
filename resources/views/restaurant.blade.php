@@ -55,12 +55,14 @@
     <section class="topPage">
         <div class="fleur">
             <img class="fleur_image" src="/images/restaurant/restaurant_fleur.png" alt="illustration florale">
+            <img class="fleur_image_mobile" src="/images/restaurant_responsive/3rdbkpt_restaurant_fleur.svg" alt="illustration florale">
         </div>
         <div class="pageTitle">
             <h2 class="title">Le Restaurant</h2>
         </div>
         <div class="ellipse_wrapper">
             <img class="ellipse" src="/images/restaurant/restaurant_ellipse.png" alt="ellipse décorative">
+            <img class="ellipse_mobile" src="/images/restaurant_responsive/3rdbkpt_restaurant_ellipse.png" alt="ellipse décorative">
         </div>
     </section>
 

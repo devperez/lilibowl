@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="ellipse1" src="/images/sensibilisation/projets_ellipse1.png" alt="Ellipse décorative">
+                <img class="ellipse1" src="/images/sensibilisation_responsive/3rdbkpt_projets_ellipse1.png" alt="Ellipse décorative">
             </div>
             <p class="texte_projets">
                 Se nourrir pour être <strong>en bonne santé</strong> tout en <strong>respectant la planète</strong> est une des préoccupations majeures aujourd’hui. Les recommandations alimentaires françaises récentes <a href="https://solidarites-sante.gouv.fr/prevention-en-sante/preserver-sa-sante/le-programme-national-nutrition-sante/article/programme-national-nutrition-sante-pnns-professionnels" target="_blank">(PNNS ou programme national nutrition santé</a>) préconisent <strong>une alimentation plus végétale</strong> avec des <strong>aliments biologiques et peu transformés</strong>.<br />
