@@ -384,12 +384,12 @@ address {
 
     .icones_wrapper {
         display: flex;
-        margin-top: 16px;
+        margin-top: 32px;
         flex-direction: column;
     }
 
     .review-widget_net {
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
 
 
@@ -579,8 +579,9 @@ address {
     }
 
     label {
-        font-size: 16px;
-        line-height: 140%;
+        font-size: 20px;
+        line-height:40%;
+        margin-bottom: 8px;
     }
 
     .input, .button {
