@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://???????">
     <meta property="og:title" content="Restaurant et traiteur végétarien à Cahors | Lili BOwL">
     <meta property="og:description" content="Lili BOwL | Restaurant/traiteur végétarien éco-responsable proposant une cuisine végétale vitaminée et colorée">
-    <meta property="og:image" content="/images/image_social_media_tag_menu_Fbk.png">
+    <meta property="og:image" content="/images/image_social_media_tag_menu_Fbk-min.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
