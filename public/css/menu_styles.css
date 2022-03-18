@@ -14,6 +14,7 @@ body, html, main {
     background-image: url(/images/menu/menu_background_image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 150px;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h2 {
 }
 
 .title {
-    padding-top: 219px;
+    padding-top: 185px;
     margin-bottom: 120px;
 }
 
@@ -160,8 +161,6 @@ h2 {
     .logos_wrapper {
         display: flex;
         justify-content: center;
-        margin-right: 43px;
-        margin-left: 43px;
         padding-top: 24px;
         padding-bottom: 24px;
         width: 100%;
@@ -356,8 +355,8 @@ h2 {
 
     .fleur {
         height: 260px;
-        top: 50px;
-        right: -20px;
+        top: 60px;
+        right: -30px;
     }
 
     .title {
