@@ -29,7 +29,7 @@ a {
     height: 800px;
     position: absolute;
     left: 0;
-    top: -150px;
+    top: -220px;
 }
 
 .ellipse_mobile {
@@ -55,7 +55,7 @@ h2 {
     position: absolute;
     width: 116px;
     height: 280px;
-    right: 350px;
+    right: 273px;
     top: 228px;
 }
 
@@ -68,7 +68,7 @@ h5 {
     font-size: 32px;
     line-height: 130%;
     font-family: 'Josefin sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .texte_formations {
@@ -176,7 +176,6 @@ h5 {
     line-height: 140%;
     font-family: 'Karla', sans-serif;
     width: 800px;
-    margin-bottom: 104px;
 }
 
 .ateliers_titre2 {
@@ -198,6 +197,7 @@ h5 {
     line-height: 140%;
     text-align: center;
     margin-bottom: 120px;
+    margin-top: 104px;
 }
 
 .gift {
@@ -295,7 +295,6 @@ h5 {
     line-height: 140%;
     font-family: "Karla", sans-serif;
     text-align: left;
-    margin-bottom: 104px;
 }
 
 @media screen and (min-width:300px) and (max-width:680px) {
@@ -439,10 +438,14 @@ h5 {
         margin-bottom: 40px;
     }
 
+    .ateliers_texte_mobile {
+        margin-bottom: 0;
+    }
+
     .ateliers_titre2 {
         font-size: 24px;
         line-height: 120%;
-        margin-top: 40px;
+        margin-top: 0;
         margin-bottom: 16px;
         width: 345px;
     }
@@ -482,6 +485,7 @@ h5 {
     .initiation_wrapper {
         align-items: center;
         width: 327px;
+        padding-top: 60px;
     }
 
     .fleur_initiation {
@@ -515,7 +519,6 @@ h5 {
     .details {
         font-size: 16px;
         line-height: 140%;
-        margin-bottom: 48px;
     }
 
     .conclusion {
@@ -524,6 +527,7 @@ h5 {
         text-align: center;
         font-weight: 600;
         margin-bottom: 60px;
+        margin-top: 48px;
     }
 }
 
@@ -669,10 +673,14 @@ h5 {
         margin-bottom: 40px;
     }
 
+    .ateliers_texte_mobile {
+        margin-bottom: 0;
+    }
+
     .ateliers_titre2 {
         font-size: 24px;
         line-height: 120%;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 16px;
         width: 345px;
     }
@@ -746,7 +754,6 @@ h5 {
     .details {
         font-size: 16px;
         line-height: 140%;
-        margin-bottom: 48px;
     }
 
     .conclusion {
@@ -755,6 +762,7 @@ h5 {
         text-align: center;
         font-weight: 600;
         margin-bottom: 60px;
+        margin-top: 48px;
     }
 }
 
@@ -846,7 +854,6 @@ h5 {
 
     .menu_mobile {
         display: flex;
-        margin-bottom: 80px;
     }
 
     .image_mobile {
@@ -859,6 +866,7 @@ h5 {
         background-image: url(/images/formations_responsive/1stbkpt_formations_bkgd_atelier.png);
         background-repeat: no-repeat;
         background-size: cover;
+        position: relative;
     }
 
     .fleur_section {
@@ -869,6 +877,7 @@ h5 {
         left: 82px;
         margin-right: 74px;
         margin-left: 40px;
+        top: -20px;
     }
 
     .title_section {
@@ -909,11 +918,15 @@ h5 {
         margin-bottom: 60px;
     }
 
+    .ateliers_texte_mobile {
+        margin-bottom: 0;
+    }
+
     .ateliers_titre2 {
         font-size: 32px;
         line-height: 120%;
-        margin-top: 60px;
         margin-bottom: 24px;
+        margin-top: 0;
         width: 460px;
     }
 
@@ -988,7 +1001,6 @@ h5 {
     .details {
         font-size: 20px;
         line-height: 140%;
-        margin-bottom: 48px;
     }
 
     .conclusion {
@@ -997,5 +1009,6 @@ h5 {
         text-align: center;
         font-weight: 600;
         margin-bottom: 60px;
+        margin-top: 80px;
     }
 }

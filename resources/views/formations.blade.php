@@ -130,7 +130,7 @@
             <div>
                 <h4 class="ateliers_titre2">Ateliers desserts pour les fêtes ou un évènement particulier</h4>
             </div>
-            <div class="ateliers_texte">
+            <div class="ateliers_texte ateliers_texte_mobile">
                 Un cadeau à ne pas manquer pour réaliser des desserts de fêtes sans allergènes et avec moins de sucre. Pour une cuisine végétale, saine et gourmande à tous les moments clés de l’année.<br />
                 <br />
                 Atelier de <strong>4 heures, pour 6 personnes maximum</strong>, au 12 rue Daurade.<br />
@@ -152,7 +152,7 @@
         <div class="gift_text">
             <h4 class="gift_title">Bons cadeaux</h4>
             <p class="gift_text">
-            Que ce soit pour offrir à quelqu'un d'autre ou pour vous-mêmes, vous pouvez désormais acheter des bons pour nos cours de cuisine & de pâtisserie dans notre restaurant. 
+            Que ce soit pour offrir à quelqu'un d'autre ou pour vous-même, vous pouvez désormais acheter des bons pour nos cours de cuisine & de pâtisserie dans notre restaurant. 
             </p>
         </div>
     </section>
