@@ -99,22 +99,7 @@
     <div id="id_view_image_body"></div>
     <div id="id_view_image"></div>
     <script src="/js/newsletterFooter.js"></script>
+    <script src="/js/fullscreen.js"></script>
 
-    <script>
-        $("img").not(".no-fullscreen").click(function()
-    {
-        $("#id_view_image").html("<img src='"+$(this).attr('src')+"' class='view_image_img'/>");
-        $("#id_view_image_body").addClass("view_image_body");
-        $("#id_view_image").addClass("view_image");
-    });
-
-        $("#id_view_image").click(function()
-    {
-        $("#id_view_image").html("");
-        $("#id_view_image_body").removeClass("view_image_body");
-        $("#id_view_image").removeClass("view_image");
-    });
-
-    </script>
 </body>
 </html>
