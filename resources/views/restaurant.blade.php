@@ -130,7 +130,7 @@
         </div>
     </section>
 
-    <section class="vaisselle" id="vaisselle">
+    <section class="vaisselle" id="location-de-vaisselle">
         <div class="left_part_vaisselle">
             <div class="title_wrapper_1">
                 <h4 class="title_3">Location de vaisselle</h4>
