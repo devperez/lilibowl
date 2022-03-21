@@ -20,11 +20,13 @@ use App\Http\Controllers\CsvController;
 */
 
 Route::get('/', [NavController::class, 'homepage'])->name('homepage');
+
+Route::view('/accueil', 'homepage', ['name'=>'homepage']);
 Route::get('/restaurant', [NavController::class, 'restaurant'])->name('restaurant');
-Route::get('/sensibilisation', [NavController::class, 'sensibilisation'])->name('sensibilisation');
-Route::get('/formations', [NavController::class, 'formations'])->name('formations');
-Route::get('/cartes', [NavController::class, 'menus'])->name('menus');
-Route::get('/mentions', [NavController::class, 'mentions'])->name('mentions');
+Route::get('/sensibilisation-cuisine-bio-saine-ecoresponsable', [NavController::class, 'sensibilisation'])->name('sensibilisation');
+Route::get('/formation-cuisine-vegetale', [NavController::class, 'formations'])->name('formations');
+Route::get('/le-menu', [NavController::class, 'menus'])->name('menus');
+Route::get('/mentions-legale', [NavController::class, 'mentions'])->name('mentions');
 Route::post('/getmail', [MailController::class, 'getmail'])->name('getmail');
 
 //Routes du back office

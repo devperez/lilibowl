@@ -78,16 +78,16 @@
     </div>
 
     <section class="menu">
-        <a href="#ateliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
-        <a href="#initiation"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
+        <a href="#ateliers-cuisine-particuliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+        <a href="#formation-cuisine-vegetale-professionnels"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
     <section class="menu_mobile">
-        <a href="#ateliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
-        <a href="#ateliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_initiationpro-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
+        <a href="#ateliers-cuisine-particuliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+        <a href="#formation-cuisine-vegetale-professionnels"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_initiationpro-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
-    <section class="ateliers" id="ateliers">
+    <section class="ateliers" id="ateliers-cuisine-particuliers">
         <div class="section_header">
             <img class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="Fleur décorative">
             <div class="header_wrapper">
@@ -157,7 +157,7 @@
         </div>
     </section>
 
-    <section class="initiation" id="initiation">
+    <section class="initiation" id="formation-cuisine-vegetale-professionnels">
         <div class="initiation_wrapper">
             <h3 class="initiation_title">Programme d'initiation à la cuisine végétale pour les professionnels</h3>
             <p class="initiation_texte">

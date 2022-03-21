@@ -39,7 +39,7 @@
                     <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#traiteur">Service traiteur</a>
                     <hr class="dropdown-divider">
-                    <a class="dropdown-item" href="{{ route('restaurant') }}#vaisselle">Location de vaisselle</a>
+                    <a class="dropdown-item" href="{{ route('restaurant') }}#location-de-vaisselle">Location de vaisselle</a>
                     <hr class="dropdown-divider">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#boutique">Boutique</a>
                 </div>
