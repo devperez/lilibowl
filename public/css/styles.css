@@ -145,6 +145,14 @@ a:hover {
     transition-duration: 0.3s;
 }
 
+.lien_general {
+    color: #131311;
+}
+
+.lien_general:hover{
+    color: #131311;
+}
+
 .menu_item {
     border: solid 2px #fff;
     padding: 16px;

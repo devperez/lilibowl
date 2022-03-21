@@ -100,7 +100,7 @@
                     La cuisine de Julie est <strong>une cuisine qui pétille, une cuisine créative, un bonheur pour tous les sens</strong>, une découverte à chaque bouchée, <strong>qui prend soin de votre corps et de la planète</strong> !<br />
                     C’est une cuisine pour les curieux qui met les crudités à l’honneur pour profiter de tous leurs <strong>bienfaits naturels</strong>.<br />
                     C’est <strong>une cuisine conviviale et réconfortante</strong>, car préparer un repas c’est un don de soi, un échange.<br />
-                    C’est ce que Julie souhaite partager en maniant couteau et fourchette dans <a class="liens" href="{{ route('restaurant') }}">son restaurant</a>, mais aussi par le biais de ses différents <a class="liens" href="{{ route('sensibilisation') }}">projets</a> et de ses  sessions de <a class="liens" href="{{ route('formations') }}">formation</a> à la <strong>cuisine végétale</strong>.
+                    C’est ce que Julie souhaite partager en maniant couteau et fourchette dans <a class="lien_general" href="{{ route('restaurant') }}">son restaurant</a>, mais aussi par le biais de ses différents <a class="lien_general" href="{{ route('sensibilisation') }}">projets</a> et de ses  sessions de <a class="lien_general" href="{{ route('formations') }}">formation</a> à la <strong>cuisine végétale</strong>.
                     </p>
                     <div class="fleurDeco1_wrapper">
                         <img class="fleurDeco1" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
@@ -148,10 +148,10 @@
                             <li class="li_engagement"><p class="texteli">Proposer <strong>une cuisine saine, végétale, variée, savoureuse et sans gluten</strong>, aux influences du monde.</p></li>
                             <li class="li_engagement"><p class="texteli">Utiliser des <strong>produits frais</strong> majoritairement issus de l’agriculture <strong>biologique, sans pesticides et de saison</strong>.</p></li>
                             <li class="li_engagement"><p class="texteli">Privilégier les <strong>circuits courts</strong> pour <strong>limiter notre empreinte carbone</strong> et <strong>favoriser l'économie locale</strong>.</p></li>
-                            <li class="li_engagement"><p class="texteli"><strong>Respecter l’environnement</strong> dans une <a class="liens" target="_blank" href="https://actu.fr/occitanie/cahors_46042/lili-bowl-a-cahors-le-seul-restaurant-du-lot-labellise-green-food_39255968.html"><strong>démarche éco-responsable</strong></a> (lunch boxes consignées en verre, tri sélectif, compost,
+                            <li class="li_engagement"><p class="texteli"><strong>Respecter l’environnement</strong> dans une <a class="lien_general" target="_blank" href="https://actu.fr/occitanie/cahors_46042/lili-bowl-a-cahors-le-seul-restaurant-du-lot-labellise-green-food_39255968.html"><strong>démarche éco-responsable</strong></a> (lunch boxes consignées en verre, tri sélectif, compost,
                                     revalorisation des déchets…).</p></li>
-                            <li class="li_engagement"><p class="texteli"><a class="liens" href="{{ route('sensibilisation') }}"><strong>Éduquer</strong></a> au goût et à <strong>l’alimentation santé</strong>.</p></li>
-                            <li class="li_engagement"><p class="texteli">Favoriser le <strong>lien social</strong> autour <a class="liens" href="{{ route('formations') }}">de projets</a>, <a class="liens" href="#">d’ateliers</a> et de repas partagés.</p></li>
+                            <li class="li_engagement"><p class="texteli"><a class="lien_general" href="{{ route('sensibilisation') }}"><strong>Éduquer</strong></a> au goût et à <strong>l’alimentation santé</strong>.</p></li>
+                            <li class="li_engagement"><p class="texteli">Favoriser le <strong>lien social</strong> autour <a class="lien_general" href="{{ route('formations') }}">de projets</a>, <a class="lien_general" href="#">d’ateliers</a> et de repas partagés.</p></li>
                         </ul>
                         <div class="amour_wrapper"><p class="amour">Et toujours avec amour !</p></div>
                     </div>
@@ -184,8 +184,8 @@
                                     <h5 class="profile-title">Julie Giverne, à l'origine de ce beau projet</h5>
                                     <p class="profile-text1">La cuisine a toujours occupé une place centrale dans ma vie. Les recettes de ma grand-mère qui embaument encore
                                         ma mémoire, les saveurs de la cuisine maternelle, une cuisine à base de céréales et de végétaux, qui soigne et
-                                        qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires
-                                        ont été inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />
+                                        qui apporte toujours de l’équilibre à ma vie. Puis ma cuisine d’étudiante et de femme, où mes essais culinaires se
+                                        sont inspirés de mes lectures et voyages. L’alimentation est comme un fil rouge dans mon identité.<br /><br />
                                         J’ai toujours été convaincue d’une relation étroite entre l’alimentation, la santé et le bien-être, mais jamais
                                         je n’aurais pensé ouvrir un jour mon restaurant. Jusqu’à cette nuit où, cherchant à créer une activité de sens,
                                         en lien avec le respect de soi, de l’environnement, de la santé, j’ai eu envie de partager ma cuisine aux autres.
@@ -224,7 +224,7 @@
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Thomas</h5>
-                                    <p class="profile-text1">Pur produit lotois, j’ai fait avec fierté mes classes dans dans les restaurants
+                                    <p class="profile-text1">Pur produit lotois, j’ai fait avec fierté mes classes dans les restaurants
                                         Le Melchior et Au Fil des Douceurs de Cahors. Après plusieurs années, notamment sur Toulouse et en Espagne,
                                         j'ai souhaité travailler dans un restaurant italien où j’ai pu élaborer avec amour et précision l’une de mes
                                         recettes végétaliennes préférées de lasagnes au pesto ! Aujourd’hui je partage fièrement les valeurs de Lili
@@ -248,10 +248,9 @@
                                         J’ai passé des moments formidables, entourée d’une équipe souriante et bienveillante et ayant toujours
                                         pour but de fournir aux clients une cuisine plaisir qui a du goût, mais aussi de leur faire vivre une
                                         véritable expérience humaine et éco responsable !<br /><br />
-                                        Après mon année passée parmi les chouettes Lili BOwL, je suis à présent étudiante en école de management
-                                        hôtelier, Vatel à Paris, où je travaille pour les plus grands noms de l'hôtellerie comme le Four Seasons 
-                                        où je suis comblée. Il n’y a pas un jour où je n’utilise pas les compétences transversales que j’ai apprises
-                                        chez Lili BOwL qui m’a permis de mettre le pied à l’étrier, ce qui est souvent le plus difficile !
+                                        Après mon année passée parmi les chouettes Lili BOwL, je suis à présent étudiante à l'école de management
+                                        hôtelier Vatel à Paris, où je travaille pour les plus grands noms de l'hôtellerie comme le Four Seasons 
+                                        et où je suis comblée. En mettant le pied à l'étrier chez Lili BOwL, j'ai appris des compétences que j'utilise tous les jours.
                                     </p>
                                 </div>
                                 <div class="profile-pic2">
