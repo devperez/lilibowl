@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="mentions">
-            <span>Lili BOwL &copy; 2022 - <a class="liens" href="{{ route('mentions') }}" target="_blank">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
+            <span>Lili BOwL &copy; 2022 - <a class="liens" href="{{ route('mentions') }}">Mentions légales</a> - créé avec <img src="/images/heart.svg" class="heart" alt="petit coeur qui bat"/> par <a class="liens" href="https://devdavidperez.com/" target="_blank">David PEREZ</a></span>
         </div>
     </footer>
 </div>
