@@ -56,7 +56,7 @@ class MenuController extends Controller
             //dd($filenametostore1);
                 $request->file('menu1')->storeAs('public/menus', $filenametostore1); //upload du fichier
                 $path1 = storage_path('app/public/menus/'.$filenametostore1);
-            //dd($path);
+            //dd($path1);
                 $menu = Menu::select('file');
 
                 $menu->update([

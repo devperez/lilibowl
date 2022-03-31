@@ -5,6 +5,7 @@ $(function () {
 
         var formData = {
             email: $("#footerEmail").val(),
+            "_token" : $("#tokenFooter").val(),
         };
         // console.log(formData);
         $.ajax({
