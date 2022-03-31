@@ -30,6 +30,7 @@
                                     </p>
                                 </div>
                                 <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
+                                    <input type="hidden" name="_token" id="tokenPopup" value="{{ csrf_token() }}">
                                     <label class="label">Email</label>
                                     <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
                                     <span class="crossErrorWrapper"><img class="crossError" src="/images/popup/croixr.png" alt="croix rouge d'erreur"/></span>

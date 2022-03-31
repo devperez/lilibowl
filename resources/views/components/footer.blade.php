@@ -12,6 +12,7 @@
             </p>
         </div>
         <form class="inscription" id="footerForm" method="POST" action="{{ route('getmail') }}">
+            <input type="hidden" name="_token" id="tokenFooter" value="{{ csrf_token() }}">
             <label>Email</label>
             <input class="input" type="email" name="email" id="footerEmail" placeholder="lili@mail.com">
             <span class="crossErrorWrapper2"><img class="crossError2" src="/images/popup/croixr.png" alt="croix rouge d'erreur"/></span>

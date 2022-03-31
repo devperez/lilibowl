@@ -1,5 +1,4 @@
 //Script général pour la récupération des adresses mails
-//le token csrf est désactivé pour la route getmail
 
 // console.log(screen.width);
 
@@ -25,6 +24,7 @@ $("#form").on("submit",function(event) {
 
     var formData = {
         email: $("#email").val(),
+        "_token" : $("#tokenPopup").val(),
     };
     // console.log(formData);
     $.ajax({
