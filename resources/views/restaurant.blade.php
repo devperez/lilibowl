@@ -23,7 +23,7 @@
         <meta property="twitter:image" content="adresse image">
         
         <!--FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
         <!--Icone-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -31,7 +31,7 @@
         <!--Bootstrap-->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <script src="/js/bootstrap.min.js"></script>
-        
+
         <!-- CSS -->   
         <link rel="stylesheet" href="/css/navbar.css" />
         <link rel="stylesheet" href="/css/footer.css" />
@@ -85,7 +85,7 @@
                 <strong>Réservations par téléphone au 06 30 03 73 89.</strong><br />
                 <br />
                 <strong>Livraison</strong> par notre partenaire CallEats. Téléchargez l’application sur leur site : 
-                <a href="https://cahors.calleats.com/" target="_blank"><img class="calleats" src="/images/restaurant/logo_calleats.png" alt="logo du partenaire de livraison Call Eats"></a>
+                <a href="https://cahors.calleats.com/" target="_blank"><img loading="lazy" class="calleats" src="/images/restaurant/logo_calleats.png" alt="logo du partenaire de livraison Call Eats"></a>
 
 
                 </p>
@@ -105,7 +105,7 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_2" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
+                    <img loading="lazy" class="picture_2" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
@@ -125,7 +125,7 @@
         </div>
         <div class="right_part_2">
             <div class="picture_wrapper_2">
-                <img src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
+                <img loading="lazy" src="/images/restaurant/gif_traiteur_gateau.gif" alt="Image de gâteaux et de plats illustrant la partie pâtisseries et traiteur.">
             </div>
         </div>
     </section>
@@ -137,7 +137,7 @@
             </div>
             <div class="mobile_right_part_1">
                 <div class="picture_wrapper_1">
-                    <img class="picture_3" src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
+                    <img loading="lazy" class="picture_3" src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
                 </div>
             </div>
             <div class="texte_wrapper_vaisselle texte_wrapper_3">
@@ -150,7 +150,7 @@
         </div>
         <div class="right_part_1">
             <div class="picture_wrapper_1">
-                <img src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
+                <img loading="lazy" src="/images/restaurant/gif_vaisselle.gif" alt="Image illustrant la vaisselle disponible à la location.">
             </div>
         </div>
     </section>
@@ -162,7 +162,7 @@
             </div>
             <div class="mobile_right_part_2">
                 <div class="picture_wrapper_2">
-                    <img class="picture_4" src="/images/restaurant/gif_boutique.gif" alt="Image illustrant les thés et cafés vendus au restaurant.">
+                    <img loading="lazy" class="picture_4" src="/images/restaurant/gif_boutique.gif" alt="Image illustrant les thés et cafés vendus au restaurant.">
                 </div>
             </div>
             <div class="texte_wrapper_2">
@@ -177,15 +177,15 @@
         </div>
         <div class="right_part_2">
             <div class="picture_wrapper_2">
-                <img src="/images/restaurant/gif_boutique.gif" alt="Images illustrant les thés et cafés vendus au restaurant.">
+                <img loading="lazy" src="/images/restaurant/gif_boutique.gif" alt="Images illustrant les thés et cafés vendus au restaurant.">
             </div>
         </div>
     </section>
     <div>
-        <img class="photo_before_footer4" src="/images/restaurant/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
-        <img class="photo_before_footer3" src="/images/restaurant_responsive/restaurant_photo_frise_mobile-min.jpg" alt="illustrations de plats.">
-        <img class="photo_before_footer" src="/images/restaurant_responsive/restaurant_photo_frise_3rdbkpt-min.jpg" alt="illustrations de plats.">
-        <img class="photo_before_footer2" src="/images/restaurant_responsive/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
+        <img loading="lazy" class="photo_before_footer4" src="/images/restaurant/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
+        <img loading="lazy" class="photo_before_footer3" src="/images/restaurant_responsive/restaurant_photo_frise_mobile-min.jpg" alt="illustrations de plats.">
+        <img loading="lazy" class="photo_before_footer" src="/images/restaurant_responsive/restaurant_photo_frise_3rdbkpt-min.jpg" alt="illustrations de plats.">
+        <img loading="lazy" class="photo_before_footer2" src="/images/restaurant_responsive/restaurant_photo_frise-min.jpg" alt="illustrations de plats.">
     </div>
         <!--FOOTER-->
         @include('components.footer')

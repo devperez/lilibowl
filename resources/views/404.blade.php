@@ -23,13 +23,13 @@
         <meta property="twitter:image" content="adresse image">
         
         <!--FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
 
         <!--Bootstrap-->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <script src="/js/bootstrap.min.js"></script>
-        
+
         <!-- CSS -->   
         <link rel="stylesheet" href="/css/navbar.css" />
         <link rel="stylesheet" href="/css/footer.css" />

@@ -25,13 +25,13 @@
         <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
         
         <!--FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
 
         <!--Bootstrap-->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <script src="/js/bootstrap.min.js"></script>
-        
+
         <!-- CSS -->   
         <link rel="stylesheet" href="/css/navbar.css" />
         <link rel="stylesheet" href="/css/footer.css" />
@@ -78,8 +78,8 @@
                     <div class="title_wrapper">
                         <h4 class="tchin_title">Projet TCHIN, octobre 2021 à avril 2022</h4>
                     </div>
-                    <img class="tchin_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
-                    <img class="tchin_3" src="/images/sensibilisation_responsive/projet_tchin_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
+                    <img loading="lazy" class="tchin_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
+                    <img loading="lazy" class="tchin_3" src="/images/sensibilisation_responsive/projet_tchin_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
                     <div class="texte_tchin">
                         “Tchin !” est l’acronyme formé des initiales des mots Table, Convivialité, Harmonie, Innovation, et Nutrition.<br />
                         <br />
@@ -98,8 +98,8 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img class="tchin_1" src="/images/sensibilisation/projet_tchin_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
-                    <img class="tchin_1"src="/images/sensibilisation/projet_tchin_2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
+                    <img loading="lazy" class="tchin_1" src="/images/sensibilisation/projet_tchin_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
+                    <img loading="lazy" class="tchin_1"src="/images/sensibilisation/projet_tchin_2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Tchin'.">
                 </div>
             </div>
         </section>
@@ -107,15 +107,15 @@
         <section class="oser">
             <div class="wrapper2">
                 <div class="left2">
-                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
-                    <img class="oser_1" src="/images/sensibilisation/projet_croquer_2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
+                    <img loading="lazy" class="oser_1" src="/images/sensibilisation/projet_croquer_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
+                    <img loading="lazy" class="oser_1" src="/images/sensibilisation/projet_croquer_2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
                 </div>
                 <div class="right2">
                     <div class="title_wrapper2">
                         <h4 class="oser_title">Oeuvre "OSER CROQUER LE PAYSAGE", novembre 2021</h4>
                     </div>
-                    <img class="oser_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
-                    <img class="oser_3" src="/images/sensibilisation_responsive/projet_croquer_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
+                    <img loading="lazy" class="oser_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo2-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
+                    <img loading="lazy" class="oser_3" src="/images/sensibilisation_responsive/projet_croquer_1-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Oser croquer le paysage'.">
                     <div class="texte_oser">
                         L’artiste <a href="http://maevabarriere.com" target="_blank">Maeva Barrière</a> et la cheffe Julie GIVERNE du Restaurant Lili Bowl ont réalisé un paysage à croquer dans le cadre de l’appel à projet « Santé environnement 2020 » du Programme Régional de Santé Environnementale (PRSE3). Projet local coordonné par Le Pôle d’Equilibre Territorial et Rural (PETR) du Grand Quercy, en partenariat avec l’association <a href="http://www.cahorsjuinjardins.fr" target="_blank">Cahors Juin Jardin</a>. « Oser croquer le paysage » est co-financé par la <a href="https://draaf.occitanie.agriculture.gouv.fr" target="_blank">Direction Régionale de l’Alimentation, de l’Agriculture et de la Forêt</a> (DRAAF) et le <a href="https://adefpat.fr/adhrents/pole-dequilibre-territorial-et-rural-du-grand-quercy/" target="_blank">PETR Grand Quercy</a>.<br />
                         <br />
@@ -144,8 +144,8 @@
                     <div class="title_wrapper">
                         <h4 class="tiger_title">Partenariat avec le TIGER MILK, octobre 2021</h4>
                     </div>
-                    <img class="tiger_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo3-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
-                    <img class="tiger_3" src="/images/sensibilisation_responsive/projet_tiger-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
+                    <img loading="lazy" class="tiger_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo3-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
+                    <img loading="lazy" class="tiger_3" src="/images/sensibilisation_responsive/projet_tiger-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
                     <div class="texte_tiger">
                         Une première sur Cahors ! Afin d’optimiser et mettre en valeur l’alliance subtile de la Street food et de la Healthy food, le restaurant Lili BOwL et le bar Tiger Milk vous proposent des brunchs inédits avec des créations de cocktails et mocktails du Tiger Milk sublimant les nouveautés végétales de Lili BOwL !<br />
                         <br /> 
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img class="tiger_1" src="/images/sensibilisation/projet_tiger-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
+                    <img loading="lazy" class="tiger_1" src="/images/sensibilisation/projet_tiger-min.png" alt="Photos illustrant la collaboration entre Lili BOwL et Tiger Milk.">
                 </div>
             </div>
         </section>
@@ -162,14 +162,14 @@
         <section class="jardins">
             <div class="wrapper2">
                 <div class="left2">
-                    <img class="jardins_1" src="/images/sensibilisation/projet_jardins-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
+                    <img loading="lazy" class="jardins_1" src="/images/sensibilisation/projet_jardins-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
                 </div>
                 <div class="right2">
                     <div class="title_wrapper2">
                         <h4 class="jardins_title">Jardins urbains partagés, juin 2021</h4>
                     </div>
-                    <img class="jardins_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo4-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
-                    <img class="jardins_3" src="/images/sensibilisation_responsive/projet_jardins-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
+                    <img loading="lazy" class="jardins_2" src="/images/sensibilisation_responsive/3rdbkpt_projets_photo4-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
+                    <img loading="lazy" class="jardins_3" src="/images/sensibilisation_responsive/projet_jardins-min.png" alt="Photos prises pendant le déroulement de l'atelier 'Jardins urbains partagés'.">
                     <div class="texte_jardins">
                         Le quartier de la Daurade et sa place des Républicains espagnols se végétalisent ! Grâce à la ville de <a href="https://cahorsagglo.fr" target="_blank">Cahors</a>, au <a href="https://ceiis.fr" target="_blank">Comité d’Études et d’Informations pour l’Insertion Sociale</a> (CEIIS), à l’EHPAD <a href="https://orpea.com/maison-de-retraite-les-rives-de-cabessut-cahors-46-" target="_blank">Les Rives de Cabessut</a> (Cahors) et à <a href="https://cahorsagglo.fr/association/association-quartier-liberation-daurade" target="_blank">l’association d'habitants et de commerçants du quartier Libération Daurade</a> qui ont tous répondu positivement aux propositions de Lili BOwL, c’est une belle dynamique qui s’est créée autour de ces jardinières partagées, pour promouvoir les potagers urbains et inciter les citoyens à se les approprier. Semer, cultiver, récolter, consommer, pour le moment à petite échelle… Les trois bacs de 2m2 voient pousser des tomates, courgettes, poivrons, ou encore du persil et nous souhaitons y voir fleurir de nouvelles espèces à chaque saison.
                     </div>
@@ -192,7 +192,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img class="alimentaire_1" src="/images/sensibilisation/projet_watson-min.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
+                    <img loading="lazy" class="alimentaire_1" src="/images/sensibilisation/projet_watson-min.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
                 </div>
             </div>
         </section>

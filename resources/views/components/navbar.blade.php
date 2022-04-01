@@ -32,7 +32,7 @@
             <div class="btn-group">
                 <a class="links hvr-underline-from-left" id="restaurant" href=" {{ route('restaurant') }}">Le Restaurant</a>
                 <a href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="polygon" src="/images/Polygonblack.png">
+                <img class="polygon" src="/images/Polygonblack.png" alt="icône pour le menu déroulant">
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{ route('restaurant') }}#restauration">Restauration</a>
@@ -50,7 +50,7 @@
             <a class="links hvr-underline-from-left" id="navcontact" href="#contact">Contact</a>
         </div>
         <div class="icones">
-            <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="instaicon" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
+            <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="instaicon" src="/images/homepage/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
             <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img class="fbicon" src="/images/navbar_fixe/Facebook_icon_black.svg" alt="icones du réseau social Facebook" /></a>
         </div>
     </div>
