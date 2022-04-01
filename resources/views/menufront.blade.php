@@ -100,6 +100,7 @@
     <div id="id_view_image"></div>
     <script src="/js/newsletterFooter.js"></script>
     <script src="/js/fullscreen.js"></script>
+    <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
 
 </body>
 </html>

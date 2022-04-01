@@ -19,8 +19,8 @@
                 </div>
                 <a class="links_mobile" href="#contact"><li>Contact</li></a>
                 <div class="mobile_icones">
-                    <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="instaicon" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
-                    <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img class="mobile_fbicon" src="/images/navbar_fixe/Facebook_icon_black.svg" alt="icones du réseau social Facebook" /></a>
+                    <a href="https://www.instagram.com/lili_bowl/" rel="noreferrer" target="_blank"><img class="instaicon" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icones du réseau social Instagram" /></a>
+                    <a href="https://www.facebook.com/Lilibowl.cahors" rel="noreferrer" target="_blank"><img class="mobile_fbicon" src="/images/navbar_fixe/Facebook_icon_black.svg" alt="icones du réseau social Facebook" /></a>
                 </div>
             </ul>
         </div>

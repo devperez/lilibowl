@@ -27,8 +27,6 @@
         <!--FONT-->
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
-        <!--Icone-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -203,3 +201,9 @@
         @include('components.footer')
             @yield('footer')
         <!-- end footer -->
+
+        <script src="/js/newsletterFooter.js"></script>
+        <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
+
+    </body>
+</html>

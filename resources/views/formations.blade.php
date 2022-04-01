@@ -25,8 +25,6 @@
         <!--FONT-->
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
-        <!--Icone-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <!--Bootstrap-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -40,7 +38,7 @@
 
         <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        
+
         <!--script pour soulignement des items de la navbar suivant la page-->
         <script src="/js/nav.js"></script>
         
@@ -216,6 +214,9 @@
 
     <!--script pour la modif des images lors du hover -->
     <script src="/js/hover.js"></script>
+    <script src="/js/newsletterFooter.js"></script>
+    <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
+
 </body>
 </html>
 
