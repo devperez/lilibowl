@@ -24,22 +24,20 @@
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <script src="/js/bootstrap.min.js"></script>
         
         <!-- CSS -->
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="stylesheet" href="/css/footer.css" />
         <link rel="stylesheet" href="/css/navbar_mobile.css" />
 
-        
         <!-- JQuery -->
         <script src="/JQuery/Jquery_min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-        
+        <script src="/js/js-cookie.js"></script>
+
         <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
     </head>
     <body class="content">
@@ -379,5 +377,8 @@
     <script src="/js/newsletter.js"></script>
     <script src="/js/newsletterFooter.js"></script>
     <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
+    <!--Bootstrap-->
+    <script src="/js/bootstrap.min.js"></script>
+    
 </body>
 </html>

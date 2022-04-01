@@ -22,7 +22,7 @@
     <meta property="twitter:image" content="adresse image">
 
     <!--FONT-->
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!--Icone-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -67,27 +67,27 @@
             </div>
             <div class="menu">
                 @foreach ($boisson as $drink)
-                <img class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="Les boissons proposées par le restaurant.">
+                <img loading="lazy" class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="Les boissons proposées par le restaurant.">
                 @endforeach
             </div>
             <div class="menu">
                 @foreach ($dessert as $objet)
-                <img class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="Les desserts proposés par le restaurant.">
+                <img loading="lazy" class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="Les desserts proposés par le restaurant.">
                 @endforeach
             </div>
         </div>
         <div>
-            <img class="photo" src="/images/menu/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
-            <img class="photo2" src="/images/menu_responsive/menu_photo_frise_3rdbkpt-min.jpg" alt="Illustrations de plats et de desserts">
-            <img class="photo3" src="/images/menu_responsive/menu_photo_frise_mobile-min.jpg" alt="Illustrations de plats et de desserts">
-            <img class="photo4" src="/images/menu_responsive/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
+            <img loading="lazy" class="photo" src="/images/menu/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
+            <img loading="lazy" class="photo2" src="/images/menu_responsive/menu_photo_frise_3rdbkpt-min.jpg" alt="Illustrations de plats et de desserts">
+            <img loading="lazy" class="photo3" src="/images/menu_responsive/menu_photo_frise_mobile-min.jpg" alt="Illustrations de plats et de desserts">
+            <img loading="lazy" class="photo4" src="/images/menu_responsive/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
         </div>
     </div>
     <div class="logos_wrapper">
-        <a href="https://www.greenfood-label.com/listings/lili-bowl/" target="_blank"><img class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food."></a>
-        <a href="https://vegoresto.fr/cahors/lili-bowl/" target="_blank"><img class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto."></a>
-        <a href="https://www.ofb.gouv.fr/actualites/grands-groupes-pme-tpe-elles-sont-plus-de-100-entreprises-avoir-fait-le-choix-de" target="_blank"><img class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature."></a>
-        <a href="https://www.economie.gouv.fr/entreprises/fait-maison" target="_blank"><img class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison."></a>
+        <a href="https://www.greenfood-label.com/listings/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food."></a>
+        <a href="https://vegoresto.fr/cahors/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto."></a>
+        <a href="https://www.ofb.gouv.fr/actualites/grands-groupes-pme-tpe-elles-sont-plus-de-100-entreprises-avoir-fait-le-choix-de" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature."></a>
+        <a href="https://www.economie.gouv.fr/entreprises/fait-maison" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison."></a>
     </div>
     
 

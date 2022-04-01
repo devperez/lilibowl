@@ -23,13 +23,13 @@
         <meta property="twitter:image" content="adresse image">
         
         <!--FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link async="true" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
 
         <!--Bootstrap-->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <script src="/js/bootstrap.min.js"></script>
-        
+
         <!-- CSS -->   
         <link rel="stylesheet" href="/css/navbar.css" />
         <link rel="stylesheet" href="/css/footer.css" />
@@ -81,13 +81,13 @@
     </section>
 
     <section class="menu_mobile">
-        <a href="#ateliers-cuisine-particuliers"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
-        <a href="#formation-cuisine-vegetale-professionnels"><img class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_initiationpro-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
+        <a href="#ateliers-cuisine-particuliers"><img loading="lazy" class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_atelier-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+        <a href="#formation-cuisine-vegetale-professionnels"><img loading="lazy" class="lien_image lien_image1 image_mobile" src="/images/formations_responsive/mobile_formations_lien_initiationpro-min.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
     <section class="ateliers" id="ateliers-cuisine-particuliers">
         <div class="section_header">
-            <img class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="Fleur décorative">
+            <img loading="lazy" class="fleur_section" src="/images/formations/formations_fleur_sections.png" alt="Fleur décorative">
             <div class="header_wrapper">
                 <h3 class="title_section">Ateliers de cuisine pour les particuliers</h3>
                 <p class="text_header">
@@ -146,7 +146,7 @@
     </section>
 
     <section class="cadeau">
-        <img class="gift" src="/images/formations/formations_cadeau.png" alt="image d'un paquet cadeau">
+        <img loading="lazy" class="gift" src="/images/formations/formations_cadeau.png" alt="image d'un paquet cadeau">
         <div class="gift_text">
             <h4 class="gift_title">Bons cadeaux</h4>
             <p class="gift_text">
