@@ -13,7 +13,7 @@
                                 <img style="display:none" class="ellipse1" src="/images/popup/pop_up_ellipse1.png" alt="Ellipse décorative de la pop up">
                             </div>
                             <div>
-                                <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close" id="close"></button>
+                                <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Croix pour fermer la popup" id="close"></button>
                             </div>
                             <div class="inner-wrapper">
                                 <div class="text1-wrapper">
@@ -25,14 +25,13 @@
                                 <div class="text2-wrapper">
                                     <p class="inscription2" style="display:none" id="merci">MERCI POUR VOTRE <br /> INSCRIPTION !</p>
                                     <p id="confirm" style="display:none" class="recevez">
-                                        BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant !<i class="material-icons smiley">
-                                        sentiment_satisfied</i>
+                                        BRAVO ! Vous faites maintenant partie de la Lili team engagée !<br /> À très bientôt dans notre<br /> restaurant !<img class="material-icons smiley" src="/images/popup/sentiment_satisfied_black_24dp.svg" alt="petit smiley">
                                     </p>
                                 </div>
                                 <form id="form" style="display:block" action="{{ route('getmail') }}" method="POST" class="form">
                                     <input type="hidden" name="_token" id="tokenPopup" value="{{ csrf_token() }}">
-                                    <label class="label">Email</label>
-                                    <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com">
+                                    <label class="label" for="email">Email</label>
+                                    <input class="input" id="email" name="email" type="email" placeholder="lili@mail.com" aria-label="champ d'entrée de l'adresse email">
                                     <span class="crossErrorWrapper"><img class="crossError" src="/images/popup/croixr.png" alt="croix rouge d'erreur"/></span>
                                     <p class="error" id="error">Cette adresse mail est incorrecte ou elle est déjà enregistrée.</p>
                                     <input name="register" value="Je m'inscris !" id="register" class="button" type="submit"/>

@@ -25,7 +25,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -74,8 +73,8 @@
                         <a class="links hvr-underline-from-left" href="#contact">Contact</a>
                     </div>
                     <div class="icones">
-                        <a href="https://www.instagram.com/lili_bowl/" target="_blank"><img class="instaicon" src="/images/homepage/Instagram_icon_white.svg" alt="icones du réseau social Instagram" /></a>
-                        <a href="https://www.facebook.com/Lilibowl.cahors" target="_blank"><img class="fbicon" src="/images/homepage/Facebook_icon_white.svg" alt="icones du réseau social Facebook" /></a>
+                        <a href="https://www.instagram.com/lili_bowl/" rel="noreferrer" target="_blank"><img class="instaicon" src="/images/homepage/Instagram_icon_white.svg" alt="icones du réseau social Instagram" /></a>
+                        <a href="https://www.facebook.com/Lilibowl.cahors" rel="noreferrer" target="_blank"><img class="fbicon" src="/images/homepage/Facebook_icon_white.svg" alt="icones du réseau social Facebook" /></a>
                     </div>
                 </div>
             </nav>
@@ -103,7 +102,7 @@
                     C’est ce que Julie souhaite partager en maniant couteau et fourchette dans <a class="lien_general" href="{{ route('restaurant') }}">son restaurant</a>, mais aussi par le biais de ses différents <a class="lien_general" href="{{ route('sensibilisation') }}">projets</a> et de ses  sessions de <a class="lien_general" href="{{ route('formations') }}">formation</a> à la <strong>cuisine végétale</strong>.
                     </p>
                     <div class="fleurDeco1_wrapper">
-                        <img class="fleurDeco1" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
+                        <img loading="lazy" class="fleurDeco1" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
                     </div>
                 </div>
             </section>
@@ -117,7 +116,7 @@
                         <h4 class="pourquoi">Pourquoi le nom Lili BOwL ?</h4>
                     </div>
                     <div class="bowlpicwrapper2">
-                    <img class="bowlpic2" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bol" />
+                    <img loading="lazy" class="bowlpic2" src="/images/homepage/homepage_bowl-min.png" alt="illustration d'un bol" />
                 </div>
                     <div class="quoteandtext">
                         <div class="quotationmarkleft">
@@ -148,7 +147,7 @@
                             <li class="li_engagement"><p class="texteli">Proposer <strong>une cuisine saine, végétale, variée, savoureuse et sans gluten</strong>, aux influences du monde.</p></li>
                             <li class="li_engagement"><p class="texteli">Utiliser des <strong>produits frais</strong> majoritairement issus de l’agriculture <strong>biologique, sans pesticides et de saison</strong>.</p></li>
                             <li class="li_engagement"><p class="texteli">Privilégier les <strong>circuits courts</strong> pour <strong>limiter notre empreinte carbone</strong> et <strong>favoriser l'économie locale</strong>.</p></li>
-                            <li class="li_engagement"><p class="texteli"><strong>Respecter l’environnement</strong> dans une <a class="lien_general" target="_blank" href="https://actu.fr/occitanie/cahors_46042/lili-bowl-a-cahors-le-seul-restaurant-du-lot-labellise-green-food_39255968.html"><strong>démarche éco-responsable</strong></a> (lunch boxes consignées en verre, tri sélectif, compost,
+                            <li class="li_engagement"><p class="texteli"><strong>Respecter l’environnement</strong> dans une <a class="lien_general" rel="noreferrer" target="_blank" href="https://actu.fr/occitanie/cahors_46042/lili-bowl-a-cahors-le-seul-restaurant-du-lot-labellise-green-food_39255968.html"><strong>démarche éco-responsable</strong></a> (lunch boxes consignées en verre, tri sélectif, compost,
                                     revalorisation des déchets…).</p></li>
                             <li class="li_engagement"><p class="texteli"><a class="lien_general" href="{{ route('sensibilisation') }}"><strong>Éduquer</strong></a> au goût et à <strong>l’alimentation santé</strong>.</p></li>
                             <li class="li_engagement"><p class="texteli">Favoriser le <strong>lien social</strong> autour <a class="lien_general" href="{{ route('formations') }}">de projets</a>, <a class="lien_general" href="#">d’ateliers</a> et de repas partagés.</p></li>
@@ -156,7 +155,7 @@
                         <div class="amour_wrapper"><p class="amour">Et toujours avec amour !</p></div>
                     </div>
                     <div>
-                        <img class="fleur_engagement" src="/images/homepage/engagements_fleur.png" alt="illustration florale" />
+                        <img loading="lazy" class="fleur_engagement" src="/images/homepage/engagements_fleur.png" alt="illustration florale" />
                     </div>
                 </div>
             </section>
@@ -178,7 +177,7 @@
                         <div class="carousel-item active">
                             <div class="profile-text-title-pic">
                                 <div class="profile-pic1">
-                                    <img src="/images/homepage/photo_Julie-min.png" class="d-block w-100" alt="photo de Julie Giverne">
+                                    <img loading="lazy" src="/images/homepage/photo_Julie-min.png" class="d-block w-100" alt="photo de Julie Giverne">
                                 </div>
                                 <div class="text-title">
                                     <h5 class="profile-title">Julie Giverne, à l'origine de ce beau projet</h5>
@@ -261,8 +260,8 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <img class="previous" src="/images/homepage/fleche_1.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
-                    <img src="/images/homepage/fleche_2.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
+                    <img loading="lazy" class="previous" src="/images/homepage/fleche_1.png" alt="bouton retour du carrousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" />
+                    <img loading="lazy" src="/images/homepage/fleche_2.png" type="button" alt="bouton suivant du carrousel" data-bs-target="#carouselExampleControls" data-bs-slide="next">   
                 </div>
             </section>
 
@@ -379,5 +378,6 @@
     
     <script src="/js/newsletter.js"></script>
     <script src="/js/newsletterFooter.js"></script>
+    <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
 </body>
 </html>

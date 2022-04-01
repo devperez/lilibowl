@@ -194,6 +194,7 @@
         <!--End FOOTER-->
 
     <script src="/js/newsletterFooter.js"></script>
+    <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
 
     </body>
 </html>
