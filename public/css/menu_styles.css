@@ -50,14 +50,13 @@ h2 {
 .display_wrapper {
     display: flex;
     flex-direction: column;
-    margin-top: 307px;
 }
 
 .menu {
     margin: auto;
     margin-bottom: 120px;
-    width:1190px;
-    height:1683px;
+    width:1000px;
+    height:1400px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 

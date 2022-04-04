@@ -16,8 +16,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 btn_wrapper">
-                <button style="margin-right:20px;" class="btn2 btn bg-yellow">Le menu des desserts</button>
-                <button class="btn3 btn bg-yellow">Le menu des boissons</button>
+                <button style="margin-right:20px;" class="btn2 btn bg-yellow">Le menu des desserts et des boissons</button>
+                <!-- <button class="btn3 btn bg-yellow">Le menu des boissons</button> -->
             </div>
         </div>
         <div id="success" class="alert alert-success msg">
@@ -29,10 +29,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <form class="menuform" id="form1" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
-                @csrf
+                    <input type="hidden" name="_token" id="tokenForm1" value="{{ csrf_token() }}">
                     <label class="formlabel">Mise à jour du menu principal</label>
                     <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
-                    <input type="file" class="fileInput btn-secondary" name="menu1"/>
+                    <input id="menuForm1" type="file" class="fileInput btn-secondary" name="menu1"/>
                     <img class="prev" src="" alt="">
                 </form>
             </div>
@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-lg-12 btn_wrapper">
                 <button style="margin-right:20px;" class="btn1 btn btn bg-yellow">Le menu principal</button>
-                <button class="btn3 btn btn bg-yellow">Le menu des boissons</button>
+                <!-- <button class="btn3 btn btn bg-yellow">Le menu des desserts et des boissons</button> -->
             </div>
         </div>
         <div id="success2" class="alert alert-success msg">
@@ -58,17 +58,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <form class="menuform" id="form2" action="{{ route('maj') }}" method="POST" enctype="multipart/form-data">
-                @csrf
-                    <label class="formlabel">Mise à jour du menu des desserts</label>
+                    <input type="hidden" name="_token" id="tokenForm2" value="{{ csrf_token() }}">
+                    <label class="formlabel">Mise à jour du menu des desserts et des boissons</label>
                     <input class="btn bg-lime submit" type="submit" value="Mettre à jour"/>
-                    <input type="file" class="fileInput btn-secondary" name="menu2"/>
+                    <input id="menuForm2" type="file" class="fileInput btn-secondary" name="menu2"/>
                     <img class="prev" src="" alt="">
                 </form>
             </div>
         </div>
     </div>
 </div>
-
+<!--
 <div style="display:none" id="menu3">
     <div class="container">
         <div class="row">
@@ -96,7 +96,7 @@
         </div>
     </div>  
 </div>
-
+-->
 <script src="js/backoffice/btn.js"></script>
 <script src="js/backoffice/submit.js"></script>
 

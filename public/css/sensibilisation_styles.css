@@ -315,6 +315,10 @@ h5 {
     margin-top: 120px;
 }
 
+.alimentaire_2, .alimentaire_3 {
+    display: none;
+}
+
 @media screen and (min-width:300px) and (max-width:680px) {
 
     /*navbar, logo et section top page*/
@@ -570,6 +574,18 @@ h5 {
         width: 327px;
         padding-bottom: 48px;
     }
+
+    .alimentaire_1 {
+        display: none;
+    }
+
+    .alimentaire_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (min-width:681px) and (max-width:960px) {
@@ -820,6 +836,15 @@ h5 {
         line-height: 140%;
         width: 520px;
         padding-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .alimentaire_2 {
+        display: block;
+        width: 320px;
+        height: 200px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 }
 
@@ -1069,5 +1094,13 @@ h5 {
         line-height: 140%;
         width: 600px;
         padding-bottom: 80px;
+    }
+
+    .alimentaire_3 {
+        display: block;
+        width: 435px;
+        height: 652px;
+        margin-top: 32px;
+        margin-bottom: 40px;
     }
 }
