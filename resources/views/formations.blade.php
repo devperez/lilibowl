@@ -2,7 +2,6 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content= "Lili BOwL | Restaurant et traiteur végétarien qui propose des formations à la cuisine végétale pour particuliers et professionnels." />
         <meta name="robots" content= "index, follow">
@@ -76,8 +75,8 @@
     </div>
 
     <section class="menu">
-        <a href="#ateliers-cuisine-particuliers"><img class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
-        <a href="#formation-cuisine-vegetale-professionnels"><img class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
+        <a href="#ateliers-cuisine-particuliers"><img loading="lazy" class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>
+        <a href="#formation-cuisine-vegetale-professionnels"><img loading="lazy" class="lien_image lien_image2" src="/images/formations/formations_lien_initiationpro.png" alt="Images-liens redirigeant vers la partie de la page consacrée à la cuisine végétale pour les professionnels."></a>
     </section>
 
     <section class="menu_mobile">

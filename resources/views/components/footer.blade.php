@@ -36,7 +36,7 @@
                         <span class="detail">lilibowl.cahors@gmail.com</span>
                     </div>
                     <div class="social_wrapper">
-                        <a href="https://www.instagram.com/lili_bowl/" rel="noreferrer" target="_blank"><img class="insta" src="/images/homepage/Instagram_icon_black.svg" alt="icône instagram" /></a>
+                        <a href="https://www.instagram.com/lili_bowl/" rel="noreferrer" target="_blank"><img class="insta" src="/images/navbar_fixe/Instagram_icon_black.svg" alt="icône instagram" /></a>
                         <a href="https://www.facebook.com/Lilibowl.cahors" rel="noreferrer" target="_blank"><img src="/images/homepage/Facebook_icon_black.svg" alt="icône facebook" /></a>
                     </div>
                     <div class="wrapper-horaires">
