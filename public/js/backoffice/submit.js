@@ -1,4 +1,5 @@
 //Affichage des aperçus à l'upload du menu
+//Le token csrf est désactivé pour le chemin /menu, voir middleware verifyCsrfToken
 
 $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
 
@@ -26,12 +27,18 @@ $(function(){
     $('#form1').on("submit",function(e) {
         e.preventDefault();
 
+        var formData = {
+            menu1: $("#menuForm1").val(),
+            "_token" : $("#tokenForm1").val(),
+        };
+        console.log(formData);
         $.ajax({
             type:"POST",
             url: "http://127.0.0.1:8000/menu",
-            data: new FormData(this),
+            data: formData,
             processData: false,
             contentType: false,
+            cache:false,
             dataType: 'json',
         })
         .done(function(data){
@@ -52,18 +59,24 @@ $(function(){
     });
 });
 
-//menu des desserts
+//menu des desserts et des boissons
 
 $(function(){
     $('#form2').on("submit",function(e) {
         e.preventDefault();
 
+        var formData = {
+            menu2: $("#menuForm2").val(),
+            "_token" : $("#tokenForm2").val(),
+        };
+
         $.ajax({
             type:"POST",
             url: "http://127.0.0.1:8000/menu",
-            data: new FormData(this),
+            data: formData,
             processData: false,
             contentType: false,
+            cache:false,
             dataType: 'json',
         })
         .done(function(data){
@@ -86,32 +99,32 @@ $(function(){
 
 //menu des boissons
 
-$(function(){
-    $('#form3').on("submit",function(e) {
-        e.preventDefault();
+// $(function(){
+//     $('#form3').on("submit",function(e) {
+//         e.preventDefault();
 
-        $.ajax({
-            type:"POST",
-            url: "http://127.0.0.1:8000/menu",
-            data: new FormData(this),
-            processData: false,
-            contentType: false,
-            dataType: 'json',
-        })
-        .done(function(data){
-            //console.log(data);
-            $('.prev').attr('src','');
-            $('.fileInput').val('');
-            $('#success3').addClass().css('display', 'block');
-            $('#success3').fadeOut(4000);
-            $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
-        })
-        .fail(function(data){
-            //console.log(data);
-            $('#fail3').addClass().css('display', 'block');
-            $('#fail3').fadeOut(5000);
-            $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
-            $('.fileInput').val('');
-        });
-    });
-});
+//         $.ajax({
+//             type:"POST",
+//             url: "http://127.0.0.1:8000/menu",
+//             data: new FormData(this),
+//             processData: false,
+//             contentType: false,
+//             dataType: 'json',
+//         })
+//         .done(function(data){
+//             //console.log(data);
+//             $('.prev').attr('src','');
+//             $('.fileInput').val('');
+//             $('#success3').addClass().css('display', 'block');
+//             $('#success3').fadeOut(4000);
+//             $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+//         })
+//         .fail(function(data){
+//             //console.log(data);
+//             $('#fail3').addClass().css('display', 'block');
+//             $('#fail3').fadeOut(5000);
+//             $('.prev').addClass().css('opacity', '0'); //empêche l'affichage d'image cassée par défaut
+//             $('.fileInput').val('');
+//         });
+//     });
+// });

@@ -183,6 +183,8 @@
                     <div class="title_wrapper">
                         <h4 class="alimentaire_title">Alimentaire Mon Cher Watson, mars à juin 2022</h4>
                     </div>
+                    <img class="alimentaire_2" loading="lazy" src="/images/sensibilisation_responsive/projet_watson_3rd_bkpt.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
+                    <img class="alimentaire_3" loading="lazy" src="/images/sensibilisation_responsive/projet_watson_1st_bkpt.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
                     <div class="texte_alimentaire">
                         Le projet « Alimentaire Mon Cher Watson » se situe au croisement de l’expérience cinématographique et de l’expérience culinaire.<br />
                         À partir d’ateliers coordonnés par Lili BOwl et l’association <a href="http://champdimages.com" target="_blank">Champ d’images</a>, nous souhaitons sensibiliser de jeunes enfants handicapés de l’IME Centre Genyer (Cahors) à l’alimentation santé à travers la réalisation de courtes fictions.<br />
@@ -192,7 +194,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img loading="lazy" class="alimentaire_1" src="/images/sensibilisation/projet_watson-min.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
+                    <img loading="lazy" class="alimentaire_1" src="/images/sensibilisation/projet_watson.png" alt="Photo prise pendant le déroulement de l'atelier 'Alimentaire mon cher Watson'.">
                 </div>
             </div>
         </section>
