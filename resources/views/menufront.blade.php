@@ -59,7 +59,7 @@
             <img class="fleur_mobile" src="images/menu_responsive/3rdbkpt_menu_fleur.svg" alt="Fleur décorative">
         </div>
         <div class="display_wrapper">
-            <div class="menu">
+            <div class="menu menu1">
                 @foreach ($menu as $item)
                 <img class="menu_mobile" src="{{ asset('storage/menus/'.$item) }}" alt="Le menu principal du restaurant.">
                 @endforeach
@@ -69,7 +69,13 @@
                 <img loading="lazy" class="menu_mobile" src="{{ asset('storage/boissons/'.$drink) }}" alt="Les boissons proposées par le restaurant.">
                 @endforeach
             </div> -->
-            <div class="menu">
+            <div class="logos_wrapper">
+                <a href="https://www.greenfood-label.com/listings/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food."></a>
+                <a href="https://vegoresto.fr/cahors/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto."></a>
+                <a href="https://www.ofb.gouv.fr/actualites/grands-groupes-pme-tpe-elles-sont-plus-de-100-entreprises-avoir-fait-le-choix-de" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature."></a>
+                <a href="https://www.economie.gouv.fr/entreprises/fait-maison" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison."></a>
+            </div>
+            <div class="menu menu2">
                 @foreach ($dessert as $objet)
                 <img loading="lazy" class="menu_mobile" src="{{ asset('storage/desserts/'.$objet) }}" alt="Les desserts proposés par le restaurant.">
                 @endforeach
@@ -82,12 +88,7 @@
             <img loading="lazy" class="photo4" src="/images/menu_responsive/menu_photo_frise-min.jpg" alt="Illustrations de plats et de desserts">
         </div>
     </div>
-    <div class="logos_wrapper">
-        <a href="https://www.greenfood-label.com/listings/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_green_food.png" alt="logo du label Green Food."></a>
-        <a href="https://vegoresto.fr/cahors/lili-bowl/" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_vegoresto.png" alt="logo de Vegoresto."></a>
-        <a href="https://www.ofb.gouv.fr/actualites/grands-groupes-pme-tpe-elles-sont-plus-de-100-entreprises-avoir-fait-le-choix-de" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_act4nature.png" alt="logo de Act4nature."></a>
-        <a href="https://www.economie.gouv.fr/entreprises/fait-maison" target="_blank"><img loading="lazy" class="logos" src="/images/menu/logo_fait_maison.png" alt="logo de Fait Maison."></a>
-    </div>
+    
     
 
     <!-- FOOTER -->
