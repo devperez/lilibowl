@@ -13,7 +13,7 @@
 
                 <div class="card-body">
                     <form id="form">
-                        @csrf
+                    <input type="hidden" name="_token" id="tokenAdmin" value="{{ csrf_token() }}">
 
                         <div class="row mb-3">
                             <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Nom') }}</label>

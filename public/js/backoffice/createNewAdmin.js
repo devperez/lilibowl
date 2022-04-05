@@ -6,7 +6,7 @@
                 name: $("#name").val(),
                 email: $("#email").val(),
                 password: $("#password").val(),
-                _token: $('input[name="_token"]').val(),
+                _token: $('#tokenAdmin').val(),
                 };
             
             $.ajax({
