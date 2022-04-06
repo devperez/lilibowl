@@ -73,6 +73,7 @@
     <div class="programmes">
         <h5>PROGRAMMES ET RÉSERVATION</h5>
     </div>
+    <p class="programmes">Faites votre choix :</p>
 
     <section class="menu">
         <a href="#ateliers-cuisine-particuliers"><img loading="lazy" class="lien_image lien_image1" src="/images/formations/formations_lien_atelier.png" alt="Images-liens redirigeant vers la partie de la page consacrée aux ateliers cuisine."></a>

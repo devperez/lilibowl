@@ -38,6 +38,7 @@ class MenuController extends Controller
         $menu3 = $request->hasFile('menu3');
 
         //pour le menu principal
+        //dd($menu1);
         //dd($request->hasFile(''));
         if ($menu1)
         {

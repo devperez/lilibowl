@@ -27,15 +27,10 @@ $(function(){
     $('#form1').on("submit",function(e) {
         e.preventDefault();
 
-        var formData = {
-            menu1: $("#menuForm1").val(),
-            "_token" : $("#tokenForm1").val(),
-        };
-        console.log(formData);
         $.ajax({
             type:"POST",
             url: "http://127.0.0.1:8000/menu",
-            data: formData,
+            data: new FormData(this),
             processData: false,
             contentType: false,
             cache:false,
@@ -73,7 +68,7 @@ $(function(){
         $.ajax({
             type:"POST",
             url: "http://127.0.0.1:8000/menu",
-            data: formData,
+            data: new FormData(this),
             processData: false,
             contentType: false,
             cache:false,
