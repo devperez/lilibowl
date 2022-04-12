@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="stylesheet" href="/css/footer.css" />
         <link rel="stylesheet" href="/css/navbar_mobile.css" />
+        <link rel="stylesheet" href="/css/bubble.css" />
 
         <!-- JQuery -->
         <script src="/JQuery/Jquery_min.js"></script>
@@ -103,6 +104,10 @@
                         <img loading="lazy" class="fleurDeco1" src="/images/homepage/concept_fleur.png" alt="illustration botanique" />
                     </div>
                 </div>
+                <!-- Bubble -->
+                    @include('components.bubble')
+                    @yield('bubble')
+                <!-- END Bubble -->
             </section>
 
             <section class="quotationwrapper">
@@ -363,6 +368,8 @@
                 </div>
             </section>
 
+            
+
             <!-- FOOTER -->
             @include('components.footer')
             @yield('footer')
@@ -373,9 +380,12 @@
         @include('components.popup')
         @yield('popup')
         <!-- END POP UP -->
+
+        
     
     <script src="/js/newsletter.js"></script>
     <script src="/js/newsletterFooter.js"></script>
+    <script src="/js/bubble.js"></script>
     <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
     <!--Bootstrap-->
     <script src="/js/bootstrap.min.js"></script>
