@@ -35,12 +35,14 @@
     <link rel="stylesheet" href="/css/menu_styles.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/navbar_mobile.css" />
+    <link rel="stylesheet" href="/css/bubble.css" />
 
     <!--JQuery-->
     <script src="/JQuery/Jquery_min.js"></script>
     
     <!--script pour soulignement des items de la navbar suivant la page-->
     <script src="/js/nav.js"></script>
+    <script src="/js/bubble.js"></script>
 
     <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
 </head>
@@ -58,6 +60,10 @@
             <img class="fleur" src="/images/menu/menu_fleur.png" alt="Fleur décorative">
             <img class="fleur_mobile" src="images/menu_responsive/3rdbkpt_menu_fleur.svg" alt="Fleur décorative">
         </div>
+        <!-- Bubble -->
+        @include('components.bubble')
+            @yield('bubble')
+        <!-- END Bubble -->
         <div class="display_wrapper">
             <div class="menu menu1">
                 @foreach ($menu as $item)

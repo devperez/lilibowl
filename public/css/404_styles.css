@@ -5,6 +5,7 @@ body, html, main {
     overflow-x: hidden;
     scroll-behavior:smooth;
     background-color: #dbc207;
+    cursor: url(/images/pointer-chouette.png), pointer;
 }
 
 .hamburger {

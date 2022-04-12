@@ -1,0 +1,53 @@
+.bubble-wrapper {
+    bottom: 8px;
+    right: 8px;
+    position: fixed;
+    width: 152px;
+    z-index: 10;
+    display: none;
+}
+
+.bubble-text {
+    color: #fefbe1;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    border-color: #5f9249;
+}
+
+.bubble {
+    display: flex;
+    background-color: #5f9249;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px;
+    border-radius: 25px;
+    background: linear-gradient(to left, #5F9249, #a89505, #5F9249);
+    background-size: 600% 100%;
+    animation: AwesomeBG 25s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes AwesomeBG {
+    0% { background-position:0 0 }
+    5% { background-position:8% 0 }
+    13% { background-position:15% 0 }
+    19% { background-position:23% 0 }
+    25% { background-position:30% 0 }
+    31% { background-position:38% 0 }
+    38% { background-position:45% 0 }
+    44% { background-position:53% 0 }
+    50% { background-position:60% 0 }
+    56% { background-position:68% 0 }
+    63% { background-position:75% 0 }
+    69% { background-position:83% 0 }
+    75% { background-position:90% 0 }
+    81% { background-position:98% 0 }
+    88% { background-position:105% 0 }
+    94% { background-position:113% 0 }
+    100% { background-position:120% 0 }
+}
+
+.bubble-link {
+    text-decoration: none;
+    color: white;
+}

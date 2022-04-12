@@ -34,13 +34,15 @@
         <link rel="stylesheet" href="/css/footer.css" />
         <link rel="stylesheet" href="/css/navbar_mobile.css" />
         <link rel="stylesheet" href="/css/formations_styles.css" />
+        <link rel="stylesheet" href="/css/bubble.css" />
 
         <!--JQuery-->
         <script src="/JQuery/Jquery_min.js"></script>
 
         <!--script pour soulignement des items de la navbar suivant la page-->
         <script src="/js/nav.js"></script>
-        
+        <script src="/js/bubble.js"></script>
+
         <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
     </head>
     <body>
@@ -69,6 +71,10 @@
             En tant que formateurs, nous mettons la convivialité, la pratique et le partage au cœur de nos ateliers.
         </p>
     </section>
+    <!-- Bubble -->
+    @include('components.bubble')
+        @yield('bubble')
+        <!-- END Bubble -->
 
     <div class="programmes">
         <h5>PROGRAMMES ET RÉSERVATION</h5>
