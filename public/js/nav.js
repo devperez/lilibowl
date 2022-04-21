@@ -1,5 +1,6 @@
 $(function() {
     var URL = document.location.href;
+    console.log(URL);
     if(URL == "http://127.0.0.1:8000/restaurant")
     {
         $('#restaurant').removeClass();
