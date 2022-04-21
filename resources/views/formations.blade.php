@@ -40,7 +40,6 @@
         <script src="/JQuery/Jquery_min.js"></script>
 
         <!--script pour soulignement des items de la navbar suivant la page-->
-        <script src="/js/nav.js"></script>
         <script src="/js/bubble.js"></script>
 
         <title>Restaurant et traiteur végétarien à Cahors | Lili BOwL</title>
@@ -65,11 +64,11 @@
             </div>
         </div>
         <p class="texte_formations">
-            Plus qu'une simple démonstration et plus qu'un apprentissage de recettes, nos cours vous donneront des clefs pour <strong>cuisiner végétal</strong> chez vous, en vous faisant plaisir et en vous régalant.<br />
-            Que ce soit la curiosité qui vous amène ou que vous ayez entamé une démarche pour mettre plus de végétal dans vos assiettes, que vous soyez déjà un cordon bleu ou que vous débutiez, nous avons hâte de vous accueillir dans <a href="#contact">notre restaurant rue Daurade</a> pour partager nos connaissances avec vous !<br />
-            <br />
-            En tant que formateurs, nous mettons la convivialité, la pratique et le partage au cœur de nos ateliers.
-        </p>
+            Le restaurant Lili BOwL s'inscrit depuis sa création dans un projet de sensibilisation globale au bien manger pour respecter votre santé et celle de la planète. Et bonne nouvelle, les belles assiettes saines, pleines de couleurs et de fraîcheur ne sont pas que pour votre restaurant cadurcien préféré !<br />
+            Aujourd'hui, Lili BOwL lance ses ateliers de cuisine végétale afin que vous puissiez reproduire nos recettes chez vous, dans le confort de votre propre cuisine, pour vous, votre famille et vos invités.<br />
+            Que vous soyez la reine du dhal de lentilles, le petit prince des falafels, ou simplement gourmand ou gourmande, nos ateliers sont faits pour vous !<br />
+            Que vous ayez un goût particulier pour la cuisine réalisée à base de produits frais, locaux et de saison, que vous aimiez les épices du monde, que vous cueilliez de jolies fleurs comestibles ou que le "manger sain" soit tout simplement ancré profondément dans vos valeurs, il est sûr que nous avons beaucoup de mets délicieux à réaliser ensemble :-)<br />
+            Nous avons hâte de vous accueillir dans <a href="#contact">notre restaurant rue Daurade</a> pour partager ensemble notre passion d'une alimentation saine, gourmande et respectueuse !</p>
     </section>
     <!-- Bubble -->
     @include('components.bubble')
@@ -156,7 +155,8 @@
         <div class="gift_text">
             <h4 class="gift_title">Bons cadeaux</h4>
             <p class="gift_text">
-            Que ce soit pour offrir à quelqu'un d'autre ou pour vous-même, vous pouvez désormais acheter des bons pour nos cours de cuisine & de pâtisserie dans notre restaurant. 
+                Vous êtes de nature généreuse mais vous ne savez pas quoi offrir à une amie qui déchire, un parent génial, une voisine trop cool ou un collègue hyper sympa ??<br />
+                Nous vous proposons des BONS CADEAUX POUR NOS ATELIERS CUISINE, afin de faire découvrir les délices de la nouvelle cuisine végétale, vivante, tendance et sans gluten.
             </p>
         </div>
     </section>
@@ -165,19 +165,24 @@
         <div class="initiation_wrapper">
             <h3 class="initiation_title">Programme d'initiation à la cuisine végétale pour les professionnels</h3>
             <p class="initiation_texte">
-            Vous êtes <strong>professionnel</strong> ou <strong>en reconversion</strong> et souhaitez satisfaire une nouvelle clientèle plus sensible au contenu de son assiette ?<br /> 
+                Les habitudes alimentaires évoluent. De plus en plus de clients ou de convives souhaitent mettre plus de <strong>végétal</strong> dans leur assiette. Une clientèle allergique, intolérante ou simplement tournée vers une alimentation plus <strong>saine</strong>, plus <strong>écolo</strong>, plus <strong>vivante</strong>.<br />
+                <br />
+                Vous êtes à court d'idées face à cette nouvelle demande de restauration. Ces nouveaux besoins sont souvent loin de votre formation en gastronomie traditionnelle et carnée.<br />
+                <br />
+                Nous vous proposons une session de formation sur 2 jours pour vous transmettre les bases de l'<strong>alimentation végétarienne et végétale</strong>, <strong>saine</strong> et <strong>respectueuse de l'environnement</strong>. Nous préparerons ensemble des recettes de base et des recettes tendance pour vous aider à mettre du peps dans vos <strong>assiettes végétariennes</strong> et ainsi apporter à votre carte cette <strong>touche végétale</strong>, moderne et <strong>engagée</strong>.
+            <!--Vous êtes <strong>professionnel</strong> ou <strong>en reconversion</strong> et souhaitez satisfaire une nouvelle clientèle plus sensible au contenu de son assiette ?<br /> 
             Une clientèle qui est intolérante ou allergique à certains aliments (gluten, laitages, œufs), qui souhaite se tourner vers les protéines végétales ou encore qui souhaite manger plus écologique, sain, énergétique et léger ?<br />
             Pour vous initier aux techniques de découpe, de cuisson, d’assaisonnement et de nutrition, et afin de réaliser des préparations culinaires végétales sans allergènes, nous mettons à votre disposition une cuisine biologique et saine.<br />
             Cela vous permettra de :<br />
             &bull; mieux connaître le produit végétal afin de mettre en œuvre les techniques appropriées de cuisson, d’association et de sublimation du produit,<br />
-            &bull; proposer une cuisine tendance répondant à la demande de consommation actuelle.<br />
+            &bull; proposer une cuisine tendance répondant à la demande de consommation actuelle.<br />-->
             </p>
             <p CLASS="formation">
-                BLOC DE COMPÉTENCES CUISINE VÉGÉTALE - FORMATION ACCÉLÉRÉE
+                BLOC DE COMPÉTENCES CUISINE VÉGÉTALE
             </p>
             <p class="details">
             <strong>Durée</strong> :<br /> 
-            2 jours sur 2 semaines en présentiel :<br />
+            2 jours :<br />
             &bull; 2h de théorie<br />
             &bull; 12h de pratique<br />
             <br />
@@ -185,12 +190,20 @@
             <br />
             <strong>Lieu</strong> : à définir selon le besoin<br />
             <br />
-            <strong>Objectifs</strong> :<br />
-            &bull; Réaliser en autonomie des préparations culinaires végétales et sans allergènes dans le respect des consignes d’hygiène et de sécurité, dans un contexte professionnel et en fonction des interdits alimentaires énoncés.<br />
-            &bull; Connaitre les principales techniques de cuissons, de découpe et d’assaisonnement adaptés à la cuisine santé et les mettre en oeuvre pour réaliser un menu complet équilibré et de saison de l’entrée au dessert.<br />
+            <strong>Objectifs de la formation</strong> :<br />
+            &bull; Comprendre les modes alimentaires sans viande,<br />
+            &bull; Connaitre l'impact de cette alimentation sur notre santé et sur l'environnement,<br />
+            &bull; Apprendre à cuisiner végétal,<br />
+            &bull; Valoriser le contenu des assiettes pour favoriser une alimentation saine, sûre et durable pour tous.<br />
             <br />
             <strong>Programme</strong> :<br />
-            Théorie - découpe, préparation, cuissons saines, dressage, gastronomie végétale et épices - cuisine du monde - pâtisserie sans gluten – crusine (cuisine crue) - équilibrage alimentaire - plantes sauvages - mise en pratique et organisation en cuisine.<br />
+            &bull; Prendre en compte les différents régimes alimentaires (végétarisme, véganisme, crudivore, sans gluten),<br />
+            &bull; Comprendre les bases nutritionnelles de ce type d'alimentation afin de pouvoir facilement créer des menus équilibrés,<br />
+            &bull; Identifier l'impact de ces modes alimentaires sur la santé et sur l'environnement,<br />
+            &bull; Appréhender quelques recettes végétariennes ou végan, selon les saisons pour des menus appétissants et économiques,<br />
+            &bull; Être en mesure de modifier un menu standard en fonction de ces régimes alimentaires,<br />
+            &bull; Acquérir le réflexe des produits locaux, bio et de saison pour favoriser une alimentation de qualité,<br />
+            &bull; Apprendre à mettre en valeur le contenu des assiettes pour sublimer les préparations et les rendre encore plus appétissantes.<br />
             <br />
             <strong>Méthodes pédagogiques</strong> :<br />
             Apports théoriques.<br />
@@ -221,6 +234,7 @@
     <!--script pour la modif des images lors du hover -->
     <script src="/js/hover.js"></script>
     <script src="/js/newsletterFooter.js"></script>
+    <script src="/js/nav.js"></script>
     <noscript>JavaScript ne semble pas être activé sur votre navigateur !</noscript>
 
 </body>
